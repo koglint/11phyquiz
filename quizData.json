@@ -9,7 +9,7 @@
         },
         "correctAnswer": "b",
         "explanation": "Uniform straight-line motion implies constant speed and no change in direction.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which quantity is a vector?",
@@ -21,7 +21,7 @@
         },
         "correctAnswer": "c",
         "explanation": "Displacement is a vector quantity as it has both magnitude and direction.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "The average velocity of an object is defined as:",
@@ -33,7 +33,7 @@
         },
         "correctAnswer": "b",
         "explanation": "Average velocity is defined as total displacement divided by total time.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If a car moves with a constant speed in a straight line, what is its acceleration?",
@@ -45,7 +45,7 @@
         },
         "correctAnswer": "c",
         "explanation": "If the speed is constant in a straight line, there is no change in velocity, hence no acceleration.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car accelerates from rest at a constant rate of 2 m/s². What is its velocity after 5 seconds?",
@@ -57,7 +57,7 @@
         },
         "correctAnswer": "c",
         "explanation": "Velocity \( v = u + at = 0 + (2)(5) = 10 \, m/s \).",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following is a scalar quantity?",
@@ -69,7 +69,7 @@
         },
         "correctAnswer": "d",
         "explanation": "Speed is a scalar quantity; it does not have a direction.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "An object is thrown upwards with an initial velocity of 15 m/s. What will be its velocity at the highest point?",
@@ -81,7 +81,7 @@
         },
         "correctAnswer": "b",
         "explanation": "At the highest point, the velocity of an object thrown upwards is zero.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "What is the instantaneous velocity of an object at a point on its path?",
@@ -93,7 +93,7 @@
         },
         "correctAnswer": "b",
         "explanation": "Instantaneous velocity refers to the velocity of an object at a particular moment.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car travels 60 km north, then 80 km south. What is its displacement?",
@@ -105,7 +105,7 @@
         },
         "correctAnswer": "a",
         "explanation": "Displacement is the straight line distance in a specific direction; 60 km - 80 km = -20 km (south).",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which equation correctly represents the relationship between distance, initial velocity, time, and acceleration in uniformly accelerated motion?",
@@ -117,7 +117,7 @@
         },
         "correctAnswer": "a",
         "explanation": "This equation represents the displacement under uniformly accelerated motion.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "What is the velocity of an object moving at 30 m/s after 5 seconds if it is decelerating at 2 m/s²?",
@@ -129,7 +129,7 @@
         },
         "correctAnswer": "a",
         "explanation": "v = u + at = 30 - (2)(5) = 20 m/s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following quantities remains constant for an object in uniform straight-line motion?",
@@ -141,7 +141,7 @@
         },
         "correctAnswer": "a",
         "explanation": "In uniform straight-line motion, velocity remains constant.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 5 seconds. What is its acceleration?",
@@ -153,7 +153,7 @@
         },
         "correctAnswer": "a",
         "explanation": "Acceleration a = (v - u) / t = (30 - 10) / 5 = 4 m/s².",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If an object moves at a constant velocity, which of the following must be true?",
@@ -165,7 +165,7 @@
         },
         "correctAnswer": "b",
         "explanation": "Constant velocity implies no net force acting on the object.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "What is the final velocity of an object after falling freely from rest for 4 seconds? (Assume g = 9.8 m/s^2)",
@@ -177,7 +177,7 @@
         },
         "correctAnswer": "c",
         "explanation": "v = u + at = 0 + 9.8 * 4 = 39.2 m/s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "In the equation v = u + at, what does the variable u represent?",
@@ -189,7 +189,7 @@
         },
         "correctAnswer": "a",
         "explanation": "In the equation v = u + at, u represents the initial velocity.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A runner completes a 400 m lap in 50 seconds. What is the runner’s average speed?",
@@ -201,21 +201,21 @@
         },
         "correctAnswer": "c",
         "explanation": "Average speed = total distance / total time = 400 / 50 = 8 m/s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If a car’s velocity changes from 20 m/s to 10 m/s in 2 seconds, what is its acceleration?",
         "options": {
             "a": "-5 m/s²",
-            "b": "-10 m/s²",
+            "b": "-10 m
+
+/s²",
             "c": "5 m/s²",
             "d": "10 m/s²"
         },
         "correctAnswer": "a",
-        "explanation": "Acceleration a = (
-
-v - u) / t = (10 - 20) / 2 = -5 m/s².",
-        “module”: “1.1”
+        "explanation": "Acceleration a = (v - u) / t = (10 - 20) / 2 = -5 m/s².",
+        "module": "1.1"
     },
     {
         "question": "What is the displacement of an object moving in a straight line at 10 m/s for 5 seconds?",
@@ -227,7 +227,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "Displacement s = vt = 10 * 5 = 50 m.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following is true about an object moving with uniform acceleration?",
@@ -239,7 +239,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "d",
         "explanation": "Uniform acceleration means constant acceleration.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "The graph of velocity versus time for an object with constant acceleration is:",
@@ -251,7 +251,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "A straight line with a positive slope represents constant acceleration.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If an object’s velocity-time graph is a straight line with a negative slope, the object is:",
@@ -263,7 +263,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "A negative slope indicates the object is decelerating.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "What is the distance covered by an object that accelerates from rest at 5 m/s² for 6 seconds?",
@@ -275,7 +275,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "d",
         "explanation": "Displacement s = ut + 1/2 at^2 = 0 + 1/2 * 5 * 6^2 = 90 m.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "The area under the velocity-time graph represents:",
@@ -287,7 +287,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "The area under a velocity-time graph represents displacement.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car moves with a constant acceleration of 3 m/s². If its initial velocity is 2 m/s, what is its velocity after 4 seconds?",
@@ -299,7 +299,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "d",
         "explanation": "Velocity v = u + at = 2 + (3 * 4) = 14 m/s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "An object is moving with a velocity of 10 m/s. If a constant force acts on it and increases its velocity to 20 m/s in 5 seconds, what is the object’s acceleration?",
@@ -311,7 +311,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "a",
         "explanation": "Acceleration a = (v - u) / t = (20 - 10) / 5 = 2 m/s².",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "The motion of an object is described by the equation s = ut + 1/2 at^2. What does the term 1/2 at^2 represent?",
@@ -323,7 +323,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "1/2 at^2 represents the displacement due to acceleration.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following best describes the motion of an object with a constant positive acceleration?",
@@ -335,7 +335,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "a",
         "explanation": "A constant positive acceleration means the object is speeding up.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A stone is thrown vertically upwards with a velocity of 20 m/s. What will be its velocity when it returns to the point of projection?",
@@ -347,7 +347,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "a",
         "explanation": "The object will return with the same speed it was thrown upwards, but in the opposite direction.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following correctly represents the relationship between final velocity, initial velocity, acceleration, and displacement?",
@@ -359,7 +359,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "a",
         "explanation": "This equation relates final velocity, initial velocity, acceleration, and displacement.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car accelerates from rest at a rate of 4 m/s². How long will it take to reach a speed of 24 m/s?",
@@ -371,7 +371,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Time t = (v - u) / a = (24 - 0) / 4 = 6 s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "What is the net displacement of an object that moves 20 m east and then 15 m west?",
@@ -383,7 +383,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Displacement = 20 m - 15 m = 5 m east.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If an object covers equal distances in equal intervals of time, its motion is:",
@@ -395,7 +395,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "Equal distances in equal time intervals indicate uniform motion.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A ball is dropped from a height of 50 m. Assuming no air resistance, how long will it take to hit the ground? (Use g = 10 m/s²)",
@@ -407,7 +407,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "Time t = sqrt(2s / g) = sqrt(2 * 50 / 10) = 4 s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "The slope of a displacement-time graph gives:",
@@ -419,10 +419,12 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "The slope of a displacement-time graph gives velocity.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
-        "question": "If the velocity of an object is decreasing, the object is said to be:",
+        "question": "If the
+
+ velocity of an object is decreasing, the object is said to be:",
         "options": {
             "a": "Accelerating",
             "b": "Decelerating",
@@ -431,9 +433,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Decreasing velocity indicates deceleration.",
-        "module":
-
- 1
+        "module": "1.1"
     },
     {
         "question": "Which of the following is true for an object moving with uniform acceleration?",
@@ -445,7 +445,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Uniform acceleration implies changing velocity.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "An object moves with a constant speed of 10 m/s for 3 seconds and then with 20 m/s for the next 2 seconds. What is its average speed?",
@@ -457,7 +457,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Average speed = (total distance / total time) = (10 * 3 + 20 * 2) / (3 + 2) = 14 m/s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If an object accelerates from rest at a rate of 6 m/s², what distance will it cover in 5 seconds?",
@@ -469,7 +469,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Displacement s = ut + 1/2 at^2 = 0 + 1/2 * 6 * 5^2 = 75 m.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following conditions must be met for an object to move with constant velocity?",
@@ -481,7 +481,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "Constant velocity means no acceleration.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If a car's velocity-time graph is a horizontal line, the car is:",
@@ -493,7 +493,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "A horizontal line on a velocity-time graph indicates constant velocity.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A ball is thrown straight up with a speed of 15 m/s. How long will it take to reach its maximum height?",
@@ -505,7 +505,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Time t = v / g = 15 / 10 = 1.5 s.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following best describes the effect of a constant force acting on a moving object?",
@@ -517,7 +517,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "A constant force on a moving object changes its velocity.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car accelerates from rest and reaches a speed of 40 m/s in 8 seconds. What is its acceleration?",
@@ -529,7 +529,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Acceleration a = (v - u) / t = (40 - 0) / 8 = 4 m/s².",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following is a characteristic of uniformly accelerated motion?",
@@ -541,7 +541,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Uniformly accelerated motion implies constant acceleration.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "An object starts from rest and accelerates uniformly at 3 m/s² for 10 seconds. What is the distance traveled by the object?",
@@ -553,7 +553,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "c",
         "explanation": "Displacement s = ut + 1/2 at^2 = 0 + 1/2 * 3 * 10^2 = 150 m.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "If the velocity of an object changes from 15 m/s to 25 m/s in 5 seconds, what is its average acceleration?",
@@ -565,7 +565,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Average acceleration a = (v - u) / t = (25 - 15) / 5 = 2 m/s².",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "Which of the following is true for an object moving with uniform velocity?",
@@ -577,7 +577,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "Uniform velocity means constant displacement over time.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "A car moving with a speed of 20 m/s comes to a stop in 4 seconds. What is the car’s acceleration?",
@@ -589,7 +589,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "a",
         "explanation": "Acceleration a = (v - u) / t = (0 - 20) / 4 = -5 m/s².",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "The area under an acceleration-time graph represents:",
@@ -601,7 +601,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         },
         "correctAnswer": "b",
         "explanation": "The area under an acceleration-time graph represents velocity.",
-        “module”: “1.1”
+        "module": "1.1"
     },
     {
         "question": "What is the resultant vector when two perpendicular vectors of 3 units and 4 units are added?",
@@ -636,7 +636,9 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
             "d": "Acceleration"
         },
         "correctAnswer": "c",
-        "explanation": "Speed is a scalar quantity as it only has magnitude, not direction.",
+        "explanation": "Speed is a scalar
+
+ quantity as it only has magnitude, not direction.",
         "module": "1.2"
     },
     {
@@ -820,9 +822,7 @@ v - u) / t = (10 - 20) / 2 = -5 m/s².",
         "module": "1.2"
     },
     {
-        "
-
-question": "When resolving a vector into components, the magnitude of the components is dependent on:",
+        "question": "When resolving a vector into components, the magnitude of the components is dependent on:",
         "options": {
             "a": "The angle with respect to the axis",
             "b": "The magnitude of the original vector",
@@ -854,7 +854,9 @@ question": "When resolving a vector into components, the magnitude of the compon
             "d": "1 m/s"
         },
         "correctAnswer": "c",
-        "explanation": "The component of the boat's velocity parallel to the river flow is 3 × cos(30°) ≈ 1.5 m/s.",
+        "explanation
+
+": "The component of the boat's velocity parallel to the river flow is 3 × cos(30°) ≈ 1.5 m/s.",
         "module": "1.2"
     },
     {
@@ -1016,8 +1018,6 @@ question": "When resolving a vector into components, the magnitude of the compon
     {
         "question": "If a vector is multiplied by a scalar, the resultant vector will:",
         "options": {
-
-
             "a": "Have the same direction but a different magnitude",
             "b": "Have a different direction and magnitude",
             "c": "Have the same magnitude but a different direction",
@@ -1052,7 +1052,9 @@ question": "When resolving a vector into components, the magnitude of the compon
         "module": "1.2"
     },
     {
-        "question": "If the magnitude of a vector is doubled, what happens to the magnitude of its components?",
+        "question": "If the magnitude of a vector is doubled
+
+, what happens to the magnitude of its components?",
         "options": {
             "a": "The magnitude of the components also doubles",
             "b": "The magnitude of the components is halved",
