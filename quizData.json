@@ -207,9 +207,7 @@
         "question": "If a car’s velocity changes from 20 m/s to 10 m/s in 2 seconds, what is its acceleration?",
         "options": {
             "a": "-5 m/s²",
-            "b": "-10 m
-
-/s²",
+            "b": "-10 m/s²",
             "c": "5 m/s²",
             "d": "10 m/s²"
         },
@@ -422,9 +420,7 @@
         "module": "1.1"
     },
     {
-        "question": "If the
-
- velocity of an object is decreasing, the object is said to be:",
+        "question": "If the velocity of an object is decreasing, the object is said to be:",
         "options": {
             "a": "Accelerating",
             "b": "Decelerating",
@@ -636,9 +632,7 @@
             "d": "Acceleration"
         },
         "correctAnswer": "c",
-        "explanation": "Speed is a scalar
-
- quantity as it only has magnitude, not direction.",
+        "explanation": "Speed is a scalar quantity as it only has magnitude, not direction.",
         "module": "1.2"
     },
     {
@@ -854,9 +848,7 @@
             "d": "1 m/s"
         },
         "correctAnswer": "c",
-        "explanation
-
-": "The component of the boat's velocity parallel to the river flow is 3 × cos(30°) ≈ 1.5 m/s.",
+        "explanation": "The component of the boat's velocity parallel to the river flow is 3 × cos(30°) ≈ 1.5 m/s.",
         "module": "1.2"
     },
     {
@@ -1052,9 +1044,7 @@
         "module": "1.2"
     },
     {
-        "question": "If the magnitude of a vector is doubled
-
-, what happens to the magnitude of its components?",
+        "question": "If the magnitude of a vector is doubled, what happens to the magnitude of its components?",
         "options": {
             "a": "The magnitude of the components also doubles",
             "b": "The magnitude of the components is halved",
