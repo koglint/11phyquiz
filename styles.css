@@ -1,0 +1,161 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling for the title page */
+#title-page {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#title-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Container for each button and its description */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+/* Styling for the mode buttons */
+.mode-button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.mode-button:hover {
+    background-color: #333;
+}
+
+/* Styling for the mode description text */
+.mode-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    text-align: center;
+    max-width: 100%; /* Ensures text stays within button width */
+}
+
+/* Styling for the module selection page */
+#module-selection-page {
+    display: none;
+    text-align: center;
+}
+
+#module-selection-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.module-button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.module-button.selected {
+    background-color: #007bff; /* Highlight color */
+}
+
+#module-selection-page button {
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Styling for the quiz container */
+#quiz-container {
+    display: none;
+    position: relative;
+}
+
+/* Feedback message styling */
+#feedback {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Styling for the results page */
+#results-page {
+    display: none;
+    text-align: center;
+}
+
+#results-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#results-page p {
+    font-size: 24px;
+    color: #555;
+}
+
+/* Styling for the quiz info */
+#quiz-info {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+}
+
+/* Styling for the Home button */
+#home-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Adjust width to be based on content */
+    margin-bottom: 10px;
+}
+
+#home-button:hover {
+    background-color: #333;
+}
+
+/* Adjusting the h1 styling */
+h1 {
+    margin-top: 40px; /* Add margin to push down "Quiz" under the Home button */
+    text-align: center;
+}
