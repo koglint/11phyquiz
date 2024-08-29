@@ -42,6 +42,7 @@ function selectMode(mode) {
     currentMode = mode;
     document.getElementById('title-page').style.display = 'none';
     document.getElementById('module-selection-page').style.display = 'block';
+    initializeModuleButtons();
 }
 
 // Function to toggle module selection
@@ -56,28 +57,7 @@ function toggleModule(module) {
     }
 }
 
-
-// Function to select all sections
-function selectAllSections() {
-    selectedModules = [...sections];
-    sections.forEach(section => {
-        document.querySelector(`button[data-module="${section}"]`).classList.add('selected');
-    });
-}
-
-// Function to select all Year 11 & 12 sections
-function selectAllModules() {
-    selectedModules = sections;
-    sections.forEach(section => {
-        const button = document.querySelector(`button[data-module="${section}"]`);
-        if (button) {
-            button.classList.add('selected');
-        }
-    });
-}
-
-
-// Function to select Year 11 sections (Modules 1-4)
+// Function to select all sections for Year 11
 function selectYear11() {
     selectedModules = sections.filter(section => 
         section.startsWith("1") || 
@@ -90,12 +70,12 @@ function selectYear11() {
         if (button && (section.startsWith("1") || section.startsWith("2") || section.startsWith("3") || section.startsWith("4"))) {
             button.classList.add('selected');
         } else if (button) {
-            button.classList.remove('selected'); // Ensure other modules are deselected
+            button.classList.remove('selected');
         }
     });
 }
 
-// Function to select Year 12 sections (Modules 5-8)
+// Function to select all sections for Year 12
 function selectYear12() {
     selectedModules = sections.filter(section => 
         section.startsWith("5") || 
@@ -108,11 +88,21 @@ function selectYear12() {
         if (button && (section.startsWith("5") || section.startsWith("6") || section.startsWith("7") || section.startsWith("8"))) {
             button.classList.add('selected');
         } else if (button) {
-            button.classList.remove('selected'); // Ensure other modules are deselected
+            button.classList.remove('selected');
         }
     });
 }
 
+// Function to select all Year 11 & 12 sections
+function selectAllModules() {
+    selectedModules = [...sections];
+    sections.forEach(section => {
+        const button = document.querySelector(`button[data-module="${section}"]`);
+        if (button) {
+            button.classList.add('selected');
+        }
+    });
+}
 
 // Function to filter questions based on selected modules
 function filterQuestions() {
