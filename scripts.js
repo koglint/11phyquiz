@@ -31,11 +31,17 @@ async function loadQuizData() {
 function initializeModuleButtons() {
     const moduleButtons = document.querySelectorAll('.module-button[data-module]');
     moduleButtons.forEach(button => {
-        button.addEventListener('click', function(event) {
-            event.stopPropagation(); // Prevent the event from bubbling up and causing unintended behavior
-            toggleModule(this);
-        });
+        // Remove any existing event listeners to prevent multiple triggers
+        button.removeEventListener('click', handleModuleButtonClick);
+        // Add a new event listener
+        button.addEventListener('click', handleModuleButtonClick);
     });
+}
+
+// Function to handle module button click event
+function handleModuleButtonClick(event) {
+    const button = event.currentTarget;
+    toggleModule(button);
 }
 
 // Function to show the mode selection screen
