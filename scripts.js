@@ -22,6 +22,7 @@ async function loadQuizData() {
     try {
         const response = await fetch('quizData.json');
         quizData = await response.json(); // Load data into quizData
+        console.log("Quiz data loaded successfully", quizData);
     } catch (error) {
         console.error("Failed to load quiz data:", error);
     }
@@ -43,6 +44,7 @@ function selectMode(mode) {
     document.getElementById('title-page').style.display = 'none';
     document.getElementById('module-selection-page').style.display = 'block';
     initializeModuleButtons(); // Ensure event listeners are attached each time
+    console.log("Mode selected:", currentMode);
 }
 
 // Function to toggle individual module selection
@@ -55,34 +57,38 @@ function toggleModule(button) {
         selectedModules.push(module);
         button.classList.add('selected');
     }
+    console.log("Selected modules:", selectedModules);
 }
 
-// Function to select all Year 11 sections
-function selectYear11() {
-    selectedModules = sections.filter(section => 
-        section.startsWith("1") || 
-        section.startsWith("2") || 
-        section.startsWith("3") || 
-        section.startsWith("4")
-    );
-    updateModuleButtons(); // Update visual states
+// Function to toggle selection for Year 11 or Year 12
+function toggleSelectYear(year) {
+    const yearModules = sections.filter(section => section.startsWith(year[0]));
+    const allSelected = yearModules.every(module => selectedModules.includes(module));
+
+    if (allSelected) {
+        selectedModules = selectedModules.filter(module => !yearModules.includes(module));
+    } else {
+        yearModules.forEach(module => {
+            if (!selectedModules.includes(module)) selectedModules.push(module);
+        });
+    }
+
+    updateModuleButtons();
+    console.log(`Year ${year} modules toggled. Selected modules:`, selectedModules);
 }
 
-// Function to select all Year 12 sections
-function selectYear12() {
-    selectedModules = sections.filter(section => 
-        section.startsWith("5") || 
-        section.startsWith("6") || 
-        section.startsWith("7") || 
-        section.startsWith("8")
-    );
-    updateModuleButtons(); // Update visual states
-}
+// Function to toggle selection of all modules
+function toggleSelectAll() {
+    const allSelected = sections.every(module => selectedModules.includes(module));
 
-// Function to select all Year 11 & 12 sections
-function selectAllModules() {
-    selectedModules = [...sections];
-    updateModuleButtons(); // Update visual states
+    if (allSelected) {
+        selectedModules = [];
+    } else {
+        selectedModules = [...sections];
+    }
+
+    updateModuleButtons();
+    console.log("All modules toggled. Selected modules:", selectedModules);
 }
 
 // Function to update the appearance of module buttons based on selection
@@ -100,6 +106,7 @@ function updateModuleButtons() {
 // Function to filter questions based on selected modules
 function filterQuestions() {
     filteredQuiz = quizData.filter(question => selectedModules.includes(question.module));
+    console.log("Filtered questions based on selected modules:", filteredQuiz);
 }
 
 // Function to start the quiz after module selection
@@ -126,6 +133,7 @@ function updateQuizInfo() {
     } else {
         document.getElementById('quiz-info').innerText = '';
     }
+    console.log("Quiz info updated:", document.getElementById('quiz-info').innerText);
 }
 
 // Function to load a new question
@@ -153,6 +161,8 @@ function loadQuestion() {
 
     document.getElementById('feedback').innerText = "";
     document.getElementById('next-button').style.display = 'none';
+
+    console.log("Loaded question:", questionData);
 }
 
 // Function to check the selected answer
@@ -172,6 +182,8 @@ function checkAnswer(selectedIndex, questionData) {
 
     // Show the "Next Question" button
     document.getElementById('next-button').style.display = 'block';
+
+    console.log("Answer checked. Current score:", score);
 }
 
 // Function to load the next question
@@ -186,12 +198,14 @@ function showResults() {
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('results-page').style.display = 'block';
     document.getElementById('results').innerText = `You scored ${score} out of ${maxQuestions}.`;
+    console.log("Quiz finished. Final score:", score);
 }
 
 // Function to restart the quiz
 function restartQuiz() {
     document.getElementById('results-page').style.display = 'none';
     document.getElementById('title-page').style.display = 'block';
+    console.log("Quiz restarted.");
 }
 
 // Function to go back to the home page
@@ -199,6 +213,7 @@ function goHome() {
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('results-page').style.display = 'none';
     document.getElementById('title-page').style.display = 'block';
+    console.log("Returned to home.");
 }
 
 // Load quiz data on page load
