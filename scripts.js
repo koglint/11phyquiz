@@ -65,6 +65,18 @@ function selectAllSections() {
     });
 }
 
+// Function to select all Year 11 & 12 sections
+function selectAllModules() {
+    selectedModules = sections;
+    sections.forEach(section => {
+        const button = document.querySelector(`button[data-module="${section}"]`);
+        if (button) {
+            button.classList.add('selected');
+        }
+    });
+}
+
+
 // Function to select Year 11 sections (Modules 1-4)
 function selectYear11() {
     selectedModules = sections.filter(section => 
