@@ -15,25 +15,6 @@
             color: #333;
         }
 
-        /* Styling for buttons */
-        button {
-            display: block;
-            width: 100%;
-            margin: 10px 0;
-            padding: 15px;
-            font-size: 16px;
-            background-color: #555; /* Dark grey */
-            color: white;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #333; /* Darker grey on hover */
-        }
-
         /* Styling for the title page */
         #title-page {
             text-align: center;
@@ -46,15 +27,37 @@
             color: #333;
         }
 
-        #title-page p {
-            font-size: 18px;
-            margin-bottom: 40px;
-            color: #555;
+        /* Styling for buttons container */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
         }
 
-        #title-page button {
-            width: 50%;
-            margin: 10px auto;
+        /* Styling for the mode buttons */
+        .mode-button {
+            flex: 1;
+            margin: 0 10px;
+            padding: 15px;
+            font-size: 16px;
+            background-color: #555;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .mode-button:hover {
+            background-color: #333;
+        }
+
+        /* Styling for the mode description text */
+        .mode-description {
+            font-size: 14px;
+            color: #555;
+            margin-top: 5px;
+            text-align: center;
         }
 
         /* Styling for the module selection page */
@@ -160,10 +163,17 @@
 <body>
     <div id="title-page">
         <h1>Physics Multiple Choice Revision</h1>
-        <button onclick="selectMode('scored')">Start Scored Mode</button>
-        <button onclick="selectMode('infinite')">Start Infinite Mode</button>
+        <div class="button-container">
+            <button class="mode-button" onclick="selectMode('scored')">Start Scored Mode</button>
+            <button class="mode-button" onclick="selectMode('infinite')">Start Infinite Mode</button>
+        </div>
+        <div class="button-container">
+            <div class="mode-description">Twenty questions. Keeps score.</div>
+            <div class="mode-description">No score. Just question after question after question.</div>
+        </div>
     </div>
 
+    <!-- The rest of the code remains unchanged -->
     <div id="module-selection-page">
         <h2>Select Sections</h2>
         <button onclick="selectAllSections()">Select All</button>
