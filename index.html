@@ -22,14 +22,28 @@
     </div>
 
     <div id="module-selection-page">
+        <button id="start-quiz-button" onclick="startQuiz()">Start Quiz</button>
         <h2>Select Sections</h2>
-        <button onclick="selectAllSections()">Select All</button>
-        <button onclick="selectYear11()">Select Year 11</button>
-        <button onclick="selectYear12()">Select Year 12</button>
-
-        <div id="module-buttons-container"></div>
-
-        <button onclick="startQuiz()">Start Quiz</button>
+        
+        <div class="module-group">
+            <h3>Year 11</h3>
+            <button class="module-button" onclick="selectYear11()">Select All Year 11</button>
+            <button class="module-button" data-module="1.1">Module 1.1</button>
+            <button class="module-button" data-module="1.2">Module 1.2</button>
+            <button class="module-button" data-module="2.1">Module 2.1</button>
+            <button class="module-button" data-module="2.2">Module 2.2</button>
+            <!-- Add more Year 11 module buttons as needed -->
+        </div>
+        
+        <div class="module-group">
+            <h3>Year 12</h3>
+            <button class="module-button" onclick="selectYear12()">Select All Year 12</button>
+            <button class="module-button" data-module="5.1">Module 5.1</button>
+            <button class="module-button" data-module="5.2">Module 5.2</button>
+            <button class="module-button" data-module="6.1">Module 6.1</button>
+            <button class="module-button" data-module="6.2">Module 6.2</button>
+            <!-- Add more Year 12 module buttons as needed -->
+        </div>
     </div>
 
     <div id="quiz-container">
@@ -38,12 +52,10 @@
         <h1>Quiz</h1>
         <div id="question-container">
             <p id="question"></p>
-            <!-- Answer buttons -->
             <button class="answer-button">A</button>
             <button class="answer-button">B</button>
             <button class="answer-button">C</button>
             <button class="answer-button">D</button>
-            <!-- Feedback and Next Question button -->
             <p id="feedback"></p>
             <button id="next-button" style="display: none;" onclick="nextQuestion()">Next Question</button>
         </div>
