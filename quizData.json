@@ -56,7 +56,7 @@
             "d": "20 m/s"
         },
         "correctAnswer": "c",
-        "explanation": "Velocity v = u + at = 0 + (2)(5) = 10 m/s."
+        "explanation": "Velocity v = u + at = 0 + (2)(5) = 10 m/s.",
         "module": "1.1"
     },
     {
