@@ -85,6 +85,24 @@
             font-size: 24px;
             color: #555;
         }
+
+        /* Styling for the quiz info */
+        #quiz-info {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Styling for the Home button */
+        #home-button {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -95,6 +113,8 @@
     </div>
 
     <div id="quiz-container">
+        <button id="home-button" onclick="goHome()">Home</button>
+        <div id="quiz-info"></div>
         <h1>Quiz</h1>
         <div id="question-container">
             <p id="question"></p>
@@ -140,7 +160,17 @@
             document.getElementById('quiz-container').style.display = 'block';
             currentQuestionIndex = 0;
             score = 0;
+            updateQuizInfo();
             loadQuestion();
+        }
+
+        // Function to update quiz info (e.g., current question number in scored mode)
+        function updateQuizInfo() {
+            if (currentMode === 'scored') {
+                document.getElementById('quiz-info').innerText = `Question ${currentQuestionIndex + 1} of ${maxQuestions}`;
+            } else {
+                document.getElementById('quiz-info').innerText = '';
+            }
         }
 
         // Function to load a new question
@@ -190,6 +220,7 @@
         // Function to load the next question
         function nextQuestion() {
             currentQuestionIndex++;
+            updateQuizInfo();
             loadQuestion();
         }
 
@@ -202,6 +233,13 @@
 
         // Function to restart the quiz
         function restartQuiz() {
+            document.getElementById('results-page').style.display = 'none';
+            document.getElementById('title-page').style.display = 'block';
+        }
+
+        // Function to go back to the home page
+        function goHome() {
+            document.getElementById('quiz-container').style.display = 'none';
             document.getElementById('results-page').style.display = 'none';
             document.getElementById('title-page').style.display = 'block';
         }
