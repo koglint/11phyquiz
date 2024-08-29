@@ -75,8 +75,10 @@ function selectYear11() {
     );
     sections.forEach(section => {
         const button = document.querySelector(`button[data-module="${section}"]`);
-        if (button) {
+        if (button && (section.startsWith("1") || section.startsWith("2") || section.startsWith("3") || section.startsWith("4"))) {
             button.classList.add('selected');
+        } else if (button) {
+            button.classList.remove('selected'); // Ensure other modules are deselected
         }
     });
 }
@@ -91,11 +93,14 @@ function selectYear12() {
     );
     sections.forEach(section => {
         const button = document.querySelector(`button[data-module="${section}"]`);
-        if (button) {
+        if (button && (section.startsWith("5") || section.startsWith("6") || section.startsWith("7") || section.startsWith("8"))) {
             button.classList.add('selected');
+        } else if (button) {
+            button.classList.remove('selected'); // Ensure other modules are deselected
         }
     });
 }
+
 
 // Function to filter questions based on selected modules
 function filterQuestions() {
