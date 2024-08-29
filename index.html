@@ -57,6 +57,28 @@
             margin: 10px auto;
         }
 
+        /* Styling for the module selection page */
+        #module-selection-page {
+            display: none;
+            text-align: center;
+        }
+
+        #module-selection-page h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #module-selection-page label {
+            display: block;
+            margin: 5px 0;
+        }
+
+        #module-selection-page button {
+            width: 50%;
+            margin: 20px auto;
+        }
+
         /* Styling for the quiz container */
         #quiz-container {
             display: none;
@@ -126,8 +148,21 @@
 <body>
     <div id="title-page">
         <h1>Physics Multiple Choice Revision</h1>
-        <button onclick="startQuiz('scored')">Start Scored Mode</button>
-        <button onclick="startQuiz('infinite')">Start Infinite Mode</button>
+        <button onclick="selectMode('scored')">Start Scored Mode</button>
+        <button onclick="selectMode('infinite')">Start Infinite Mode</button>
+    </div>
+
+    <div id="module-selection-page">
+        <h2>Select Modules</h2>
+        <label><input type="checkbox" class="module-checkbox" value="1"> Module 1</label>
+        <label><input type="checkbox" class="module-checkbox" value="2"> Module 2</label>
+        <label><input type="checkbox" class="module-checkbox" value="3"> Module 3</label>
+        <label><input type="checkbox" class="module-checkbox" value="4"> Module 4</label>
+        <label><input type="checkbox" class="module-checkbox" value="5"> Module 5</label>
+        <label><input type="checkbox" class="module-checkbox" value="6"> Module 6</label>
+        <label><input type="checkbox" class="module-checkbox" value="7"> Module 7</label>
+        <label><input type="checkbox" class="module-checkbox" value="8"> Module 8</label>
+        <button onclick="startQuiz()">Start Quiz</button>
     </div>
 
     <div id="quiz-container">
@@ -155,7 +190,9 @@
 
     <script>
         let quiz = [];
+        let filteredQuiz = [];
         let currentMode = '';
+        let selectedModules = [];
         let currentQuestionIndex = 0;
         let score = 0;
         const maxQuestions = 20;
@@ -170,11 +207,28 @@
             }
         }
 
-        // Function to show the quiz and hide the title page
-        async function startQuiz(mode) {
+        // Function to show the mode selection screen
+        function selectMode(mode) {
             currentMode = mode;
-            await loadQuizData(); // Load the quiz data before starting the quiz
             document.getElementById('title-page').style.display = 'none';
+            document.getElementById('module-selection-page').style.display = 'block';
+        }
+
+        // Function to filter quiz questions based on selected modules
+        function filterQuestions() {
+            const checkboxes = document.querySelectorAll('.module-checkbox:checked');
+            selectedModules = Array.from(checkboxes).map(checkbox => parseInt(checkbox.value));
+            filteredQuiz = quiz.filter(question => selectedModules.includes(question.module));
+        }
+
+        // Function to start the quiz after module selection
+        async function startQuiz() {
+            filterQuestions();
+            if (filteredQuiz.length === 0) {
+                alert('Please select at least one module.');
+                return;
+            }
+            document.getElementById('module-selection-page').style.display = 'none';
             document.getElementById('quiz-container').style.display = 'block';
             currentQuestionIndex = 0;
             score = 0;
@@ -198,8 +252,8 @@
                 return;
             }
 
-            const randomIndex = Math.floor(Math.random() * quiz.length);
-            const questionData = quiz[randomIndex];
+            const randomIndex = Math.floor(Math.random() * filteredQuiz.length);
+            const questionData = filteredQuiz[randomIndex];
 
             document.getElementById('question').innerText = questionData.question;
 
@@ -262,8 +316,8 @@
             document.getElementById('title-page').style.display = 'block';
         }
 
-        // Initial load of the title page
-        document.getElementById('title-page').style.display = 'block';
+        // Load quiz data on page load
+        window.onload = loadQuizData;
     </script>
 </body>
 </html>
