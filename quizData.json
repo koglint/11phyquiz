@@ -1,0 +1,24 @@
+[
+  {
+    "question": "What is the first step in developing a scientific investigation?",
+    "options": [
+      "a) Conducting an experiment",
+      "b) Developing a hypothesis",
+      "c) Collecting data",
+      "d) Analysing results"
+    ],
+    "answer": "b",
+    "explanation": "The first step in scientific investigation is developing a hypothesis to be tested."
+  },
+  {
+    "question": "In a valid experimental method, the independent variable is:",
+    "options": [
+      "a) The variable that is measured",
+      "b) The variable that is kept constant",
+      "c) The variable that is changed",
+      "d) The variable that is compared"
+    ],
+    "answer": "c",
+    "explanation": "The independent variable is the one that is intentionally changed in an experiment."
+  }
+]
