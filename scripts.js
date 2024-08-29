@@ -49,14 +49,17 @@ function selectMode(mode) {
 // Function to toggle individual module selection
 function toggleModule(button) {
     const module = button.dataset.module;
+    console.log(`Toggling module ${module}`);
+    
     if (selectedModules.includes(module)) {
         selectedModules = selectedModules.filter(m => m !== module);
         button.classList.remove('selected');
+        console.log(`Module ${module} removed. Selected modules:`, selectedModules);
     } else {
         selectedModules.push(module);
         button.classList.add('selected');
+        console.log(`Module ${module} added. Selected modules:`, selectedModules);
     }
-    console.log("Selected modules:", selectedModules);
 }
 
 // Function to update the appearance of module buttons based on selection
