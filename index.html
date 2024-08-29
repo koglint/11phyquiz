@@ -94,37 +94,21 @@
     </div>
 
     <script>
-        // Array of questions, answers, and explanations
-        const quiz = 
-[
-  {
-    "question": "What is the first step in developing a scientific investigation?",
-    "options": [
-      "a) Conducting an experiment",
-      "b) Developing a hypothesis",
-      "c) Collecting data",
-      "d) Analysing results"
-    ],
-    "answer": "b",
-    "explanation": "The first step in scientific investigation is developing a hypothesis to be tested."
-  },
-  {
-    "question": "In a valid experimental method, the independent variable is:",
-    "options": [
-      "a) The variable that is measured",
-      "b) The variable that is kept constant",
-      "c) The variable that is changed",
-      "d) The variable that is compared"
-    ],
-    "answer": "c",
-    "explanation": "The independent variable is the one that is intentionally changed in an experiment."
-  }
-]
+        let quiz = [];
 
-;
+        // Function to load quiz data from the JSON file
+        async function loadQuizData() {
+            try {
+                const response = await fetch('quizData.json');
+                quiz = await response.json();
+            } catch (error) {
+                console.error("Failed to load quiz data:", error);
+            }
+        }
 
         // Function to show the quiz and hide the title page
-        function startQuiz() {
+        async function startQuiz() {
+            await loadQuizData(); // Load the quiz data before starting the quiz
             document.getElementById('title-page').style.display = 'none';
             document.getElementById('quiz-container').style.display = 'block';
             loadQuestion();
