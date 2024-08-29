@@ -201,7 +201,7 @@
     </div>
 
     <script>
-        let quiz = [];
+        let quizData = []; // Store the quiz questions here
         let filteredQuiz = [];
         let currentMode = '';
         let selectedModules = [];
@@ -213,7 +213,7 @@
         async function loadQuizData() {
             try {
                 const response = await fetch('quizData.json');
-                quiz = await response.json();
+                quizData = await response.json(); // Load data into quizData
             } catch (error) {
                 console.error("Failed to load quiz data:", error);
             }
@@ -238,19 +238,14 @@
             }
         }
 
+        // Function to filter questions based on selected modules
         function filterQuestions() {
-            filteredQuiz = [];
-            const selectedModules = [...document.querySelectorAll('input[name="module"]:checked')].map(input => input.value);
-        
-            filteredQuiz = quizData.filter(question => selectedModules.includes(question.module));
+            filteredQuiz = quizData.filter(question => selectedModules.includes(parseInt(question.module)));
         }
 
-
-
+        // Function to start the quiz after module selection
         async function startQuiz() {
             filterQuestions(); // Filter questions based on the selected module(s)
-            
-            console.log(filteredQuiz); // Debugging: Check the filtered questions array
             
             if (filteredQuiz.length === 0) {
                 alert('Please select at least one module.');
@@ -264,7 +259,6 @@
             updateQuizInfo(); // Update the quiz information (e.g., score, question count)
             loadQuestion(); // Load the first question
         }
-
 
         // Function to update quiz info (e.g., current question number in scored mode)
         function updateQuizInfo() {
@@ -288,8 +282,10 @@
             document.getElementById('question').innerText = questionData.question;
 
             const answerButtons = document.querySelectorAll('.answer-button');
+            const options = ['a', 'b', 'c', 'd'];
+
             answerButtons.forEach((btn, index) => {
-                btn.innerText = questionData.options[index];
+                btn.innerText = questionData.options[options[index]];
                 btn.disabled = false;
                 btn.onclick = function() {
                     checkAnswer(index, questionData);
@@ -303,13 +299,13 @@
         // Function to check the selected answer
         function checkAnswer(selectedIndex, questionData) {
             const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
-            if (selectedLetter === questionData.answer) {
+            if (selectedLetter === questionData.correctAnswer) {
                 document.getElementById('feedback').innerText = "Correct! " + questionData.explanation;
                 if (currentMode === 'scored') {
                     score++;
                 }
             } else {
-                document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.answer + ". " + questionData.explanation;
+                document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.correctAnswer + ". " + questionData.explanation;
             }
 
             // Disable buttons after selection
