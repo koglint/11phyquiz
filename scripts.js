@@ -27,7 +27,7 @@ async function loadQuizData() {
     }
 }
 
-// Function to initialize the module buttons
+// Function to initialize the module buttons and attach event listeners
 function initializeModuleButtons() {
     const moduleButtons = document.querySelectorAll('.module-button[data-module]');
     moduleButtons.forEach(button => {
@@ -42,10 +42,10 @@ function selectMode(mode) {
     currentMode = mode;
     document.getElementById('title-page').style.display = 'none';
     document.getElementById('module-selection-page').style.display = 'block';
-    initializeModuleButtons();
+    initializeModuleButtons(); // Ensure event listeners are attached each time
 }
 
-// Function to toggle module selection
+// Function to toggle individual module selection
 function toggleModule(module) {
     const button = document.querySelector(`button[data-module="${module}"]`);
     if (selectedModules.includes(module)) {
@@ -57,7 +57,7 @@ function toggleModule(module) {
     }
 }
 
-// Function to select all sections for Year 11
+// Function to select all Year 11 sections
 function selectYear11() {
     selectedModules = sections.filter(section => 
         section.startsWith("1") || 
@@ -65,10 +65,10 @@ function selectYear11() {
         section.startsWith("3") || 
         section.startsWith("4")
     );
-    updateModuleButtons();
+    updateModuleButtons(); // Update visual states
 }
 
-// Function to select all sections for Year 12
+// Function to select all Year 12 sections
 function selectYear12() {
     selectedModules = sections.filter(section => 
         section.startsWith("5") || 
@@ -76,13 +76,13 @@ function selectYear12() {
         section.startsWith("7") || 
         section.startsWith("8")
     );
-    updateModuleButtons();
+    updateModuleButtons(); // Update visual states
 }
 
 // Function to select all Year 11 & 12 sections
 function selectAllModules() {
     selectedModules = [...sections];
-    updateModuleButtons();
+    updateModuleButtons(); // Update visual states
 }
 
 // Function to update the appearance of module buttons based on selection
