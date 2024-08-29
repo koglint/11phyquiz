@@ -58,6 +58,13 @@ body {
     background-color: #333;
 }
 
+/* Add this CSS for the selected state */
+.module-button.selected {
+    background-color: #007bff; /* Highlight color for selected buttons */
+    color: green;
+}
+
+
 /* Styling for the mode description text */
 .mode-description {
     font-size: 14px;
