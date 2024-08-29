@@ -28,19 +28,21 @@ async function loadQuizData() {
 }
 
 // Function to initialize the module buttons
+// Existing code...
+
+// Update this function to handle smaller, grouped module buttons
 function initializeModuleButtons() {
     const container = document.getElementById('module-buttons-container');
     container.innerHTML = '';
 
     sections.forEach(section => {
-        const button = document.createElement('button');
-        button.className = 'module-button';
-        button.dataset.module = section;
-        button.innerText = `Module ${section}`;
+        const button = document.querySelector(`button[data-module="${section}"]`);
         button.onclick = () => toggleModule(section);
-        container.appendChild(button);
     });
 }
+
+// Existing code...
+
 
 // Function to show the mode selection screen
 function selectMode(mode) {
