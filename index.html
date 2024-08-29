@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        /* Basic styling for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Styling for buttons */
+        button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 16px;
+            background-color: #555; /* Dark grey */
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #333; /* Darker grey on hover */
+        }
+
+        /* Styling for the title page */
+        #title-page {
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        #title-page h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #title-page p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #555;
+        }
+
+        #title-page button {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        /* Styling for the quiz container */
+        #quiz-container {
+            display: none;
+        }
+
+        /* Feedback message styling */
+        #feedback {
+            font-weight: bold;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div id="title-page">
+        <h1>Year 10 Yearly Exam Revision</h1>
+        <p>No login. No scores. Just questions.</p>
+        <p>Don't worry if some questions are unfamiliar. Each class covered content to a different depth. You'll be fine.</p>
+        <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+
+    <div id="quiz-container">
+        <h1>Quiz</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <!-- Answer buttons -->
+            <button class="answer-button">A</button>
+            <button class="answer-button">B</button>
+            <button class="answer-button">C</button>
+            <button class="answer-button">D</button>
+            <!-- Feedback and Next Question button -->
+            <p id="feedback"></p>
+            <button id="next-button" style="display: none;" onclick="loadQuestion()">Next Question</button>
+        </div>
+    </div>
+
+    <script>
+        // Array of questions, answers, and explanations
+        const quiz = 
+[
+  {
+    "question": "What is the first step in developing a scientific investigation?",
+    "options": [
+      "a) Conducting an experiment",
+      "b) Developing a hypothesis",
+      "c) Collecting data",
+      "d) Analysing results"
+    ],
+    "answer": "b",
+    "explanation": "The first step in scientific investigation is developing a hypothesis to be tested."
+  },
+  {
+    "question": "In a valid experimental method, the independent variable is:",
+    "options": [
+      "a) The variable that is measured",
+      "b) The variable that is kept constant",
+      "c) The variable that is changed",
+      "d) The variable that is compared"
+    ],
+    "answer": "c",
+    "explanation": "The independent variable is the one that is intentionally changed in an experiment."
+  }
+]
+
+;
+
+        // Function to show the quiz and hide the title page
+        function startQuiz() {
+            document.getElementById('title-page').style.display = 'none';
+            document.getElementById('quiz-container').style.display = 'block';
+            loadQuestion();
+        }
+
+        // Function to load a new question
+        function loadQuestion() {
+            const randomIndex = Math.floor(Math.random() * quiz.length);
+            const questionData = quiz[randomIndex];
+
+            document.getElementById('question').innerText = questionData.question;
+
+            const answerButtons = document.querySelectorAll('.answer-button');
+            answerButtons.forEach((btn, index) => {
+                btn.innerText = questionData.options[index];
+                btn.disabled = false;
+                btn.onclick = function() {
+                    checkAnswer(index, questionData);
+                };
+            });
+
+            document.getElementById('feedback').innerText = "";
+            document.getElementById('next-button').style.display = 'none';
+        }
+
+        // Function to check the selected answer
+        function checkAnswer(selectedIndex, questionData) {
+            const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
+            if (selectedLetter === questionData.answer) {
+                document.getElementById('feedback').innerText = "Correct! " + questionData.explanation;
+            } else {
+                document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.answer + ". " + questionData.explanation;
+            }
+
+            // Disable buttons after selection
+            document.querySelectorAll('.answer-button').forEach(btn => btn.disabled = true);
+
+            // Show the "Next Question" button
+            document.getElementById('next-button').style.display = 'block';
+        }
+
+        // Initial load of the title page
+        document.getElementById('title-page').style.display = 'block';
+    </script>
+</body>
+</html>
