@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,11 +24,11 @@
     <div id="module-selection-page">
         <button id="start-quiz-button" onclick="startQuiz()">Start Quiz</button>
         <h2>Select Sections</h2>
-        <button id="select-all-button" class="mode-button" onclick="selectAllModules()">Select All Year 11 & 12</button>
+        <button id="select-all-button" class="mode-button" onclick="toggleSelectAll()">Select/Deselect All Year 11 & 12</button>
         
         <div class="module-group">
             <h3>Year 11</h3>
-            <button class="module-button" onclick="selectYear11()">Select All Year 11</button>
+            <button class="module-button" onclick="toggleSelectYear('11')">Select/Deselect All Year 11</button>
             <div class="module-buttons-grid">
                 <button class="module-button" data-module="1.1">Module 1.1</button>
                 <button class="module-button" data-module="1.2">Module 1.2</button>
@@ -49,7 +48,7 @@
         
         <div class="module-group">
             <h3>Year 12</h3>
-            <button class="module-button" onclick="selectYear12()">Select All Year 12</button>
+            <button class="module-button" onclick="toggleSelectYear('12')">Select/Deselect All Year 12</button>
             <div class="module-buttons-grid">
                 <button class="module-button" data-module="5.1">Module 5.1</button>
                 <button class="module-button" data-module="5.2">Module 5.2</button>
