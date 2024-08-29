@@ -56,6 +56,7 @@ function toggleModule(module) {
     }
 }
 
+
 // Function to select all sections
 function selectAllSections() {
     selectedModules = [...sections];
