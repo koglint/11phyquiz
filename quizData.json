@@ -8,7 +8,8 @@
       "d) Analysing results"
     ],
     "answer": "b",
-    "explanation": "The first step in scientific investigation is developing a hypothesis to be tested."
+    "explanation": "The first step in scientific investigation is developing a hypothesis to be tested.",
+    "module": 5
   },
   {
     "question": "In a valid experimental method, the independent variable is:",
@@ -19,6 +20,7 @@
       "d) The variable that is compared"
     ],
     "answer": "c",
-    "explanation": "The independent variable is the one that is intentionally changed in an experiment."
+    "explanation": "The independent variable is the one that is intentionally changed in an experiment.",
+    "module": 6
   }
 ]
