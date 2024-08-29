@@ -69,9 +69,21 @@
             color: #333;
         }
 
-        #module-selection-page label {
-            display: block;
-            margin: 5px 0;
+        .module-button {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            font-size: 18px;
+            background-color: #555;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .module-button.selected {
+            background-color: #007bff; /* Highlight color */
         }
 
         #module-selection-page button {
@@ -154,14 +166,14 @@
 
     <div id="module-selection-page">
         <h2>Select Modules</h2>
-        <label><input type="checkbox" class="module-checkbox" value="1"> Module 1</label>
-        <label><input type="checkbox" class="module-checkbox" value="2"> Module 2</label>
-        <label><input type="checkbox" class="module-checkbox" value="3"> Module 3</label>
-        <label><input type="checkbox" class="module-checkbox" value="4"> Module 4</label>
-        <label><input type="checkbox" class="module-checkbox" value="5"> Module 5</label>
-        <label><input type="checkbox" class="module-checkbox" value="6"> Module 6</label>
-        <label><input type="checkbox" class="module-checkbox" value="7"> Module 7</label>
-        <label><input type="checkbox" class="module-checkbox" value="8"> Module 8</label>
+        <button class="module-button" onclick="toggleModule(1)">Module 1</button>
+        <button class="module-button" onclick="toggleModule(2)">Module 2</button>
+        <button class="module-button" onclick="toggleModule(3)">Module 3</button>
+        <button class="module-button" onclick="toggleModule(4)">Module 4</button>
+        <button class="module-button" onclick="toggleModule(5)">Module 5</button>
+        <button class="module-button" onclick="toggleModule(6)">Module 6</button>
+        <button class="module-button" onclick="toggleModule(7)">Module 7</button>
+        <button class="module-button" onclick="toggleModule(8)">Module 8</button>
         <button onclick="startQuiz()">Start Quiz</button>
     </div>
 
@@ -214,10 +226,20 @@
             document.getElementById('module-selection-page').style.display = 'block';
         }
 
+        // Function to toggle module selection
+        function toggleModule(module) {
+            const button = document.querySelector(`.module-button:nth-child(${module})`);
+            if (selectedModules.includes(module)) {
+                selectedModules = selectedModules.filter(m => m !== module);
+                button.classList.remove('selected');
+            } else {
+                selectedModules.push(module);
+                button.classList.add('selected');
+            }
+        }
+
         // Function to filter quiz questions based on selected modules
         function filterQuestions() {
-            const checkboxes = document.querySelectorAll('.module-checkbox:checked');
-            selectedModules = Array.from(checkboxes).map(checkbox => parseInt(checkbox.value));
             filteredQuiz = quiz.filter(question => selectedModules.includes(question.module));
         }
 
