@@ -31,7 +31,8 @@ async function loadQuizData() {
 function initializeModuleButtons() {
     const moduleButtons = document.querySelectorAll('.module-button[data-module]');
     moduleButtons.forEach(button => {
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function(event) {
+            event.stopPropagation(); // Prevent the event from bubbling up and causing unintended behavior
             toggleModule(this);
         });
     });
