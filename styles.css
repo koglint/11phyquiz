@@ -58,6 +58,12 @@ body {
     background-color: #333;
 }
 
+/* Styling for selected module buttons */
+.module-button.selected {
+    background-color: #007bff;
+    color: white;
+}
+
 /* Styling for the mode description text */
 .mode-description {
     font-size: 14px;
