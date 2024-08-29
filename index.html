@@ -238,14 +238,13 @@
             }
         }
 
-        // Function to filter quiz questions based on selected modules
         function filterQuestions() {
-            filteredQuiz = quiz.filter(question => {
-                return selectedModules.some(module => {
-                    return question.module.startsWith(module.toString());
-                });
-            });
+            filteredQuiz = [];
+            const selectedModules = [...document.querySelectorAll('input[name="module"]:checked')].map(input => input.value);
+        
+            filteredQuiz = quizData.filter(question => selectedModules.includes(question.module));
         }
+
 
 
         async function startQuiz() {
