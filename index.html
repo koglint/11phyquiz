@@ -166,14 +166,14 @@
 
     <div id="module-selection-page">
         <h2>Select Modules</h2>
-        <button class="module-button" onclick="toggleModule(1)">Module 1</button>
-        <button class="module-button" onclick="toggleModule(2)">Module 2</button>
-        <button class="module-button" onclick="toggleModule(3)">Module 3</button>
-        <button class="module-button" onclick="toggleModule(4)">Module 4</button>
-        <button class="module-button" onclick="toggleModule(5)">Module 5</button>
-        <button class="module-button" onclick="toggleModule(6)">Module 6</button>
-        <button class="module-button" onclick="toggleModule(7)">Module 7</button>
-        <button class="module-button" onclick="toggleModule(8)">Module 8</button>
+        <button class="module-button" data-module="1" onclick="toggleModule(1)">Module 1</button>
+        <button class="module-button" data-module="2" onclick="toggleModule(2)">Module 2</button>
+        <button class="module-button" data-module="3" onclick="toggleModule(3)">Module 3</button>
+        <button class="module-button" data-module="4" onclick="toggleModule(4)">Module 4</button>
+        <button class="module-button" data-module="5" onclick="toggleModule(5)">Module 5</button>
+        <button class="module-button" data-module="6" onclick="toggleModule(6)">Module 6</button>
+        <button class="module-button" data-module="7" onclick="toggleModule(7)">Module 7</button>
+        <button class="module-button" data-module="8" onclick="toggleModule(8)">Module 8</button>
         <button onclick="startQuiz()">Start Quiz</button>
     </div>
 
@@ -228,7 +228,7 @@
 
         // Function to toggle module selection
         function toggleModule(module) {
-            const button = document.querySelector(`.module-button:nth-child(${module})`);
+            const button = document.querySelector(`button[data-module="${module}"]`);
             if (selectedModules.includes(module)) {
                 selectedModules = selectedModules.filter(m => m !== module);
                 button.classList.remove('selected');
