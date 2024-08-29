@@ -65,14 +65,7 @@ function selectYear11() {
         section.startsWith("3") || 
         section.startsWith("4")
     );
-    sections.forEach(section => {
-        const button = document.querySelector(`button[data-module="${section}"]`);
-        if (button && (section.startsWith("1") || section.startsWith("2") || section.startsWith("3") || section.startsWith("4"))) {
-            button.classList.add('selected');
-        } else if (button) {
-            button.classList.remove('selected');
-        }
-    });
+    updateModuleButtons();
 }
 
 // Function to select all sections for Year 12
@@ -83,23 +76,23 @@ function selectYear12() {
         section.startsWith("7") || 
         section.startsWith("8")
     );
-    sections.forEach(section => {
-        const button = document.querySelector(`button[data-module="${section}"]`);
-        if (button && (section.startsWith("5") || section.startsWith("6") || section.startsWith("7") || section.startsWith("8"))) {
-            button.classList.add('selected');
-        } else if (button) {
-            button.classList.remove('selected');
-        }
-    });
+    updateModuleButtons();
 }
 
 // Function to select all Year 11 & 12 sections
 function selectAllModules() {
     selectedModules = [...sections];
-    sections.forEach(section => {
-        const button = document.querySelector(`button[data-module="${section}"]`);
-        if (button) {
+    updateModuleButtons();
+}
+
+// Function to update the appearance of module buttons based on selection
+function updateModuleButtons() {
+    const moduleButtons = document.querySelectorAll('.module-button[data-module]');
+    moduleButtons.forEach(button => {
+        if (selectedModules.includes(button.dataset.module)) {
             button.classList.add('selected');
+        } else {
+            button.classList.remove('selected');
         }
     });
 }
