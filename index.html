@@ -91,17 +91,25 @@
             margin-bottom: 20px;
             font-size: 18px;
             color: #555;
+            text-align: center;
         }
 
         /* Styling for the Home button */
         #home-button {
-            position: fixed;
-            top: 10px;
-            right: 10px;
+            width: 100%;
             background-color: #444;
-            padding: 10px;
+            padding: 15px;
+            margin-top: 20px;
             border-radius: 5px;
-            font-size: 14px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #home-button:hover {
+            background-color: #333;
         }
     </style>
 </head>
@@ -113,7 +121,6 @@
     </div>
 
     <div id="quiz-container">
-        <button id="home-button" onclick="goHome()">Home</button>
         <div id="quiz-info"></div>
         <h1>Quiz</h1>
         <div id="question-container">
@@ -127,6 +134,7 @@
             <p id="feedback"></p>
             <button id="next-button" style="display: none;" onclick="nextQuestion()">Next Question</button>
         </div>
+        <button id="home-button" onclick="goHome()">Home</button>
     </div>
 
     <div id="results-page">
