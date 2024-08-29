@@ -15,7 +15,7 @@ body {
 }
 
 #title-page h1 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 20px;
     color: #333;
 }
@@ -41,7 +41,7 @@ body {
 #start-quiz-button,
 .module-button {
     padding: 10px;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #555;
     color: white;
     border: none;
@@ -58,13 +58,6 @@ body {
     background-color: #333;
 }
 
-/* Add this CSS for the selected state */
-.module-button.selected {
-    background-color: #007bff; /* Highlight color for selected buttons */
-    color: white;
-}
-
-
 /* Styling for the mode description text */
 .mode-description {
     font-size: 14px;
@@ -80,12 +73,6 @@ body {
     text-align: center;
 }
 
-#module-selection-page h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-}
-
 /* Grouping and styling for module buttons */
 .module-group {
     margin-bottom: 15px;
@@ -97,18 +84,25 @@ body {
     color: #444;
 }
 
+/* Layout for module buttons */
+.module-buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
 .module-button {
     padding: 8px;
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px;
-    width: calc(50% - 10px);
+    width: 100%;
 }
 
 #module-selection-page #start-quiz-button {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     padding: 12px;
-    width: 80%;
+    width: 100%;
 }
 
 /* Styling for the quiz container */
@@ -131,20 +125,20 @@ body {
 }
 
 #results-page h1 {
-    font-size: 36px;
+    font-size: 28px;
     margin-bottom: 20px;
     color: #333;
 }
 
 #results-page p {
-    font-size: 24px;
+    font-size: 20px;
     color: #555;
 }
 
 /* Styling for the quiz info */
 #quiz-info {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: #555;
     text-align: center;
 }
