@@ -241,8 +241,11 @@ function toggleModule(module) {
 
 // Function to filter questions based on selected modules
 function filterQuestions() {
-    filteredQuiz = quizData.filter(question => selectedModules.includes(question.module));
+    filteredQuiz = quizData.filter(question => {
+        return selectedModules.some(module => question.module.startsWith(module + "."));
+    });
 }
+
 
 // Function to start the quiz after module selection
 async function startQuiz() {
