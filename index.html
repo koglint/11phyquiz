@@ -240,8 +240,13 @@
 
         // Function to filter quiz questions based on selected modules
         function filterQuestions() {
-            filteredQuiz = quiz.filter(question => selectedModules.includes(question.module));
+            filteredQuiz = quiz.filter(question => {
+                return selectedModules.some(module => {
+                    return question.module.startsWith(module.toString());
+                });
+            });
         }
+
 
         // Function to start the quiz after module selection
         async function startQuiz() {
