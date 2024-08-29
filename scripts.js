@@ -29,7 +29,7 @@ async function loadQuizData() {
 
 // Function to initialize the module buttons
 function initializeModuleButtons() {
-    const moduleButtons = document.querySelectorAll('.module-button');
+    const moduleButtons = document.querySelectorAll('.module-button[data-module]');
     moduleButtons.forEach(button => {
         button.addEventListener('click', () => {
             toggleModule(button.dataset.module);
@@ -42,7 +42,6 @@ function selectMode(mode) {
     currentMode = mode;
     document.getElementById('title-page').style.display = 'none';
     document.getElementById('module-selection-page').style.display = 'block';
-    initializeModuleButtons();
 }
 
 // Function to toggle module selection
@@ -60,7 +59,6 @@ function toggleModule(module) {
 // Function to select all sections
 function selectAllSections() {
     selectedModules = [...sections];
-    initializeModuleButtons(); // Refresh button states
     sections.forEach(section => {
         document.querySelector(`button[data-module="${section}"]`).classList.add('selected');
     });
@@ -74,9 +72,11 @@ function selectYear11() {
         section.startsWith("3") || 
         section.startsWith("4")
     );
-    initializeModuleButtons(); // Refresh button states
-    selectedModules.forEach(section => {
-        document.querySelector(`button[data-module="${section}"]`).classList.add('selected');
+    sections.forEach(section => {
+        const button = document.querySelector(`button[data-module="${section}"]`);
+        if (button) {
+            button.classList.add('selected');
+        }
     });
 }
 
@@ -88,9 +88,11 @@ function selectYear12() {
         section.startsWith("7") || 
         section.startsWith("8")
     );
-    initializeModuleButtons(); // Refresh button states
-    selectedModules.forEach(section => {
-        document.querySelector(`button[data-module="${section}"]`).classList.add('selected');
+    sections.forEach(section => {
+        const button = document.querySelector(`button[data-module="${section}"]`);
+        if (button) {
+            button.classList.add('selected');
+        }
     });
 }
 
@@ -199,4 +201,7 @@ function goHome() {
 }
 
 // Load quiz data on page load
-window.onload = loadQuizData;
+window.onload = function() {
+    loadQuizData();
+    initializeModuleButtons(); // Initialize module buttons after loading the page
+};
