@@ -32,7 +32,7 @@ function initializeModuleButtons() {
     const moduleButtons = document.querySelectorAll('.module-button[data-module]');
     moduleButtons.forEach(button => {
         button.addEventListener('click', function() {
-            toggleModule(button.dataset.module);
+            toggleModule(this);
         });
     });
 }
@@ -46,8 +46,8 @@ function selectMode(mode) {
 }
 
 // Function to toggle individual module selection
-function toggleModule(module) {
-    const button = document.querySelector(`button[data-module="${module}"]`);
+function toggleModule(button) {
+    const module = button.dataset.module;
     if (selectedModules.includes(module)) {
         selectedModules = selectedModules.filter(m => m !== module);
         button.classList.remove('selected');
