@@ -60,6 +60,7 @@
         /* Styling for the quiz container */
         #quiz-container {
             display: none;
+            position: relative;
         }
 
         /* Feedback message styling */
@@ -96,20 +97,29 @@
 
         /* Styling for the Home button */
         #home-button {
-            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
             background-color: #444;
-            padding: 15px;
-            margin-top: 20px;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 14px;
             color: white;
             border: none;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            width: auto; /* Adjust width to be based on content */
+            margin-bottom: 10px;
         }
 
         #home-button:hover {
             background-color: #333;
+        }
+
+        /* Adjusting the h1 styling */
+        h1 {
+            margin-top: 40px; /* Add margin to push down "Quiz" under the Home button */
+            text-align: center;
         }
     </style>
 </head>
@@ -121,6 +131,7 @@
     </div>
 
     <div id="quiz-container">
+        <button id="home-button" onclick="goHome()">Home</button>
         <div id="quiz-info"></div>
         <h1>Quiz</h1>
         <div id="question-container">
@@ -134,7 +145,6 @@
             <p id="feedback"></p>
             <button id="next-button" style="display: none;" onclick="nextQuestion()">Next Question</button>
         </div>
-        <button id="home-button" onclick="goHome()">Home</button>
     </div>
 
     <div id="results-page">
