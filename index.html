@@ -54,7 +54,7 @@
 
         #title-page button {
             width: 50%;
-            margin: 0 auto;
+            margin: 10px auto;
         }
 
         /* Styling for the quiz container */
@@ -68,13 +68,30 @@
             margin-top: 20px;
             color: #333;
         }
+
+        /* Styling for the results page */
+        #results-page {
+            display: none;
+            text-align: center;
+        }
+
+        #results-page h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #results-page p {
+            font-size: 24px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
     <div id="title-page">
-        <h1>Year 11 Physics Revision</h1>
-        <p>No login. No scores. Just questions.</p>
-        <button onclick="startQuiz()">Start Quiz</button>
+        <h1>Physics Multiple Choice Revision</h1>
+        <button onclick="startQuiz('scored')">Start Scored Mode</button>
+        <button onclick="startQuiz('infinite')">Start Infinite Mode</button>
     </div>
 
     <div id="quiz-container">
@@ -88,12 +105,22 @@
             <button class="answer-button">D</button>
             <!-- Feedback and Next Question button -->
             <p id="feedback"></p>
-            <button id="next-button" style="display: none;" onclick="loadQuestion()">Next Question</button>
+            <button id="next-button" style="display: none;" onclick="nextQuestion()">Next Question</button>
         </div>
+    </div>
+
+    <div id="results-page">
+        <h1>Results</h1>
+        <p id="results"></p>
+        <button onclick="restartQuiz()">Restart Quiz</button>
     </div>
 
     <script>
         let quiz = [];
+        let currentMode = '';
+        let currentQuestionIndex = 0;
+        let score = 0;
+        const maxQuestions = 20;
 
         // Function to load quiz data from the JSON file
         async function loadQuizData() {
@@ -106,15 +133,23 @@
         }
 
         // Function to show the quiz and hide the title page
-        async function startQuiz() {
+        async function startQuiz(mode) {
+            currentMode = mode;
             await loadQuizData(); // Load the quiz data before starting the quiz
             document.getElementById('title-page').style.display = 'none';
             document.getElementById('quiz-container').style.display = 'block';
+            currentQuestionIndex = 0;
+            score = 0;
             loadQuestion();
         }
 
         // Function to load a new question
         function loadQuestion() {
+            if (currentMode === 'scored' && currentQuestionIndex >= maxQuestions) {
+                showResults();
+                return;
+            }
+
             const randomIndex = Math.floor(Math.random() * quiz.length);
             const questionData = quiz[randomIndex];
 
@@ -138,6 +173,9 @@
             const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
             if (selectedLetter === questionData.answer) {
                 document.getElementById('feedback').innerText = "Correct! " + questionData.explanation;
+                if (currentMode === 'scored') {
+                    score++;
+                }
             } else {
                 document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.answer + ". " + questionData.explanation;
             }
@@ -147,6 +185,25 @@
 
             // Show the "Next Question" button
             document.getElementById('next-button').style.display = 'block';
+        }
+
+        // Function to load the next question
+        function nextQuestion() {
+            currentQuestionIndex++;
+            loadQuestion();
+        }
+
+        // Function to show the results at the end of scored mode
+        function showResults() {
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('results-page').style.display = 'block';
+            document.getElementById('results').innerText = `You scored ${score} out of ${maxQuestions}.`;
+        }
+
+        // Function to restart the quiz
+        function restartQuiz() {
+            document.getElementById('results-page').style.display = 'none';
+            document.getElementById('title-page').style.display = 'block';
         }
 
         // Initial load of the title page
