@@ -1,26 +1,1210 @@
 [
-  {
-    "question": "What is the first step in developing a scientific investigation?",
-    "options": [
-      "a) Conducting an experiment",
-      "b) Developing a hypothesis",
-      "c) Collecting data",
-      "d) Analysing results"
-    ],
-    "answer": "b",
-    "explanation": "The first step in scientific investigation is developing a hypothesis to be tested.",
-    "module": 5
-  },
-  {
-    "question": "In a valid experimental method, the independent variable is:",
-    "options": [
-      "a) The variable that is measured",
-      "b) The variable that is kept constant",
-      "c) The variable that is changed",
-      "d) The variable that is compared"
-    ],
-    "answer": "c",
-    "explanation": "The independent variable is the one that is intentionally changed in an experiment.",
-    "module": 6
-  }
+    {
+        "question": "Which of the following best describes uniform straight-line motion?",
+        "options": {
+            "a": "Constant speed and changing direction",
+            "b": "Constant speed and constant direction",
+            "c": "Changing speed and constant direction",
+            "d": "Changing speed and changing direction"
+        },
+        "correctAnswer": "b",
+        "explanation": "Uniform straight-line motion implies constant speed and no change in direction.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which quantity is a vector?",
+        "options": {
+            "a": "Speed",
+            "b": "Distance",
+            "c": "Displacement",
+            "d": "Time"
+        },
+        "correctAnswer": "c",
+        "explanation": "Displacement is a vector quantity as it has both magnitude and direction.",
+        “module”: 1.1
+    },
+    {
+        "question": "The average velocity of an object is defined as:",
+        "options": {
+            "a": "The total distance divided by the total time",
+            "b": "The total displacement divided by the total time",
+            "c": "The total speed divided by the total distance",
+            "d": "The total time divided by the total distance"
+        },
+        "correctAnswer": "b",
+        "explanation": "Average velocity is defined as total displacement divided by total time.",
+        “module”: 1.1
+    },
+    {
+        "question": "If a car moves with a constant speed in a straight line, what is its acceleration?",
+        "options": {
+            "a": "Positive",
+            "b": "Negative",
+            "c": "Zero",
+            "d": "Cannot be determined"
+        },
+        "correctAnswer": "c",
+        "explanation": "If the speed is constant in a straight line, there is no change in velocity, hence no acceleration.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car accelerates from rest at a constant rate of 2 m/s². What is its velocity after 5 seconds?",
+        "options": {
+            "a": "2 m/s",
+            "b": "5 m/s",
+            "c": "10 m/s",
+            "d": "20 m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "Velocity \( v = u + at = 0 + (2)(5) = 10 \, m/s \).",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following is a scalar quantity?",
+        "options": {
+            "a": "Velocity",
+            "b": "Acceleration",
+            "c": "Displacement",
+            "d": "Speed"
+        },
+        "correctAnswer": "d",
+        "explanation": "Speed is a scalar quantity; it does not have a direction.",
+        “module”: 1.1
+    },
+    {
+        "question": "An object is thrown upwards with an initial velocity of 15 m/s. What will be its velocity at the highest point?",
+        "options": {
+            "a": "15 m/s",
+            "b": "0 m/s",
+            "c": "-15 m/s",
+            "d": "Cannot be determined"
+        },
+        "correctAnswer": "b",
+        "explanation": "At the highest point, the velocity of an object thrown upwards is zero.",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the instantaneous velocity of an object at a point on its path?",
+        "options": {
+            "a": "The average velocity over the entire path",
+            "b": "The velocity of the object at that specific point",
+            "c": "The total displacement divided by the total time",
+            "d": "The change in velocity divided by the change in time"
+        },
+        "correctAnswer": "b",
+        "explanation": "Instantaneous velocity refers to the velocity of an object at a particular moment.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car travels 60 km north, then 80 km south. What is its displacement?",
+        "options": {
+            "a": "20 km south",
+            "b": "140 km south",
+            "c": "20 km north",
+            "d": "140 km north"
+        },
+        "correctAnswer": "a",
+        "explanation": "Displacement is the straight line distance in a specific direction; 60 km - 80 km = -20 km (south).",
+        “module”: 1.1
+    },
+    {
+        "question": "Which equation correctly represents the relationship between distance, initial velocity, time, and acceleration in uniformly accelerated motion?",
+        "options": {
+            "a": "s = ut + 1/2 at^2",
+            "b": "v = u + at",
+            "c": "v^2 = u^2 + 2as",
+            "d": "s = vt + 1/2 at^2"
+        },
+        "correctAnswer": "a",
+        "explanation": "This equation represents the displacement under uniformly accelerated motion.",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the velocity of an object moving at 30 m/s after 5 seconds if it is decelerating at 2 m/s²?",
+        "options": {
+            "a": "20 m/s",
+            "b": "25 m/s",
+            "c": "15 m/s",
+            "d": "10 m/s"
+        },
+        "correctAnswer": "a",
+        "explanation": "v = u + at = 30 - (2)(5) = 20 m/s.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following quantities remains constant for an object in uniform straight-line motion?",
+        "options": {
+            "a": "Velocity",
+            "b": "Acceleration",
+            "c": "Displacement",
+            "d": "Time"
+        },
+        "correctAnswer": "a",
+        "explanation": "In uniform straight-line motion, velocity remains constant.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 5 seconds. What is its acceleration?",
+        "options": {
+            "a": "4 m/s²",
+            "b": "6 m/s²",
+            "c": "8 m/s²",
+            "d": "10 m/s²"
+        },
+        "correctAnswer": "a",
+        "explanation": "Acceleration a = (v - u) / t = (30 - 10) / 5 = 4 m/s².",
+        “module”: 1.1
+    },
+    {
+        "question": "If an object moves at a constant velocity, which of the following must be true?",
+        "options": {
+            "a": "Its acceleration is constant.",
+            "b": "The net force acting on it is zero.",
+            "c": "The net force acting on it is constant.",
+            "d": "Its speed is increasing."
+        },
+        "correctAnswer": "b",
+        "explanation": "Constant velocity implies no net force acting on the object.",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the final velocity of an object after falling freely from rest for 4 seconds? (Assume g = 9.8 m/s^2)",
+        "options": {
+            "a": "19.6 m/s",
+            "b": "29.4 m/s",
+            "c": "39.2 m/s",
+            "d": "49.0 m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "v = u + at = 0 + 9.8 * 4 = 39.2 m/s.",
+        “module”: 1.1
+    },
+    {
+        "question": "In the equation v = u + at, what does the variable u represent?",
+        "options": {
+            "a": "Initial velocity",
+            "b": "Final velocity",
+            "c": "Acceleration",
+            "d": "Time"
+        },
+        "correctAnswer": "a",
+        "explanation": "In the equation v = u + at, u represents the initial velocity.",
+        “module”: 1.1
+    },
+    {
+        "question": "A runner completes a 400 m lap in 50 seconds. What is the runner’s average speed?",
+        "options": {
+            "a": "4 m/s",
+            "b": "6 m/s",
+            "c": "8 m/s",
+            "d": "10 m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "Average speed = total distance / total time = 400 / 50 = 8 m/s.",
+        “module”: 1.1
+    },
+    {
+        "question": "If a car’s velocity changes from 20 m/s to 10 m/s in 2 seconds, what is its acceleration?",
+        "options": {
+            "a": "-5 m/s²",
+            "b": "-10 m/s²",
+            "c": "5 m/s²",
+            "d": "10 m/s²"
+        },
+        "correctAnswer": "a",
+        "explanation": "Acceleration a = (
+
+v - u) / t = (10 - 20) / 2 = -5 m/s².",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the displacement of an object moving in a straight line at 10 m/s for 5 seconds?",
+        "options": {
+            "a": "10 m",
+            "b": "25 m",
+            "c": "50 m",
+            "d": "100 m"
+        },
+        "correctAnswer": "c",
+        "explanation": "Displacement s = vt = 10 * 5 = 50 m.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following is true about an object moving with uniform acceleration?",
+        "options": {
+            "a": "Its speed is constant.",
+            "b": "Its velocity is constant.",
+            "c": "Its acceleration is zero.",
+            "d": "Its acceleration is constant."
+        },
+        "correctAnswer": "d",
+        "explanation": "Uniform acceleration means constant acceleration.",
+        “module”: 1.1
+    },
+    {
+        "question": "The graph of velocity versus time for an object with constant acceleration is:",
+        "options": {
+            "a": "A horizontal line",
+            "b": "A vertical line",
+            "c": "A straight line with a positive slope",
+            "d": "A curved line"
+        },
+        "correctAnswer": "c",
+        "explanation": "A straight line with a positive slope represents constant acceleration.",
+        “module”: 1.1
+    },
+    {
+        "question": "If an object’s velocity-time graph is a straight line with a negative slope, the object is:",
+        "options": {
+            "a": "Moving with constant velocity",
+            "b": "Accelerating",
+            "c": "Decelerating",
+            "d": "At rest"
+        },
+        "correctAnswer": "c",
+        "explanation": "A negative slope indicates the object is decelerating.",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the distance covered by an object that accelerates from rest at 5 m/s² for 6 seconds?",
+        "options": {
+            "a": "15 m",
+            "b": "30 m",
+            "c": "45 m",
+            "d": "90 m"
+        },
+        "correctAnswer": "d",
+        "explanation": "Displacement s = ut + 1/2 at^2 = 0 + 1/2 * 5 * 6^2 = 90 m.",
+        “module”: 1.1
+    },
+    {
+        "question": "The area under the velocity-time graph represents:",
+        "options": {
+            "a": "Velocity",
+            "b": "Acceleration",
+            "c": "Displacement",
+            "d": "Speed"
+        },
+        "correctAnswer": "c",
+        "explanation": "The area under a velocity-time graph represents displacement.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car moves with a constant acceleration of 3 m/s². If its initial velocity is 2 m/s, what is its velocity after 4 seconds?",
+        "options": {
+            "a": "5 m/s",
+            "b": "8 m/s",
+            "c": "12 m/s",
+            "d": "14 m/s"
+        },
+        "correctAnswer": "d",
+        "explanation": "Velocity v = u + at = 2 + (3 * 4) = 14 m/s.",
+        “module”: 1.1
+    },
+    {
+        "question": "An object is moving with a velocity of 10 m/s. If a constant force acts on it and increases its velocity to 20 m/s in 5 seconds, what is the object’s acceleration?",
+        "options": {
+            "a": "2 m/s²",
+            "b": "4 m/s²",
+            "c": "6 m/s²",
+            "d": "8 m/s²"
+        },
+        "correctAnswer": "a",
+        "explanation": "Acceleration a = (v - u) / t = (20 - 10) / 5 = 2 m/s².",
+        “module”: 1.1
+    },
+    {
+        "question": "The motion of an object is described by the equation s = ut + 1/2 at^2. What does the term 1/2 at^2 represent?",
+        "options": {
+            "a": "Initial displacement",
+            "b": "Final displacement",
+            "c": "Displacement due to acceleration",
+            "d": "Displacement due to initial velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "1/2 at^2 represents the displacement due to acceleration.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following best describes the motion of an object with a constant positive acceleration?",
+        "options": {
+            "a": "Speeding up",
+            "b": "Slowing down",
+            "c": "Moving at a constant speed",
+            "d": "Changing direction"
+        },
+        "correctAnswer": "a",
+        "explanation": "A constant positive acceleration means the object is speeding up.",
+        “module”: 1.1
+    },
+    {
+        "question": "A stone is thrown vertically upwards with a velocity of 20 m/s. What will be its velocity when it returns to the point of projection?",
+        "options": {
+            "a": "20 m/s downwards",
+            "b": "20 m/s upwards",
+            "c": "40 m/s downwards",
+            "d": "0 m/s"
+        },
+        "correctAnswer": "a",
+        "explanation": "The object will return with the same speed it was thrown upwards, but in the opposite direction.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following correctly represents the relationship between final velocity, initial velocity, acceleration, and displacement?",
+        "options": {
+            "a": "v^2 = u^2 + 2as",
+            "b": "s = ut + 1/2 at^2",
+            "c": "v = u + at",
+            "d": "s = (v + u) / 2 * t"
+        },
+        "correctAnswer": "a",
+        "explanation": "This equation relates final velocity, initial velocity, acceleration, and displacement.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car accelerates from rest at a rate of 4 m/s². How long will it take to reach a speed of 24 m/s?",
+        "options": {
+            "a": "4 seconds",
+            "b": "6 seconds",
+            "c": "8 seconds",
+            "d": "10 seconds"
+        },
+        "correctAnswer": "b",
+        "explanation": "Time t = (v - u) / a = (24 - 0) / 4 = 6 s.",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the net displacement of an object that moves 20 m east and then 15 m west?",
+        "options": {
+            "a": "35 m east",
+            "b": "5 m east",
+            "c": "5 m west",
+            "d": "15 m west"
+        },
+        "correctAnswer": "b",
+        "explanation": "Displacement = 20 m - 15 m = 5 m east.",
+        “module”: 1.1
+    },
+    {
+        "question": "If an object covers equal distances in equal intervals of time, its motion is:",
+        "options": {
+            "a": "Accelerated",
+            "b": "Decelerated",
+            "c": "Uniform",
+            "d": "Non-uniform"
+        },
+        "correctAnswer": "c",
+        "explanation": "Equal distances in equal time intervals indicate uniform motion.",
+        “module”: 1.1
+    },
+    {
+        "question": "A ball is dropped from a height of 50 m. Assuming no air resistance, how long will it take to hit the ground? (Use g = 10 m/s²)",
+        "options": {
+            "a": "2 s",
+            "b": "3 s",
+            "c": "4 s",
+            "d": "5 s"
+        },
+        "correctAnswer": "c",
+        "explanation": "Time t = sqrt(2s / g) = sqrt(2 * 50 / 10) = 4 s.",
+        “module”: 1.1
+    },
+    {
+        "question": "The slope of a displacement-time graph gives:",
+        "options": {
+            "a": "Displacement",
+            "b": "Speed",
+            "c": "Velocity",
+            "d": "Acceleration"
+        },
+        "correctAnswer": "c",
+        "explanation": "The slope of a displacement-time graph gives velocity.",
+        “module”: 1.1
+    },
+    {
+        "question": "If the velocity of an object is decreasing, the object is said to be:",
+        "options": {
+            "a": "Accelerating",
+            "b": "Decelerating",
+            "c": "Moving uniformly",
+            "d": "At rest"
+        },
+        "correctAnswer": "b",
+        "explanation": "Decreasing velocity indicates deceleration.",
+        "module":
+
+ 1
+    },
+    {
+        "question": "Which of the following is true for an object moving with uniform acceleration?",
+        "options": {
+            "a": "The acceleration is changing.",
+            "b": "The velocity is changing.",
+            "c": "The displacement is constant.",
+            "d": "The speed is decreasing."
+        },
+        "correctAnswer": "b",
+        "explanation": "Uniform acceleration implies changing velocity.",
+        “module”: 1.1
+    },
+    {
+        "question": "An object moves with a constant speed of 10 m/s for 3 seconds and then with 20 m/s for the next 2 seconds. What is its average speed?",
+        "options": {
+            "a": "12 m/s",
+            "b": "14 m/s",
+            "c": "16 m/s",
+            "d": "18 m/s"
+        },
+        "correctAnswer": "b",
+        "explanation": "Average speed = (total distance / total time) = (10 * 3 + 20 * 2) / (3 + 2) = 14 m/s.",
+        “module”: 1.1
+    },
+    {
+        "question": "If an object accelerates from rest at a rate of 6 m/s², what distance will it cover in 5 seconds?",
+        "options": {
+            "a": "50 m",
+            "b": "75 m",
+            "c": "100 m",
+            "d": "150 m"
+        },
+        "correctAnswer": "b",
+        "explanation": "Displacement s = ut + 1/2 at^2 = 0 + 1/2 * 6 * 5^2 = 75 m.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following conditions must be met for an object to move with constant velocity?",
+        "options": {
+            "a": "The object’s speed must be increasing.",
+            "b": "The object’s direction must be changing.",
+            "c": "The object must have no acceleration.",
+            "d": "The object’s speed must be decreasing."
+        },
+        "correctAnswer": "c",
+        "explanation": "Constant velocity means no acceleration.",
+        “module”: 1.1
+    },
+    {
+        "question": "If a car's velocity-time graph is a horizontal line, the car is:",
+        "options": {
+            "a": "Accelerating",
+            "b": "Decelerating",
+            "c": "Moving with constant velocity",
+            "d": "At rest"
+        },
+        "correctAnswer": "c",
+        "explanation": "A horizontal line on a velocity-time graph indicates constant velocity.",
+        “module”: 1.1
+    },
+    {
+        "question": "A ball is thrown straight up with a speed of 15 m/s. How long will it take to reach its maximum height?",
+        "options": {
+            "a": "0.5 seconds",
+            "b": "1.5 seconds",
+            "c": "2.5 seconds",
+            "d": "3.0 seconds"
+        },
+        "correctAnswer": "b",
+        "explanation": "Time t = v / g = 15 / 10 = 1.5 s.",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following best describes the effect of a constant force acting on a moving object?",
+        "options": {
+            "a": "The object’s velocity remains constant.",
+            "b": "The object’s velocity changes.",
+            "c": "The object’s acceleration is zero.",
+            "d": "The object comes to rest."
+        },
+        "correctAnswer": "b",
+        "explanation": "A constant force on a moving object changes its velocity.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car accelerates from rest and reaches a speed of 40 m/s in 8 seconds. What is its acceleration?",
+        "options": {
+            "a": "2 m/s²",
+            "b": "4 m/s²",
+            "c": "5 m/s²",
+            "d": "6 m/s²"
+        },
+        "correctAnswer": "b",
+        "explanation": "Acceleration a = (v - u) / t = (40 - 0) / 8 = 4 m/s².",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following is a characteristic of uniformly accelerated motion?",
+        "options": {
+            "a": "Constant speed",
+            "b": "Constant acceleration",
+            "c": "Changing direction",
+            "d": "Decreasing velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "Uniformly accelerated motion implies constant acceleration.",
+        “module”: 1.1
+    },
+    {
+        "question": "An object starts from rest and accelerates uniformly at 3 m/s² for 10 seconds. What is the distance traveled by the object?",
+        "options": {
+            "a": "50 m",
+            "b": "100 m",
+            "c": "150 m",
+            "d": "200 m"
+        },
+        "correctAnswer": "c",
+        "explanation": "Displacement s = ut + 1/2 at^2 = 0 + 1/2 * 3 * 10^2 = 150 m.",
+        “module”: 1.1
+    },
+    {
+        "question": "If the velocity of an object changes from 15 m/s to 25 m/s in 5 seconds, what is its average acceleration?",
+        "options": {
+            "a": "1 m/s²",
+            "b": "2 m/s²",
+            "c": "3 m/s²",
+            "d": "4 m/s²"
+        },
+        "correctAnswer": "b",
+        "explanation": "Average acceleration a = (v - u) / t = (25 - 15) / 5 = 2 m/s².",
+        “module”: 1.1
+    },
+    {
+        "question": "Which of the following is true for an object moving with uniform velocity?",
+        "options": {
+            "a": "The object’s acceleration is constant.",
+            "b": "The object’s displacement is changing.",
+            "c": "The object’s speed is increasing.",
+            "d": "The object’s direction is changing."
+        },
+        "correctAnswer": "b",
+        "explanation": "Uniform velocity means constant displacement over time.",
+        “module”: 1.1
+    },
+    {
+        "question": "A car moving with a speed of 20 m/s comes to a stop in 4 seconds. What is the car’s acceleration?",
+        "options": {
+            "a": "-5 m/s²",
+            "b": "-10 m/s²",
+            "c": "-15 m/s²",
+            "d": "-20 m/s²"
+        },
+        "correctAnswer": "a",
+        "explanation": "Acceleration a = (v - u) / t = (0 - 20) / 4 = -5 m/s².",
+        “module”: 1.1
+    },
+    {
+        "question": "The area under an acceleration-time graph represents:",
+        "options": {
+            "a": "Acceleration",
+            "b": "Velocity",
+            "c": "Displacement",
+            "d": "Speed"
+        },
+        "correctAnswer": "b",
+        "explanation": "The area under an acceleration-time graph represents velocity.",
+        “module”: 1.1
+    },
+    {
+        "question": "What is the resultant vector when two perpendicular vectors of 3 units and 4 units are added?",
+        "options": {
+            "a": "5 units",
+            "b": "7 units",
+            "c": "1 unit",
+            "d": "9 units"
+        },
+        "correctAnswer": "a",
+        "explanation": "The magnitude of the resultant vector can be found using the Pythagorean theorem: √(3^2 + 4^2) = 5 units.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following best represents the method to resolve a vector into two perpendicular components?",
+        "options": {
+            "a": "Subtraction",
+            "b": "Multiplication",
+            "c": "Addition",
+            "d": "Trigonometry"
+        },
+        "correctAnswer": "d",
+        "explanation": "Trigonometry is used to resolve a vector into its horizontal and vertical components.",
+        "module": "1.2"
+    },
+    {
+        "question": "When analyzing the motion of an object on a horizontal plane, which of the following quantities is a scalar?",
+        "options": {
+            "a": "Velocity",
+            "b": "Displacement",
+            "c": "Speed",
+            "d": "Acceleration"
+        },
+        "correctAnswer": "c",
+        "explanation": "Speed is a scalar quantity as it only has magnitude, not direction.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which method is used to represent the displacement of an object in two-dimensional motion?",
+        "options": {
+            "a": "Vector addition",
+            "b": "Scalar addition",
+            "c": "Vector subtraction",
+            "d": "Scalar subtraction"
+        },
+        "correctAnswer": "a",
+        "explanation": "Displacement in two dimensions is represented using vector addition.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the magnitude of the resultant vector if two vectors of equal magnitude are added at a 90-degree angle?",
+        "options": {
+            "a": "Equal to one of the vectors",
+            "b": "Half of one of the vectors",
+            "c": "Twice one of the vectors",
+            "d": "The square root of the sum of the squares of the two vectors"
+        },
+        "correctAnswer": "d",
+        "explanation": "For two vectors at a right angle, the magnitude of the resultant vector is found using the Pythagorean theorem.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the angle between two vectors if their resultant vector is zero?",
+        "options": {
+            "a": "0 degrees",
+            "b": "90 degrees",
+            "c": "180 degrees",
+            "d": "270 degrees"
+        },
+        "correctAnswer": "c",
+        "explanation": "The angle between two vectors is 180 degrees if their resultant is zero, indicating they are in opposite directions.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following quantities can be represented using vector addition?",
+        "options": {
+            "a": "Mass",
+            "b": "Time",
+            "c": "Displacement",
+            "d": "Temperature"
+        },
+        "correctAnswer": "c",
+        "explanation": "Displacement is a vector quantity and can be represented using vector addition.",
+        "module": "1.2"
+    },
+    {
+        "question": "The horizontal and vertical components of a vector can be calculated using which trigonometric functions?",
+        "options": {
+            "a": "Sine and cosine",
+            "b": "Tangent and cotangent",
+            "c": "Secant and cosecant",
+            "d": "Sine and tangent"
+        },
+        "correctAnswer": "a",
+        "explanation": "The horizontal and vertical components of a vector are calculated using cosine and sine, respectively.",
+        "module": "1.2"
+    },
+    {
+        "question": "When two vectors are added, their resultant is maximum when the angle between them is:",
+        "options": {
+            "a": "0 degrees",
+            "b": "90 degrees",
+            "c": "180 degrees",
+            "d": "270 degrees"
+        },
+        "correctAnswer": "a",
+        "explanation": "The resultant is maximum when the angle between the vectors is 0 degrees (i.e., when they are in the same direction).",
+        "module": "1.2"
+    },
+    {
+        "question": "The magnitude of the resultant vector of two perpendicular vectors can be found using:",
+        "options": {
+            "a": "Pythagorean theorem",
+            "b": "Law of sines",
+            "c": "Law of cosines",
+            "d": "Vector subtraction"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Pythagorean theorem is used to find the magnitude of the resultant vector of two perpendicular vectors.",
+        "module": "1.2"
+    },
+    {
+        "question": "In vector addition, the commutative property means:",
+        "options": {
+            "a": "The order of addition does not change the resultant vector",
+            "b": "The resultant vector depends on the order of addition",
+            "c": "Vectors cannot be added in any order",
+            "d": "Vectors must be added in a specific sequence"
+        },
+        "correctAnswer": "a",
+        "explanation": "The commutative property states that the order of addition does not change the resultant vector.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following represents the process of resolving a vector into its components?",
+        "options": {
+            "a": "Breaking it down into perpendicular parts",
+            "b": "Combining it with another vector",
+            "c": "Reversing its direction",
+            "d": "Doubling its magnitude"
+        },
+        "correctAnswer": "a",
+        "explanation": "Resolving a vector into components involves breaking it down into perpendicular parts.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the magnitude of the vector that results from adding two vectors of magnitudes 5 units and 12 units at a right angle?",
+        "options": {
+            "a": "10 units",
+            "b": "7 units",
+            "c": "17 units",
+            "d": "13 units"
+        },
+        "correctAnswer": "d",
+        "explanation": "The magnitude of the resultant vector is √(5^2 + 12^2) = 13 units.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which trigonometric function is used to calculate the horizontal component of a vector?",
+        "options": {
+            "a": "Cosine",
+            "b": "Sine",
+            "c": "Tangent",
+            "d": "Cotangent"
+        },
+        "correctAnswer": "a",
+        "explanation": "The cosine function is used to calculate the horizontal component of a vector.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which trigonometric function is used to calculate the vertical component of a vector?",
+        "options": {
+            "a": "Sine",
+            "b": "Cosine",
+            "c": "Tangent",
+            "d": "Secant"
+        },
+        "correctAnswer": "a",
+        "explanation": "The sine function is used to calculate the vertical component of a vector.",
+        "module": "1.2"
+    },
+    {
+        "question": "When two vectors are added, their resultant is minimum when the angle between them is:",
+        "options": {
+            "a": "0 degrees",
+            "b": "90 degrees",
+            "c": "180 degrees",
+            "d": "270 degrees"
+        },
+        "correctAnswer": "c",
+        "explanation": "The resultant vector is minimum when the angle between the vectors is 180 degrees.",
+        "module": "1.2"
+    },
+    {
+        "question": "If a vector is resolved into two components along the x and y axes, the original vector can be reconstructed by:",
+        "options": {
+            "a": "Adding the components using vector addition",
+            "b": "Subtracting the components",
+            "c": "Multiplying the components",
+            "d": "Dividing the components"
+        },
+        "correctAnswer": "a",
+        "explanation": "The original vector can be reconstructed by adding its components using vector addition.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the angle between two vectors if their scalar product is zero?",
+        "options": {
+            "a": "0 degrees",
+            "b": "45 degrees",
+            "c": "90 degrees",
+            "d": "180 degrees"
+        },
+        "correctAnswer": "c",
+        "explanation": "The scalar product (dot product) of two vectors is zero when the angle between them is 90 degrees.",
+        "module": "1.2"
+    },
+    {
+        "
+
+question": "When resolving a vector into components, the magnitude of the components is dependent on:",
+        "options": {
+            "a": "The angle with respect to the axis",
+            "b": "The magnitude of the original vector",
+            "c": "The direction of the original vector",
+            "d": "All of the above"
+        },
+        "correctAnswer": "d",
+        "explanation": "The magnitude of the components depends on the angle with respect to the axis, the magnitude of the original vector, and its direction.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following is true when adding vectors using the triangle method?",
+        "options": {
+            "a": "The vectors are placed head to tail",
+            "b": "The vectors are placed tail to tail",
+            "c": "The vectors are placed head to head",
+            "d": "The vectors are placed tail to head"
+        },
+        "correctAnswer": "a",
+        "explanation": "In the triangle method, vectors are placed head to tail for addition.",
+        "module": "1.2"
+    },
+    {
+        "question": "A boat crosses a river flowing at 3 m/s at an angle of 30 degrees to the flow. What is the component of the boat's velocity parallel to the river flow?",
+        "options": {
+            "a": "3 m/s",
+            "b": "2.6 m/s",
+            "c": "1.5 m/s",
+            "d": "1 m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "The component of the boat's velocity parallel to the river flow is 3 × cos(30°) ≈ 1.5 m/s.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the relative velocity of two cars moving towards each other at 20 m/s and 30 m/s, respectively?",
+        "options": {
+            "a": "10 m/s",
+            "b": "20 m/s",
+            "c": "30 m/s",
+            "d": "50 m/s"
+        },
+        "correctAnswer": "d",
+        "explanation": "The relative velocity of two objects moving towards each other is the sum of their velocities.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the displacement of an object moving 4 m east and then 3 m north?",
+        "options": {
+            "a": "5 m northeast",
+            "b": "7 m northeast",
+            "c": "1 m northeast",
+            "d": "4 m northeast"
+        },
+        "correctAnswer": "a",
+        "explanation": "The displacement is the hypotenuse of a right triangle with sides 4 m and 3 m, calculated as √(4^2 + 3^2) = 5 m.",
+        "module": "1.2"
+    },
+    {
+        "question": "The direction of the resultant vector in a vector addition can be found using:",
+        "options": {
+            "a": "Inverse tangent",
+            "b": "Inverse sine",
+            "c": "Inverse cosine",
+            "d": "Direct multiplication"
+        },
+        "correctAnswer": "a",
+        "explanation": "The direction of the resultant vector can be found using the inverse tangent function.",
+        "module": "1.2"
+    },
+    {
+        "question": "If two vectors of equal magnitude are added at an angle of 120 degrees, what is the magnitude of the resultant vector?",
+        "options": {
+            "a": "Equal to one of the vectors",
+            "b": "Half of one of the vectors",
+            "c": "Twice one of the vectors",
+            "d": "The sum of the vectors"
+        },
+        "correctAnswer": "a",
+        "explanation": "When two vectors of equal magnitude are added at an angle of 120 degrees, the magnitude of the resultant is equal to the magnitude of one of the vectors.",
+        "module": "1.2"
+    },
+    {
+        "question": "When adding two vectors using the parallelogram method, the resultant vector is represented by:",
+        "options": {
+            "a": "The diagonal of the parallelogram",
+            "b": "The sum of the magnitudes of the vectors",
+            "c": "The difference of the magnitudes of the vectors",
+            "d": "The product of the magnitudes of the vectors"
+        },
+        "correctAnswer": "a",
+        "explanation": "The resultant vector in the parallelogram method is represented by the diagonal of the parallelogram.",
+        "module": "1.2"
+    },
+    {
+        "question": "A plane is flying with a velocity of 200 m/s east, and there is a wind blowing at 50 m/s north. What is the resultant velocity of the plane?",
+        "options": {
+            "a": "150 m/s",
+            "b": "250 m/s",
+            "c": "200 m/s",
+            "d": "210 m/s"
+        },
+        "correctAnswer": "d",
+        "explanation": "The resultant velocity is found using the Pythagorean theorem: √(200^2 + 50^2) = 210 m/s.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the magnitude of the resultant vector of two vectors, each with a magnitude of 10 units, at an angle of 120 degrees?",
+        "options": {
+            "a": "5 units",
+            "b": "10 units",
+            "c": "15 units",
+            "d": "20 units"
+        },
+        "correctAnswer": "a",
+        "explanation": "The magnitude of the resultant vector is √(10^2 + 10^2 × cos(120°)) ≈ 5 units.",
+        "module": "1.2"
+    },
+    {
+        "question": "When two vectors are subtracted, the magnitude of the resultant is minimum when the angle between them is:",
+        "options": {
+            "a": "0 degrees",
+            "b": "90 degrees",
+            "c": "180 degrees",
+            "d": "270 degrees"
+        },
+        "correctAnswer": "c",
+        "explanation": "The magnitude of the resultant vector is minimum when the angle between the vectors is 180 degrees.",
+        "module": "1.2"
+    },
+    {
+        "question": "The graphical representation of vectors can be used to analyze:",
+        "options": {
+            "a": "Displacement",
+            "b": "Force",
+            "c": "Velocity",
+            "d": "All of the above"
+        },
+        "correctAnswer": "d",
+        "explanation": "Graphical representation of vectors can be used to analyze displacement, force, and velocity.",
+        "module": "1.2"
+    },
+    {
+        "question": "In two-dimensional motion, the displacement vector is calculated by:",
+        "options": {
+            "a": "Vector addition of the components",
+            "b": "Scalar multiplication of the components",
+            "c": "Vector subtraction of the components",
+            "d": "Scalar division of the components"
+        },
+        "correctAnswer": "a",
+        "explanation": "The displacement vector in two-dimensional motion is calculated by vector addition of the components.",
+        "module": "1.2"
+    },
+    {
+        "question": "The magnitude of the resultant vector is equal to the sum of the magnitudes of the two vectors when:",
+        "options": {
+            "a": "The vectors are in the same direction",
+            "b": "The vectors are in opposite directions",
+            "c": "The vectors are perpendicular",
+            "d": "The vectors are at a 45-degree angle"
+        },
+        "correctAnswer": "a",
+        "explanation": "The magnitude of the resultant vector is equal to the sum of the magnitudes of the two vectors when they are in the same direction.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following describes the motion of a boat in a river with a current?",
+        "options": {
+            "a": "The boat's velocity is the sum of its speed and the current's speed",
+            "b": "The boat's velocity is the vector sum of its velocity and the current's velocity",
+            "c": "The boat's velocity is the difference between its speed and the current's speed",
+            "d": "The boat's velocity is unaffected by the current's velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "The boat's velocity is the vector sum of its velocity and the current's velocity.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the resultant of two vectors if they are perpendicular and have magnitudes of 8 units and 6 units?",
+        "options": {
+            "a": "10 units",
+            "b": "14 units",
+            "c": "2 units",
+            "d": "1 unit"
+        },
+        "correctAnswer": "a",
+        "explanation": "The magnitude of the resultant vector of two perpendicular vectors is √(8^2 + 6^2) = 10 units.",
+        "module": "1.2"
+    },
+    {
+        "question": "If a vector is multiplied by a scalar, the resultant vector will:",
+        "options": {
+
+
+            "a": "Have the same direction but a different magnitude",
+            "b": "Have a different direction and magnitude",
+            "c": "Have the same magnitude but a different direction",
+            "d": "Remain unchanged"
+        },
+        "correctAnswer": "a",
+        "explanation": "When a vector is multiplied by a scalar, the magnitude changes but the direction remains the same.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following is true for a vector with components of equal magnitude?",
+        "options": {
+            "a": "It forms a 45-degree angle with the axes",
+            "b": "It forms a 90-degree angle with the axes",
+            "c": "It forms a 60-degree angle with the axes",
+            "d": "It forms a 30-degree angle with the axes"
+        },
+        "correctAnswer": "a",
+        "explanation": "If the components of a vector are of equal magnitude, it forms a 45-degree angle with the axes.",
+        "module": "1.2"
+    },
+    {
+        "question": "The angle between two vectors can be found using:",
+        "options": {
+            "a": "The dot product",
+            "b": "The cross product",
+            "c": "Vector addition",
+            "d": "Scalar multiplication"
+        },
+        "correctAnswer": "a",
+        "explanation": "The angle between two vectors can be found using the dot product formula.",
+        "module": "1.2"
+    },
+    {
+        "question": "If the magnitude of a vector is doubled, what happens to the magnitude of its components?",
+        "options": {
+            "a": "The magnitude of the components also doubles",
+            "b": "The magnitude of the components is halved",
+            "c": "The magnitude of the components remains the same",
+            "d": "The magnitude of the components quadruples"
+        },
+        "correctAnswer": "a",
+        "explanation": "If the magnitude of a vector is doubled, the magnitude of its components also doubles.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the angle between two vectors if their vector product is maximum?",
+        "options": {
+            "a": "0 degrees",
+            "b": "45 degrees",
+            "c": "90 degrees",
+            "d": "180 degrees"
+        },
+        "correctAnswer": "c",
+        "explanation": "The vector product (cross product) is maximum when the angle between the vectors is 90 degrees.",
+        "module": "1.2"
+    },
+    {
+        "question": "Which of the following is an example of vector multiplication?",
+        "options": {
+            "a": "Force and displacement",
+            "b": "Mass and acceleration",
+            "c": "Distance and time",
+            "d": "Speed and velocity"
+        },
+        "correctAnswer": "a",
+        "explanation": "Force and displacement are examples of vector multiplication.",
+        "module": "1.2"
+    },
+    {
+        "question": "If a vector A is added to vector B, the resultant vector R is:",
+        "options": {
+            "a": "The sum of A and B",
+            "b": "The difference between A and B",
+            "c": "The product of A and B",
+            "d": "The quotient of A and B"
+        },
+        "correctAnswer": "a",
+        "explanation": "The resultant vector R is the sum of vectors A and B.",
+        "module": "1.2"
+    },
+    {
+        "question": "When two vectors are equal in magnitude but opposite in direction, their resultant is:",
+        "options": {
+            "a": "Equal to twice the magnitude of one vector",
+            "b": "Equal to half the magnitude of one vector",
+            "c": "Equal to zero",
+            "d": "Equal to the magnitude of one vector"
+        },
+        "correctAnswer": "c",
+        "explanation": "When two vectors of equal magnitude are in opposite directions, their resultant is zero.",
+        "module": "1.2"
+    },
+    {
+        "question": "What happens to the resultant vector if two vectors are added at an angle greater than 90 degrees but less than 180 degrees?",
+        "options": {
+            "a": "The resultant vector is less than the sum of the magnitudes of the two vectors",
+            "b": "The resultant vector is greater than the sum of the magnitudes of the two vectors",
+            "c": "The resultant vector is equal to the sum of the magnitudes of the two vectors",
+            "d": "The resultant vector is zero"
+        },
+        "correctAnswer": "a",
+        "explanation": "When two vectors are added at an angle greater than 90 degrees but less than 180 degrees, the resultant is less than the sum of their magnitudes.",
+        "module": "1.2"
+    },
+    {
+        "question": "A vector can be fully described by:",
+        "options": {
+            "a": "Its magnitude and direction",
+            "b": "Its magnitude only",
+            "c": "Its direction only",
+            "d": "Its position only"
+        },
+        "correctAnswer": "a",
+        "explanation": "A vector is fully described by its magnitude and direction.",
+        "module": "1.2"
+    },
+    {
+        "question": "When two vectors of different magnitudes are added, the magnitude of the resultant vector is:",
+        "options": {
+            "a": "Always equal to the sum of the magnitudes of the two vectors",
+            "b": "Always less than the sum of the magnitudes of the two vectors",
+            "c": "Always greater than the sum of the magnitudes of the two vectors",
+            "d": "Equal to the difference of the magnitudes of the two vectors"
+        },
+        "correctAnswer": "b",
+        "explanation": "The magnitude of the resultant vector is less than the sum of the magnitudes of the two vectors unless they are in the same direction.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the result of adding two vectors that are in the same direction?",
+        "options": {
+            "a": "The resultant vector has a magnitude equal to the sum of the two vectors",
+            "b": "The resultant vector has a magnitude equal to the difference of the two vectors",
+            "c": "The resultant vector has a magnitude equal to the product of the two vectors",
+            "d": "The resultant vector has a magnitude equal to the quotient of the two vectors"
+        },
+        "correctAnswer": "a",
+        "explanation": "When two vectors are in the same direction, the magnitude of the resultant vector is equal to the sum of the two vectors.",
+        "module": "1.2"
+    },
+    {
+        "question": "When two vectors are perpendicular, the angle between them is:",
+        "options": {
+            "a": "0 degrees",
+            "b": "45 degrees",
+            "c": "90 degrees",
+            "d": "180 degrees"
+        },
+        "correctAnswer": "c",
+        "explanation": "The angle between two perpendicular vectors is 90 degrees.",
+        "module": "1.2"
+    },
+    {
+        "question": "The direction of a vector is described by:",
+        "options": {
+            "a": "The angle it makes with a reference axis",
+            "b": "Its magnitude only",
+            "c": "The length of the vector",
+            "d": "The direction of the x-axis"
+        },
+        "correctAnswer": "a",
+        "explanation": "The direction of a vector is described by the angle it makes with a reference axis.",
+        "module": "1.2"
+    },
+    {
+        "question": "What is the magnitude of the resultant vector if two vectors of 5 units and 12 units are added at an angle of 90 degrees?",
+        "options": {
+            "a": "10 units",
+            "b": "7 units",
+            "c": "17 units",
+            "d": "13 units"
+        },
+        "correctAnswer": "d",
+        "explanation": "The magnitude of the resultant vector is √(5^2 + 12^2) = 13 units.",
+        "module": "1.2"
+    },
+    {
+        "question": "When adding vectors using the parallelogram method, the resultant vector is:",
+        "options": {
+            "a": "The diagonal of the parallelogram formed by the two vectors",
+            "b": "The sum of the magnitudes of the vectors",
+            "c": "The difference between the magnitudes of the vectors",
+            "d": "The perpendicular bisector of the parallelogram"
+        },
+        "correctAnswer": "a",
+        "explanation": "The resultant vector in the parallelogram method is represented by the diagonal of the parallelogram formed by the two vectors.",
+        "module": "1.2"
+    }
 ]
