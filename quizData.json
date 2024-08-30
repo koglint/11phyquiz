@@ -1198,5 +1198,607 @@
         "correctAnswer": "a",
         "explanation": "The resultant vector in the parallelogram method is represented by the diagonal of the parallelogram formed by the two vectors.",
         "module": "1.2"
+    },
+
+    {
+        "question": "Which of the following statements is true about Newton's First Law of Motion?",
+        "options": {
+            "a": "An object at rest will stay at rest unless acted upon by an unbalanced force.",
+            "b": "An object in motion will stay in motion unless acted upon by a balanced force.",
+            "c": "An object at rest will stay at rest unless acted upon by a balanced force.",
+            "d": "An object in motion will stay in motion unless acted upon by an unbalanced force."
+        },
+        "correctAnswer": "a",
+        "explanation": "Newton's First Law states that an object at rest stays at rest, and an object in motion stays in motion with the same speed and in the same direction unless acted upon by an unbalanced force.",
+        "module": "2.1"
+    },
+    {
+        "question": "The force required to maintain an object at a constant velocity in space is:",
+        "options": {
+            "a": "Equal to the object's weight",
+            "b": "Equal to the object's mass",
+            "c": "Zero",
+            "d": "Equal to the force of gravity on the object"
+        },
+        "correctAnswer": "c",
+        "explanation": "In space, with no friction or other forces acting, no force is needed to maintain an object's constant velocity.",
+        "module": "2.1"
+    },
+    {
+        "question": "According to Newton’s Second Law, the acceleration of an object is:",
+        "options": {
+            "a": "Directly proportional to the force applied and inversely proportional to its mass",
+            "b": "Directly proportional to its mass and inversely proportional to the force applied",
+            "c": "Inversely proportional to both its mass and the force applied",
+            "d": "Independent of both mass and force"
+        },
+        "correctAnswer": "a",
+        "explanation": "Newton's Second Law (F = ma) states that acceleration is directly proportional to the net force acting on an object and inversely proportional to its mass.",
+        "module": "2.1"
+    },
+    {
+        "question": "If the net force acting on an object is zero, which of the following must be true?",
+        "options": {
+            "a": "The object is at rest",
+            "b": "The object is moving with a constant speed in a straight line",
+            "c": "The object is accelerating",
+            "d": "The object is decelerating"
+        },
+        "correctAnswer": "b",
+        "explanation": "If the net force on an object is zero, it will either remain at rest or continue moving at a constant velocity in a straight line.",
+        "module": "2.1"
+    },
+    {
+        "question": "What is the unit of force in the SI system?",
+        "options": {
+            "a": "Kilogram",
+            "b": "Newton",
+            "c": "Joule",
+            "d": "Meter per second squared"
+        },
+        "correctAnswer": "b",
+        "explanation": "The SI unit of force is the newton (N).",
+        "module": "2.1"
+    },
+    {
+        "question": "A 5 kg object is acted upon by a net force of 20 N. What is its acceleration?",
+        "options": {
+            "a": "4 m/s²",
+            "b": "0.25 m/s²",
+            "c": "20 m/s²",
+            "d": "100 m/s²"
+        },
+        "correctAnswer": "a",
+        "explanation": "Using Newton's Second Law, acceleration a = F/m = 20 N / 5 kg = 4 m/s².",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following represents the correct relationship between mass and weight?",
+        "options": {
+            "a": "Weight is mass times velocity",
+            "b": "Weight is mass times acceleration due to gravity",
+            "c": "Weight is mass times the force applied",
+            "d": "Weight is mass times acceleration"
+        },
+        "correctAnswer": "b",
+        "explanation": "Weight is the force due to gravity and is calculated as the product of mass and the acceleration due to gravity (W = mg).",
+        "module": "2.1"
+    },
+    {
+        "question": "If an object is moving with uniform circular motion, its acceleration is:",
+        "options": {
+            "a": "Zero",
+            "b": "Directed towards the center of the circle",
+            "c": "Directed away from the center of the circle",
+            "d": "Tangent to the circle"
+        },
+        "correctAnswer": "b",
+        "explanation": "In uniform circular motion, acceleration is always directed towards the center of the circle (centripetal acceleration).",
+        "module": "2.1"
+    },
+    {
+        "question": "What happens to the acceleration of an object if the net force acting on it is doubled?",
+        "options": {
+            "a": "It is halved",
+            "b": "It remains the same",
+            "c": "It doubles",
+            "d": "It quadruples"
+        },
+        "correctAnswer": "c",
+        "explanation": "According to Newton's Second Law (F = ma), if the net force is doubled, the acceleration doubles, assuming mass remains constant.",
+        "module": "2.1"
+    },
+    {
+        "question": "A car of mass 1000 kg is moving with a velocity of 20 m/s. What is its momentum?",
+        "options": {
+            "a": "500 kg·m/s",
+            "b": "1000 kg·m/s",
+            "c": "20000 kg·m/s",
+            "d": "200000 kg·m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "Momentum is calculated as the product of mass and velocity: p = mv = 1000 kg × 20 m/s = 20000 kg·m/s.",
+        "module": "2.1"
+    },
+    {
+        "question": "What is the action-reaction pair according to Newton's Third Law?",
+        "options": {
+            "a": "The force of gravity acting on an object and the normal force acting on the object",
+            "b": "The force exerted by an object and the force exerted by the surface on which it rests",
+            "c": "The force an object exerts on the ground and the force the ground exerts on the object",
+            "d": "The force of friction and the force of gravity"
+        },
+        "correctAnswer": "c",
+        "explanation": "Newton's Third Law states that for every action, there is an equal and opposite reaction. The action-reaction pair is the force the object exerts on the ground and the force the ground exerts on the object.",
+        "module": "2.1"
+    },
+    {
+        "question": "A car accelerates from rest to 30 m/s in 10 seconds. What is its average acceleration?",
+        "options": {
+            "a": "1 m/s²",
+            "b": "2 m/s²",
+            "c": "3 m/s²",
+            "d": "6 m/s²"
+        },
+        "correctAnswer": "c",
+        "explanation": "Average acceleration a = (v - u)/t = (30 m/s - 0 m/s) / 10 s = 3 m/s².",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following forces acts perpendicular to the surface of an object?",
+        "options": {
+            "a": "Tension",
+            "b": "Friction",
+            "c": "Normal force",
+            "d": "Weight"
+        },
+        "correctAnswer": "c",
+        "explanation": "The normal force acts perpendicular to the surface of an object in contact with another surface.",
+        "module": "2.1"
+    },
+    {
+        "question": "If the force on an object is doubled, what happens to its acceleration?",
+        "options": {
+            "a": "It is halved",
+            "b": "It remains unchanged",
+            "c": "It doubles",
+            "d": "It quadruples"
+        },
+        "correctAnswer": "c",
+        "explanation": "According to Newton's Second Law (F = ma), if the force is doubled, the acceleration doubles, assuming mass remains constant.",
+        "module": "2.1"
+    },
+    {
+        "question": "A force of 15 N is applied to a 5 kg object. What is the object’s acceleration?",
+        "options": {
+            "a": "3 m/s²",
+            "b": "10 m/s²",
+            "c": "15 m/s²",
+            "d": "75 m/s²"
+        },
+        "correctAnswer": "a",
+        "explanation": "Using Newton's Second Law, acceleration a = F/m = 15 N / 5 kg = 3 m/s².",
+        "module": "2.1"
+    },
+    {
+        "question": "An object is in free fall. Which of the following is true?",
+        "options": {
+            "a": "It is moving at a constant velocity",
+            "b": "It is not accelerating",
+            "c": "Its velocity is increasing at a constant rate",
+            "d": "It has zero net force acting on it"
+        },
+        "correctAnswer": "c",
+        "explanation": "In free fall, the object is accelerating due to gravity, which causes its velocity to increase at a constant rate.",
+        "module": "2.1"
+    },
+    {
+        "question": "What is the gravitational force acting on a 10 kg mass near the surface of the Earth?",
+        "options": {
+            "a": "10 N",
+            "b": "98 N",
+            "c": "100 N",
+            "d": "9.8 N"
+        },
+        "correctAnswer": "b",
+        "explanation": "Gravitational force is calculated using F = mg = 10 kg × 9.8 m/s² = 98 N.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following is an example of Newton’s Third Law of Motion?",
+        "options": {
+            "a": "A book resting on a table",
+            "b": "A car accelerating on a road",
+            "c": "A rocket launching into space",
+            "d": "A ball rolling down a hill"
+        },
+        "correctAnswer": "c",
+        "explanation": "Newton's Third Law is exemplified by a rocket launching, where the action is the expulsion of gas downwards, and the reaction is the rocket moving upwards.",
+        "module": "2.1"
+    },
+    {
+        "question": "In which direction does the frictional force act relative to the direction of motion?",
+        "options": {
+            "a": "Perpendicular to the direction of motion",
+            "b": "In the same direction as the motion",
+            "c": "Opposite to the direction of motion",
+            "d": "In a random direction"
+        },
+        "correctAnswer": "c",
+        "explanation": "Frictional force always acts opposite to the direction of motion.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following is a scalar quantity?",
+        "options": {
+            "a": "Force",
+            "b": "Velocity",
+            "c": "Acceleration",
+            "d": "Mass"
+        },
+        "correctAnswer": "d",
+        "explanation": "Mass is a scalar quantity because it has magnitude but no direction.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following factors does not affect the magnitude of friction?",
+        "options": {
+            "a": "The roughness of the surfaces",
+            "b": "The normal force between the surfaces",
+            "c": "The area of contact between the surfaces",
+            "d": "The speed of the object"
+        },
+        "correctAnswer": "d",
+        "explanation": "The magnitude of friction depends on the normal force and the roughness of the surfaces but is independent of the speed of the object.",
+        "module": "2.1"
+    },
+    {
+        "question": "A 10 N force is applied to an object, and it moves 5 meters in the direction of the force. What is the work done?",
+        "options": {
+            "a": "5 J",
+            "b": "10 J",
+            "c": "50 J",
+            "d": "500 J"
+        },
+        "correctAnswer": "c",
+        "explanation": "Work is calculated as the product of force and distance: W = F × d = 10 N × 5 m = 50 J.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following statements is true about inertia?",
+        "options": {
+            "a": "Inertia is the tendency of an object to change its state of motion",
+            "b": "Inertia is the force that keeps an object moving in a straight line",
+            "c": "Inertia is the resistance of an object to any change in its motion",
+            "d": "Inertia is the acceleration of an object due to a force"
+        },
+        "correctAnswer": "c",
+        "explanation": "Inertia is the property of matter that resists changes in motion.",
+        "module": "2.1"
+    },
+    {
+        "question": "The force that opposes the relative motion between two surfaces in contact is called:",
+        "options": {
+            "a": "Tension",
+            "b": "Friction",
+            "c": "Normal force",
+            "d": "Applied force"
+        },
+        "correctAnswer": "b",
+        "explanation": "Friction is the force that resists the relative motion or tendency to such motion of two surfaces in contact.",
+        "module": "2.1"
+    },
+    {
+        "question": "According to Newton’s Second Law, if the same force is applied to two objects of different masses, which will have a greater acceleration?",
+        "options": {
+            "a": "The object with the greater mass",
+            "b": "The object with the smaller mass",
+            "c": "Both will have the same acceleration",
+            "d": "The acceleration cannot be determined from the information given"
+        },
+        "correctAnswer": "b",
+        "explanation": "The object with the smaller mass will have a greater acceleration, as acceleration is inversely proportional to mass.",
+        "module": "2.1"
+    },
+    {
+        "question": "What is the acceleration due to gravity on the surface of the Earth?",
+        "options": {
+            "a": "9.8 m/s²",
+            "b": "9.8 m/s",
+            "c": "10 m/s",
+            "d": "9.8 N"
+        },
+        "correctAnswer": "a",
+        "explanation": "The acceleration due to gravity on Earth is approximately 9.8 m/s².",
+        "module": "2.1"
+    },
+    {
+        "question": "If an object is at rest, what can be said about the forces acting on it?",
+        "options": {
+            "a": "The forces are unbalanced",
+            "b": "The net force is zero",
+            "c": "The object must be accelerating",
+            "d": "The object must be decelerating"
+        },
+        "correctAnswer": "b",
+        "explanation": "If an object is at rest and remains at rest, the forces acting on it must be balanced, resulting in a net force of zero.",
+        "module": "2.1"
+    },
+    {
+        "question": "A 2 kg object is subjected to a force of 6 N. What is its acceleration?",
+        "options": {
+            "a": "1 m/s²",
+            "b": "2 m/s²",
+            "c": "3 m/s²",
+            "d": "4 m/s²"
+        },
+        "correctAnswer": "c",
+        "explanation": "Using Newton's Second Law, acceleration a = F/m = 6 N / 2 kg = 3 m/s².",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following represents the relationship between mass (m), acceleration (a), and force (F)?",
+        "options": {
+            "a": "F = ma",
+            "b": "F = m/a",
+            "c": "F = a/m",
+            "d": "F = m + a"
+        },
+        "correctAnswer": "a",
+        "explanation": "Newton's Second Law states that force equals mass times acceleration (F = ma).",
+        "module": "2.1"
+    },
+    {
+        "question": "The force required to stop a moving object is directly proportional to:",
+        "options": {
+            "a": "Its speed",
+            "b": "Its mass",
+            "c": "Its acceleration",
+            "d": "Its velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "The force required to stop a moving object is proportional to its mass, according to Newton's Second Law (F = ma).",
+        "module": "2.1"
+    },
+    {
+        "question": "What happens to the inertia of an object as its mass increases?",
+        "options": {
+            "a": "It decreases",
+            "b": "It remains the same",
+            "c": "It increases",
+            "d": "It becomes zero"
+        },
+        "correctAnswer": "c",
+        "explanation": "Inertia is directly proportional to mass; as mass increases, inertia also increases.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following is an example of a contact force?",
+        "options": {
+            "a": "Gravitational force",
+            "b": "Magnetic force",
+            "c": "Frictional force",
+            "d": "Electrostatic force"
+        },
+        "correctAnswer": "c",
+        "explanation": "Frictional force is a contact force because it arises from the interaction between surfaces in contact.",
+        "module": "2.1"
+    },
+    {
+        "question": "If the velocity of an object doubles, what happens to its kinetic energy?",
+        "options": {
+            "a": "It doubles",
+            "b": "It quadruples",
+            "c": "It halves",
+            "d": "It remains the same"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kinetic energy is proportional to the square of velocity, so if velocity doubles, kinetic energy quadruples.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following best describes terminal velocity?",
+        "options": {
+            "a": "The constant speed that a freely falling object eventually reaches",
+            "b": "The speed at which an object begins to fall",
+            "c": "The speed at which the force of gravity is greater than the air resistance",
+            "d": "The maximum speed an object can achieve when acted upon by a force"
+        },
+        "correctAnswer": "a",
+        "explanation": "Terminal velocity is the constant speed that a freely falling object reaches when the resistance of the medium prevents further acceleration.",
+        "module": "2.1"
+    },
+    {
+        "question": "A ball is thrown straight up into the air. At the highest point, the ball’s:",
+        "options": {
+            "a": "Velocity is zero, and acceleration is zero",
+            "b": "Velocity is maximum, and acceleration is zero",
+            "c": "Velocity is zero, and acceleration is maximum",
+            "d": "Velocity is maximum, and acceleration is maximum"
+        },
+        "correctAnswer": "c",
+        "explanation": "At the highest point, the velocity of the ball is zero, but the acceleration due to gravity is at its maximum, pulling the ball back down.",
+        "module": "2.1"
+    },
+    {
+        "question": "The momentum of an object is defined as:",
+        "options": {
+            "a": "Mass times acceleration",
+            "b": "Mass times velocity",
+            "c": "Force times time",
+            "d": "Force times distance"
+        },
+        "correctAnswer": "b",
+        "explanation": "Momentum is defined as the product of an object's mass and velocity (p = mv).",
+        "module": "2.1"
+    },
+    {
+        "question": "When a car suddenly stops, passengers move forward because of:",
+        "options": {
+            "a": "The force of gravity",
+            "b": "The force of friction",
+            "c": "Their inertia",
+            "d": "Their acceleration"
+        },
+        "correctAnswer": "c",
+        "explanation": "The passengers' inertia causes them to continue moving forward when the car stops suddenly.",
+        "module": "2.1"
+    },
+    {
+        "question": "The force that causes an object to move in a circular path is called:",
+        "options": {
+            "a": "Centripetal force",
+            "b": "Gravitational force",
+            "c": "Tension",
+            "d": "Normal force"
+        },
+        "correctAnswer": "a",
+        "explanation": "Centripetal force is the force that keeps an object moving in a circular path, directed towards the center of the circle.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following is true for an object in equilibrium?",
+        "options": {
+            "a": "The net force acting on the object is zero",
+            "b": "The object is accelerating",
+            "c": "The object is in motion",
+            "d": "The object has unbalanced forces acting on it"
+        },
+        "correctAnswer": "a",
+        "explanation": "An object in equilibrium has no net force acting on it, meaning all forces are balanced.",
+        "module": "2.1"
+    },
+    {
+        "question": "What is the weight of a 50 kg object on the surface of the Earth?",
+        "options": {
+            "a": "50 N",
+            "b": "490 N",
+            "c": "500 N",
+            "d": "98 N"
+        },
+        "correctAnswer": "b",
+        "explanation": "Weight is calculated using W = mg = 50 kg × 9.8 m/s² = 490 N.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following is a non-contact force?",
+        "options": {
+            "a": "Tension",
+            "b": "Friction",
+            "c": "Normal force",
+            "d": "Magnetic force"
+        },
+        "correctAnswer": "d",
+        "explanation": "Magnetic force is a non-contact force because it acts at a distance without direct contact between objects.",
+        "module": "2.1"
+    },
+    {
+        "question": "When a force is applied to an object and it moves, the work done is equal to:",
+        "options": {
+            "a": "Force times distance",
+            "b": "Force times acceleration",
+            "c": "Force times velocity",
+            "d": "Force times mass"
+        },
+        "correctAnswer": "a",
+        "explanation": "Work is calculated as the product of force and the distance over which it acts (W = F × d).",
+        "module": "2.1"
+    },
+    {
+        "question": "A 2 kg object is acted upon by a 10 N force. What is its acceleration?",
+        "options": {
+            "a": "2 m/s²",
+            "b": "5 m/s²",
+            "c": "10 m/s²",
+            "d": "20 m/s²"
+        },
+        "correctAnswer": "b",
+        "explanation": "Using Newton's Second Law, acceleration a = F/m = 10 N / 2 kg = 5 m/s².",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following is true about balanced forces?",
+        "options": {
+            "a": "They cause an object to accelerate",
+            "b": "They cause an object to move at a constant speed",
+            "c": "They do not change the motion of an object",
+            "d": "They cause an object to decelerate"
+        },
+        "correctAnswer": "c",
+        "explanation": "Balanced forces do not change the motion of an object, resulting in no acceleration.",
+        "module": "2.1"
+    },
+    {
+        "question": "An object is accelerating if it is:",
+        "options": {
+            "a": "Moving at a constant speed in a straight line",
+            "b": "Changing its direction",
+            "c": "Moving at a constant speed in a circular path",
+            "d": "Moving in a straight line with zero net force"
+        },
+        "correctAnswer": "b",
+        "explanation": "An object is accelerating if it is changing its velocity, which can occur by changing its speed or direction.",
+        "module": "2.1"
+    },
+    {
+        "question": "The normal force on an object is:",
+        "options": {
+            "a": "Equal to the force of gravity acting on the object",
+            "b": "Perpendicular to the surface on which the object rests",
+            "c": "Parallel to the surface on which the object rests",
+            "d": "Equal to the frictional force"
+        },
+        "correctAnswer": "b",
+        "explanation": "The normal force is the force exerted by a surface perpendicular to the object resting on it.",
+        "module": "2.1"
+    },
+    {
+        "question": "What is the force required to lift a 20 kg object vertically upward with an acceleration of 2 m/s²?",
+        "options": {
+            "a": "40 N",
+            "b": "200 N",
+            "c": "240 N",
+            "d": "400 N"
+        },
+        "correctAnswer": "c",
+        "explanation": "The total force required is the sum of the gravitational force and the force needed to accelerate the object: F = mg + ma = 20 kg × 9.8 m/s² + 20 kg × 2 m/s² = 240 N.",
+        "module": "2.1"
+    },
+    {
+        "question": "Which of the following correctly defines mass?",
+        "options": {
+            "a": "Mass is the amount of space an object occupies",
+            "b": "Mass is the amount of matter in an object",
+            "c": "Mass is the force of gravity on an object",
+            "d": "Mass is the volume of an object"
+        },
+        "correctAnswer": "b",
+        "explanation": "Mass is the measure of the amount of matter in an object.",
+        "module": "2.1"
+    },
+    {
+        "question": "An object moves with constant speed in a circular path. What is the direction of its acceleration?",
+        "options": {
+            "a": "Tangent to the path",
+            "b": "Away from the center of the circle",
+            "c": "Toward the center of the circle",
+            "d": "Along the direction of motion"
+        },
+        "correctAnswer": "c",
+        "explanation": "In circular motion, the acceleration is always directed towards the center of the circle (centripetal acceleration).",
+        "module": "2.1"
+    },
+    {
+        "question": "A 10 N force is applied to an object, and it accelerates at 5 m/s². What is the mass of the object?",
+        "options": {
+            "a": "2 kg",
+            "b": "5 kg",
+            "c": "10 kg",
+            "d": "20 kg"
+        },
+        "correctAnswer": "a",
+        "explanation": "Using Newton's Second Law, mass m = F/a = 10 N / 5 m/s² = 2 kg.",
+        "module": "2.1"
     }
 ]
+
