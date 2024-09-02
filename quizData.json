@@ -4804,8 +4804,1821 @@
         "correctAnswer": "d",
         "explanation": "Latent heat is key during phase changes",
         "module": "3.5"
+    },
+
+    {
+        "question": "How do objects become electrically charged?",
+        "options": {
+            "a": "By gaining protons.",
+            "b": "By gaining or losing electrons.",
+            "c": "By losing protons.",
+            "d": "By gaining neutrons."
+        },
+        "correctAnswer": "b",
+        "explanation": "Objects become charged by the transfer of electrons",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens when a neutral conductor is brought near a positively charged object?",
+        "options": {
+            "a": "The conductor becomes positively charged.",
+            "b": "The conductor becomes negatively charged.",
+            "c": "The conductor remains neutral.",
+            "d": "The conductor gains protons."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electrons in the neutral conductor move towards the positively charged object",
+        "module": "4.1"
+    },
+    {
+        "question": "Which factor affects the electrostatic force between two charged objects?",
+        "options": {
+            "a": "The mass of the objects.",
+            "b": "The temperature of the objects.",
+            "c": "The distance between the objects.",
+            "d": "The volume of the objects."
+        },
+        "correctAnswer": "c",
+        "explanation": "The electrostatic force is inversely proportional to the square of the distance",
+        "module": "4.1"
+    },
+    {
+        "question": "In what direction do electric field lines point around a positive charge?",
+        "options": {
+            "a": "Radially outward from the charge.",
+            "b": "Radially inward towards the charge.",
+            "c": "In a circular pattern around the charge.",
+            "d": "In a random direction."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electric field lines point away from a positive charge",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength if the distance between two charged plates is doubled?",
+        "options": {
+            "a": "The electric field strength is halved.",
+            "b": "The electric field strength is doubled.",
+            "c": "The electric field strength remains the same.",
+            "d": "The electric field strength is quadrupled."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electric field strength is inversely proportional to the distance between plates",
+        "module": "4.1"
+    },
+    {
+        "question": "What equation relates force to electric field strength and charge?",
+        "options": {
+            "a": "F=Vq.",
+            "b": "F=qE.",
+            "c": "F=Vd.",
+            "d": "F=qd."
+        },
+        "correctAnswer": "c",
+        "explanation": "Force on a charge is the product of charge and electric field strength",
+        "module": "4.1"
+    },
+    {
+        "question": "In what direction do electric field lines point between two parallel charged plates?",
+        "options": {
+            "a": "From the negative plate to the positive plate.",
+            "b": "From the positive plate to the negative plate.",
+            "c": "In a circular pattern.",
+            "d": "In random directions."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field lines point from positive to negative",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electrostatic force if the distance between two charges is tripled?",
+        "options": {
+            "a": "The force is reduced to one-third.",
+            "b": "The force is reduced to one-ninth.",
+            "c": "The force is tripled.",
+            "d": "The force remains the same."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electrostatic force follows an inverse square law with distance",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the potential difference if 10 J of work is done to move 2 C of charge?",
+        "options": {
+            "a": "5 V.",
+            "b": "10 V.",
+            "c": "15 V.",
+            "d": "20 V."
+        },
+        "correctAnswer": "a",
+        "explanation": "Potential difference V=\"Work\" /\"Charge\"",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electrostatic force if the magnitude of one of the charges is doubled?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is halved.",
+            "c": "The force is quadrupled.",
+            "d": "The force remains the same."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electrostatic force is directly proportional to the magnitude of the charges",
+        "module": "4.1"
+    },
+    {
+        "question": "In a dipole, in which direction do electric field lines point?",
+        "options": {
+            "a": "From the positive charge to the negative charge.",
+            "b": "From the negative charge to the positive charge.",
+            "c": "In a circular pattern around the charges.",
+            "d": "In random directions."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electric field lines in a dipole go from positive to negative",
+        "module": "4.1"
+    },
+    {
+        "question": "Which equation defines electric field strength?",
+        "options": {
+            "a": "E=qV.",
+            "b": "E=V/d.",
+            "c": "E=q/r^2.",
+            "d": "E=Vq."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field strength is the potential difference per unit distance",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to potential energy when a positive charge moves against the direction of an electric field?",
+        "options": {
+            "a": "It increases.",
+            "b": "It decreases.",
+            "c": "It remains constant.",
+            "d": "It becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Potential energy increases when a positive charge moves against the electric field",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength if the charge producing the field is tripled?",
+        "options": {
+            "a": "The electric field strength is tripled.",
+            "b": "The electric field strength is halved.",
+            "c": "The electric field strength remains the same.",
+            "d": "The electric field strength is quadrupled."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electric field strength is directly proportional to the charge",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the direction of electric field lines around a negative charge?",
+        "options": {
+            "a": "Radially outward from the charge.",
+            "b": "Radially inward toward the charge.",
+            "c": "In a circular pattern around the charge.",
+            "d": "In random directions."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field lines point inward toward a negative charge",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the relationship between electrostatic force and distance between charges?",
+        "options": {
+            "a": "F is directly proportional to r^2.",
+            "b": "F is inversely proportional to r.",
+            "c": "F is inversely proportional to r^3.",
+            "d": "F is inversely proportional to r^2."
+        },
+        "correctAnswer": "d",
+        "explanation": "Force decreases with the square of the distance between charges",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the potential energy of a 3 C charge at a potential of 5 V?",
+        "options": {
+            "a": "10 J.",
+            "b": "12 J.",
+            "c": "15 J.",
+            "d": "20 J."
+        },
+        "correctAnswer": "c",
+        "explanation": "Potential energy U=qV",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electrostatic force if both charges are doubled?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is halved.",
+            "c": "The force is quadrupled.",
+            "d": "The force remains the same."
+        },
+        "correctAnswer": "c",
+        "explanation": "Doubling both charges quadruples the electrostatic force",
+        "module": "4.1"
+    },
+    {
+        "question": "What does Coulomb’s law describe?",
+        "options": {
+            "a": "The force between two charges in a vacuum.",
+            "b": "The force between a charge and a magnetic field.",
+            "c": "The potential energy of a charge in an electric field.",
+            "d": "The work done to move a charge in an electric field."
+        },
+        "correctAnswer": "a",
+        "explanation": "This is Coulomb’s law",
+        "module": "4.1"
+    },
+    {
+        "question": "What do electric field lines look like between two like charges?",
+        "options": {
+            "a": "They are straight lines connecting the charges.",
+            "b": "They form circles around each charge.",
+            "c": "They curve towards each other.",
+            "d": "They curve away from each other."
+        },
+        "correctAnswer": "c",
+        "explanation": "Like charges repel, so field lines curve away",
+        "module": "4.1"
+    },
+    {
+        "question": "What equation describes the work done by an electric field?",
+        "options": {
+            "a": "W=Fd.",
+            "b": "W=Vq.",
+            "c": "W=Fq.",
+            "d": "W=qΔV."
+        },
+        "correctAnswer": "d",
+        "explanation": "Work done is the product of charge and potential difference",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength if the charge producing the field is halved?",
+        "options": {
+            "a": "The electric field strength is doubled.",
+            "b": "The electric field strength is halved.",
+            "c": "The electric field strength remains the same.",
+            "d": "The electric field strength is quadrupled."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field strength is directly proportional to the charge",
+        "module": "4.1"
+    },
+    {
+        "question": "How are equipotential lines oriented with respect to electric field lines?",
+        "options": {
+            "a": "They are parallel to the field lines.",
+            "b": "They are perpendicular to the field lines.",
+            "c": "They intersect the field lines at various angles.",
+            "d": "They run along the field lines."
+        },
+        "correctAnswer": "b",
+        "explanation": "Equipotential lines are always perpendicular to electric field lines",
+        "module": "4.1"
+    },
+    {
+        "question": "Which equation defines electric field strength for a point charge?",
+        "options": {
+            "a": "E=qV.",
+            "b": "E=V/d.",
+            "c": "E=kq/r^2.",
+            "d": "E=Vq."
+        },
+        "correctAnswer": "c",
+        "explanation": "Electric field strength for a point charge follows this inverse square law",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field between parallel plates if the charge on the plates is doubled?",
+        "options": {
+            "a": "The electric field between the plates is halved.",
+            "b": "The electric field between the plates is doubled.",
+            "c": "The electric field between the plates remains the same.",
+            "d": "The electric field between the plates is quadrupled."
+        },
+        "correctAnswer": "b",
+        "explanation": "Doubling the charge doubles the electric field strength",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the relationship between the force on a charge and the electric field strength?",
+        "options": {
+            "a": "F is inversely proportional to q.",
+            "b": "F is directly proportional to both q and E.",
+            "c": "F is inversely proportional to both q and E.",
+            "d": "F is directly proportional to the distance between charges."
+        },
+        "correctAnswer": "b",
+        "explanation": "Force increases with both charge and field strength",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to potential energy when a positive charge moves in the direction of an electric field?",
+        "options": {
+            "a": "It increases.",
+            "b": "It decreases.",
+            "c": "It remains constant.",
+            "d": "It becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Potential energy decreases as a positive charge moves with the electric field",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength if the distance between two charges is halved?",
+        "options": {
+            "a": "The electric field strength is doubled.",
+            "b": "The electric field strength is halved.",
+            "c": "The electric field strength remains the same.",
+            "d": "The electric field strength is quadrupled."
+        },
+        "correctAnswer": "a",
+        "explanation": "Halving the distance doubles the electric field strength",
+        "module": "4.1"
+    },
+    {
+        "question": "Which equation defines electric potential?",
+        "options": {
+            "a": "V=U/q.",
+            "b": "V=Fq.",
+            "c": "V=qE.",
+            "d": "V=Fd."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electric potential is potential energy per unit charge",
+        "module": "4.1"
+    },
+    {
+        "question": "What do electric field lines look like between two opposite charges?",
+        "options": {
+            "a": "They run parallel to each other.",
+            "b": "They form circles around each charge.",
+            "c": "They curve towards each other.",
+            "d": "The lines curve from the positive charge to the negative charge."
+        },
+        "correctAnswer": "d",
+        "explanation": "Field lines show the direction of the force on a positive test charge",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electrostatic force if the distance between two charges is doubled?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is halved.",
+            "c": "The force decreases.",
+            "d": "The force remains the same."
+        },
+        "correctAnswer": "c",
+        "explanation": "Increasing distance reduces the electrostatic force",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric potential as you move closer to a positive charge?",
+        "options": {
+            "a": "The electric potential increases.",
+            "b": "The electric potential decreases.",
+            "c": "The electric potential remains the same.",
+            "d": "The electric potential becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Electric potential increases as you move closer to a positive charge",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the potential energy of a 12 C charge at a potential of 5 V?",
+        "options": {
+            "a": "40 J.",
+            "b": "50 J.",
+            "c": "60 J.",
+            "d": "70 J."
+        },
+        "correctAnswer": "b",
+        "explanation": "Potential energy U=qV",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength as the distance from a charge increases?",
+        "options": {
+            "a": "It increases.",
+            "b": "It decreases.",
+            "c": "It remains constant.",
+            "d": "It becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field strength decreases as the distance from the charge increases",
+        "module": "4.1"
+    },
+    {
+        "question": "Which equation defines electric field strength in a parallel plate capacitor?",
+        "options": {
+            "a": "E=Vq.",
+            "b": "E=V/d.",
+            "c": "E=q/d.",
+            "d": "E=kq/r^2."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field strength is potential difference per unit distance",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the direction of the electric force on a negative charge in an electric field?",
+        "options": {
+            "a": "In the direction of the field.",
+            "b": "Opposite to the direction of the field.",
+            "c": "Perpendicular to the field.",
+            "d": "There is no force."
+        },
+        "correctAnswer": "b",
+        "explanation": "The electric force on a negative charge is opposite the direction of the field",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the electric field strength between two plates with a potential difference of 80 V and separated by 2 m?",
+        "options": {
+            "a": "20 N/C.",
+            "b": "30 N/C.",
+            "c": "40 N/C.",
+            "d": "50 N/C."
+        },
+        "correctAnswer": "c",
+        "explanation": "Electric field strength E=V/d",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the force on a charge in an electric field if the distance from the source charge is tripled?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is halved.",
+            "c": "The force remains the same.",
+            "d": "The force decreases."
+        },
+        "correctAnswer": "c",
+        "explanation": "The force is constant if the charge and field strength remain constant",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field around an object if like charges are added to it?",
+        "options": {
+            "a": "The electric field around the object decreases.",
+            "b": "The electric field around the object increases.",
+            "c": "The electric field around the object remains the same.",
+            "d": "The electric field around the object becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Adding like charges increases the electric field",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the potential energy when two like charges are brought closer together?",
+        "options": {
+            "a": "The potential energy decreases.",
+            "b": "The potential energy increases.",
+            "c": "The potential energy remains the same.",
+            "d": "The potential energy becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Like charges repel, so potential energy increases as they get closer",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the potential between two opposite charges?",
+        "options": {
+            "a": "The potential is higher between the charges.",
+            "b": "The potential is lower between the charges.",
+            "c": "The potential remains the same between the charges.",
+            "d": "The potential becomes zero between the charges."
+        },
+        "correctAnswer": "b",
+        "explanation": "The potential between opposite charges is lower than at points far away",
+        "module": "4.1"
+    },
+    {
+        "question": "How much work is done to move a 4 C charge through a potential difference of 8 V?",
+        "options": {
+            "a": "24 J.",
+            "b": "28 J.",
+            "c": "30 J.",
+            "d": "32 J."
+        },
+        "correctAnswer": "a",
+        "explanation": "Work done W=qΔV",
+        "module": "4.1"
+    },
+    {
+        "question": "Which of the following does not affect electric field strength?",
+        "options": {
+            "a": "The charge producing the field.",
+            "b": "The distance from the charge.",
+            "c": "The medium between the charges.",
+            "d": "The mass of the charge."
+        },
+        "correctAnswer": "d",
+        "explanation": "Mass does not affect electric field strength",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength if the charge producing it is doubled?",
+        "options": {
+            "a": "The electric field strength is halved.",
+            "b": "The electric field strength remains the same.",
+            "c": "The electric field increases.",
+            "d": "The electric field strength is quadrupled."
+        },
+        "correctAnswer": "c",
+        "explanation": "Increasing the charge increases the electric field strength",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the relationship between potential energy and work done by an electric field?",
+        "options": {
+            "a": "U=W.",
+            "b": "U=Wq.",
+            "c": "U=Fd.",
+            "d": "U=Vq."
+        },
+        "correctAnswer": "a",
+        "explanation": "Potential energy is equal to the work done by the electric field",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electrostatic force between two charges in a medium with a higher permittivity?",
+        "options": {
+            "a": "The force decreases.",
+            "b": "The force increases.",
+            "c": "The force remains the same.",
+            "d": "The force becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Higher permittivity reduces the electrostatic force",
+        "module": "4.1"
+    },
+    {
+        "question": "What is the potential difference if 15 J of work is done to move 3 C of charge?",
+        "options": {
+            "a": "3 V.",
+            "b": "5 V.",
+            "c": "7 V.",
+            "d": "10 V."
+        },
+        "correctAnswer": "b",
+        "explanation": "Potential difference V=W/q",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to electric field lines near a sharp point on a conductor?",
+        "options": {
+            "a": "They spread out evenly.",
+            "b": "They become denser near the conductor.",
+            "c": "They disappear.",
+            "d": "They curve away from the conductor."
+        },
+        "correctAnswer": "b",
+        "explanation": "Electric field lines concentrate near sharp points on a conductor",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to potential energy when a negative charge moves against the direction of an electric field?",
+        "options": {
+            "a": "It decreases.",
+            "b": "It remains constant.",
+            "c": "It becomes zero.",
+            "d": "The potential energy increases."
+        },
+        "correctAnswer": "d",
+        "explanation": "Potential energy increases when a negative charge moves against the field",
+        "module": "4.1"
+    },
+    {
+        "question": "What happens to the electric field strength if the charge on the plates of a capacitor is doubled?",
+        "options": {
+            "a": "The electric field strength remains the same.",
+            "b": "The electric field strength is halved.",
+            "c": "The electric field strength is quadrupled.",
+            "d": "The field strength doubles."
+        },
+        "correctAnswer": "a",
+        "explanation": "Doubling the charge doubles the electric field strength",
+        "module": "4.1"
+    },
+
+
+
+
+
+
+    {
+        "question": "What is the equation for electric current?",
+        "options": {
+            "a": "I=V/R.",
+            "b": "I=Q/V.",
+            "c": "I=q/t.",
+            "d": "I=W/q."
+        },
+        "correctAnswer": "c",
+        "explanation": "Current is the rate of charge flow",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current if the charge passing through a conductor per unit time increases?",
+        "options": {
+            "a": "The current decreases.",
+            "b": "The current increases.",
+            "c": "The current remains the same.",
+            "d": "The current becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Current increases with more charge passing per unit time",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the relationship between current and voltage in an ohmic resistor?",
+        "options": {
+            "a": "The current is inversely proportional to the voltage.",
+            "b": "The current is directly proportional to the voltage.",
+            "c": "The current is independent of the voltage.",
+            "d": "The current decreases as voltage increases."
+        },
+        "correctAnswer": "b",
+        "explanation": "Ohm’s Law defines the linear relationship in ohmic resistors",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the unit of electrical power?",
+        "options": {
+            "a": "Volt.",
+            "b": "Ampere.",
+            "c": "Watt.",
+            "d": "Joule."
+        },
+        "correctAnswer": "c",
+        "explanation": "The watt is the unit of electrical power",
+        "module": "4.2"
+    },
+    {
+        "question": "Which equation describes total resistance in a series circuit?",
+        "options": {
+            "a": "R=R1×R2×⋯×Rn.",
+            "b": "R=R1+R2+⋯+Rn.",
+            "c": "R=1/R1+1/R2+⋯+1/Rn.",
+            "d": "R=V/I."
+        },
+        "correctAnswer": "b",
+        "explanation": "Total resistance in a series circuit is the sum of individual resistances",
+        "module": "4.2"
+    },
+    {
+        "question": "What is Ohm’s Law?",
+        "options": {
+            "a": "V=IR.",
+            "b": "V=I2R.",
+            "c": "V=IR2.",
+            "d": "V=I/R."
+        },
+        "correctAnswer": "a",
+        "explanation": "Ohm’s Law states that voltage is the product of current and resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the power dissipated in a resistor if the voltage across it is doubled?",
+        "options": {
+            "a": "The power is halved.",
+            "b": "The power is doubled.",
+            "c": "The power is quadrupled.",
+            "d": "The power remains the same."
+        },
+        "correctAnswer": "c",
+        "explanation": "Power P=V^2/R, so doubling the voltage quadruples the power",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current in a parallel circuit?",
+        "options": {
+            "a": "The current is the same in each branch.",
+            "b": "The current divides among the branches.",
+            "c": "The current is zero in each branch.",
+            "d": "The current is inversely proportional to the number of branches."
+        },
+        "correctAnswer": "b",
+        "explanation": "In parallel circuits, current splits between branches",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the current through each resistor in a series circuit?",
+        "options": {
+            "a": "It is different for each resistor.",
+            "b": "It is the same as the current through each resistor.",
+            "c": "It depends on the voltage across each resistor.",
+            "d": "It is zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "In a series circuit, the current is the same through all components",
+        "module": "4.2"
+    },
+    {
+        "question": "Which law states that the current entering a junction equals the current leaving?",
+        "options": {
+            "a": "Ohm’s Law.",
+            "b": "Kirchhoff’s Voltage Law.",
+            "c": "Kirchhoff’s Current Law.",
+            "d": "Faraday’s Law."
+        },
+        "correctAnswer": "c",
+        "explanation": "This law states that current entering a junction equals current leaving",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the relationship between energy, power, and time?",
+        "options": {
+            "a": "E=Pt.",
+            "b": "E=P/t.",
+            "c": "E=t/P.",
+            "d": "E=Pt^2."
+        },
+        "correctAnswer": "b",
+        "explanation": "Energy is the product of power and time",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the resistance of a wire if its length is doubled?",
+        "options": {
+            "a": "The resistance is halved.",
+            "b": "The resistance remains the same.",
+            "c": "The resistance is doubled.",
+            "d": "The resistance is quadrupled."
+        },
+        "correctAnswer": "c",
+        "explanation": "Resistance is directly proportional to the length of the wire",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current in a non-ohmic resistor as voltage increases?",
+        "options": {
+            "a": "The current remains constant.",
+            "b": "The current varies linearly with voltage.",
+            "c": "The current varies non-linearly with voltage.",
+            "d": "The current decreases."
+        },
+        "correctAnswer": "c",
+        "explanation": "Non-ohmic resistors have a non-linear current-voltage relationship",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the relationship between voltage, work, and charge?",
+        "options": {
+            "a": "V=W/q.",
+            "b": "V=q/W.",
+            "c": "V=Wq.",
+            "d": "V=qW."
+        },
+        "correctAnswer": "a",
+        "explanation": "Voltage is the electric potential energy per unit charge",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total resistance when resistors are added in parallel?",
+        "options": {
+            "a": "The total resistance increases.",
+            "b": "The total resistance decreases.",
+            "c": "The total resistance remains the same.",
+            "d": "The total resistance becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Adding resistors in parallel decreases the total resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the relationship between potential difference and current in an ohmic resistor?",
+        "options": {
+            "a": "The potential difference is inversely proportional to the current.",
+            "b": "The potential difference is directly proportional to the current.",
+            "c": "The potential difference is independent of the current.",
+            "d": "The potential difference decreases as current increases."
+        },
+        "correctAnswer": "b",
+        "explanation": "Ohm’s Law: V=IR",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the unit of electric current?",
+        "options": {
+            "a": "Volt.",
+            "b": "Watt.",
+            "c": "Ampere.",
+            "d": "Joule."
+        },
+        "correctAnswer": "c",
+        "explanation": "The ampere is the unit of electric current",
+        "module": "4.2"
+    },
+    {
+        "question": "What equation defines electrical power?",
+        "options": {
+            "a": "P=V/R.",
+            "b": "P=IR.",
+            "c": "P=VI.",
+            "d": "P=I^2R."
+        },
+        "correctAnswer": "b",
+        "explanation": "Power is the product of voltage and current",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total voltage in a series circuit?",
+        "options": {
+            "a": "The total voltage is equal to the sum of the voltages across each component.",
+            "b": "The total voltage is equal to the voltage across each component.",
+            "c": "The total voltage is equal to the current through each component.",
+            "d": "The total voltage is zero."
+        },
+        "correctAnswer": "d",
+        "explanation": "In series, the total voltage is divided among components",
+        "module": "4.2"
+    },
+    {
+        "question": "Which equation relates power to voltage and resistance?",
+        "options": {
+            "a": "P=V^2/R.",
+            "b": "P=IR^2.",
+            "c": "P=R^2/V.",
+            "d": "P=V/R^2."
+        },
+        "correctAnswer": "a",
+        "explanation": "This equation relates power to voltage and resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the voltage across a resistor with a current of 2 A and resistance of 4 Ω?",
+        "options": {
+            "a": "8 V.",
+            "b": "6 V.",
+            "c": "4 V.",
+            "d": "2 V."
+        },
+        "correctAnswer": "a",
+        "explanation": "Using V=IR, V=2×4",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total resistance when resistors are added in parallel?",
+        "options": {
+            "a": "The total resistance decreases.",
+            "b": "The total resistance increases.",
+            "c": "The total resistance remains the same.",
+            "d": "The total resistance becomes infinite."
+        },
+        "correctAnswer": "c",
+        "explanation": "In parallel circuits, the total resistance is less than any individual resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total voltage if one resistor’s voltage changes in a circuit?",
+        "options": {
+            "a": "The total voltage increases.",
+            "b": "The total voltage decreases.",
+            "c": "The total voltage remains the same.",
+            "d": "The total voltage becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "The total voltage in a circuit does not change if a single resistor’s voltage changes",
+        "module": "4.2"
+    },
+    {
+        "question": "Which equation represents the conservation of charge?",
+        "options": {
+            "a": "ΣI=0.",
+            "b": "ΣV=0.",
+            "c": "ΣP=0.",
+            "d": "ΣR=0."
+        },
+        "correctAnswer": "a",
+        "explanation": "This equation represents the conservation of charge",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current in a parallel circuit compared to a series circuit?",
+        "options": {
+            "a": "The current is the same in both circuits.",
+            "b": "The current is higher in the series circuit.",
+            "c": "The current is higher in the parallel circuit.",
+            "d": "The current is zero in both circuits."
+        },
+        "correctAnswer": "c",
+        "explanation": "Parallel circuits have lower total resistance, resulting in higher current",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the unit of electric charge?",
+        "options": {
+            "a": "Volt.",
+            "b": "Coulomb.",
+            "c": "Watt.",
+            "d": "Ampere."
+        },
+        "correctAnswer": "b",
+        "explanation": "The coulomb is the unit of electric charge",
+        "module": "4.2"
+    },
+    {
+        "question": "Which equation describes total resistance in a parallel circuit?",
+        "options": {
+            "a": "R=R1+R2+⋯+Rn.",
+            "b": "R=R1×R2×⋯×Rn.",
+            "c": "1/R=1/R1+1/R2+⋯+1/Rn.",
+            "d": "R=V/I."
+        },
+        "correctAnswer": "c",
+        "explanation": "Total resistance in a parallel circuit is the reciprocal of the sum of reciprocals of individual resistances",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the power dissipated in a resistor if the current through it is halved?",
+        "options": {
+            "a": "The power is doubled.",
+            "b": "The power is halved.",
+            "c": "The power is reduced to one-quarter.",
+            "d": "The power remains the same."
+        },
+        "correctAnswer": "c",
+        "explanation": "Power P=I^2 R, so halving the current reduces power by a factor of four",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the relationship between energy, power, and time?",
+        "options": {
+            "a": "E=Pt.",
+            "b": "E=P/t.",
+            "c": "E=t/P.",
+            "d": "E=Pt^2."
+        },
+        "correctAnswer": "a",
+        "explanation": "Energy is the product of power and time",
+        "module": "4.2"
+    },
+    {
+        "question": "What is the voltage across each branch in a parallel circuit?",
+        "options": {
+            "a": "The voltage is different in each branch.",
+            "b": "The voltage is the same across each branch.",
+            "c": "The voltage is zero in each branch.",
+            "d": "The voltage is inversely proportional to the number of branches."
+        },
+        "correctAnswer": "a",
+        "explanation": "In parallel circuits, voltage is the same across all branches",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current in a series circuit?",
+        "options": {
+            "a": "The current increases with each component.",
+            "b": "The current decreases with each component.",
+            "c": "The current is the same through each component.",
+            "d": "The current is zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "In a series circuit, the current is the same through all components",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total resistance in a series circuit if a component is removed?",
+        "options": {
+            "a": "The total resistance decreases.",
+            "b": "The total resistance increases.",
+            "c": "The total resistance remains the same.",
+            "d": "The total resistance becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Removing a component reduces the total resistance in a series circuit",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current through a resistor if the voltage across it is doubled?",
+        "options": {
+            "a": "The current is halved.",
+            "b": "The current is doubled.",
+            "c": "The current remains the same.",
+            "d": "The current becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Ohm’s Law: I=V/R, so doubling the voltage doubles the current",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the power dissipated in a resistor if the resistance is doubled?",
+        "options": {
+            "a": "The power is halved.",
+            "b": "The power is doubled.",
+            "c": "The power remains the same.",
+            "d": "The power is reduced to one-quarter."
+        },
+        "correctAnswer": "a",
+        "explanation": "Power P=V^2/R, so doubling the resistance halves the power",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total resistance in a parallel circuit if more resistors are added?",
+        "options": {
+            "a": "The total resistance increases.",
+            "b": "The total resistance decreases.",
+            "c": "The total resistance remains the same.",
+            "d": "The total resistance becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Adding more resistors in parallel reduces the total resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "What equation describes the current through an ohmic resistor?",
+        "options": {
+            "a": "I=V/R.",
+            "b": "I=V/R^2.",
+            "c": "I=V×R.",
+            "d": "I=V×R^2."
+        },
+        "correctAnswer": "a",
+        "explanation": "Current is voltage divided by resistance in an ohmic resistor",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total voltage in a series circuit?",
+        "options": {
+            "a": "The total voltage is equal to the sum of the voltages across each component.",
+            "b": "The total voltage is equal to the voltage across each component.",
+            "c": "The total voltage is equal to the current through each component.",
+            "d": "The total voltage is zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "In a series circuit, the total voltage is the sum of voltages across components",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total current in a parallel circuit if one branch is removed?",
+        "options": {
+            "a": "The total current increases.",
+            "b": "The total current decreases.",
+            "c": "The total current remains the same.",
+            "d": "The total current becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Removing a branch in parallel reduces the total current",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the power dissipated in a resistor if the resistance is doubled?",
+        "options": {
+            "a": "The power is halved.",
+            "b": "The power is doubled.",
+            "c": "The power remains the same.",
+            "d": "The power is reduced to one-quarter."
+        },
+        "correctAnswer": "b",
+        "explanation": "Power P=I^2 R, so doubling the resistance doubles the power if current is constant",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the potential difference across a resistor in a parallel circuit?",
+        "options": {
+            "a": "The potential difference is the same as the total voltage.",
+            "b": "The potential difference is different from the total voltage.",
+            "c": "The potential difference is zero.",
+            "d": "The potential difference is inversely proportional to the current."
+        },
+        "correctAnswer": "a",
+        "explanation": "In parallel circuits, the potential difference across each resistor is equal to the total voltage",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total resistance in a series circuit if more resistors are added?",
+        "options": {
+            "a": "The total resistance decreases.",
+            "b": "The total resistance increases.",
+            "c": "The total resistance remains the same.",
+            "d": "The total resistance becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Adding more resistors in series increases the total resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "Which equation represents the conservation of energy in a circuit?",
+        "options": {
+            "a": "ΣI=0.",
+            "b": "ΣV=0.",
+            "c": "ΣP=0.",
+            "d": "ΣR=0."
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation represents the conservation of energy",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total current in a parallel circuit if more branches are added?",
+        "options": {
+            "a": "The total current decreases.",
+            "b": "The total current increases.",
+            "c": "The total current remains the same.",
+            "d": "The total current becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Adding branches in parallel increases the total current",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the potential difference across a resistor in a series circuit if the current through it is halved?",
+        "options": {
+            "a": "The potential difference remains the same.",
+            "b": "The potential difference is halved.",
+            "c": "The potential difference is doubled.",
+            "d": "The potential difference becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Ohm’s Law: V=IR, so halving the current halves the voltage",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the resistance of a wire if its cross-sectional area is doubled?",
+        "options": {
+            "a": "The resistance is halved.",
+            "b": "The resistance remains the same.",
+            "c": "The resistance is doubled.",
+            "d": "The resistance is quadrupled."
+        },
+        "correctAnswer": "b",
+        "explanation": "Doubling the cross-sectional area reduces resistance",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current through a resistor if the voltage across it is doubled?",
+        "options": {
+            "a": "The current is halved.",
+            "b": "The current is doubled.",
+            "c": "The current remains the same.",
+            "d": "The current becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Ohm’s Law: I=V/R, so doubling the voltage doubles the current",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total power in a parallel circuit?",
+        "options": {
+            "a": "The total power is equal to the power dissipated by each branch.",
+            "b": "The total power is equal to the power dissipated by the largest branch.",
+            "c": "The total power is equal to the power dissipated by the smallest branch.",
+            "d": "The total power is the sum of the power dissipated by each branch."
+        },
+        "correctAnswer": "d",
+        "explanation": "In parallel circuits, the total power is the sum of the power in each branch",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the current in a series circuit if the resistance increases?",
+        "options": {
+            "a": "The current increases.",
+            "b": "The current decreases.",
+            "c": "The current remains the same.",
+            "d": "The current becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing resistance in a series circuit reduces the current",
+        "module": "4.2"
+    },
+    {
+        "question": "What equation defines voltage?",
+        "options": {
+            "a": "V=I^2R.",
+            "b": "V=IR^2.",
+            "c": "V=W/q.",
+            "d": "V=P/I."
+        },
+        "correctAnswer": "c",
+        "explanation": "Voltage is electric potential energy per unit charge",
+        "module": "4.2"
+    },
+    {
+        "question": "What happens to the total resistance in a parallel circuit if a branch is removed?",
+        "options": {
+            "a": "The total resistance decreases.",
+            "b": "The total resistance increases.",
+            "c": "The total resistance remains the same.",
+            "d": "The total resistance becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Removing a branch in parallel increases the total resistance",
+        "module": "4.2"
+    },
+
+
+
+
+
+    {
+        "question": "How do ferromagnetic materials interact with magnets?",
+        "options": {
+            "a": "They repel the magnet.",
+            "b": "They are attracted to the magnet.",
+            "c": "They have no effect on the magnet.",
+            "d": "They increase the magnet's strength."
+        },
+        "correctAnswer": "b",
+        "explanation": "Ferromagnetic materials are attracted to magnets",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the direction of magnetic field lines around a magnet?",
+        "options": {
+            "a": "They flow from the south pole to the north pole.",
+            "b": "They flow from the north pole to the south pole.",
+            "c": "They flow randomly.",
+            "d": "They do not flow."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic field lines flow from the north to the south pole outside the magnet",
+        "module": "4.3"
+    },
+    {
+        "question": "How are magnetic field lines oriented around a current-carrying wire?",
+        "options": {
+            "a": "Parallel to the wire.",
+            "b": "Perpendicular to the wire.",
+            "c": "Along the length of the wire.",
+            "d": "In random directions around the wire."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic field lines around a current-carrying wire are perpendicular to the wire",
+        "module": "4.3"
+    },
+    {
+        "question": "Which equation describes the magnetic field around a long, straight current-carrying wire?",
+        "options": {
+            "a": "B=(μ_0 I)/2πr.",
+            "b": "B=μ_0NI/L.",
+            "c": "B=μ_0IR^2.",
+            "d": "B=μ_0/V."
+        },
+        "correctAnswer": "a",
+        "explanation": "This equation describes the magnetic field around a long, straight current-carrying wire",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength if the number of turns in a solenoid is increased?",
+        "options": {
+            "a": "The magnetic field strength decreases.",
+            "b": "The magnetic field strength remains the same.",
+            "c": "The magnetic field strength increases.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Increasing the number of turns in a solenoid increases the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to magnetic materials when exposed to an external magnetic field?",
+        "options": {
+            "a": "They align against the magnetic field.",
+            "b": "They align with the magnetic field.",
+            "c": "They do not align.",
+            "d": "They lose their magnetic properties."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic materials align with an external magnetic field",
+        "module": "4.3"
+    },
+    {
+        "question": "Which equation describes the magnetic field inside a solenoid?",
+        "options": {
+            "a": "B=(μ_0 I)/2πr.",
+            "b": "B=(μ_0NI)/L.",
+            "c": "B=μ_0R^2.",
+            "d": "B=μ_0V."
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation describes the magnetic field inside a solenoid",
+        "module": "4.3"
+    },
+    {
+        "question": "How do ferromagnetic materials become magnetized?",
+        "options": {
+            "a": "By heating them to high temperatures.",
+            "b": "By aligning their atomic dipoles in the direction of an external magnetic field.",
+            "c": "By exposing them to light.",
+            "d": "By cooling them to very low temperatures."
+        },
+        "correctAnswer": "b",
+        "explanation": "Ferromagnetic materials become magnetized when their atomic dipoles align with an external field",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength if the current in a wire is doubled?",
+        "options": {
+            "a": "The magnetic field strength is halved.",
+            "b": "The magnetic field strength is doubled.",
+            "c": "The magnetic field strength remains the same.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "The magnetic field strength is directly proportional to the current",
+        "module": "4.3"
+    },
+    {
+        "question": "What is a solenoid?",
+        "options": {
+            "a": "A straight wire with a strong magnetic field.",
+            "b": "A loop of wire with few turns.",
+            "c": "A coil of wire with many turns.",
+            "d": "A circular magnet."
+        },
+        "correctAnswer": "c",
+        "explanation": "A solenoid is a coil of wire with multiple turns",
+        "module": "4.3"
+    },
+    {
+        "question": "How are magnetic field lines oriented inside a solenoid?",
+        "options": {
+            "a": "They run perpendicular to the axis inside the solenoid.",
+            "b": "They run in random directions inside the solenoid.",
+            "c": "They run parallel to the axis inside the solenoid and form loops outside.",
+            "d": "They do not exist inside the solenoid."
+        },
+        "correctAnswer": "c",
+        "explanation": "Magnetic field lines inside a solenoid run parallel to its axis",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength if the length of a solenoid is increased while keeping the number of turns constant?",
+        "options": {
+            "a": "The magnetic field strength increases.",
+            "b": "The magnetic field strength decreases.",
+            "c": "The magnetic field strength remains the same.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the length of the solenoid while keeping the number of turns constant decreases the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "Which material is ferromagnetic?",
+        "options": {
+            "a": "Copper.",
+            "b": "Aluminium.",
+            "c": "Iron.",
+            "d": "Plastic."
+        },
+        "correctAnswer": "c",
+        "explanation": "Iron is a ferromagnetic material",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the magnetic field of a solenoid most similar to?",
+        "options": {
+            "a": "A dipole.",
+            "b": "A straight wire.",
+            "c": "A bar magnet.",
+            "d": "A loop of wire."
+        },
+        "correctAnswer": "c",
+        "explanation": "A solenoid’s magnetic field resembles that of a bar magnet",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to a compass needle near a current-carrying wire?",
+        "options": {
+            "a": "It points away from the wire.",
+            "b": "It points in the same direction as the current.",
+            "c": "It aligns with the magnetic field produced by the wire.",
+            "d": "It spins randomly."
+        },
+        "correctAnswer": "c",
+        "explanation": "A compass needle aligns with the magnetic field around a current-carrying wire",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the nature of the magnetic field inside a solenoid?",
+        "options": {
+            "a": "It is uniform and parallel to the axis.",
+            "b": "It is non-uniform and perpendicular to the axis.",
+            "c": "It is zero inside the solenoid.",
+            "d": "It is circular and runs along the length of the solenoid."
+        },
+        "correctAnswer": "a",
+        "explanation": "The magnetic field inside a solenoid is uniform and parallel to its axis",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the unit of magnetic field strength?",
+        "options": {
+            "a": "Tesla.",
+            "b": "Newton.",
+            "c": "Ampere.",
+            "d": "Volt."
+        },
+        "correctAnswer": "a",
+        "explanation": "The tesla is the unit of magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field direction in a solenoid if the current is reversed?",
+        "options": {
+            "a": "The magnetic field direction remains the same.",
+            "b": "The magnetic field direction reverses.",
+            "c": "The magnetic field direction becomes zero.",
+            "d": "The magnetic field direction becomes random."
+        },
+        "correctAnswer": "b",
+        "explanation": "Reversing the current in a solenoid reverses the magnetic field direction",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the force between two parallel current-carrying wires if both currents are doubled?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is halved.",
+            "c": "The force remains the same.",
+            "d": "The force is quadrupled."
+        },
+        "correctAnswer": "d",
+        "explanation": "The force between parallel current-carrying wires is directly proportional to the product of the currents",
+        "module": "4.3"
+    },
+    {
+        "question": "Which equation describes the magnetic field inside a solenoid?",
+        "options": {
+            "a": "B=(μ_0 I)/2πr.",
+            "b": "B=(μ_0 NI)/L.",
+            "c": "B=μ_0R^2.",
+            "d": "B=μ_0V."
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation describes the magnetic field inside a solenoid",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field produced by a loop of wire compared to a straight wire?",
+        "options": {
+            "a": "The loop produces a weaker magnetic field.",
+            "b": "The loop produces a stronger magnetic field.",
+            "c": "The loop produces the same magnetic field.",
+            "d": "The loop produces no magnetic field."
+        },
+        "correctAnswer": "b",
+        "explanation": "A loop of wire produces a stronger magnetic field compared to a straight wire",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to a ferromagnetic material if it is heated above its Curie temperature?",
+        "options": {
+            "a": "It becomes more magnetic.",
+            "b": "It becomes demagnetized.",
+            "c": "It remains the same.",
+            "d": "It becomes stronger."
+        },
+        "correctAnswer": "b",
+        "explanation": "Heating a ferromagnetic material above its Curie temperature demagnetizes it",
+        "module": "4.3"
+    },
+    {
+        "question": "Where do magnetic field lines converge and diverge on a magnet?",
+        "options": {
+            "a": "They converge at the north pole and diverge at the south pole.",
+            "b": "They converge at the south pole and diverge at the north pole.",
+            "c": "They converge and diverge randomly.",
+            "d": "They do not converge or diverge."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic field lines converge at the south pole and diverge from the north pole",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength if the distance from a magnetic source is tripled?",
+        "options": {
+            "a": "The magnetic field strength is tripled.",
+            "b": "The magnetic field strength is doubled.",
+            "c": "The magnetic field strength is reduced to one-fourth.",
+            "d": "The magnetic field strength is reduced to one-ninth."
+        },
+        "correctAnswer": "d",
+        "explanation": "Magnetic field strength decreases with the square of the distance",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength if the current in a wire is halved?",
+        "options": {
+            "a": "The magnetic field strength is doubled.",
+            "b": "The magnetic field strength is halved.",
+            "c": "The magnetic field strength remains the same.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "The magnetic field strength is directly proportional to the current",
+        "module": "4.3"
+    },
+    {
+        "question": "What is a characteristic of ferromagnetic materials?",
+        "options": {
+            "a": "They have no magnetic dipoles.",
+            "b": "They have permanent magnetic dipoles that align in a magnetic field.",
+            "c": "They do not respond to magnetic fields.",
+            "d": "They become non-magnetic when cooled."
+        },
+        "correctAnswer": "b",
+        "explanation": "Ferromagnetic materials have dipoles that align with an external magnetic field",
+        "module": "4.3"
+    },
+    {
+        "question": "What is magnetization?",
+        "options": {
+            "a": "The process of creating a magnetic field by cooling a material.",
+            "b": "The process of aligning magnetic domains in a direction opposite to an external field.",
+            "c": "The process of aligning magnetic domains in the direction of an external magnetic field.",
+            "d": "The process of removing magnetic properties from a material."
+        },
+        "correctAnswer": "c",
+        "explanation": "Magnetization occurs when magnetic domains align with an external field",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength in a solenoid if the number of turns is doubled?",
+        "options": {
+            "a": "The magnetic field strength is halved.",
+            "b": "The magnetic field strength remains the same.",
+            "c": "The magnetic field strength is doubled.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Doubling the number of turns in a solenoid doubles the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the effect of adding a ferromagnetic core to a solenoid?",
+        "options": {
+            "a": "The magnetic field strength decreases.",
+            "b": "The magnetic field becomes stronger.",
+            "c": "The magnetic field becomes weaker.",
+            "d": "The magnetic field becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "A ferromagnetic core strengthens the magnetic field in a solenoid",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the relationship between magnetic field strength and distance from a current-carrying wire?",
+        "options": {
+            "a": "B is directly proportional to r.",
+            "b": "B is inversely proportional to r.",
+            "c": "B is directly proportional to r^2.",
+            "d": "B is inversely proportional to r^2."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic field strength around a wire decreases inversely with distance",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to magnetic field lines between two like magnetic poles?",
+        "options": {
+            "a": "They converge and form loops.",
+            "b": "They repel each other.",
+            "c": "They cancel each other out.",
+            "d": "They attract each other."
+        },
+        "correctAnswer": "c",
+        "explanation": "Like magnetic poles repel each other, causing field lines to push apart",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength in a solenoid if its length is halved?",
+        "options": {
+            "a": "The magnetic field strength is doubled.",
+            "b": "The magnetic field strength is halved.",
+            "c": "The magnetic field strength remains the same.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Halving the length of a solenoid while keeping the number of turns constant doubles the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "What determines the strength of a magnetic field?",
+        "options": {
+            "a": "The distance between magnetic field lines.",
+            "b": "The size of the magnetic poles.",
+            "c": "The mass of the magnetic material.",
+            "d": "The type of magnetic material."
+        },
+        "correctAnswer": "a",
+        "explanation": "Magnetic field strength is indicated by the density of field lines",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the force between magnetic poles if the distance between them is doubled?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is halved.",
+            "c": "The force is reduced to one-fourth.",
+            "d": "The force remains the same."
+        },
+        "correctAnswer": "c",
+        "explanation": "The force between magnetic poles decreases with the square of the distance",
+        "module": "4.3"
+    },
+    {
+        "question": "How can a ferromagnetic material become permanently magnetized?",
+        "options": {
+            "a": "By heating it to its Curie temperature.",
+            "b": "By exposing the material to a strong external magnetic field.",
+            "c": "By cooling it to absolute zero.",
+            "d": "By vibrating the material."
+        },
+        "correctAnswer": "b",
+        "explanation": "Ferromagnetic materials become permanently magnetized when exposed to a strong external magnetic field",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength if the current in a solenoid is doubled?",
+        "options": {
+            "a": "The magnetic field strength is halved.",
+            "b": "The magnetic field strength remains the same.",
+            "c": "The magnetic field strength is doubled.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Doubling the current in a solenoid doubles the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the effect of adding a soft iron core to a solenoid?",
+        "options": {
+            "a": "The magnetic field strength decreases.",
+            "b": "The magnetic field becomes stronger.",
+            "c": "The magnetic field becomes weaker.",
+            "d": "The magnetic field becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "A soft iron core strengthens the magnetic field in a solenoid",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the magnetic field produced by a current-carrying wire loop similar to?",
+        "options": {
+            "a": "A straight wire.",
+            "b": "A solenoid.",
+            "c": "A bar magnet.",
+            "d": "A magnetic dipole."
+        },
+        "correctAnswer": "c",
+        "explanation": "A current-carrying wire loop produces a magnetic field similar to a bar magnet’s",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength in a solenoid if the number of turns is halved?",
+        "options": {
+            "a": "The magnetic field strength is doubled.",
+            "b": "The magnetic field strength is halved.",
+            "c": "The magnetic field strength remains the same.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Halving the number of turns in a solenoid halves the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "How do magnetic field lines form around a current-carrying wire?",
+        "options": {
+            "a": "They form concentric circles around the wire.",
+            "b": "They form parallel lines along the wire.",
+            "c": "They form straight lines from one end of the wire to the other.",
+            "d": "They do not form around the wire."
+        },
+        "correctAnswer": "a",
+        "explanation": "Magnetic field lines around a current-carrying wire form concentric circles",
+        "module": "4.3"
+    },
+    {
+        "question": "Which material is ferromagnetic?",
+        "options": {
+            "a": "Copper.",
+            "b": "Aluminium.",
+            "c": "Iron.",
+            "d": "Plastic."
+        },
+        "correctAnswer": "c",
+        "explanation": "Iron is a ferromagnetic material and can be magnetized",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the force between magnetic poles if the distance between them is halved?",
+        "options": {
+            "a": "The force is doubled.",
+            "b": "The force is quadrupled.",
+            "c": "The force is halved.",
+            "d": "The force remains the same."
+        },
+        "correctAnswer": "b",
+        "explanation": "Halving the distance between magnetic poles increases the force fourfold",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field direction in a current-carrying wire if the current is reversed?",
+        "options": {
+            "a": "The magnetic field direction remains the same.",
+            "b": "The magnetic field direction reverses.",
+            "c": "The magnetic field direction becomes zero.",
+            "d": "The magnetic field direction becomes random."
+        },
+        "correctAnswer": "b",
+        "explanation": "Reversing the current in a wire reverses the magnetic field direction",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the relationship between magnetic field strength and current in a solenoid?",
+        "options": {
+            "a": "B is directly proportional to I.",
+            "b": "B is inversely proportional to I.",
+            "c": "B is directly proportional to I^2.",
+            "d": "B is inversely proportional to I^2."
+        },
+        "correctAnswer": "a",
+        "explanation": "Magnetic field strength in a solenoid is directly proportional to the current",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to a magnetic dipole in a uniform magnetic field?",
+        "options": {
+            "a": "The dipole experiences a net force but no torque.",
+            "b": "The dipole experiences a net torque but no net force.",
+            "c": "The dipole experiences both a net force and torque.",
+            "d": "The dipole experiences neither a net force nor torque."
+        },
+        "correctAnswer": "c",
+        "explanation": "A magnetic dipole in a uniform field experiences torque but no net force",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength as the distance from a current-carrying wire increases?",
+        "options": {
+            "a": "The field strength increases.",
+            "b": "The field strength decreases.",
+            "c": "The field strength remains the same.",
+            "d": "The field strength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic field strength decreases as distance from a current-carrying wire increases",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the effect of adding a ferromagnetic core to a solenoid?",
+        "options": {
+            "a": "The magnetic field strength decreases.",
+            "b": "The magnetic field becomes stronger.",
+            "c": "The magnetic field becomes weaker.",
+            "d": "The magnetic field becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "A ferromagnetic core strengthens the magnetic field in a solenoid",
+        "module": "4.3"
+    },
+    {
+        "question": "What happens to the magnetic field strength in a solenoid if the current is halved?",
+        "options": {
+            "a": "The magnetic field strength is doubled.",
+            "b": "The magnetic field strength is halved.",
+            "c": "The magnetic field strength remains the same.",
+            "d": "The magnetic field strength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Halving the current in a solenoid halves the magnetic field strength",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the direction of magnetic field lines around a magnet?",
+        "options": {
+            "a": "They flow from the south pole to the north pole.",
+            "b": "They flow from the north pole to the south pole.",
+            "c": "They flow randomly.",
+            "d": "They do not flow."
+        },
+        "correctAnswer": "b",
+        "explanation": "Magnetic field lines point from the north pole to the south pole",
+        "module": "4.3"
+    },
+    {
+        "question": "What is the relationship between force and distance between magnetic poles?",
+        "options": {
+            "a": "F is directly proportional to r.",
+            "b": "F is inversely proportional to r.",
+            "c": "F is directly proportional to r^2.",
+            "d": "F is inversely proportional to r^2."
+        },
+        "correctAnswer": "c",
+        "explanation": "The force between magnetic poles decreases with the square of the distance",
+        "module": "4.3"
     }
 ]
+
 
 
 
