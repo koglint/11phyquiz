@@ -4203,6 +4203,607 @@
         "correctAnswer": "a",
         "explanation": "Resonance maximizes amplitude and energy transfer",
         "module": "3.2"
+    },
+
+    {
+        "question": "What does temperature represent?",
+        "options": {
+            "a": "The total energy of the particles in the object.",
+            "b": "The average kinetic energy of the particles in the object.",
+            "c": "The potential energy of the particles in the object.",
+            "d": "The energy required to change the state of the object."
+        },
+        "correctAnswer": "b",
+        "explanation": "Temperature is directly related to the average kinetic energy of particles",
+        "module": "3.5"
+    },
+    {
+        "question": "What is thermal equilibrium?",
+        "options": {
+            "a": "When two objects in contact have different temperatures.",
+            "b": "When two objects in contact reach the same temperature.",
+            "c": "When heat flows from one object to another continuously.",
+            "d": "When one object loses heat and the other gains it indefinitely."
+        },
+        "correctAnswer": "c",
+        "explanation": "Thermal equilibrium is when no net heat flow occurs between objects",
+        "module": "3.5"
+    },
+    {
+        "question": "Which equation relates heat added to temperature change?",
+        "options": {
+            "a": "Q=mcΔU",
+            "b": "Q=mcΔT",
+            "c": "Q=mL",
+            "d": "Q/t=kAΔT/d"
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation relates heat added to temperature change",
+        "module": "3.5"
+    },
+    {
+        "question": "What is specific heat capacity?",
+        "options": {
+            "a": "The amount of heat required to change the state of a substance.",
+            "b": "The total energy of the particles in the object.",
+            "c": "The amount of heat required to raise the temperature of a unit mass by one degree Celsius.",
+            "d": "The energy required to break molecular bonds in a substance."
+        },
+        "correctAnswer": "c",
+        "explanation": "Definition of specific heat capacity",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the primary mode of heat transfer in solids?",
+        "options": {
+            "a": "Convection.",
+            "b": "Radiation.",
+            "c": "Evaporation.",
+            "d": "Conduction."
+        },
+        "correctAnswer": "d",
+        "explanation": "Conduction is the primary mode of heat transfer in solids",
+        "module": "3.5"
+    },
+    {
+        "question": "How does convection transfer heat?",
+        "options": {
+            "a": "Through electromagnetic waves.",
+            "b": "Through direct contact between molecules.",
+            "c": "Through the emission of infrared radiation.",
+            "d": "Through fluid motion."
+        },
+        "correctAnswer": "d",
+        "explanation": "Convection involves heat transfer through fluid motion",
+        "module": "3.5"
+    },
+    {
+        "question": "How is heat transferred through radiation?",
+        "options": {
+            "a": "Through direct contact between molecules.",
+            "b": "Through fluid motion.",
+            "c": "Through the emission of visible light.",
+            "d": "By electromagnetic waves."
+        },
+        "correctAnswer": "d",
+        "explanation": "Radiation transfers heat through electromagnetic waves",
+        "module": "3.5"
+    },
+    {
+        "question": "What is latent heat?",
+        "options": {
+            "a": "The heat required to change the temperature of a substance.",
+            "b": "The energy released when a substance cools down.",
+            "c": "The heat required to increase the pressure of a gas.",
+            "d": "The heat required to change the state of a substance without changing its temperature."
+        },
+        "correctAnswer": "a",
+        "explanation": "Latent heat is associated with phase changes",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens to temperature during a phase change?",
+        "options": {
+            "a": "It increases rapidly.",
+            "b": "It decreases slowly.",
+            "c": "It remains constant.",
+            "d": "It fluctuates continuously."
+        },
+        "correctAnswer": "c",
+        "explanation": "Temperature does not change during a phase change",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the effect of high thermal conductivity?",
+        "options": {
+            "a": "It slows down heat transfer.",
+            "b": "Materials with high thermal conductivity transfer heat quickly.",
+            "c": "It prevents heat transfer altogether.",
+            "d": "It only allows heat transfer through radiation."
+        },
+        "correctAnswer": "b",
+        "explanation": "High thermal conductivity means efficient heat transfer",
+        "module": "3.5"
+    },
+    {
+        "question": "How does conduction occur?",
+        "options": {
+            "a": "Through fluid motion.",
+            "b": "By electromagnetic waves.",
+            "c": "Through direct contact between molecules.",
+            "d": "By the transfer of photons."
+        },
+        "correctAnswer": "c",
+        "explanation": "Conduction occurs through direct molecular contact",
+        "module": "3.5"
+    },
+    {
+        "question": "What does the equation Q=mcΔT calculate?",
+        "options": {
+            "a": "The energy required for a phase change.",
+            "b": "The energy released during condensation.",
+            "c": "The heat required to change the temperature of a given mass of substance.",
+            "d": "The energy lost during cooling."
+        },
+        "correctAnswer": "c",
+        "explanation": "This equation calculates the heat required for a temperature change",
+        "module": "3.5"
+    },
+    {
+        "question": "Which of the following is an example of convection?",
+        "options": {
+            "a": "Heat conduction through a metal rod.",
+            "b": "Boiling water circulating in a pot.",
+            "c": "Heat transfer from the sun to the Earth.",
+            "d": "Heat transfer through a vacuum."
+        },
+        "correctAnswer": "a",
+        "explanation": "Convection occurs in boiling water due to fluid movement",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens at thermal equilibrium?",
+        "options": {
+            "a": "Heat flows continuously between two objects.",
+            "b": "One object loses heat while the other gains it indefinitely.",
+            "c": "A state where no net heat transfer occurs between objects.",
+            "d": "The temperature of one object rises while the other cools down."
+        },
+        "correctAnswer": "c",
+        "explanation": "Thermal equilibrium means no net heat transfer",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the specific heat capacity?",
+        "options": {
+            "a": "The total energy of a substance's particles.",
+            "b": "The amount of heat required to change the state of a substance.",
+            "c": "The amount of heat required to raise the temperature of a unit mass by one degree Celsius.",
+            "d": "The energy released during a phase change."
+        },
+        "correctAnswer": "c",
+        "explanation": "Specific heat capacity determines how much heat is needed to change temperature",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens to heat during a phase change?",
+        "options": {
+            "a": "It is released as visible light.",
+            "b": "It is absorbed, causing a temperature rise.",
+            "c": "It is absorbed, causing a temperature decrease.",
+            "d": "It is absorbed without a change in temperature."
+        },
+        "correctAnswer": "d",
+        "explanation": "During phase changes, heat is absorbed but temperature remains constant",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the effect of higher specific heat capacity?",
+        "options": {
+            "a": "It results in a larger temperature change for a given amount of heat.",
+            "b": "It results in a smaller temperature change for a given amount of heat.",
+            "c": "It has no effect on temperature change.",
+            "d": "It increases the rate of heat transfer."
+        },
+        "correctAnswer": "b",
+        "explanation": "Higher specific heat capacity means more heat is needed for the same temperature change",
+        "module": "3.5"
+    },
+    {
+        "question": "Which equation describes heat transfer through thermal conductivity?",
+        "options": {
+            "a": "Q=mcΔT",
+            "b": "Q=mL",
+            "c": "P=IV",
+            "d": "Q/t=kAΔT/d"
+        },
+        "correctAnswer": "d",
+        "explanation": "This equation describes heat transfer through thermal conductivity",
+        "module": "3.5"
+    },
+    {
+        "question": "How do conduction and convection differ?",
+        "options": {
+            "a": "Conduction occurs in fluids, while convection occurs in solids.",
+            "b": "Conduction and convection are the same processes.",
+            "c": "Conduction occurs in solids, while convection occurs in fluids.",
+            "d": "Convection requires direct molecular contact, while conduction does not."
+        },
+        "correctAnswer": "c",
+        "explanation": "Conduction and convection differ in their mediums",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the latent heat of fusion?",
+        "options": {
+            "a": "The heat required to raise the temperature of a substance.",
+            "b": "The heat released during condensation.",
+            "c": "The energy required to break molecular bonds in a solid.",
+            "d": "The heat required to change a solid to a liquid without changing its temperature."
+        },
+        "correctAnswer": "d",
+        "explanation": "Latent heat of fusion is associated with melting",
+        "module": "3.5"
+    },
+    {
+        "question": "Which of the following is a key component in the heat equation Q=mcΔT?",
+        "options": {
+            "a": "Volume of the substance.",
+            "b": "Density of the substance.",
+            "c": "Surface area of the substance.",
+            "d": "Mass of the substance."
+        },
+        "correctAnswer": "d",
+        "explanation": "Mass m is a key component in the heat equation",
+        "module": "3.5"
+    },
+    {
+        "question": "How is heat transferred in metals?",
+        "options": {
+            "a": "By electromagnetic radiation.",
+            "b": "Through convection currents.",
+            "c": "Through the movement of free electrons.",
+            "d": "By direct molecular contact only."
+        },
+        "correctAnswer": "c",
+        "explanation": "Free electrons transfer heat in metals through conduction",
+        "module": "3.5"
+    },
+    {
+        "question": "What is specific heat capacity?",
+        "options": {
+            "a": "The heat required to change the state of a substance.",
+            "b": "The energy required to raise the temperature of a substance by one degree Celsius.",
+            "c": "The total energy of a substance's particles.",
+            "d": "The heat required to raise the temperature of a unit mass by one degree Celsius."
+        },
+        "correctAnswer": "d",
+        "explanation": "Specific heat capacity is a measure of heat required",
+        "module": "3.5"
+    },
+    {
+        "question": "What is radiation?",
+        "options": {
+            "a": "The transfer of heat through direct molecular contact.",
+            "b": "The transfer of heat through fluid motion.",
+            "c": "The transfer of heat through solid objects only.",
+            "d": "The transfer of heat energy through electromagnetic waves."
+        },
+        "correctAnswer": "a",
+        "explanation": "Radiation does not require a medium for heat transfer",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens to heat during a phase change?",
+        "options": {
+            "a": "The heat energy is used to raise the temperature.",
+            "b": "The heat energy is released as visible light.",
+            "c": "All the heat energy is used to change the state of the substance.",
+            "d": "The heat energy is absorbed without changing the temperature."
+        },
+        "correctAnswer": "c",
+        "explanation": "Heat during phase change goes into changing state, not temperature",
+        "module": "3.5"
+    },
+    {
+        "question": "What does thermal conductivity k determine?",
+        "options": {
+            "a": "The rate at which a material conducts heat.",
+            "b": "The amount of heat required for a phase change.",
+            "c": "The energy lost during cooling.",
+            "d": "The efficiency of energy transfer in electromagnetic waves."
+        },
+        "correctAnswer": "a",
+        "explanation": "Thermal conductivity k determines heat transfer efficiency",
+        "module": "3.5"
+    },
+    {
+        "question": "How do specific heat capacities affect heating?",
+        "options": {
+            "a": "Substances with lower specific heat capacities heat up faster.",
+            "b": "Substances with higher specific heat capacities heat up faster.",
+            "c": "Specific heat capacities do not affect heating rates.",
+            "d": "Substances with lower specific heat capacities cool down faster."
+        },
+        "correctAnswer": "a",
+        "explanation": "Lower specific heat capacities require less heat for temperature change",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the effect of increasing surface area on heat transfer?",
+        "options": {
+            "a": "It decreases the rate of heat transfer.",
+            "b": "It has no effect on heat transfer.",
+            "c": "It reduces the temperature difference across the material.",
+            "d": "It increases the rate of heat transfer."
+        },
+        "correctAnswer": "d",
+        "explanation": "Increasing surface area enhances heat transfer",
+        "module": "3.5"
+    },
+    {
+        "question": "How does radiation transfer heat?",
+        "options": {
+            "a": "Through the movement of fluids.",
+            "b": "Through direct contact between molecules.",
+            "c": "Through the absorption and emission of photons.",
+            "d": "By electromagnetic waves."
+        },
+        "correctAnswer": "a",
+        "explanation": "Radiation involves heat transfer through electromagnetic waves",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens at thermal equilibrium?",
+        "options": {
+            "a": "Heat continues to flow between objects.",
+            "b": "One object cools down while the other heats up.",
+            "c": "Heat is transferred until both objects reach the same temperature.",
+            "d": "The temperature difference between the objects increases."
+        },
+        "correctAnswer": "c",
+        "explanation": "Thermal equilibrium is achieved when temperatures equalize",
+        "module": "3.5"
+    },
+    {
+        "question": "Why does a hot drink cool down to room temperature over time?",
+        "options": {
+            "a": "The drink loses heat through evaporation.",
+            "b": "The drink's particles slow down as they lose energy.",
+            "c": "The drink absorbs heat from the environment.",
+            "d": "Thermal equilibrium results in temperature equalization."
+        },
+        "correctAnswer": "d",
+        "explanation": "Thermal equilibrium results in temperature equalization",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the relationship between heat energy and temperature change?",
+        "options": {
+            "a": "Inversely proportional.",
+            "b": "Directly proportional.",
+            "c": "No relationship.",
+            "d": "Exponentially proportional."
+        },
+        "correctAnswer": "b",
+        "explanation": "Heat energy and temperature change are directly related",
+        "module": "3.5"
+    },
+    {
+        "question": "What is convection?",
+        "options": {
+            "a": "The transfer of heat through direct molecular contact.",
+            "b": "The transfer of heat through electromagnetic radiation.",
+            "c": "The transfer of heat through solids.",
+            "d": "The transfer of heat through the movement of fluids."
+        },
+        "correctAnswer": "d",
+        "explanation": "Convection involves fluid movement",
+        "module": "3.5"
+    },
+    {
+        "question": "How does increasing thickness of a material affect heat transfer?",
+        "options": {
+            "a": "It increases heat transfer.",
+            "b": "It decreases heat transfer.",
+            "c": "It has no effect on heat transfer.",
+            "d": "It changes the temperature of the material."
+        },
+        "correctAnswer": "b",
+        "explanation": "Thicker materials reduce heat transfer",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the role of specific heat capacity in heating?",
+        "options": {
+            "a": "It has no role in heating.",
+            "b": "It reduces the amount of heat needed for temperature change.",
+            "c": "It determines the amount of heat needed for a temperature change.",
+            "d": "It prevents the substance from heating up."
+        },
+        "correctAnswer": "c",
+        "explanation": "Specific heat capacity controls heat required for temperature change",
+        "module": "3.5"
+    },
+    {
+        "question": "How does radiation transfer heat?",
+        "options": {
+            "a": "By direct molecular contact.",
+            "b": "By convection currents.",
+            "c": "By conduction.",
+            "d": "Through the emission and absorption of electromagnetic waves."
+        },
+        "correctAnswer": "d",
+        "explanation": "Radiation involves electromagnetic waves",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens to heat energy during melting?",
+        "options": {
+            "a": "It increases the temperature of the substance.",
+            "b": "The heat energy is used to break bonds between molecules.",
+            "c": "The heat energy is released as light.",
+            "d": "The heat energy is absorbed without changing the temperature."
+        },
+        "correctAnswer": "b",
+        "explanation": "During melting, energy breaks molecular bonds, not increases temperature",
+        "module": "3.5"
+    },
+    {
+        "question": "Which equation models heat transfer in materials?",
+        "options": {
+            "a": "Q=mcΔT",
+            "b": "Q/t=kAΔT/d",
+            "c": "P=IV",
+            "d": "Q=mL"
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation models heat transfer in materials",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the significance of higher specific heat capacity?",
+        "options": {
+            "a": "It means the material heats up quickly.",
+            "b": "It means the material cools down quickly.",
+            "c": "Higher specific heat capacity means greater ability to store thermal energy.",
+            "d": "Higher specific heat capacity means less ability to store thermal energy."
+        },
+        "correctAnswer": "c",
+        "explanation": "High specific heat capacity allows more energy storage",
+        "module": "3.5"
+    },
+    {
+        "question": "How does radiation transfer heat?",
+        "options": {
+            "a": "Through direct molecular contact.",
+            "b": "Through the movement of fluids.",
+            "c": "Through the movement of solid particles.",
+            "d": "The transfer of heat energy through electromagnetic waves."
+        },
+        "correctAnswer": "d",
+        "explanation": "Radiation involves heat transfer via electromagnetic waves",
+        "module": "3.5"
+    },
+    {
+        "question": "What is required for conduction to occur?",
+        "options": {
+            "a": "A vacuum.",
+            "b": "It requires direct contact between particles for heat transfer.",
+            "c": "Fluid motion.",
+            "d": "Electromagnetic radiation."
+        },
+        "correctAnswer": "b",
+        "explanation": "Conduction requires direct particle contact",
+        "module": "3.5"
+    },
+    {
+        "question": "What is latent heat?",
+        "options": {
+            "a": "The energy required to increase the temperature of a substance.",
+            "b": "The energy required to increase the pressure of a gas.",
+            "c": "The energy required to decrease the temperature of a substance.",
+            "d": "Latent heat is the energy required to change the state of a substance without changing its temperature."
+        },
+        "correctAnswer": "d",
+        "explanation": "Latent heat is crucial during phase changes",
+        "module": "3.5"
+    },
+    {
+        "question": "Which material has high thermal conductivity?",
+        "options": {
+            "a": "Wood.",
+            "b": "Plastic.",
+            "c": "Glass.",
+            "d": "Copper."
+        },
+        "correctAnswer": "d",
+        "explanation": "Copper has high thermal conductivity, making it an efficient heat conductor",
+        "module": "3.5"
+    },
+    {
+        "question": "What does ΔT represent in the thermal conductivity equation?",
+        "options": {
+            "a": "The thermal conductivity of the material.",
+            "b": "The surface area of the material.",
+            "c": "The thickness of the material.",
+            "d": "The temperature difference across the material."
+        },
+        "correctAnswer": "d",
+        "explanation": "ΔT represents the temperature difference in the thermal conductivity equation",
+        "module": "3.5"
+    },
+    {
+        "question": "What is the relationship between thermal energy and particle motion?",
+        "options": {
+            "a": "Higher thermal energy corresponds to slower particle motion.",
+            "b": "Higher thermal energy corresponds to faster particle motion.",
+            "c": "Thermal energy and particle motion are unrelated.",
+            "d": "Thermal energy decreases as particle motion increases."
+        },
+        "correctAnswer": "d",
+        "explanation": "Thermal energy increases particle motion",
+        "module": "3.5"
+    },
+    {
+        "question": "What happens to particles in conduction as they gain energy?",
+        "options": {
+            "a": "They slow down and move closer together.",
+            "b": "They vibrate more rapidly as they gain energy.",
+            "c": "They lose energy and move apart.",
+            "d": "They remain at the same energy level."
+        },
+        "correctAnswer": "b",
+        "explanation": "Particles vibrate faster as they gain energy in conduction",
+        "module": "3.5"
+    },
+    {
+        "question": "Why does water heat up more slowly than many other substances?",
+        "options": {
+            "a": "Water has a lower specific heat capacity.",
+            "b": "Water has a higher specific heat capacity, so it requires more heat to change its temperature.",
+            "c": "Water is a poor conductor of heat.",
+            "d": "Water's particles vibrate more slowly."
+        },
+        "correctAnswer": "a",
+        "explanation": "Water's high specific heat capacity explains its slower heating",
+        "module": "3.5"
+    },
+    {
+        "question": "What is an example of convection?",
+        "options": {
+            "a": "Heat transfer through a metal rod.",
+            "b": "Warm air rising and cool air descending in a room.",
+            "c": "Heat transfer through the emission of radiation.",
+            "d": "Heat transfer through direct molecular contact."
+        },
+        "correctAnswer": "b",
+        "explanation": "Convection causes warm air to rise and cool air to descend",
+        "module": "3.5"
+    },
+    {
+        "question": "How does thermal conductivity affect heat transfer?",
+        "options": {
+            "a": "Higher thermal conductivity decreases the rate of heat transfer.",
+            "b": "Higher thermal conductivity increases the rate of heat transfer.",
+            "c": "Thermal conductivity has no effect on heat transfer.",
+            "d": "Higher thermal conductivity decreases the temperature of the material."
+        },
+        "correctAnswer": "a",
+        "explanation": "High thermal conductivity enhances heat transfer rate",
+        "module": "3.5"
+    },
+    {
+        "question": "What is latent heat?",
+        "options": {
+            "a": "The energy required to raise the temperature of a substance by one degree Celsius.",
+            "b": "The energy required to increase the pressure of a gas.",
+            "c": "The energy required to decrease the temperature of a substance.",
+            "d": "It represents the energy required to change the state of the substance without changing its temperature."
+        },
+        "correctAnswer": "d",
+        "explanation": "Latent heat is key during phase changes",
+        "module": "3.5"
     }
 ]
 
