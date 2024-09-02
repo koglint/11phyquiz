@@ -2400,7 +2400,609 @@
         "correctAnswer": "a",
         "explanation": "Definition of work",
         "module": "2.2"
+    },
+
+    {
+        "question": "What does the law of conservation of momentum state?",
+        "options": {
+            "a": "The total momentum of a closed system is constant unless acted upon by an external force.",
+            "b": "Momentum is always conserved regardless of external forces.",
+            "c": "The total momentum increases over time.",
+            "d": "Momentum depends only on mass and velocity."
+        },
+        "correctAnswer": "a",
+        "explanation": "Law of conservation of momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to the total momentum of a system during a collision in the absence of external forces?",
+        "options": {
+            "a": "The total momentum increases.",
+            "b": "The total momentum decreases.",
+            "c": "The total momentum remains the same.",
+            "d": "The total momentum fluctuates."
+        },
+        "correctAnswer": "c",
+        "explanation": "Conservation of momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the formula for impulse?",
+        "options": {
+            "a": "Δp=F_net Δt",
+            "b": "Δp=mv",
+            "c": "Δp=ma",
+            "d": "Δp=F_net/m"
+        },
+        "correctAnswer": "a",
+        "explanation": "Impulse formula",
+        "module": "2.3"
+    },
+    {
+        "question": "What quantities are conserved in an elastic collision?",
+        "options": {
+            "a": "Only kinetic energy.",
+            "b": "Only momentum.",
+            "c": "Both momentum and kinetic energy.",
+            "d": "Neither momentum nor kinetic energy."
+        },
+        "correctAnswer": "c",
+        "explanation": "Conservation in elastic collisions",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the unit of momentum?",
+        "options": {
+            "a": "Newton",
+            "b": "Joule",
+            "c": "Kilogram meter per second (kg·m/s)",
+            "d": "Watt"
+        },
+        "correctAnswer": "c",
+        "explanation": "Unit of momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "What is conserved in an inelastic collision?",
+        "options": {
+            "a": "Both momentum and kinetic energy.",
+            "b": "Momentum is conserved, but kinetic energy is not.",
+            "c": "Kinetic energy is conserved, but momentum is not.",
+            "d": "Neither momentum nor kinetic energy is conserved."
+        },
+        "correctAnswer": "b",
+        "explanation": "Inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What does the area under a force-time graph represent?",
+        "options": {
+            "a": "Impulse.",
+            "b": "Momentum.",
+            "c": "Work done.",
+            "d": "Power."
+        },
+        "correctAnswer": "a",
+        "explanation": "Area under a force-time graph represents impulse",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the conservation of momentum equation for a two-body system?",
+        "options": {
+            "a": "m_1 v_1+m_2 v_2=m_1 v_1'+m_2 v_2'",
+            "b": "F_net=ma",
+            "c": "p=mv",
+            "d": "W=F·d"
+        },
+        "correctAnswer": "a",
+        "explanation": "Conservation of momentum equation",
+        "module": "2.3"
+    },
+    {
+        "question": "What is true about momentum in a two-dimensional collision?",
+        "options": {
+            "a": "Momentum is not conserved.",
+            "b": "Momentum is conserved in each direction separately.",
+            "c": "Momentum is conserved only in the vertical direction.",
+            "d": "Momentum is conserved only in the horizontal direction."
+        },
+        "correctAnswer": "b",
+        "explanation": "Two-dimensional collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to impulse if the force is reduced but the time duration is increased?",
+        "options": {
+            "a": "The impulse decreases.",
+            "b": "The impulse remains the same.",
+            "c": "The impulse increases.",
+            "d": "The impulse becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Impulse is the product of force and time",
+        "module": "2.3"
+    },
+    {
+        "question": "In which type of collision do objects stick together after impact?",
+        "options": {
+            "a": "Elastic collision.",
+            "b": "Inelastic collision.",
+            "c": "Perfectly elastic collision.",
+            "d": "Perfectly inelastic collision."
+        },
+        "correctAnswer": "d",
+        "explanation": "Objects stick together in a perfectly inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to the objects in a perfectly inelastic collision?",
+        "options": {
+            "a": "The objects separate and move independently.",
+            "b": "The objects stick together and move with the same velocity.",
+            "c": "The objects bounce off each other with the same velocity.",
+            "d": "The objects come to a stop."
+        },
+        "correctAnswer": "b",
+        "explanation": "Perfectly inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What does the slope of a force-time graph represent?",
+        "options": {
+            "a": "Rate of change of force.",
+            "b": "Rate of change of momentum.",
+            "c": "Impulse.",
+            "d": "Power."
+        },
+        "correctAnswer": "a",
+        "explanation": "Slope of a force-time graph",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the formula for kinetic energy?",
+        "options": {
+            "a": "KE=1/2 mv^2",
+            "b": "KE=mv",
+            "c": "KE=mgh",
+            "d": "KE=F·s"
+        },
+        "correctAnswer": "a",
+        "explanation": "Formula for kinetic energy",
+        "module": "2.3"
+    },
+    {
+        "question": "In which type of collision is kinetic energy not conserved?",
+        "options": {
+            "a": "Elastic collision.",
+            "b": "Inelastic collision.",
+            "c": "Perfectly elastic collision.",
+            "d": "Perfectly inelastic collision."
+        },
+        "correctAnswer": "b",
+        "explanation": "Kinetic energy is not conserved in inelastic collisions",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the impulse-momentum theorem?",
+        "options": {
+            "a": "Δp=F_net Δt",
+            "b": "p=mv",
+            "c": "W=F·s",
+            "d": "KE=1/2 mv^2"
+        },
+        "correctAnswer": "a",
+        "explanation": "Impulse-momentum theorem",
+        "module": "2.3"
+    },
+    {
+        "question": "How does impulse compare to the change in momentum?",
+        "options": {
+            "a": "Impulse is greater.",
+            "b": "Impulse is less.",
+            "c": "They are equal.",
+            "d": "They are unrelated."
+        },
+        "correctAnswer": "c",
+        "explanation": "Impulse is equal to the change in momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "What is always conserved in a closed system?",
+        "options": {
+            "a": "Momentum.",
+            "b": "Kinetic energy.",
+            "c": "Potential energy.",
+            "d": "Force."
+        },
+        "correctAnswer": "a",
+        "explanation": "Momentum is always conserved",
+        "module": "2.3"
+    },
+    {
+        "question": "What type of collision involves no deformation and no loss of kinetic energy?",
+        "options": {
+            "a": "Elastic collision.",
+            "b": "Inelastic collision.",
+            "c": "Perfectly inelastic collision.",
+            "d": "Partially inelastic collision."
+        },
+        "correctAnswer": "a",
+        "explanation": "No deformation implies an elastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What factors determine the impulse delivered to an object?",
+        "options": {
+            "a": "The force applied and the time duration.",
+            "b": "The object's mass and velocity.",
+            "c": "The object's weight and height.",
+            "d": "The object's speed and distance."
+        },
+        "correctAnswer": "a",
+        "explanation": "Impulse depends on force and time",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the total momentum of a closed system with zero initial momentum?",
+        "options": {
+            "a": "Equal to the final momentum.",
+            "b": "Equal to the initial momentum.",
+            "c": "Zero.",
+            "d": "Infinity."
+        },
+        "correctAnswer": "c",
+        "explanation": "Total momentum remains zero if it was initially zero",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the relationship between force, time, and momentum?",
+        "options": {
+            "a": "Δp=F_net Δt",
+            "b": "p=mv",
+            "c": "W=F·s",
+            "d": "KE=1/2 mv^2"
+        },
+        "correctAnswer": "a",
+        "explanation": "Relationship between force, time, and momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "What is true about kinetic energy in a perfectly inelastic collision?",
+        "options": {
+            "a": "It is fully conserved.",
+            "b": "It is partially conserved.",
+            "c": "It is not conserved at all.",
+            "d": "It is converted entirely into potential energy."
+        },
+        "correctAnswer": "b",
+        "explanation": "Kinetic energy is partially conserved in a perfectly inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "When is momentum not conserved?",
+        "options": {
+            "a": "When an external force acts on the system.",
+            "b": "When the system is closed.",
+            "c": "During elastic collisions.",
+            "d": "During inelastic collisions."
+        },
+        "correctAnswer": "a",
+        "explanation": "External forces can prevent momentum conservation",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the impulse if a force of 10 N is applied for 3 seconds?",
+        "options": {
+            "a": "10 Ns.",
+            "b": "20 Ns.",
+            "c": "30 Ns.",
+            "d": "40 Ns."
+        },
+        "correctAnswer": "c",
+        "explanation": "Impulse = force × time",
+        "module": "2.3"
+    },
+    {
+        "question": "What is true about momentum in a two-dimensional collision?",
+        "options": {
+            "a": "Momentum is conserved in one direction only.",
+            "b": "Momentum is not conserved at all.",
+            "c": "Each component of momentum is conserved independently.",
+            "d": "Momentum is conserved only in the direction of motion."
+        },
+        "correctAnswer": "a",
+        "explanation": "Each component of momentum is conserved independently",
+        "module": "2.3"
+    },
+    {
+        "question": "What is conserved in an elastic collision?",
+        "options": {
+            "a": "Kinetic energy.",
+            "b": "Momentum.",
+            "c": "Both kinetic energy and momentum.",
+            "d": "Neither kinetic energy nor momentum."
+        },
+        "correctAnswer": "c",
+        "explanation": "Kinetic energy and momentum are both conserved",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the change in momentum if a force of 5 N is applied for 4 seconds?",
+        "options": {
+            "a": "10 Ns.",
+            "b": "15 Ns.",
+            "c": "20 Ns.",
+            "d": "25 Ns."
+        },
+        "correctAnswer": "c",
+        "explanation": "Change in momentum = force × time",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the relationship between force and time for a constant impulse?",
+        "options": {
+            "a": "As force increases, time decreases.",
+            "b": "As force decreases, time decreases.",
+            "c": "As force increases, time remains constant.",
+            "d": "Force and time are directly proportional."
+        },
+        "correctAnswer": "a",
+        "explanation": "Inverse relationship for constant impulse",
+        "module": "2.3"
+    },
+    {
+        "question": "What does the principle of conservation of momentum state?",
+        "options": {
+            "a": "The total momentum before and after a collision remains the same.",
+            "b": "Momentum is only conserved in elastic collisions.",
+            "c": "Momentum is always conserved regardless of external forces.",
+            "d": "Momentum increases over time."
+        },
+        "correctAnswer": "a",
+        "explanation": "Principle of conservation of momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to the velocities of two equal masses after a perfectly elastic collision?",
+        "options": {
+            "a": "The velocities are exchanged.",
+            "b": "The velocities are halved.",
+            "c": "The velocities remain unchanged.",
+            "d": "The velocities are doubled."
+        },
+        "correctAnswer": "a",
+        "explanation": "Equal masses exchange velocities in a perfectly elastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What is a system in physics?",
+        "options": {
+            "a": "The set of interacting objects considered for analysis.",
+            "b": "A collection of forces acting on an object.",
+            "c": "A reference frame in which motion is observed.",
+            "d": "A device used to measure physical quantities."
+        },
+        "correctAnswer": "a",
+        "explanation": "Definition of a system",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to objects in a perfectly inelastic collision?",
+        "options": {
+            "a": "They stick together and move as a single unit.",
+            "b": "They bounce off each other with reduced velocity.",
+            "c": "They separate and move independently.",
+            "d": "They come to a stop."
+        },
+        "correctAnswer": "a",
+        "explanation": "Perfectly inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What is true about kinetic energy in an elastic collision?",
+        "options": {
+            "a": "Kinetic energy is fully conserved.",
+            "b": "Kinetic energy is partially conserved.",
+            "c": "Kinetic energy is not conserved at all.",
+            "d": "Kinetic energy is converted entirely into potential energy."
+        },
+        "correctAnswer": "a",
+        "explanation": "Kinetic energy is conserved in elastic collisions",
+        "module": "2.3"
+    },
+    {
+        "question": "In which type of collision does kinetic energy decrease?",
+        "options": {
+            "a": "Elastic.",
+            "b": "Inelastic.",
+            "c": "Perfectly elastic.",
+            "d": "No collision."
+        },
+        "correctAnswer": "b",
+        "explanation": "Kinetic energy decreases in an inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the relationship between force and time for a constant impulse?",
+        "options": {
+            "a": "Inversely proportional.",
+            "b": "Directly proportional.",
+            "c": "Unrelated.",
+            "d": "Constant."
+        },
+        "correctAnswer": "a",
+        "explanation": "Force and time are inversely proportional for a constant impulse",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the momentum of a 2 kg object moving at 3 m/s?",
+        "options": {
+            "a": "2 kg·m/s.",
+            "b": "3 kg·m/s.",
+            "c": "6 kg·m/s.",
+            "d": "12 kg·m/s."
+        },
+        "correctAnswer": "c",
+        "explanation": "Momentum = mass × velocity",
+        "module": "2.3"
+    },
+    {
+        "question": "What is always conserved in a closed system?",
+        "options": {
+            "a": "Momentum.",
+            "b": "Kinetic energy.",
+            "c": "Potential energy.",
+            "d": "Force."
+        },
+        "correctAnswer": "a",
+        "explanation": "Momentum is always conserved in a closed system",
+        "module": "2.3"
+    },
+    {
+        "question": "What is the unit of impulse?",
+        "options": {
+            "a": "Newton (N).",
+            "b": "Newton-second (Ns).",
+            "c": "Joule (J).",
+            "d": "Watt (W)."
+        },
+        "correctAnswer": "b",
+        "explanation": "Unit of impulse",
+        "module": "2.3"
+    },
+    {
+        "question": "In which type of collision is there no loss of kinetic energy?",
+        "options": {
+            "a": "Elastic collision.",
+            "b": "Inelastic collision.",
+            "c": "Perfectly inelastic collision.",
+            "d": "Partially inelastic collision."
+        },
+        "correctAnswer": "a",
+        "explanation": "No loss of kinetic energy in an elastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What is momentum?",
+        "options": {
+            "a": "Momentum is the product of mass and velocity.",
+            "b": "Momentum is the force applied over time.",
+            "c": "Momentum is the work done by a force.",
+            "d": "Momentum is the energy transferred by a force."
+        },
+        "correctAnswer": "a",
+        "explanation": "Momentum is the product of mass and velocity",
+        "module": "2.3"
+    },
+    {
+        "question": "How is impulse calculated when the force varies over time?",
+        "options": {
+            "a": "By finding the area under the force-time graph.",
+            "b": "By multiplying the maximum force by time.",
+            "c": "By averaging the force over time.",
+            "d": "By integrating the force with respect to time."
+        },
+        "correctAnswer": "a",
+        "explanation": "Calculating impulse for varying force",
+        "module": "2.3"
+    },
+    {
+        "question": "In which type of collision is momentum conserved, but kinetic energy is not?",
+        "options": {
+            "a": "Elastic collision.",
+            "b": "Inelastic collision.",
+            "c": "Perfectly elastic collision.",
+            "d": "No collision."
+        },
+        "correctAnswer": "b",
+        "explanation": "Momentum is conserved, but kinetic energy is not in an inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to objects in a perfectly inelastic collision?",
+        "options": {
+            "a": "The objects move together with a common velocity.",
+            "b": "The objects bounce off each other with reduced velocity.",
+            "c": "The objects separate and move independently.",
+            "d": "The objects come to a stop."
+        },
+        "correctAnswer": "a",
+        "explanation": "Objects move together with a common velocity in a perfectly inelastic collision",
+        "module": "2.3"
+    },
+    {
+        "question": "How can the force experienced during a collision be reduced?",
+        "options": {
+            "a": "By increasing the time duration of the collision.",
+            "b": "By decreasing the mass of the objects involved.",
+            "c": "By increasing the velocity of the objects involved.",
+            "d": "By decreasing the distance over which the force is applied."
+        },
+        "correctAnswer": "a",
+        "explanation": "Increasing time reduces force for a constant impulse",
+        "module": "2.3"
+    },
+    {
+        "question": "What is true about the total momentum of a closed system?",
+        "options": {
+            "a": "The total momentum remains constant.",
+            "b": "The total momentum increases over time.",
+            "c": "The total momentum decreases over time.",
+            "d": "The total momentum fluctuates."
+        },
+        "correctAnswer": "a",
+        "explanation": "Conservation of momentum",
+        "module": "2.3"
+    },
+    {
+        "question": "In which type of collision are both momentum and kinetic energy conserved?",
+        "options": {
+            "a": "Elastic collision.",
+            "b": "Inelastic collision.",
+            "c": "Perfectly inelastic collision.",
+            "d": "No collision."
+        },
+        "correctAnswer": "a",
+        "explanation": "Both momentum and kinetic energy are conserved in elastic collisions",
+        "module": "2.3"
+    },
+    {
+        "question": "What happens to momentum if the mass of an object is increased while its velocity remains constant?",
+        "options": {
+            "a": "The momentum increases.",
+            "b": "The momentum decreases.",
+            "c": "The momentum remains the same.",
+            "d": "The momentum becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Momentum is directly proportional to mass",
+        "module": "2.3"
+    },
+    {
+        "question": "What components are conserved in a two-dimensional collision?",
+        "options": {
+            "a": "Both the horizontal and vertical components.",
+            "b": "Only the horizontal component.",
+            "c": "Only the vertical component.",
+            "d": "Neither component."
+        },
+        "correctAnswer": "a",
+        "explanation": "Conservation of momentum in two dimensions",
+        "module": "2.3"
+    },
+    {
+        "question": "What is impulse?",
+        "options": {
+            "a": "The area under a force-time graph.",
+            "b": "The product of mass and velocity.",
+            "c": "The force applied over a distance.",
+            "d": "The rate of doing work."
+        },
+        "correctAnswer": "a",
+        "explanation": "Impulse is the area under a force-time graph",
+        "module": "2.3"
     }
 ]
+
 
 
