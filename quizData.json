@@ -3001,6 +3001,607 @@
         "correctAnswer": "a",
         "explanation": "Impulse is the area under a force-time graph",
         "module": "2.3"
+    },
+
+    {
+        "question": "What is the role of the medium in mechanical waves?",
+        "options": {
+            "a": "It blocks the wave.",
+            "b": "It amplifies the wave.",
+            "c": "It transfers energy from one point to another.",
+            "d": "It reflects the wave."
+        },
+        "correctAnswer": "c",
+        "explanation": "The medium is responsible for the transfer of energy in mechanical waves",
+        "module": "3.1"
+    },
+    {
+        "question": "In which direction do particles move in transverse waves?",
+        "options": {
+            "a": "Parallel to the direction of wave propagation.",
+            "b": "Perpendicular to the direction of wave propagation.",
+            "c": "In a circular motion.",
+            "d": "They do not move."
+        },
+        "correctAnswer": "b",
+        "explanation": "In transverse waves, particles move perpendicular to the wave direction",
+        "module": "3.1"
+    },
+    {
+        "question": "How do particles move in longitudinal waves?",
+        "options": {
+            "a": "Perpendicular to the wave direction.",
+            "b": "In a circular motion.",
+            "c": "The particles move parallel to the wave direction.",
+            "d": "They do not move."
+        },
+        "correctAnswer": "c",
+        "explanation": "Longitudinal waves involve parallel particle motion",
+        "module": "3.1"
+    },
+    {
+        "question": "What is a key difference between mechanical and electromagnetic waves?",
+        "options": {
+            "a": "Mechanical waves require a medium; electromagnetic waves do not.",
+            "b": "Electromagnetic waves require a medium; mechanical waves do not.",
+            "c": "Both require a medium.",
+            "d": "Neither requires a medium."
+        },
+        "correctAnswer": "a",
+        "explanation": "Key difference between mechanical and electromagnetic waves",
+        "module": "3.1"
+    },
+    {
+        "question": "Which equation relates the frequency and period of a wave?",
+        "options": {
+            "a": "f=T",
+            "b": "f=1/T",
+            "c": "f=λ/T",
+            "d": "f=v/λ"
+        },
+        "correctAnswer": "b",
+        "explanation": "Frequency is the reciprocal of the period",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the definition of wavelength?",
+        "options": {
+            "a": "The time taken for one complete oscillation.",
+            "b": "The distance between two consecutive points in phase on a wave.",
+            "c": "The maximum displacement from equilibrium.",
+            "d": "The speed of the wave."
+        },
+        "correctAnswer": "b",
+        "explanation": "Definition of wavelength",
+        "module": "3.1"
+    },
+    {
+        "question": "What does the period of a wave represent in a displacement-time graph?",
+        "options": {
+            "a": "The time taken for one complete oscillation.",
+            "b": "The maximum displacement from equilibrium.",
+            "c": "The distance between two consecutive crests.",
+            "d": "The speed of the wave."
+        },
+        "correctAnswer": "a",
+        "explanation": "Period is the time for one oscillation in a displacement-time graph",
+        "module": "3.1"
+    },
+    {
+        "question": "Which equation represents wave speed?",
+        "options": {
+            "a": "v=λ/T",
+            "b": "v=f×λ",
+            "c": "v=f/T",
+            "d": "v=λ/f"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wave speed is the product of frequency and wavelength",
+        "module": "3.1"
+    },
+    {
+        "question": "Which type of waves can travel through a vacuum?",
+        "options": {
+            "a": "Mechanical waves.",
+            "b": "Sound waves.",
+            "c": "Electromagnetic waves.",
+            "d": "Seismic waves."
+        },
+        "correctAnswer": "c",
+        "explanation": "Electromagnetic waves can travel through a vacuum",
+        "module": "3.1"
+    },
+    {
+        "question": "What happens to the wavelength of a wave if its frequency is doubled while the speed remains constant?",
+        "options": {
+            "a": "The wavelength doubles.",
+            "b": "The wavelength is halved.",
+            "c": "The wavelength remains the same.",
+            "d": "The wavelength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Doubling the frequency halves the wavelength if speed is constant",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the amplitude of a wave?",
+        "options": {
+            "a": "The maximum displacement of a particle from its equilibrium position.",
+            "b": "The distance between two consecutive crests.",
+            "c": "The speed of the wave.",
+            "d": "The time taken for one complete oscillation."
+        },
+        "correctAnswer": "a",
+        "explanation": "Amplitude is the maximum displacement",
+        "module": "3.1"
+    },
+    {
+        "question": "What are compressions in longitudinal waves?",
+        "options": {
+            "a": "Regions of high speed.",
+            "b": "Regions of high amplitude.",
+            "c": "Regions of closest particle proximity.",
+            "d": "Regions of lowest pressure."
+        },
+        "correctAnswer": "c",
+        "explanation": "Compressions are regions of closest particle proximity in longitudinal waves",
+        "module": "3.1"
+    },
+    {
+        "question": "How does the speed of mechanical waves typically change in denser media?",
+        "options": {
+            "a": "The wave speed is faster in denser media.",
+            "b": "The wave speed is slower in denser media.",
+            "c": "The wave speed remains the same.",
+            "d": "The wave speed becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Mechanical waves typically travel faster in denser media",
+        "module": "3.1"
+    },
+    {
+        "question": "What type of wave is sound in air?",
+        "options": {
+            "a": "Transverse mechanical wave.",
+            "b": "Longitudinal mechanical wave.",
+            "c": "Transverse electromagnetic wave.",
+            "d": "Longitudinal electromagnetic wave."
+        },
+        "correctAnswer": "b",
+        "explanation": "Sound in air is a longitudinal mechanical wave",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the frequency of a wave with a period of 0.5 seconds?",
+        "options": {
+            "a": "0.5 Hz.",
+            "b": "1 Hz.",
+            "c": "2 Hz.",
+            "d": "4 Hz."
+        },
+        "correctAnswer": "c",
+        "explanation": "Frequency is the reciprocal of the period, so f=1/0.5 = 2 Hz",
+        "module": "3.1"
+    },
+    {
+        "question": "What does the distance between two consecutive troughs on a wave represent?",
+        "options": {
+            "a": "Wavelength.",
+            "b": "Amplitude.",
+            "c": "Frequency.",
+            "d": "Period."
+        },
+        "correctAnswer": "a",
+        "explanation": "Distance between two consecutive troughs is the wavelength",
+        "module": "3.1"
+    },
+    {
+        "question": "How is energy transferred in mechanical waves?",
+        "options": {
+            "a": "Through the motion of particles in the medium.",
+            "b": "Through the vibration of the wave itself.",
+            "c": "Through the motion of the wave crest.",
+            "d": "Through the reflection of the wave."
+        },
+        "correctAnswer": "a",
+        "explanation": "Energy transfer in mechanical waves occurs via particle motion",
+        "module": "3.1"
+    },
+    {
+        "question": "What does the frequency of a wave define?",
+        "options": {
+            "a": "The number of oscillations per unit time.",
+            "b": "The maximum displacement from equilibrium.",
+            "c": "The distance between two consecutive crests.",
+            "d": "The speed of the wave."
+        },
+        "correctAnswer": "a",
+        "explanation": "Frequency defines the number of oscillations per second",
+        "module": "3.1"
+    },
+    {
+        "question": "What is characteristic of electromagnetic waves?",
+        "options": {
+            "a": "They require a medium for propagation.",
+            "b": "They consist of oscillating particles.",
+            "c": "They consist of oscillating electric and magnetic fields.",
+            "d": "They cannot travel through a vacuum."
+        },
+        "correctAnswer": "c",
+        "explanation": "Characteristic of electromagnetic waves",
+        "module": "3.1"
+    },
+    {
+        "question": "How does wave energy relate to frequency?",
+        "options": {
+            "a": "Higher frequency waves have more energy.",
+            "b": "Lower frequency waves have more energy.",
+            "c": "Frequency does not affect wave energy.",
+            "d": "Frequency and energy are inversely related."
+        },
+        "correctAnswer": "a",
+        "explanation": "Energy is directly related to frequency",
+        "module": "3.1"
+    },
+    {
+        "question": "What does wave velocity describe?",
+        "options": {
+            "a": "The rate at which the wave's phase propagates through space.",
+            "b": "The maximum displacement of a particle.",
+            "c": "The frequency of the wave.",
+            "d": "The amplitude of the wave."
+        },
+        "correctAnswer": "a",
+        "explanation": "Wave velocity is the speed at which the wave moves through the medium",
+        "module": "3.1"
+    },
+    {
+        "question": "Which equation represents wave speed?",
+        "options": {
+            "a": "v=λ/T",
+            "b": "v=f×T",
+            "c": "v=f×λ",
+            "d": "v=λ/f"
+        },
+        "correctAnswer": "c",
+        "explanation": "Wave speed is the product of frequency and wavelength",
+        "module": "3.1"
+    },
+    {
+        "question": "Which of the following is an example of a transverse wave?",
+        "options": {
+            "a": "Sound waves.",
+            "b": "Light waves.",
+            "c": "Seismic P-waves.",
+            "d": "Seismic S-waves."
+        },
+        "correctAnswer": "b",
+        "explanation": "Light waves are an example of transverse waves",
+        "module": "3.1"
+    },
+    {
+        "question": "In which type of wave do particles move parallel to the direction of wave propagation?",
+        "options": {
+            "a": "Transverse wave.",
+            "b": "Longitudinal wave.",
+            "c": "Electromagnetic wave.",
+            "d": "Surface wave."
+        },
+        "correctAnswer": "b",
+        "explanation": "Particle motion in longitudinal waves is parallel to wave propagation",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the frequency of a wave with a period of 2 seconds?",
+        "options": {
+            "a": "2 Hz.",
+            "b": "0.5 Hz.",
+            "c": "1 Hz.",
+            "d": "4 Hz."
+        },
+        "correctAnswer": "b",
+        "explanation": "Frequency is the reciprocal of the period, so f=1/2 = 0.5 Hz",
+        "module": "3.1"
+    },
+    {
+        "question": "What is displacement in the context of wave motion?",
+        "options": {
+            "a": "The distance a particle moves from its equilibrium position.",
+            "b": "The maximum height of a wave crest.",
+            "c": "The speed of the wave.",
+            "d": "The time taken for one complete oscillation."
+        },
+        "correctAnswer": "b",
+        "explanation": "Displacement measures the distance from equilibrium",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the relationship between the period and frequency of a wave?",
+        "options": {
+            "a": "The period is the reciprocal of the frequency.",
+            "b": "The period is equal to the frequency.",
+            "c": "The period is half the frequency.",
+            "d": "The period is twice the frequency."
+        },
+        "correctAnswer": "a",
+        "explanation": "Inverse relationship between period and frequency",
+        "module": "3.1"
+    },
+    {
+        "question": "What do mechanical waves require for propagation?",
+        "options": {
+            "a": "A vacuum.",
+            "b": "A medium.",
+            "c": "An electromagnetic field.",
+            "d": "A source of energy."
+        },
+        "correctAnswer": "b",
+        "explanation": "Mechanical waves need a medium",
+        "module": "3.1"
+    },
+    {
+        "question": "How does wavelength relate to frequency if the speed of a wave remains constant?",
+        "options": {
+            "a": "Wavelength is directly proportional to frequency.",
+            "b": "Wavelength is inversely proportional to frequency.",
+            "c": "Wavelength remains constant.",
+            "d": "Wavelength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Wavelength decreases as frequency increases if speed is constant",
+        "module": "3.1"
+    },
+    {
+        "question": "What does amplitude measure in a wave?",
+        "options": {
+            "a": "The distance between two consecutive troughs.",
+            "b": "The maximum displacement from equilibrium.",
+            "c": "The speed of the wave.",
+            "d": "The time taken for one complete oscillation."
+        },
+        "correctAnswer": "b",
+        "explanation": "Amplitude is the maximum displacement from the equilibrium position",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the wave speed of a wave with a frequency of 5 Hz and a wavelength of 2 meters?",
+        "options": {
+            "a": "5 m/s.",
+            "b": "10 m/s.",
+            "c": "15 m/s.",
+            "d": "20 m/s."
+        },
+        "correctAnswer": "b",
+        "explanation": "Wave speed = frequency × wavelength, so v=5×2 = 10 m/s",
+        "module": "3.1"
+    },
+    {
+        "question": "What does wavelength represent in a wave?",
+        "options": {
+            "a": "The distance between two consecutive points in phase.",
+            "b": "The maximum displacement from equilibrium.",
+            "c": "The speed of the wave.",
+            "d": "The time taken for one complete oscillation."
+        },
+        "correctAnswer": "a",
+        "explanation": "Wavelength is the distance between consecutive points in phase",
+        "module": "3.1"
+    },
+    {
+        "question": "What is characteristic of transverse waves?",
+        "options": {
+            "a": "The particle motion is parallel to the direction of wave propagation.",
+            "b": "The wave speed depends on frequency.",
+            "c": "The particle motion is perpendicular to the direction of wave propagation.",
+            "d": "The wave speed remains constant."
+        },
+        "correctAnswer": "c",
+        "explanation": "Characteristic of transverse waves",
+        "module": "3.1"
+    },
+    {
+        "question": "On what does wave speed depend?",
+        "options": {
+            "a": "The type of medium through which it travels.",
+            "b": "The amplitude of the wave.",
+            "c": "The frequency of the wave.",
+            "d": "The wavelength of the wave."
+        },
+        "correctAnswer": "a",
+        "explanation": "Wave speed depends on the medium",
+        "module": "3.1"
+    },
+    {
+        "question": "What happens to wavelength when frequency increases while wave speed remains constant?",
+        "options": {
+            "a": "The wavelength increases.",
+            "b": "The wavelength decreases.",
+            "c": "The wavelength remains the same.",
+            "d": "The wavelength becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Wavelength decreases as frequency increases if speed is constant",
+        "module": "3.1"
+    },
+    {
+        "question": "What type of wave is light?",
+        "options": {
+            "a": "Longitudinal mechanical wave.",
+            "b": "Longitudinal electromagnetic wave.",
+            "c": "Transverse electromagnetic wave.",
+            "d": "Transverse mechanical wave."
+        },
+        "correctAnswer": "c",
+        "explanation": "Light is a transverse electromagnetic wave",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the wavelength of a wave with a speed of 50 m/s and a frequency of 10 Hz?",
+        "options": {
+            "a": "2 m.",
+            "b": "5 m.",
+            "c": "10 m.",
+            "d": "20 m."
+        },
+        "correctAnswer": "b",
+        "explanation": "Wavelength = wave speed / frequency, so λ=50/10 = 5 m",
+        "module": "3.1"
+    },
+    {
+        "question": "How is energy transferred in mechanical waves?",
+        "options": {
+            "a": "Energy is transferred through the medium without the particles themselves moving along with the wave.",
+            "b": "Energy is transferred along with the particles in the medium.",
+            "c": "Energy is transferred only in the direction of wave propagation.",
+            "d": "Energy is transferred only through compressions and rarefactions."
+        },
+        "correctAnswer": "a",
+        "explanation": "Energy transfer occurs without particle movement along the wave direction",
+        "module": "3.1"
+    },
+    {
+        "question": "Which of the following is characteristic of a transverse wave?",
+        "options": {
+            "a": "The particle motion is parallel to the direction of wave propagation.",
+            "b": "The particle motion is perpendicular to the direction of wave propagation.",
+            "c": "The wave speed depends on frequency.",
+            "d": "The wave speed remains constant."
+        },
+        "correctAnswer": "c",
+        "explanation": "In transverse waves, energy is transferred perpendicular to particle motion",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the relationship between wavelength and period?",
+        "options": {
+            "a": "v=λ/T",
+            "b": "v=λ×T",
+            "c": "v=λ/T²",
+            "d": "v=λ²/T"
+        },
+        "correctAnswer": "a",
+        "explanation": "Wave speed is the ratio of wavelength to period",
+        "module": "3.1"
+    },
+    {
+        "question": "How does the speed of sound change with increasing density in air?",
+        "options": {
+            "a": "Speed of sound increases with increasing density.",
+            "b": "Speed of sound decreases with increasing density.",
+            "c": "Speed of sound remains the same.",
+            "d": "Speed of sound becomes zero."
+        },
+        "correctAnswer": "b",
+        "explanation": "Increased density slows sound propagation in air",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the wave speed if a wave has a wavelength of 4 meters and a period of 2 seconds?",
+        "options": {
+            "a": "1 m/s.",
+            "b": "2 m/s.",
+            "c": "3 m/s.",
+            "d": "4 m/s."
+        },
+        "correctAnswer": "b",
+        "explanation": "Wave speed = wavelength / period, so v=4/2 = 2 m/s",
+        "module": "3.1"
+    },
+    {
+        "question": "What is true about electromagnetic waves?",
+        "options": {
+            "a": "They require a medium for propagation.",
+            "b": "They can only travel through a vacuum.",
+            "c": "They can travel through both a vacuum and a medium.",
+            "d": "They cannot travel through a vacuum."
+        },
+        "correctAnswer": "c",
+        "explanation": "Electromagnetic waves do not require a medium",
+        "module": "3.1"
+    },
+    {
+        "question": "What happens to amplitude as wave energy increases?",
+        "options": {
+            "a": "Amplitude increases.",
+            "b": "Amplitude decreases.",
+            "c": "Amplitude remains constant.",
+            "d": "Amplitude becomes zero."
+        },
+        "correctAnswer": "a",
+        "explanation": "Higher energy increases amplitude",
+        "module": "3.1"
+    },
+    {
+        "question": "What is a characteristic of all waves?",
+        "options": {
+            "a": "They transfer energy from one point to another.",
+            "b": "They require a medium for propagation.",
+            "c": "They can only travel through a vacuum.",
+            "d": "They do not transfer energy."
+        },
+        "correctAnswer": "a",
+        "explanation": "All waves transfer energy",
+        "module": "3.1"
+    },
+    {
+        "question": "What is true about the speed of light?",
+        "options": {
+            "a": "The speed of light is faster in a vacuum.",
+            "b": "The speed of light is faster in a medium.",
+            "c": "The speed of light is constant in all media.",
+            "d": "The speed of light decreases in a vacuum."
+        },
+        "correctAnswer": "a",
+        "explanation": "Light travels fastest in a vacuum",
+        "module": "3.1"
+    },
+    {
+        "question": "What is the period of a wave with a frequency of 4 Hz?",
+        "options": {
+            "a": "0.25 seconds.",
+            "b": "0.5 seconds.",
+            "c": "2 seconds.",
+            "d": "4 seconds."
+        },
+        "correctAnswer": "a",
+        "explanation": "Period is the reciprocal of frequency, so T=1/4 = 0.25 s",
+        "module": "3.1"
+    },
+    {
+        "question": "What type of wave involves particle motion parallel to wave direction?",
+        "options": {
+            "a": "Transverse wave.",
+            "b": "Longitudinal wave.",
+            "c": "Electromagnetic wave.",
+            "d": "Surface wave."
+        },
+        "correctAnswer": "b",
+        "explanation": "Longitudinal waves involve particle motion parallel to wave direction",
+        "module": "3.1"
+    },
+    {
+        "question": "What happens to wave speed if wavelength changes but frequency remains constant?",
+        "options": {
+            "a": "The wave speed increases.",
+            "b": "The wave speed decreases.",
+            "c": "The wave speed remains the same.",
+            "d": "The wave speed becomes zero."
+        },
+        "correctAnswer": "c",
+        "explanation": "Wave speed is independent of wavelength when frequency is constant",
+        "module": "3.1"
+    },
+    {
+        "question": "Which equation correctly represents wave speed?",
+        "options": {
+            "a": "v=f×λ",
+            "b": "v=λ/f",
+            "c": "v=f/λ",
+            "d": "v=λ×T"
+        },
+        "correctAnswer": "a",
+        "explanation": "Wave speed is the product of frequency and wavelength",
+        "module": "3.1"
     }
 ]
 
