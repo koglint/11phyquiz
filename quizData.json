@@ -1799,6 +1799,608 @@
         "correctAnswer": "a",
         "explanation": "Using Newton's Second Law, mass m = F/a = 10 N / 5 m/s² = 2 kg.",
         "module": "2.1"
+    },
+
+    {
+        "question": "An object in motion stays in motion unless acted upon by an external force.",
+        "options": {
+            "a": "An object in motion stays in motion unless acted upon by an external force.",
+            "b": "An object at rest will start moving spontaneously.",
+            "c": "An object will move in a straight line forever.",
+            "d": "An object will change direction without an external force."
+        },
+        "correctAnswer": "a",
+        "explanation": "Newton’s First Law of Motion",
+        "module": "2.2"
+    },
+    {
+        "question": "What does the symbol 'μ' represent in physics?",
+        "options": {
+            "a": "Mass",
+            "b": "Velocity",
+            "c": "Coefficient of friction",
+            "d": "Magnetic permeability"
+        },
+        "correctAnswer": "c",
+        "explanation": "μ represents the coefficient of friction in the equation",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the rate of change of velocity called?",
+        "options": {
+            "a": "Acceleration",
+            "b": "Speed",
+            "c": "Displacement",
+            "d": "Momentum"
+        },
+        "correctAnswer": "a",
+        "explanation": "Definition of acceleration",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the equation for net force according to Newton's Second Law?",
+        "options": {
+            "a": "F_net = ma",
+            "b": "F_net = mv",
+            "c": "F_net = mg",
+            "d": "F_net = mv^2/r"
+        },
+        "correctAnswer": "a",
+        "explanation": "Net force is mass times acceleration",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the equation for work done when force is applied at an angle?",
+        "options": {
+            "a": "W = F·s",
+            "b": "W = F·s·cosθ",
+            "c": "W = F·s·sinθ",
+            "d": "W = F·s·tanθ"
+        },
+        "correctAnswer": "b",
+        "explanation": "Work done is force times displacement times cosine of the angle",
+        "module": "2.2"
+    },
+    {
+        "question": "What is implied when an object moves at constant speed?",
+        "options": {
+            "a": "The net force is zero.",
+            "b": "The net force is constant.",
+            "c": "The net force is increasing.",
+            "d": "The net force is decreasing."
+        },
+        "correctAnswer": "a",
+        "explanation": "Constant speed implies zero net force",
+        "module": "2.2"
+    },
+    {
+        "question": "What does the slope of a velocity-time graph represent?",
+        "options": {
+            "a": "Displacement",
+            "b": "Speed",
+            "c": "Acceleration",
+            "d": "Velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "Slope of velocity-time graph represents acceleration",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the kinetic energy of a 2 kg object moving at 3 m/s?",
+        "options": {
+            "a": "6 J",
+            "b": "12 J",
+            "c": "18 J",
+            "d": "24 J"
+        },
+        "correctAnswer": "c",
+        "explanation": "Kinetic energy =1/2 mv^2=1/2×2×3^2=18 J",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following is an example of Newton's Second Law of Motion?",
+        "options": {
+            "a": "A car accelerating when the driver presses the gas pedal.",
+            "b": "A ball rolling on a flat surface.",
+            "c": "A satellite orbiting Earth.",
+            "d": "A book resting on a table."
+        },
+        "correctAnswer": "a",
+        "explanation": "Example of Newton's Second Law",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the potential energy of a 5 kg object lifted to a height of 10 m?",
+        "options": {
+            "a": "50 J",
+            "b": "100 J",
+            "c": "250 J",
+            "d": "500 J"
+        },
+        "correctAnswer": "d",
+        "explanation": "Potential energy =mgh=5×10×10=500 J",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the formula for power?",
+        "options": {
+            "a": "P=W/t",
+            "b": "P=F·v",
+            "c": "P=F·s",
+            "d": "P=V·I"
+        },
+        "correctAnswer": "a",
+        "explanation": "Definition of power",
+        "module": "2.2"
+    },
+    {
+        "question": "What happens to acceleration if the net force acting on an object is doubled?",
+        "options": {
+            "a": "Acceleration is halved.",
+            "b": "Acceleration is doubled.",
+            "c": "Acceleration remains the same.",
+            "d": "Acceleration is quadrupled."
+        },
+        "correctAnswer": "b",
+        "explanation": "According to Newton's Second Law, F=ma",
+        "module": "2.2"
+    },
+    {
+        "question": "On what factors does friction depend?",
+        "options": {
+            "a": "The normal force and the coefficient of friction.",
+            "b": "The weight of the object.",
+            "c": "The speed of the object.",
+            "d": "The surface area in contact."
+        },
+        "correctAnswer": "a",
+        "explanation": "Friction depends on these factors",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the definition of work?",
+        "options": {
+            "a": "Work is the force exerted over a distance.",
+            "b": "Work is the energy stored in an object.",
+            "c": "Work is the force applied perpendicular to motion.",
+            "d": "Work is the rate of doing energy."
+        },
+        "correctAnswer": "a",
+        "explanation": "Definition of work",
+        "module": "2.2"
+    },
+    {
+        "question": "What is implied when an object moves at constant velocity?",
+        "options": {
+            "a": "Zero net force acting on it.",
+            "b": "Constant net force acting on it.",
+            "c": "Increasing net force acting on it.",
+            "d": "Decreasing net force acting on it."
+        },
+        "correctAnswer": "a",
+        "explanation": "Constant velocity implies no net force",
+        "module": "2.2"
+    },
+    {
+        "question": "What happens to acceleration if the mass of an object is doubled while the force remains the same?",
+        "options": {
+            "a": "Acceleration is halved.",
+            "b": "Acceleration is doubled.",
+            "c": "Acceleration remains the same.",
+            "d": "Acceleration is quadrupled."
+        },
+        "correctAnswer": "a",
+        "explanation": "Mass and acceleration are inversely proportional",
+        "module": "2.2"
+    },
+    {
+        "question": "What does the area under a force-displacement graph represent?",
+        "options": {
+            "a": "Work done.",
+            "b": "Power.",
+            "c": "Energy.",
+            "d": "Momentum."
+        },
+        "correctAnswer": "a",
+        "explanation": "Area under force-displacement graph represents work done",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the acceleration of an object when a force of 10 N is applied to a 2 kg mass?",
+        "options": {
+            "a": "2 m/s²",
+            "b": "5 m/s²",
+            "c": "10 m/s²",
+            "d": "20 m/s²"
+        },
+        "correctAnswer": "b",
+        "explanation": "Acceleration =F/m=10/2=5 m/s²",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the SI unit of power?",
+        "options": {
+            "a": "Joule",
+            "b": "Watt",
+            "c": "Newton",
+            "d": "Pascal"
+        },
+        "correctAnswer": "b",
+        "explanation": "SI unit of power",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following is true about the acceleration due to gravity?",
+        "options": {
+            "a": "It is different for different objects.",
+            "b": "It depends on the shape of the object.",
+            "c": "It is the same for all objects regardless of mass.",
+            "d": "It varies with altitude."
+        },
+        "correctAnswer": "c",
+        "explanation": "All objects fall with the same acceleration due to gravity",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the relationship between potential energy and height?",
+        "options": {
+            "a": "Directly proportional.",
+            "b": "Inversely proportional.",
+            "c": "Unrelated.",
+            "d": "Exponentially proportional."
+        },
+        "correctAnswer": "a",
+        "explanation": "Potential energy increases with height",
+        "module": "2.2"
+    },
+    {
+        "question": "Which force keeps an object moving in a circular path?",
+        "options": {
+            "a": "Gravitational force.",
+            "b": "Electromagnetic force.",
+            "c": "Centripetal force.",
+            "d": "Frictional force."
+        },
+        "correctAnswer": "a",
+        "explanation": "Centripetal force",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the SI unit of force?",
+        "options": {
+            "a": "Joule",
+            "b": "Newton",
+            "c": "Pascal",
+            "d": "Watt"
+        },
+        "correctAnswer": "b",
+        "explanation": "SI unit of force",
+        "module": "2.2"
+    },
+    {
+        "question": "What happens to an object's acceleration as it falls freely under gravity?",
+        "options": {
+            "a": "It increases.",
+            "b": "It decreases.",
+            "c": "It fluctuates.",
+            "d": "Its acceleration remains constant as it falls."
+        },
+        "correctAnswer": "d",
+        "explanation": "Acceleration due to gravity is constant",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the work done when a force of 20 N moves an object 3 meters?",
+        "options": {
+            "a": "10 J",
+            "b": "30 J",
+            "c": "60 J",
+            "d": "90 J"
+        },
+        "correctAnswer": "c",
+        "explanation": "Work done =F×d=20×3=60 J",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following scenarios describes work being done?",
+        "options": {
+            "a": "A book resting on a table.",
+            "b": "A car moving at a constant speed on a flat road.",
+            "c": "A force acting on a moving object causing it to accelerate.",
+            "d": "A person holding a box stationary."
+        },
+        "correctAnswer": "d",
+        "explanation": "Work is done when force causes motion",
+        "module": "2.2"
+    },
+    {
+        "question": "What happens to kinetic energy if the speed of an object is doubled?",
+        "options": {
+            "a": "It is doubled.",
+            "b": "It remains the same.",
+            "c": "It is quadrupled.",
+            "d": "It is halved."
+        },
+        "correctAnswer": "c",
+        "explanation": "Kinetic energy is proportional to the square of speed",
+        "module": "2.2"
+    },
+    {
+        "question": "What is implied when an object is in mechanical equilibrium?",
+        "options": {
+            "a": "Net force is zero.",
+            "b": "Net force is constant.",
+            "c": "Net force is increasing.",
+            "d": "Net force is decreasing."
+        },
+        "correctAnswer": "a",
+        "explanation": "Mechanical equilibrium means no net force",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the net force acting on a 5 kg object accelerating at 4 m/s²?",
+        "options": {
+            "a": "10 N",
+            "b": "15 N",
+            "c": "20 N",
+            "d": "25 N"
+        },
+        "correctAnswer": "d",
+        "explanation": "Net force =ma=5×4=20 N",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following is a conservative force?",
+        "options": {
+            "a": "Frictional force.",
+            "b": "Air resistance.",
+            "c": "Gravitational force.",
+            "d": "Normal force."
+        },
+        "correctAnswer": "c",
+        "explanation": "A conservative force",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the frictional force acting on a 100 N object if the coefficient of friction is 0.5?",
+        "options": {
+            "a": "10 N",
+            "b": "25 N",
+            "c": "50 N",
+            "d": "75 N"
+        },
+        "correctAnswer": "c",
+        "explanation": "Frictional force =μF_N=0.5×100=50 N",
+        "module": "2.2"
+    },
+    {
+        "question": "When is no work done by a force on an object?",
+        "options": {
+            "a": "When the force is perpendicular to the displacement.",
+            "b": "When the force is in the same direction as the displacement.",
+            "c": "When the force is in the opposite direction of the displacement.",
+            "d": "When the object moves in the direction of the force."
+        },
+        "correctAnswer": "a",
+        "explanation": "No work is done in this case",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the rate of doing work called?",
+        "options": {
+            "a": "Energy.",
+            "b": "Power.",
+            "c": "Force.",
+            "d": "Displacement."
+        },
+        "correctAnswer": "b",
+        "explanation": "Rate of doing work",
+        "module": "2.2"
+    },
+    {
+        "question": "What is true for an object in mechanical equilibrium?",
+        "options": {
+            "a": "The net force acting on it is zero.",
+            "b": "The net force acting on it is constant.",
+            "c": "The net force acting on it is increasing.",
+            "d": "The net force acting on it is decreasing."
+        },
+        "correctAnswer": "a",
+        "explanation": "Condition for mechanical equilibrium",
+        "module": "2.2"
+    },
+    {
+        "question": "What does the area under a velocity-time graph represent?",
+        "options": {
+            "a": "Acceleration.",
+            "b": "Displacement.",
+            "c": "Speed.",
+            "d": "Velocity."
+        },
+        "correctAnswer": "b",
+        "explanation": "Area under velocity-time graph represents displacement",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the standard acceleration due to gravity on Earth?",
+        "options": {
+            "a": "8.9 m/s²",
+            "b": "9.8 m/s²",
+            "c": "10.8 m/s²",
+            "d": "11.8 m/s²"
+        },
+        "correctAnswer": "b",
+        "explanation": "Standard acceleration due to gravity",
+        "module": "2.2"
+    },
+    {
+        "question": "What is implied when an object moves at constant speed?",
+        "options": {
+            "a": "The net force is zero.",
+            "b": "The net force is constant.",
+            "c": "The net force is increasing.",
+            "d": "The net force is decreasing."
+        },
+        "correctAnswer": "a",
+        "explanation": "Constant speed implies no net force",
+        "module": "2.2"
+    },
+    {
+        "question": "What is potential energy?",
+        "options": {
+            "a": "The energy associated with motion.",
+            "b": "The energy due to an object's temperature.",
+            "c": "The energy stored due to position or height.",
+            "d": "The energy released during a chemical reaction."
+        },
+        "correctAnswer": "c",
+        "explanation": "Energy stored due to position or height",
+        "module": "2.2"
+    },
+    {
+        "question": "What is a vector quantity?",
+        "options": {
+            "a": "A quantity with both magnitude and direction.",
+            "b": "A quantity with magnitude only.",
+            "c": "A quantity with direction only.",
+            "d": "A quantity with neither magnitude nor direction."
+        },
+        "correctAnswer": "a",
+        "explanation": "Definition of a vector quantity",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the formula for gravitational potential energy?",
+        "options": {
+            "a": "U=1/2mv^2",
+            "b": "U=mgh",
+            "c": "U=1/2kx^2",
+            "d": "U=mc^2"
+        },
+        "correctAnswer": "b",
+        "explanation": "Formula for gravitational potential energy",
+        "module": "2.2"
+    },
+    {
+        "question": "What does Newton’s Third Law of Motion state?",
+        "options": {
+            "a": "For every action, there is an equal and opposite reaction.",
+            "b": "An object at rest stays at rest unless acted on by an external force.",
+            "c": "Force equals mass times acceleration.",
+            "d": "Energy cannot be created or destroyed."
+        },
+        "correctAnswer": "a",
+        "explanation": "Newton’s Third Law",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the potential energy of a 10 kg object lifted to a height of 5 m?",
+        "options": {
+            "a": "100 J",
+            "b": "250 J",
+            "c": "500 J",
+            "d": "1000 J"
+        },
+        "correctAnswer": "c",
+        "explanation": "Potential energy =mgh=10×10×5=500 J",
+        "module": "2.2"
+    },
+    {
+        "question": "In the equation P=VI, what does 'P' represent?",
+        "options": {
+            "a": "Power",
+            "b": "Pressure",
+            "c": "Potential difference",
+            "d": "Momentum"
+        },
+        "correctAnswer": "a",
+        "explanation": "P represents power in the equation",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following scenarios describes work done against friction?",
+        "options": {
+            "a": "Pushing a box across a rough surface.",
+            "b": "Lifting a box vertically.",
+            "c": "Holding a box stationary.",
+            "d": "Sliding a box on a frictionless surface."
+        },
+        "correctAnswer": "a",
+        "explanation": "Work is done against friction",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the formula for power when force is applied at a constant velocity?",
+        "options": {
+            "a": "P=Fv",
+            "b": "P=Fs",
+            "c": "P=mv^2",
+            "d": "P=F/a"
+        },
+        "correctAnswer": "a",
+        "explanation": "Power is the product of force and velocity",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the frictional force acting on an object moving at a constant speed on a rough surface?",
+        "options": {
+            "a": "It is equal to 10 N.",
+            "b": "It is equal to 20 N.",
+            "c": "It is equal to 30 N.",
+            "d": "It is equal to 40 N."
+        },
+        "correctAnswer": "c",
+        "explanation": "Constant speed implies frictional force equals applied force",
+        "module": "2.2"
+    },
+    {
+        "question": "What is the SI unit of energy?",
+        "options": {
+            "a": "Watt",
+            "b": "Joule",
+            "c": "Newton",
+            "d": "Pascal"
+        },
+        "correctAnswer": "b",
+        "explanation": "SI unit of energy",
+        "module": "2.2"
+    },
+    {
+        "question": "What happens to potential energy as an object's height increases?",
+        "options": {
+            "a": "It decreases.",
+            "b": "It remains the same.",
+            "c": "It increases.",
+            "d": "It fluctuates."
+        },
+        "correctAnswer": "c",
+        "explanation": "Potential energy increases with height",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following statements is true about gravitational force?",
+        "options": {
+            "a": "It is inversely proportional to the square of the distance between two objects.",
+            "b": "It is directly proportional to the mass of the objects.",
+            "c": "Both a and b.",
+            "d": "Neither a nor b."
+        },
+        "correctAnswer": "c",
+        "explanation": "Gravitational force is proportional to mass and inversely proportional to the square of the distance",
+        "module": "2.2"
+    },
+    {
+        "question": "Which of the following best describes work?",
+        "options": {
+            "a": "Work is done when a force causes an object to move in the direction of the force.",
+            "b": "Work is the energy stored in an object.",
+            "c": "Work is the force applied perpendicular to motion.",
+            "d": "Work is the rate of doing energy."
+        },
+        "correctAnswer": "a",
+        "explanation": "Definition of work",
+        "module": "2.2"
     }
 ]
+
 
