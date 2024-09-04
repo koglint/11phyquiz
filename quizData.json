@@ -1733,7 +1733,7 @@
         "options": {
             "a": "Moving at a constant speed in a straight line",
             "b": "Changing its direction",
-            "c": "Moving at a constant speed in a circular path",
+            "c": "Moving at a constant speed in a straight, vertical path",
             "d": "Moving in a straight line with zero net force"
         },
         "correctAnswer": "b",
@@ -5768,7 +5768,7 @@
             "c": "The voltage is zero in each branch.",
             "d": "The voltage is inversely proportional to the number of branches."
         },
-        "correctAnswer": "a",
+        "correctAnswer": "b",
         "explanation": "In parallel circuits, voltage is the same across all branches",
         "module": "4.2"
     },
