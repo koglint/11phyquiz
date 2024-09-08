@@ -7217,8 +7217,612 @@
         "correctAnswer": "b",
         "explanation": "Resonance occurs when an instrument vibrates at its natural frequency, amplifying the sound.",
         "module": "3.3"
+    },
+
+    {
+        "question": "Which of the following best describes the ray model of light?",
+        "options": {
+            "a": "Light is made up of particles",
+            "b": "Light travels as a wave",
+            "c": "Light travels in straight lines",
+            "d": "Light is composed of electric and magnetic fields"
+        },
+        "correctAnswer": "c",
+        "explanation": "The ray model of light assumes that light travels in straight lines until it interacts with matter.",
+        "module": "3.4"
+    },
+    {
+        "question": "What happens to light when it strikes a plane mirror?",
+        "options": {
+            "a": "It is absorbed",
+            "b": "It passes through the mirror",
+            "c": "It is reflected",
+            "d": "It is refracted"
+        },
+        "correctAnswer": "c",
+        "explanation": "A plane mirror reflects light according to the law of reflection.",
+        "module": "3.4"
+    },
+    {
+        "question": "When light passes from air into water, what occurs at the boundary between the two media?",
+        "options": {
+            "a": "Reflection only",
+            "b": "Refraction only",
+            "c": "Reflection and refraction",
+            "d": "Dispersion"
+        },
+        "correctAnswer": "c",
+        "explanation": "At the boundary, part of the light is reflected, and part is refracted as it passes into the water.",
+        "module": "3.4"
+    },
+    {
+        "question": "Snell's Law is used to calculate:",
+        "options": {
+            "a": "The angle of reflection",
+            "b": "The angle of refraction",
+            "c": "The speed of light in a vacuum",
+            "d": "The wavelength of light in a medium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Snell’s Law relates the angles of incidence and refraction for light passing between two media.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is total internal reflection?",
+        "options": {
+            "a": "When light reflects off a rough surface",
+            "b": "When all light is absorbed by a surface",
+            "c": "When light is completely reflected back into a medium",
+            "d": "When light passes from a denser to a less dense medium at a critical angle"
+        },
+        "correctAnswer": "c",
+        "explanation": "Total internal reflection occurs when light traveling within a denser medium reflects completely at the boundary with a less dense medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "According to Snell’s Law, what happens when light travels from a medium with a higher refractive index to one with a lower refractive index?",
+        "options": {
+            "a": "The light speeds up and bends towards the normal",
+            "b": "The light slows down and bends away from the normal",
+            "c": "The light speeds up and bends away from the normal",
+            "d": "The light slows down and bends towards the normal"
+        },
+        "correctAnswer": "c",
+        "explanation": "Light bends away from the normal when it moves from a higher to a lower refractive index, speeding up as it enters the new medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is the refractive index of a medium?",
+        "options": {
+            "a": "The speed of light in the medium divided by the speed of light in a vacuum",
+            "b": "The speed of light in a vacuum divided by the speed of light in the medium",
+            "c": "The angle of incidence divided by the angle of refraction",
+            "d": "The angle of refraction divided by the angle of incidence"
+        },
+        "correctAnswer": "b",
+        "explanation": "The refractive index quantifies how much light slows down when entering a medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following phenomena is explained by the dispersion of light?",
+        "options": {
+            "a": "Total internal reflection",
+            "b": "Formation of a rainbow",
+            "c": "Reflection in a plane mirror",
+            "d": "Refraction of light in a glass block"
+        },
+        "correctAnswer": "b",
+        "explanation": "Dispersion of light explains how different wavelengths refract at different angles, forming a rainbow.",
+        "module": "3.4"
+    },
+    {
+        "question": "What causes the dispersion of light?",
+        "options": {
+            "a": "The absorption of light by a medium",
+            "b": "The reflection of light at a surface",
+            "c": "Different wavelengths of light refracting at different angles",
+            "d": "The interference of light waves"
+        },
+        "correctAnswer": "c",
+        "explanation": "Light dispersion occurs when different wavelengths of light bend by different amounts as they pass through a material.",
+        "module": "3.4"
+    },
+    {
+        "question": "When does total internal reflection occur?",
+        "options": {
+            "a": "When light travels from a less dense medium to a denser medium",
+            "b": "When light hits a surface at the critical angle",
+            "c": "When light travels from a denser medium to a less dense medium and hits the surface at an angle greater than the critical angle",
+            "d": "When light passes through a lens"
+        },
+        "correctAnswer": "c",
+        "explanation": "Total internal reflection happens when light moves from a denser to a less dense medium and strikes at an angle greater than the critical angle.",
+        "module": "3.4"
+    },
+    {
+        "question": "What does the inverse square law describe in the context of light?",
+        "options": {
+            "a": "The relationship between the speed of light and its wavelength",
+            "b": "The relationship between light intensity and distance",
+            "c": "The relationship between light frequency and distance",
+            "d": "The relationship between refraction and light intensity"
+        },
+        "correctAnswer": "b",
+        "explanation": "The inverse square law states that light intensity decreases with the square of the distance from the source.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following is the correct formula for Snell's Law?",
+        "options": {
+            "a": "n_1 sin(i)=n_2 sin(r)",
+            "b": "n_1 cos(i)=n_2 cos(r)",
+            "c": "n_1 tan(i)=n_2 tan(r)",
+            "d": "n_1 sin(r)=n_2 sin(i)"
+        },
+        "correctAnswer": "a",
+        "explanation": "Snell's Law relates the refractive indices of two media to the sine of the angles of incidence and refraction.",
+        "module": "3.4"
+    },
+    {
+        "question": "If light travels from air (with n=1) into glass (with n=1.5), how does the speed of light change in glass compared to air?",
+        "options": {
+            "a": "The speed increases",
+            "b": "The speed remains the same",
+            "c": "The speed decreases",
+            "d": "The speed becomes infinite"
+        },
+        "correctAnswer": "c",
+        "explanation": "Light slows down when it moves from air into a denser medium like glass.",
+        "module": "3.4"
+    },
+    {
+        "question": "When light enters a denser medium, such as water, at an angle, it will:",
+        "options": {
+            "a": "Bend towards the normal",
+            "b": "Bend away from the normal",
+            "c": "Not bend at all",
+            "d": "Reflect off the surface"
+        },
+        "correctAnswer": "a",
+        "explanation": "As light enters a denser medium, it slows down and bends towards the normal.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which equation is used to calculate the critical angle for total internal reflection?",
+        "options": {
+            "a": "sin(i_c )=1/n",
+            "b": "sin(i_c )=n_2/n_1",
+            "c": "cos(i_c )=1/n",
+            "d": "cos(i_c )=n_1/n_2"
+        },
+        "correctAnswer": "a",
+        "explanation": "The critical angle formula determines the angle at which total internal reflection occurs.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is the effect of increasing the refractive index of a medium on the speed of light in that medium?",
+        "options": {
+            "a": "It increases the speed of light",
+            "b": "It decreases the speed of light",
+            "c": "It has no effect on the speed of light",
+            "d": "It causes light to change direction"
+        },
+        "correctAnswer": "b",
+        "explanation": "A higher refractive index means that light slows down more when passing through the medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is the main reason light bends when it passes from one medium to another?",
+        "options": {
+            "a": "Change in the frequency of light",
+            "b": "Change in the speed of light",
+            "c": "Change in the amplitude of light",
+            "d": "Change in the wavelength of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Refraction occurs due to a change in the speed of light as it moves between different media.",
+        "module": "3.4"
+    },
+    {
+        "question": "In a convex lens, parallel rays of light:",
+        "options": {
+            "a": "Diverge after passing through the lens",
+            "b": "Converge to a point after passing through the lens",
+            "c": "Continue in a straight line",
+            "d": "Spread out in all directions"
+        },
+        "correctAnswer": "b",
+        "explanation": "A convex lens causes parallel light rays to converge to a focal point.",
+        "module": "3.4"
+    },
+    {
+        "question": "The refractive index of medium X is 1.33, and the speed of light in the medium is 2.26 x 10^8 m/s. What is the speed of light in a vacuum?",
+        "options": {
+            "a": "2.26 x 10^8 m/s",
+            "b": "1.33 x 10^8 m/s",
+            "c": "3.00 x 10^8 m/s",
+            "d": "2.00 x 10^8 m/s"
+        },
+        "correctAnswer": "c",
+        "explanation": "The speed of light in a vacuum is approximately 3.00 x 10^8 m/s.",
+        "module": "3.4"
+    },
+
+    {
+        "question": "The angle of incidence at which light is totally internally reflected is called the:",
+        "options": {
+            "a": "Angle of refraction",
+            "b": "Angle of reflection",
+            "c": "Critical angle",
+            "d": "Brewster's angle"
+        },
+        "correctAnswer": "c",
+        "explanation": "The critical angle is the angle of incidence at which light is totally internally reflected within a medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following is a practical application of total internal reflection?",
+        "options": {
+            "a": "Fiber optics",
+            "b": "Magnifying glasses",
+            "c": "Polarizing filters",
+            "d": "Cameras"
+        },
+        "correctAnswer": "a",
+        "explanation": "Total internal reflection allows light to be transmitted through fiber optic cables over long distances.",
+        "module": "3.4"
+    },
+    {
+        "question": "How does the angle of refraction compare to the angle of incidence when light passes from a medium with a higher refractive index to one with a lower refractive index?",
+        "options": {
+            "a": "The angle of refraction is smaller than the angle of incidence",
+            "b": "The angle of refraction is larger than the angle of incidence",
+            "c": "The angles are equal",
+            "d": "There is no refraction"
+        },
+        "correctAnswer": "b",
+        "explanation": "When light passes into a medium with a lower refractive index, it bends away from the normal, resulting in a larger angle of refraction.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is the main cause of the phenomenon of a mirage on a hot road?",
+        "options": {
+            "a": "Total internal reflection",
+            "b": "Dispersion of light",
+            "c": "Refraction of light due to varying air densities",
+            "d": "Reflection of light from the road surface"
+        },
+        "correctAnswer": "c",
+        "explanation": "A mirage occurs when light refracts through layers of air with different densities, creating the illusion of water.",
+        "module": "3.4"
+    },
+    {
+        "question": "What happens to the intensity of light as the distance from the source doubles?",
+        "options": {
+            "a": "It remains the same",
+            "b": "It doubles",
+            "c": "It decreases by a factor of four",
+            "d": "It increases by a factor of four"
+        },
+        "correctAnswer": "c",
+        "explanation": "According to the inverse square law, doubling the distance decreases the intensity by a factor of four.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following best describes the behavior of light in a concave mirror?",
+        "options": {
+            "a": "Parallel light rays converge after reflecting from the mirror",
+            "b": "Parallel light rays diverge after reflecting from the mirror",
+            "c": "Parallel light rays pass through the mirror",
+            "d": "Parallel light rays are absorbed by the mirror"
+        },
+        "correctAnswer": "a",
+        "explanation": "A concave mirror causes parallel light rays to converge at a focal point after reflection.",
+        "module": "3.4"
+    },
+    {
+        "question": "What happens to the speed of light when it passes from air into glass?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains the same",
+            "d": "It becomes infinite"
+        },
+        "correctAnswer": "b",
+        "explanation": "Light slows down when passing from a less dense medium (air) into a denser medium (glass).",
+        "module": "3.4"
+    },
+    {
+        "question": "How can the refractive index of a material be calculated?",
+        "options": {
+            "a": "n=sinr/sini",
+            "b": "n=c/v",
+            "c": "n=v/c",
+            "d": "n=1/sini"
+        },
+        "correctAnswer": "b",
+        "explanation": "The refractive index is the ratio of the speed of light in a vacuum to the speed of light in the medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "In a lens, what causes light to focus at a single point?",
+        "options": {
+            "a": "Reflection",
+            "b": "Refraction",
+            "c": "Dispersion",
+            "d": "Diffraction"
+        },
+        "correctAnswer": "b",
+        "explanation": "Refraction in a lens causes light to change direction and focus at a point.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is the critical angle for light traveling from glass (n = 1.5) to air (n = 1)?",
+        "options": {
+            "a": "48.6°",
+            "b": "41.8°",
+            "c": "33.3°",
+            "d": "60.0°"
+        },
+        "correctAnswer": "b",
+        "explanation": "Using Snell's Law, the critical angle for light traveling from glass (n = 1.5) to air (n = 1) is approximately 41.8°.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which equation describes the inverse square law of light intensity?",
+        "options": {
+            "a": "I_1 r_1^2=I_2 r_2^2",
+            "b": "I_1 r_2=I_2 r_1",
+            "c": "I_1=I_2×r_2/r_1",
+            "d": "I_1=I_2/(r_1 r_2)"
+        },
+        "correctAnswer": "a",
+        "explanation": "The inverse square law relates the intensity of light at different distances from the source.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following explains the bending of light as it enters a different medium?",
+        "options": {
+            "a": "Total internal reflection",
+            "b": "Refraction",
+            "c": "Diffraction",
+            "d": "Dispersion"
+        },
+        "correctAnswer": "b",
+        "explanation": "Refraction is the bending of light as it changes speed when entering a new medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following is an example of refraction?",
+        "options": {
+            "a": "The bending of light through a lens",
+            "b": "The reflection of light in a mirror",
+            "c": "The dispersion of light through a prism",
+            "d": "The diffraction of light around an obstacle"
+        },
+        "correctAnswer": "a",
+        "explanation": "Refraction causes light to bend when passing through lenses, such as in eyeglasses or cameras.",
+        "module": "3.4"
+    },
+    {
+        "question": "When light travels from water (n = 1.33) to glass (n = 1.5), what happens to the speed of light?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains the same",
+            "d": "It reverses direction"
+        },
+        "correctAnswer": "b",
+        "explanation": "Light slows down as it moves from water to a denser medium like glass.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which factor is most important in determining the refractive index of a medium?",
+        "options": {
+            "a": "The wavelength of light",
+            "b": "The density of the medium",
+            "c": "The frequency of light",
+            "d": "The amplitude of the wave"
+        },
+        "correctAnswer": "b",
+        "explanation": "A denser medium generally has a higher refractive index because light travels more slowly through it.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following is an application of the inverse square law in everyday life?",
+        "options": {
+            "a": "Using mirrors to focus light in telescopes",
+            "b": "Calculating the brightness of a star",
+            "c": "Measuring the wavelength of light",
+            "d": "Calculating the critical angle of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Astronomers use the inverse square law to calculate the brightness of stars based on their distance from Earth.",
+        "module": "3.4"
+    },
+    {
+        "question": "How does the angle of incidence compare to the angle of reflection in a plane mirror?",
+        "options": {
+            "a": "The angle of incidence is smaller than the angle of reflection",
+            "b": "The angle of incidence is larger than the angle of reflection",
+            "c": "The angle of incidence is equal to the angle of reflection",
+            "d": "There is no relationship between the two angles"
+        },
+        "correctAnswer": "c",
+        "explanation": "According to the law of reflection, the angle of incidence equals the angle of reflection in a plane mirror.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following causes a rainbow to form?",
+        "options": {
+            "a": "Reflection",
+            "b": "Refraction and dispersion",
+            "c": "Diffraction",
+            "d": "Total internal reflection"
+        },
+        "correctAnswer": "b",
+        "explanation": "A rainbow forms due to the refraction and dispersion of light as it passes through water droplets in the atmosphere.",
+        "module": "3.4"
+    },
+    {
+        "question": "What is the main difference between refraction and reflection?",
+        "options": {
+            "a": "Refraction occurs when light changes medium, while reflection occurs when light bounces off a surface",
+            "b": "Reflection occurs when light changes medium, while refraction occurs when light bounces off a surface",
+            "c": "Refraction involves a change in the speed of light, while reflection involves a change in wavelength",
+            "d": "Reflection involves the bending of light, while refraction involves the bouncing of light"
+        },
+        "correctAnswer": "a",
+        "explanation": "Refraction involves a change in speed and direction when light enters a new medium, while reflection involves light bouncing off a surface.",
+        "module": "3.4"
+    },
+    {
+        "question": "In which of the following situations would you expect total internal reflection to occur?",
+        "options": {
+            "a": "Light traveling from water to glass",
+            "b": "Light traveling from glass to air",
+            "c": "Light traveling from air to water",
+            "d": "Light traveling from air to glass"
+        },
+        "correctAnswer": "b",
+        "explanation": "Total internal reflection occurs when light moves from a denser medium (glass) to a less dense medium (air) at an angle greater than the critical angle.",
+        "module": "3.4"
+    },
+    {
+        "question": "How does a convex lens affect parallel rays of light?",
+        "options": {
+            "a": "It causes them to converge",
+            "b": "It causes them to diverge",
+            "c": "It causes them to reflect",
+            "d": "It causes them to refract without changing direction"
+        },
+        "correctAnswer": "a",
+        "explanation": "A convex lens causes parallel light rays to converge at a focal point.",
+        "module": "3.4"
+    },
+    {
+        "question": "What happens when light waves interfere constructively?",
+        "options": {
+            "a": "The intensity of the light decreases",
+            "b": "The intensity of the light increases",
+            "c": "The speed of the light increases",
+            "d": "The frequency of the light decreases"
+        },
+        "correctAnswer": "b",
+        "explanation": "Constructive interference occurs when two light waves combine, resulting in increased intensity.",
+        "module": "3.4"
+    },
+    {
+        "question": "How does the dispersion of light relate to the wavelength of the light?",
+        "options": {
+            "a": "Longer wavelengths refract more than shorter wavelengths",
+            "b": "Shorter wavelengths refract more than longer wavelengths",
+            "c": "All wavelengths refract equally",
+            "d": "Dispersion does not depend on wavelength"
+        },
+        "correctAnswer": "b",
+        "explanation": "In dispersion, shorter wavelengths (like blue light) bend more than longer wavelengths (like red light).",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following describes the behavior of light in a fiber optic cable?",
+        "options": {
+            "a": "Light reflects multiple times inside the cable due to total internal reflection",
+            "b": "Light passes straight through the cable without changing direction",
+            "c": "Light diffracts as it travels through the cable",
+            "d": "Light is absorbed by the cable, losing energy"
+        },
+        "correctAnswer": "a",
+        "explanation": "Fiber optic cables transmit light through multiple reflections caused by total internal reflection within the cable.",
+        "module": "3.4"
+    },
+    {
+        "question": "What causes light to bend at the boundary between two different media?",
+        "options": {
+            "a": "Change in the amplitude of the light wave",
+            "b": "Change in the speed of light",
+            "c": "Change in the frequency of the light wave",
+            "d": "Change in the intensity of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Light bends at the boundary between two media due to a change in its speed as it enters the new medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "How does a concave mirror affect parallel rays of light?",
+        "options": {
+            "a": "It causes them to converge",
+            "b": "It causes them to diverge",
+            "c": "It causes them to pass through the mirror",
+            "d": "It absorbs the light rays"
+        },
+        "correctAnswer": "a",
+        "explanation": "A concave mirror causes parallel rays of light to converge at a focal point after reflection.",
+        "module": "3.4"
+    },
+    {
+        "question": "If a light ray strikes a surface at 30° to the normal, what is the angle of reflection?",
+        "options": {
+            "a": "30°",
+            "b": "60°",
+            "c": "90°",
+            "d": "15°"
+        },
+        "correctAnswer": "a",
+        "explanation": "The angle of reflection equals the angle of incidence, so if light strikes at 30° to the normal, the angle of reflection is also 30°.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which of the following describes the critical angle in total internal reflection?",
+        "options": {
+            "a": "It is the angle of incidence at which light is completely absorbed",
+            "b": "It is the angle of incidence at which light is reflected back into the medium",
+            "c": "It is the angle at which light passes through a medium without bending",
+            "d": "It is the angle at which light is refracted without reflection"
+        },
+        "correctAnswer": "b",
+        "explanation": "The critical angle is the angle at which total internal reflection occurs, causing light to remain within the medium.",
+        "module": "3.4"
+    },
+    {
+        "question": "How does light behave when passing through a prism?",
+        "options": {
+            "a": "It reflects off the surface of the prism",
+            "b": "It refracts and disperses into its component colors",
+            "c": "It passes through without bending",
+            "d": "It absorbs energy from the prism"
+        },
+        "correctAnswer": "b",
+        "explanation": "When light passes through a prism, it refracts and disperses into its component colors, creating a spectrum.",
+        "module": "3.4"
+    },
+    {
+        "question": "When does the phenomenon of dispersion occur?",
+        "options": {
+            "a": "When light passes through a narrow slit",
+            "b": "When light reflects off a smooth surface",
+            "c": "When light is refracted at different angles for different wavelengths",
+            "d": "When light is diffracted around an obstacle"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dispersion occurs when different wavelengths of light are refracted by different amounts, separating them into a spectrum.",
+        "module": "3.4"
+    },
+    {
+        "question": "Which equation is used to relate the speed of light in a medium to its refractive index?",
+        "options": {
+            "a": "n=v_medium /v_vacuum",
+            "b": "n=c/v_medium",
+            "c": "n=1/sini",
+            "d": "n=sinr/sini"
+        },
+        "correctAnswer": "b",
+        "explanation": "The refractive index is the ratio of the speed of light in a vacuum (c) to the speed of light in the medium.",
+        "module": "3.4"
     }
 ]
+
+
     
 
 
