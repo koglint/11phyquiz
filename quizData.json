@@ -6616,8 +6616,610 @@
         "correctAnswer": "c",
         "explanation": "The force between magnetic poles decreases with the square of the distance",
         "module": "4.3"
+    },
+
+    {
+        "question": "What type of wave is a sound wave in air?",
+        "options": {
+            "a": "Transverse",
+            "b": "Longitudinal",
+            "c": "Electromagnetic",
+            "d": "Standing"
+        },
+        "correctAnswer": "b",
+        "explanation": "In air, sound waves are longitudinal waves, meaning particles oscillate parallel to the wave's direction of travel.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which property of sound is directly related to its frequency?",
+        "options": {
+            "a": "Loudness",
+            "b": "Intensity",
+            "c": "Pitch",
+            "d": "Speed"
+        },
+        "correctAnswer": "c",
+        "explanation": "The frequency of a sound wave determines its pitch; higher frequencies correspond to higher pitches.",
+        "module": "3.3"
+    },
+    {
+        "question": "The loudness of a sound is determined by which wave characteristic?",
+        "options": {
+            "a": "Frequency",
+            "b": "Wavelength",
+            "c": "Amplitude",
+            "d": "Velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "The amplitude of a sound wave determines its loudness; greater amplitude results in louder sound.",
+        "module": "3.3"
+    },
+    {
+        "question": "What is the unit of frequency in sound waves?",
+        "options": {
+            "a": "Meters per second",
+            "b": "Hertz (Hz)",
+            "c": "Decibels (dB)",
+            "d": "Joules (J)"
+        },
+        "correctAnswer": "b",
+        "explanation": "Frequency is measured in hertz (Hz), where one hertz equals one cycle per second.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following describes the displacement of air molecules in a sound wave?",
+        "options": {
+            "a": "They move in circular paths",
+            "b": "They vibrate perpendicular to the wave’s direction of travel",
+            "c": "They move back and forth parallel to the wave’s direction of travel",
+            "d": "They remain stationary while the wave passes through"
+        },
+        "correctAnswer": "c",
+        "explanation": "In a longitudinal wave, particles move in the same direction as the wave’s travel.",
+        "module": "3.3"
+    },
+    {
+        "question": "How does sound intensity change as the distance from the source increases?",
+        "options": {
+            "a": "It increases exponentially",
+            "b": "It decreases exponentially",
+            "c": "It decreases linearly",
+            "d": "It decreases proportionally to the square of the distance"
+        },
+        "correctAnswer": "d",
+        "explanation": "Sound intensity decreases with the square of the distance from the source (inverse square law).",
+        "module": "3.3"
+    },
+    {
+        "question": "What happens to the pitch of a sound as the frequency increases?",
+        "options": {
+            "a": "It decreases",
+            "b": "It remains constant",
+            "c": "It increases",
+            "d": "It becomes louder"
+        },
+        "correctAnswer": "c",
+        "explanation": "Pitch increases as frequency increases, making the sound appear higher.",
+        "module": "3.3"
+    },
+    {
+        "question": "A sound wave traveling through air is an example of which kind of wave?",
+        "options": {
+            "a": "Transverse wave",
+            "b": "Longitudinal wave",
+            "c": "Electromagnetic wave",
+            "d": "Surface wave"
+        },
+        "correctAnswer": "b",
+        "explanation": "Sound waves in air are longitudinal, with particles moving parallel to the direction of wave propagation.",
+        "module": "3.3"
+    },
+    {
+        "question": "In a sound wave, regions of high pressure are called:",
+        "options": {
+            "a": "Rarefactions",
+            "b": "Nodes",
+            "c": "Antinodes",
+            "d": "Compressions"
+        },
+        "correctAnswer": "d",
+        "explanation": "Compressions are regions of high pressure in a sound wave.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following is true about the speed of sound in air?",
+        "options": {
+            "a": "It increases with humidity",
+            "b": "It decreases with temperature",
+            "c": "It is independent of the medium",
+            "d": "It is faster than the speed of light"
+        },
+        "correctAnswer": "a",
+        "explanation": "Sound travels faster in humid air because water vapor molecules are lighter than nitrogen and oxygen molecules.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which wave property is responsible for the phenomenon of resonance?",
+        "options": {
+            "a": "Frequency",
+            "b": "Wavelength",
+            "c": "Intensity",
+            "d": "Speed"
+        },
+        "correctAnswer": "a",
+        "explanation": "Resonance occurs when an object vibrates at its natural frequency, resulting in large amplitude oscillations.",
+        "module": "3.3"
+    },
+    {
+        "question": "The Doppler effect occurs when:",
+        "options": {
+            "a": "The source of a sound is stationary",
+            "b": "The observer and source of the sound are both stationary",
+            "c": "There is relative motion between the observer and the source",
+            "d": "The sound wave is reflected off a surface"
+        },
+        "correctAnswer": "c",
+        "explanation": "The Doppler effect occurs when either the source or the observer is moving relative to the other.",
+        "module": "3.3"
+    },
+    {
+        "question": "Beats are produced by:",
+        "options": {
+            "a": "Two sound waves with identical frequencies",
+            "b": "Two sound waves with slightly different frequencies",
+            "c": "Two sound waves of different amplitudes",
+            "d": "A single sound wave that changes frequency"
+        },
+        "correctAnswer": "b",
+        "explanation": "Beats are produced when two sound waves of slightly different frequencies interfere.",
+        "module": "3.3"
+    },
+    {
+        "question": "The frequency of a beat is determined by:",
+        "options": {
+            "a": "The sum of the two frequencies",
+            "b": "The difference between the two frequencies",
+            "c": "The average of the two frequencies",
+            "d": "The product of the two frequencies"
+        },
+        "correctAnswer": "b",
+        "explanation": "The beat frequency is the absolute difference between the frequencies of the two interfering waves.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which equation describes the beat frequency when two sound waves interfere?",
+        "options": {
+            "a": "f_beat = f_1 + f_2",
+            "b": "f_beat = |f_1 - f_2|",
+            "c": "f_beat = f_1 f_2",
+            "d": "f_beat = (f_1 + f_2) / 2"
+        },
+        "correctAnswer": "b",
+        "explanation": "The beat frequency is the absolute value of the difference between the two sound frequencies.",
+        "module": "3.3"
+    },
+    {
+        "question": "What happens to the speed of sound when the temperature of the air increases?",
+        "options": {
+            "a": "It decreases",
+            "b": "It remains constant",
+            "c": "It increases",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "c",
+        "explanation": "The speed of sound increases with temperature because the molecules move faster and transmit sound more quickly.",
+        "module": "3.3"
+    },
+    {
+        "question": "A higher tension in a string will produce which effect on the fundamental frequency of standing waves on the string?",
+        "options": {
+            "a": "Lower the frequency",
+            "b": "Increase the frequency",
+            "c": "Maintain the frequency",
+            "d": "Decrease the amplitude"
+        },
+        "correctAnswer": "b",
+        "explanation": "Higher tension in a string increases the wave velocity, which increases the fundamental frequency.",
+        "module": "3.3"
+    },
+    {
+        "question": "What is the primary difference between a standing wave and a traveling wave?",
+        "options": {
+            "a": "A standing wave moves, while a traveling wave does not",
+            "b": "A standing wave remains in a fixed position, while a traveling wave moves through space",
+            "c": "A standing wave has variable amplitude, while a traveling wave does not",
+            "d": "A standing wave exists only in solids, while traveling waves exist in all mediums"
+        },
+        "correctAnswer": "b",
+        "explanation": "Standing waves form when two waves traveling in opposite directions interfere, while traveling waves propagate through space.",
+        "module": "3.3"
+    },
+    {
+        "question": "What term refers to regions of destructive interference in standing waves?",
+        "options": {
+            "a": "Nodes",
+            "b": "Antinodes",
+            "c": "Compressions",
+            "d": "Rarefactions"
+        },
+        "correctAnswer": "a",
+        "explanation": "Nodes are points of destructive interference in a standing wave, where no motion occurs.",
+        "module": "3.3"
+    },
+    {
+        "question": "When a sound wave reflects off a surface and interferes with the original wave, it can form:",
+        "options": {
+            "a": "Beats",
+            "b": "Resonance",
+            "c": "A standing wave",
+            "d": "Diffraction"
+        },
+        "correctAnswer": "c",
+        "explanation": "Standing waves can form when a sound wave reflects and interferes with itself, creating points of constructive and destructive interference.",
+        "module": "3.3"
+    },
+    {
+        "question": "How does diffraction affect sound waves passing through an opening?",
+        "options": {
+            "a": "It changes their amplitude",
+            "b": "It bends them around the edges of the opening",
+            "c": "It reduces their speed",
+            "d": "It increases their frequency"
+        },
+        "correctAnswer": "b",
+        "explanation": "Diffraction occurs when sound waves pass through an opening and bend around its edges.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which factor directly influences the pitch of a sound wave produced by a vibrating string?",
+        "options": {
+            "a": "Length of the string",
+            "b": "Thickness of the string",
+            "c": "Tension in the string",
+            "d": "All of the above"
+        },
+        "correctAnswer": "d",
+        "explanation": "The pitch of a sound produced by a string depends on its length, thickness, and tension.",
+        "module": "3.3"
+    },
+    {
+        "question": "The Doppler effect will cause a sound source moving towards an observer to:",
+        "options": {
+            "a": "Appear lower in pitch",
+            "b": "Appear higher in pitch",
+            "c": "Remain constant in pitch",
+            "d": "Disappear"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Doppler effect causes sound waves to compress when the source moves towards the observer, resulting in a higher pitch.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which formula can be used to calculate the Doppler effect for a sound source moving towards an observer?",
+        "options": {
+            "a": "f' = f((v_wave - v_observer) / (v_wave + v_source))",
+            "b": "f' = f((v_wave + v_observer) / (v_wave - v_source))",
+            "c": "f' = f((v_wave + v_source) / (v_wave - v_observer))",
+            "d": "f' = f(v_observer / v_wave)"
+        },
+        "correctAnswer": "b",
+        "explanation": "This is the formula for the Doppler effect when the source is moving towards the observer.",
+        "module": "3.3"
+    },
+    {
+        "question": "The fundamental frequency of a standing wave on a string depends on:",
+        "options": {
+            "a": "The amplitude of the wave",
+            "b": "The length, tension, and mass per unit length of the string",
+            "c": "The speed of the wave alone",
+            "d": "The distance between the nodes"
+        },
+        "correctAnswer": "b",
+        "explanation": "The fundamental frequency depends on the length, tension, and mass per unit length of the string.",
+        "module": "3.3"
+    },
+    {
+        "question": "A sound wave with a frequency of 400 Hz is played along with a sound wave of 405 Hz. What is the beat frequency?",
+        "options": {
+            "a": "5 Hz",
+            "b": "405 Hz",
+            "c": "400 Hz",
+            "d": "202.5 Hz"
+        },
+        "correctAnswer": "a",
+        "explanation": "The beat frequency is |405 - 400| = 5 Hz.",
+        "module": "3.3"
+    },
+    {
+        "question": "In a closed pipe, the fundamental frequency occurs when:",
+        "options": {
+            "a": "There is a node at both ends",
+            "b": "There is an antinode at both ends",
+            "c": "There is a node at the closed end and an antinode at the open end",
+            "d": "There is an antinode at the closed end and a node at the open end"
+        },
+        "correctAnswer": "c",
+        "explanation": "In a closed pipe, the fundamental frequency occurs when there is a node at the closed end and an antinode at the open end.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following phenomena can occur when two sound waves interfere?",
+        "options": {
+            "a": "Refraction",
+            "b": "Diffraction",
+            "c": "Resonance",
+            "d": "Beats"
+        },
+        "correctAnswer": "d",
+        "explanation": "Beats occur when two sound waves of slightly different frequencies interfere, causing periodic variations in loudness.",
+        "module": "3.3"
+    },
+    {
+        "question": "In the context of sound waves, resonance occurs when:",
+        "options": {
+            "a": "Two waves of different frequencies interfere constructively",
+            "b": "A system vibrates at its natural frequency in response to an external force",
+            "c": "Sound waves are refracted as they pass through different media",
+            "d": "The frequency of a wave decreases as it travels through a medium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Resonance occurs when a system vibrates at its natural frequency due to an external force.",
+        "module": "3.3"
+    },
+    {
+        "question": "If the speed of sound in air is 340 m/s and a sound wave has a frequency of 1700 Hz, what is its wavelength?",
+        "options": {
+            "a": "0.2 m",
+            "b": "0.5 m",
+            "c": "2 m",
+            "d": "1 m"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wavelength λ = v / f = (340 m/s) / (1700 Hz) = 0.2 m.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following statements about the Doppler effect is true?",
+        "options": {
+            "a": "The Doppler effect occurs when either the source or the observer is moving",
+            "b": "The Doppler effect is only observed when the source is moving",
+            "c": "The Doppler effect only affects the loudness of the sound",
+            "d": "The Doppler effect only occurs with sound waves, not light waves"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Doppler effect occurs when there is relative motion between the source and the observer.",
+        "module": "3.3"
+    },
+    {
+        "question": "When a sound wave undergoes diffraction, it:",
+        "options": {
+            "a": "Reflects off a surface",
+            "b": "Passes through a narrow opening or obstacle and bends",
+            "c": "Changes its frequency",
+            "d": "Changes its wavelength"
+        },
+        "correctAnswer": "b",
+        "explanation": "Diffraction refers to the bending of waves when they pass through an opening or around an obstacle.",
+        "module": "3.3"
+    },
+    {
+        "question": "In a standing wave on a string, what is the relationship between the harmonic frequency and the length of the string?",
+        "options": {
+            "a": "Harmonic frequency increases as string length increases",
+            "b": "Harmonic frequency decreases as string length increases",
+            "c": "Harmonic frequency is independent of string length",
+            "d": "Harmonic frequency is proportional to the square of string length"
+        },
+        "correctAnswer": "b",
+        "explanation": "Longer strings produce lower harmonic frequencies.",
+        "module": "3.3"
+    },
+    {
+        "question": "A sound wave is transmitted from air into water. How does the speed of the wave change?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains constant",
+            "d": "It reverses direction"
+        },
+        "correctAnswer": "a",
+        "explanation": "Sound travels faster in water than in air due to the higher density of water.",
+        "module": "3.3"
+    },
+    {
+        "question": "If two identical sound waves arrive at a point in phase, what type of interference occurs?",
+        "options": {
+            "a": "Destructive interference",
+            "b": "Constructive interference",
+            "c": "Doppler interference",
+            "d": "No interference occurs"
+        },
+        "correctAnswer": "b",
+        "explanation": "When two waves arrive in phase, constructive interference occurs, resulting in increased amplitude.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following best describes a longitudinal wave?",
+        "options": {
+            "a": "The particles move perpendicular to the wave's direction of travel",
+            "b": "The particles move parallel to the wave's direction of travel",
+            "c": "The particles move in a circular pattern",
+            "d": "The particles do not move at all"
+        },
+        "correctAnswer": "b",
+        "explanation": "In longitudinal waves, particles oscillate parallel to the direction of the wave.",
+        "module": "3.3"
+    },
+    {
+        "question": "What happens to the wavelength of a sound wave as its frequency increases?",
+        "options": {
+            "a": "It decreases",
+            "b": "It increases",
+            "c": "It remains constant",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "a",
+        "explanation": "As frequency increases, the wavelength decreases (since v = fλ).",
+        "module": "3.3"
+    },
+    {
+        "question": "In an open pipe, which harmonics are present?",
+        "options": {
+            "a": "Only odd harmonics",
+            "b": "Only even harmonics",
+            "c": "Both odd and even harmonics",
+            "d": "No harmonics"
+        },
+        "correctAnswer": "c",
+        "explanation": "In an open pipe, both odd and even harmonics are present.",
+        "module": "3.3"
+    },
+    {
+        "question": "If the frequency of a sound wave is doubled, what happens to its wavelength (assuming the speed of sound remains constant)?",
+        "options": {
+            "a": "It is halved",
+            "b": "It is doubled",
+            "c": "It remains the same",
+            "d": "It is quadrupled"
+        },
+        "correctAnswer": "a",
+        "explanation": "Since v = fλ, if the frequency doubles, the wavelength must halve.",
+        "module": "3.3"
+    },
+    {
+        "question": "In which of the following media will sound travel the fastest?",
+        "options": {
+            "a": "Air",
+            "b": "Water",
+            "c": "Steel",
+            "d": "Vacuum"
+        },
+        "correctAnswer": "c",
+        "explanation": "Sound travels fastest in steel because it is a solid with closely packed particles that transmit sound quickly.",
+        "module": "3.3"
+    },
+    {
+        "question": "What happens to the intensity of sound as distance from the source increases?",
+        "options": {
+            "a": "It increases exponentially",
+            "b": "It decreases by the square of the distance",
+            "c": "It remains constant",
+            "d": "It increases linearly"
+        },
+        "correctAnswer": "b",
+        "explanation": "Sound intensity decreases with the square of the distance from the source (inverse square law).",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following is true of beats?",
+        "options": {
+            "a": "They result from the superposition of two sound waves of different frequencies",
+            "b": "They result from the reflection of sound waves",
+            "c": "They occur when two sound waves have the same frequency",
+            "d": "They cause the speed of sound to increase"
+        },
+        "correctAnswer": "a",
+        "explanation": "Beats occur when two waves with slightly different frequencies interfere.",
+        "module": "3.3"
+    },
+    {
+        "question": "If a person is moving towards a stationary sound source, what effect will they observe due to the Doppler effect?",
+        "options": {
+            "a": "The sound will appear higher in pitch",
+            "b": "The sound will appear lower in pitch",
+            "c": "The sound will remain the same",
+            "d": "The sound will become quieter"
+        },
+        "correctAnswer": "a",
+        "explanation": "As the observer moves towards the sound source, the Doppler effect causes the frequency to appear higher.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following statements about the reflection of sound is correct?",
+        "options": {
+            "a": "Sound cannot be reflected by hard surfaces",
+            "b": "Reflection of sound can lead to echoes",
+            "c": "Reflection causes sound waves to lose energy",
+            "d": "Sound waves increase in frequency after reflection"
+        },
+        "correctAnswer": "b",
+        "explanation": "Sound reflects off surfaces, and if the reflection is delayed enough, it creates an echo.",
+        "module": "3.3"
+    },
+    {
+        "question": "In a tube closed at one end, what is the wavelength of the fundamental frequency?",
+        "options": {
+            "a": "Four times the length of the tube",
+            "b": "Twice the length of the tube",
+            "c": "Half the length of the tube",
+            "d": "Equal to the length of the tube"
+        },
+        "correctAnswer": "a",
+        "explanation": "In a tube closed at one end, the fundamental wavelength is four times the length of the tube.",
+        "module": "3.3"
+    },
+    {
+        "question": "If the mass per unit length of a string increases, what happens to the fundamental frequency of standing waves on the string?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains constant",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the mass per unit length of a string lowers its fundamental frequency.",
+        "module": "3.3"
+    },
+    {
+        "question": "A sound wave travels from one medium to another and slows down. What happens to its frequency?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains constant",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "c",
+        "explanation": "The frequency of a wave is determined by the source and does not change as it passes into a new medium.",
+        "module": "3.3"
+    },
+    {
+        "question": "In the context of sound waves, superposition refers to:",
+        "options": {
+            "a": "The addition of multiple sound waves",
+            "b": "The subtraction of sound waves",
+            "c": "The cancellation of sound waves",
+            "d": "The reflection of sound waves"
+        },
+        "correctAnswer": "a",
+        "explanation": "Superposition occurs when two or more waves overlap, adding their amplitudes.",
+        "module": "3.3"
+    },
+    {
+        "question": "What happens when sound waves pass through a narrow gap and spread out?",
+        "options": {
+            "a": "Refraction",
+            "b": "Reflection",
+            "c": "Diffraction",
+            "d": "Absorption"
+        },
+        "correctAnswer": "c",
+        "explanation": "Diffraction occurs when waves spread out after passing through a narrow gap.",
+        "module": "3.3"
+    },
+    {
+        "question": "Which of the following best describes resonance in a musical instrument?",
+        "options": {
+            "a": "A decrease in sound intensity due to interference",
+            "b": "An increase in amplitude when the instrument vibrates at its natural frequency",
+            "c": "A reflection of sound waves inside the instrument",
+            "d": "The Doppler effect causing changes in pitch"
+        },
+        "correctAnswer": "b",
+        "explanation": "Resonance occurs when an instrument vibrates at its natural frequency, amplifying the sound.",
+        "module": "3.3"
     }
 ]
+    
 
 
 
