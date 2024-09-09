@@ -7819,6 +7819,607 @@
         "correctAnswer": "b",
         "explanation": "The refractive index is the ratio of the speed of light in a vacuum (c) to the speed of light in the medium.",
         "module": "3.4"
+    },
+
+    {
+        "question": "Which of the following is assumed in projectile motion?",
+        "options": {
+            "a": "Constant horizontal acceleration",
+            "b": "Constant vertical acceleration due to gravity",
+            "c": "Varying horizontal acceleration due to gravity",
+            "d": "Varying vertical acceleration"
+        },
+        "correctAnswer": "b",
+        "explanation": "In projectile motion, vertical acceleration is constant due to gravity.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the value of vertical acceleration in projectile motion near Earth's surface?",
+        "options": {
+            "a": "9.8 m/s² downward",
+            "b": "9.8 m/s² upward",
+            "c": "0 m/s²",
+            "d": "10.8 m/s² downward"
+        },
+        "correctAnswer": "a",
+        "explanation": "Near Earth's surface, gravity causes a downward acceleration of 9.8 m/s².",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following assumptions is made when analysing projectile motion?",
+        "options": {
+            "a": "Air resistance is included",
+            "b": "Vertical acceleration is variable",
+            "c": "Zero air resistance",
+            "d": "Vertical acceleration is zero"
+        },
+        "correctAnswer": "c",
+        "explanation": "Projectile motion assumes no air resistance to simplify calculations.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following affects the horizontal range of a projectile?",
+        "options": {
+            "a": "Horizontal velocity only",
+            "b": "Vertical velocity only",
+            "c": "Initial velocity and launch angle",
+            "d": "Time of flight only"
+        },
+        "correctAnswer": "c",
+        "explanation": "Both the initial velocity and launch angle affect the range of a projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the horizontal component of velocity in projectile motion when air resistance is neglected?",
+        "options": {
+            "a": "It increases over time",
+            "b": "It decreases over time",
+            "c": "It remains constant",
+            "d": "It varies with height"
+        },
+        "correctAnswer": "c",
+        "explanation": "Horizontal velocity remains constant if air resistance is neglected.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which factor does not affect the time of flight of a projectile?",
+        "options": {
+            "a": "Launch height",
+            "b": "Initial velocity",
+            "c": "Launch angle",
+            "d": "Horizontal velocity"
+        },
+        "correctAnswer": "d",
+        "explanation": "Time of flight depends on launch height, initial velocity, and launch angle but not on horizontal velocity.",
+        "module": "5.1"
+    },
+    {
+        "question": "At what point does a projectile reach its maximum height?",
+        "options": {
+            "a": "When its vertical velocity is maximum",
+            "b": "When its vertical velocity is zero",
+            "c": "When its horizontal velocity is zero",
+            "d": "When its total velocity is zero"
+        },
+        "correctAnswer": "b",
+        "explanation": "At maximum height, the vertical velocity of a projectile is zero.",
+        "module": "5.1"
+    },
+    {
+        "question": "If a projectile is launched at a 45° angle, what can be said about its horizontal and vertical velocity components?",
+        "options": {
+            "a": "The horizontal component is greater",
+            "b": "The vertical component is greater",
+            "c": "They are equal",
+            "d": "Neither component exists"
+        },
+        "correctAnswer": "c",
+        "explanation": "At a 45° launch angle, the horizontal and vertical velocity components are equal.",
+        "module": "5.1"
+    },
+    {
+        "question": "What happens to the vertical velocity of a projectile as it ascends?",
+        "options": {
+            "a": "It increases",
+            "b": "It remains constant",
+            "c": "It decreases until it reaches zero",
+            "d": "It decreases and then increases"
+        },
+        "correctAnswer": "c",
+        "explanation": "As the projectile rises, its vertical velocity decreases to zero at the peak.",
+        "module": "5.1"
+    },
+    {
+        "question": "How does the launch angle affect the range of a projectile?",
+        "options": {
+            "a": "Higher angles always result in longer ranges",
+            "b": "Lower angles always result in shorter ranges",
+            "c": "A 45° angle maximises the range",
+            "d": "The launch angle does not affect the range"
+        },
+        "correctAnswer": "c",
+        "explanation": "The maximum range is achieved when the launch angle is 45°.",
+        "module": "5.1"
+    },
+    {
+        "question": "What determines the time of flight of a projectile?",
+        "options": {
+            "a": "Initial velocity and horizontal distance",
+            "b": "Launch angle and maximum height",
+            "c": "Initial velocity and launch angle",
+            "d": "Launch height and horizontal velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "Time of flight is determined by both the initial velocity and launch angle.",
+        "module": "5.1"
+    },
+    {
+        "question": "If two projectiles are launched with the same speed but different angles, which will stay in the air longer?",
+        "options": {
+            "a": "The one launched at a steeper angle",
+            "b": "The one launched at a lower angle",
+            "c": "Both will stay in the air for the same time",
+            "d": "Time of flight does not depend on angle"
+        },
+        "correctAnswer": "a",
+        "explanation": "A steeper launch angle results in a longer time of flight.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the relationship between the horizontal and vertical motions of a projectile?",
+        "options": {
+            "a": "They are dependent on each other",
+            "b": "They are independent of each other",
+            "c": "Only the horizontal motion affects the vertical motion",
+            "d": "Only the vertical motion affects the horizontal motion"
+        },
+        "correctAnswer": "b",
+        "explanation": "The horizontal and vertical motions are independent of each other.",
+        "module": "5.1"
+    },
+    {
+        "question": "What does the term \"range\" refer to in projectile motion?",
+        "options": {
+            "a": "The maximum height reached by the projectile",
+            "b": "The total time the projectile is in the air",
+            "c": "The horizontal distance travelled by the projectile",
+            "d": "The vertical distance travelled by the projectile"
+        },
+        "correctAnswer": "c",
+        "explanation": "The range is the horizontal distance covered by the projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the effect of launch height on the horizontal range of a projectile?",
+        "options": {
+            "a": "Increasing the launch height increases the range",
+            "b": "Increasing the launch height decreases the range",
+            "c": "Launch height has no effect on range",
+            "d": "Decreasing the launch height increases the range"
+        },
+        "correctAnswer": "a",
+        "explanation": "Launching from a higher point increases the total time of flight, increasing the range.",
+        "module": "5.1"
+    },
+    {
+        "question": "If a projectile is launched horizontally, what is its initial vertical velocity?",
+        "options": {
+            "a": "Equal to its horizontal velocity",
+            "b": "Equal to zero",
+            "c": "Greater than its horizontal velocity",
+            "d": "It depends on the launch height"
+        },
+        "correctAnswer": "b",
+        "explanation": "A horizontally launched projectile has an initial vertical velocity of zero.",
+        "module": "5.1"
+    },
+    {
+        "question": "At what point in its trajectory does a projectile have the smallest speed?",
+        "options": {
+            "a": "Just after launch",
+            "b": "At the maximum height",
+            "c": "Just before hitting the ground",
+            "d": "Speed is constant throughout"
+        },
+        "correctAnswer": "b",
+        "explanation": "The speed is smallest at maximum height, where the vertical velocity is zero.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following quantities remains constant throughout the motion of a projectile in the absence of air resistance?",
+        "options": {
+            "a": "Vertical velocity",
+            "b": "Horizontal velocity",
+            "c": "Total velocity",
+            "d": "Acceleration"
+        },
+        "correctAnswer": "b",
+        "explanation": "Horizontal velocity remains constant in the absence of air resistance.",
+        "module": "5.1"
+    },
+    {
+        "question": "What effect does launch angle have on the time of flight for a projectile?",
+        "options": {
+            "a": "Larger angles result in shorter times of flight",
+            "b": "Smaller angles result in longer times of flight",
+            "c": "Increasing the angle increases the time of flight",
+            "d": "The launch angle does not affect the time of flight"
+        },
+        "correctAnswer": "c",
+        "explanation": "A higher launch angle increases the vertical component, resulting in a longer flight time.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which factor is required to calculate the maximum height of a projectile?",
+        "options": {
+            "a": "Horizontal velocity",
+            "b": "Time of flight",
+            "c": "Vertical component of initial velocity",
+            "d": "Launch height"
+        },
+        "correctAnswer": "c",
+        "explanation": "Maximum height depends on the vertical component of the initial velocity.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the value of horizontal acceleration in projectile motion when air resistance is neglected?",
+        "options": {
+            "a": "9.8 m/s²",
+            "b": "It is variable",
+            "c": "Zero",
+            "d": "It is equal to vertical acceleration"
+        },
+        "correctAnswer": "c",
+        "explanation": "There is no horizontal acceleration in projectile motion if air resistance is neglected.",
+        "module": "5.1"
+    },
+    {
+        "question": "What does the vertical motion of a projectile depend on?",
+        "options": {
+            "a": "Initial vertical velocity and acceleration due to gravity",
+            "b": "Horizontal velocity and time",
+            "c": "Launch height only",
+            "d": "Time of flight only"
+        },
+        "correctAnswer": "a",
+        "explanation": "Vertical motion is affected by initial vertical velocity and gravitational acceleration.",
+        "module": "5.1"
+    },
+    {
+        "question": "If the launch angle of a projectile is increased, what happens to the maximum height?",
+        "options": {
+            "a": "It decreases",
+            "b": "It increases",
+            "c": "It remains the same",
+            "d": "It first decreases and then increases"
+        },
+        "correctAnswer": "b",
+        "explanation": "A higher launch angle results in a greater maximum height.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the primary force acting on a projectile in the absence of air resistance?",
+        "options": {
+            "a": "Tension",
+            "b": "Friction",
+            "c": "Gravitational force",
+            "d": "Normal force"
+        },
+        "correctAnswer": "c",
+        "explanation": "Gravity is the only significant force acting on a projectile in the absence of air resistance.",
+        "module": "5.1"
+    },
+    {
+        "question": "What happens to the horizontal range of a projectile if the initial velocity is doubled?",
+        "options": {
+            "a": "It remains the same",
+            "b": "It doubles",
+            "c": "It quadruples",
+            "d": "It is halved"
+        },
+        "correctAnswer": "c",
+        "explanation": "Range is proportional to the square of the initial velocity.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following represents the horizontal distance covered by a projectile?",
+        "options": {
+            "a": "Maximum height",
+            "b": "Range",
+            "c": "Time of flight",
+            "d": "Final velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "Range refers to the horizontal distance covered by the projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "If a projectile is launched from a height above the ground, how does its time of flight compare to one launched from ground level?",
+        "options": {
+            "a": "The time of flight is shorter",
+            "b": "The time of flight is the same",
+            "c": "The time of flight is longer",
+            "d": "The time of flight depends only on the launch speed"
+        },
+        "correctAnswer": "c",
+        "explanation": "A higher launch height increases the time of flight.",
+        "module": "5.1"
+    },
+    {
+        "question": "How does the initial launch velocity affect the projectile’s range?",
+        "options": {
+            "a": "Higher velocities result in longer ranges",
+            "b": "Higher velocities result in shorter ranges",
+            "c": "Initial velocity does not affect the range",
+            "d": "It affects only the vertical motion"
+        },
+        "correctAnswer": "a",
+        "explanation": "Increasing initial velocity increases the horizontal range of the projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "What happens to the vertical velocity of a projectile just before it hits the ground?",
+        "options": {
+            "a": "It is zero",
+            "b": "It is equal to the horizontal velocity",
+            "c": "It is equal to the initial vertical velocity but opposite in direction",
+            "d": "It remains constant throughout"
+        },
+        "correctAnswer": "c",
+        "explanation": "The final vertical velocity is equal in magnitude to the initial vertical velocity but directed downward.",
+        "module": "5.1"
+    },
+    {
+        "question": "If two projectiles are launched with different angles but the same initial velocity, which will have the greater horizontal range?",
+        "options": {
+            "a": "The one launched at the smaller angle",
+            "b": "The one launched at the larger angle",
+            "c": "Both will have the same range",
+            "d": "The one launched horizontally"
+        },
+        "correctAnswer": "a",
+        "explanation": "For a given initial speed, a smaller angle gives a greater horizontal range up to 45°.",
+        "module": "5.1"
+    },
+    {
+        "question": "How is the total time of flight of a projectile related to its vertical motion?",
+        "options": {
+            "a": "It depends only on the horizontal velocity",
+            "b": "It is twice the time taken to reach maximum height",
+            "c": "It is half the time taken to reach maximum height",
+            "d": "It is independent of vertical motion"
+        },
+        "correctAnswer": "b",
+        "explanation": "The total time of flight is double the time to reach maximum height.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following will increase the range of a projectile?",
+        "options": {
+            "a": "Decreasing the launch angle",
+            "b": "Increasing the horizontal velocity",
+            "c": "Decreasing the initial velocity",
+            "d": "Increasing the gravitational acceleration"
+        },
+        "correctAnswer": "b",
+        "explanation": "A greater horizontal velocity increases the range of the projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "In projectile motion, how are the horizontal and vertical motions connected?",
+        "options": {
+            "a": "The horizontal motion determines the vertical acceleration",
+            "b": "They are independent of each other",
+            "c": "The vertical motion affects the horizontal velocity",
+            "d": "The horizontal and vertical motions are identical"
+        },
+        "correctAnswer": "b",
+        "explanation": "The horizontal and vertical motions do not influence each other.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the relationship between launch angle and maximum height in projectile motion?",
+        "options": {
+            "a": "Maximum height decreases with increasing angle",
+            "b": "Maximum height increases with increasing angle",
+            "c": "Maximum height is independent of angle",
+            "d": "Maximum height first increases, then decreases with increasing angle"
+        },
+        "correctAnswer": "b",
+        "explanation": "A higher launch angle results in a higher vertical velocity, increasing the maximum height.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which variable directly affects the final vertical velocity of a projectile?",
+        "options": {
+            "a": "Initial horizontal velocity",
+            "b": "Launch height",
+            "c": "Vertical acceleration due to gravity",
+            "d": "Time of flight only"
+        },
+        "correctAnswer": "c",
+        "explanation": "The final vertical velocity depends on the vertical acceleration and time of flight.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the effect of doubling the time of flight on the horizontal range of a projectile?",
+        "options": {
+            "a": "It doubles the range",
+            "b": "It has no effect",
+            "c": "It halves the range",
+            "d": "It quadruples the range"
+        },
+        "correctAnswer": "a",
+        "explanation": "Doubling the time of flight results in twice the range.",
+        "module": "5.1"
+    },
+    {
+        "question": "When a projectile reaches its maximum height, what is its vertical velocity?",
+        "options": {
+            "a": "It is at its maximum",
+            "b": "It is equal to the horizontal velocity",
+            "c": "It is zero",
+            "d": "It is equal to the launch velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "At maximum height, the vertical velocity is zero.",
+        "module": "5.1"
+    },
+    {
+        "question": "If a projectile is launched at an angle of 30° with the horizontal, which of the following best describes its motion?",
+        "options": {
+            "a": "The horizontal velocity remains constant, and the vertical velocity changes due to gravity",
+            "b": "Both horizontal and vertical velocities remain constant",
+            "c": "Both horizontal and vertical velocities change due to gravity",
+            "d": "The vertical velocity remains constant, and the horizontal velocity changes due to gravity"
+        },
+        "correctAnswer": "a",
+        "explanation": "Horizontal velocity is constant while vertical velocity changes due to gravity.",
+        "module": "5.1"
+    },
+    {
+        "question": "In projectile motion, which quantity remains constant throughout the flight of the projectile (assuming no air resistance)?",
+        "options": {
+            "a": "Vertical velocity",
+            "b": "Horizontal velocity",
+            "c": "Total velocity",
+            "d": "Vertical acceleration"
+        },
+        "correctAnswer": "b",
+        "explanation": "Horizontal velocity remains constant throughout the motion.",
+        "module": "5.1"
+    },
+    {
+        "question": "How can you increase the maximum height of a projectile?",
+        "options": {
+            "a": "Increase the horizontal velocity",
+            "b": "Increase the launch angle",
+            "c": "Decrease the vertical acceleration",
+            "d": "Decrease the initial velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "A higher launch angle increases the maximum height of the projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following is not a factor affecting the horizontal range of a projectile?",
+        "options": {
+            "a": "Launch angle",
+            "b": "Initial velocity",
+            "c": "Gravitational acceleration",
+            "d": "Launch height"
+        },
+        "correctAnswer": "c",
+        "explanation": "Gravitational acceleration affects the vertical motion but not the horizontal range.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the primary factor that determines the time it takes for a projectile to reach its maximum height?",
+        "options": {
+            "a": "Horizontal velocity",
+            "b": "Vertical component of initial velocity",
+            "c": "Launch angle",
+            "d": "Total velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "The vertical component of initial velocity determines how long it takes to reach maximum height.",
+        "module": "5.1"
+    },
+    {
+        "question": "If the launch angle of a projectile is doubled, how does this affect its time of flight (assuming no air resistance)?",
+        "options": {
+            "a": "The time of flight is halved",
+            "b": "The time of flight is doubled",
+            "c": "The time of flight remains the same",
+            "d": "The time of flight quadruples"
+        },
+        "correctAnswer": "b",
+        "explanation": "Doubling the launch angle increases the vertical velocity, resulting in a longer time of flight.",
+        "module": "5.1"
+    },
+    {
+        "question": "What is the purpose of resolving the velocity of a projectile into horizontal and vertical components?",
+        "options": {
+            "a": "To account for air resistance",
+            "b": "To simplify the analysis of its motion",
+            "c": "To eliminate gravitational effects",
+            "d": "To calculate the total distance travelled"
+        },
+        "correctAnswer": "b",
+        "explanation": "Resolving velocity into components simplifies the analysis of projectile motion.",
+        "module": "5.1"
+    },
+    {
+        "question": "How does the launch height affect the time of flight of a projectile?",
+        "options": {
+            "a": "Higher launch heights increase the time of flight",
+            "b": "Higher launch heights decrease the time of flight",
+            "c": "The launch height has no effect on time of flight",
+            "d": "The launch height affects only the horizontal distance"
+        },
+        "correctAnswer": "a",
+        "explanation": "A higher launch point results in a longer time of flight.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following best describes the horizontal acceleration of a projectile?",
+        "options": {
+            "a": "It increases as the projectile rises",
+            "b": "It decreases as the projectile falls",
+            "c": "It remains constant throughout the flight",
+            "d": "It is zero throughout the flight"
+        },
+        "correctAnswer": "d",
+        "explanation": "In the absence of air resistance, horizontal acceleration is zero.",
+        "module": "5.1"
+    },
+    {
+        "question": "At what point in the flight of a projectile is the total velocity the smallest?",
+        "options": {
+            "a": "At the launch point",
+            "b": "Just before impact with the ground",
+            "c": "At the maximum height",
+            "d": "Total velocity is constant"
+        },
+        "correctAnswer": "c",
+        "explanation": "The total velocity is smallest at maximum height, where the vertical component is zero.",
+        "module": "5.1"
+    },
+    {
+        "question": "How does increasing the initial velocity of a projectile affect the maximum height?",
+        "options": {
+            "a": "It decreases the maximum height",
+            "b": "It increases the maximum height",
+            "c": "It has no effect on maximum height",
+            "d": "It decreases the time to maximum height"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing initial velocity increases the vertical component, leading to a greater maximum height.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which of the following factors does not affect the final horizontal position of a projectile?",
+        "options": {
+            "a": "Time of flight",
+            "b": "Initial horizontal velocity",
+            "c": "Vertical acceleration",
+            "d": "Launch angle"
+        },
+        "correctAnswer": "c",
+        "explanation": "Vertical acceleration does not affect the horizontal position of the projectile.",
+        "module": "5.1"
+    },
+    {
+        "question": "Which statement best describes the purpose of using mathematical models to analyse projectile motion?",
+        "options": {
+            "a": "To simplify the analysis of linear motion only",
+            "b": "To predict the final position of the projectile under all conditions",
+            "c": "To apply the equations of motion to predict various outcomes",
+            "d": "To ignore air resistance and other real-world factors"
+        },
+        "correctAnswer": "c",
+        "explanation": "Mathematical models are used to predict outcomes like range and time of flight in projectile motion.",
+        "module": "5.1"
     }
 ]
 
