@@ -10824,8 +10824,226 @@
         "correctAnswer": "c",
         "explanation": "The force is proportional to the product of the current, the magnetic field strength, and the length of the conductor.",
         "module": "6.2"
+    },
+
+    {
+        "question": "Magnetic flux (Φ) is given by the formula:",
+        "options": {
+            "a": "Φ = B + A",
+            "b": "Φ = B/A",
+            "c": "Φ = B - A",
+            "d": "Φ = B × A"
+        },
+        "correctAnswer": "d",
+        "explanation": "Magnetic flux is given by the product of magnetic field strength B and area A.",
+        "module": "6.3"
+    },
+    {
+        "question": "Magnetic flux depends on:",
+        "options": {
+            "a": "The magnetic field and the area through which the field lines pass",
+            "b": "The velocity of the object",
+            "c": "The charge of the particle in the field",
+            "d": "The resistance of the conductor"
+        },
+        "correctAnswer": "a",
+        "explanation": "Magnetic flux depends on both the magnetic field and the area through which the field lines pass.",
+        "module": "6.3"
+    },
+    {
+        "question": "Faraday's Law states that the induced electromotive force (emf) is:",
+        "options": {
+            "a": "Directly proportional to the change in magnetic flux and inversely proportional to the time interval",
+            "b": "Independent of the magnetic flux change",
+            "c": "Proportional to the length of the conductor",
+            "d": "Inversely proportional to the number of turns in the coil"
+        },
+        "correctAnswer": "a",
+        "explanation": "Faraday’s Law states that the induced emf is proportional to the rate of change of magnetic flux.",
+        "module": "6.3"
+    },
+    {
+        "question": "Lenz’s Law states that:",
+        "options": {
+            "a": "The direction of the induced emf is such that it opposes the change in magnetic flux that produced it",
+            "b": "The emf is proportional to the magnetic field strength",
+            "c": "The emf is directly proportional to the resistance of the conductor",
+            "d": "The emf is always in the direction of the current flow"
+        },
+        "correctAnswer": "a",
+        "explanation": "Lenz’s Law states that the induced emf opposes the change in magnetic flux that caused it.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following demonstrates Lenz’s Law?",
+        "options": {
+            "a": "The attraction between two magnets",
+            "b": "The repulsion between the induced magnetic field and the magnet moving toward a coil",
+            "c": "The heating of a resistor",
+            "d": "The generation of a magnetic field in a stationary conductor"
+        },
+        "correctAnswer": "b",
+        "explanation": "Lenz's Law is demonstrated when the induced magnetic field opposes the movement of a magnet toward a coil.",
+        "module": "6.3"
+    },
+    {
+        "question": "According to Faraday's Law, increasing the number of turns in a solenoid will:",
+        "options": {
+            "a": "Decrease the induced emf",
+            "b": "Increase the induced emf",
+            "c": "Not affect the induced emf",
+            "d": "Change the direction of the current"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the number of turns in the solenoid increases the induced emf.",
+        "module": "6.3"
+    },
+    {
+        "question": "The emf induced in a solenoid by a changing magnetic flux is given by:",
+        "options": {
+            "a": "ε = B × A",
+            "b": "ε = BA/t",
+            "c": "ε = -N ΔΦ/Δt",
+            "d": "ε = N × t"
+        },
+        "correctAnswer": "c",
+        "explanation": "The formula for induced emf is ε = -N ΔΦ/Δt, where N is the number of turns.",
+        "module": "6.3"
+    },
+    {
+        "question": "The negative sign in Faraday's Law indicates:",
+        "options": {
+            "a": "That the emf is decreasing over time",
+            "b": "That the induced emf opposes the change in flux that caused it (Lenz’s Law)",
+            "c": "The direction of the magnetic field",
+            "d": "The strength of the magnetic field"
+        },
+        "correctAnswer": "b",
+        "explanation": "The negative sign in Faraday’s Law is a consequence of Lenz’s Law, indicating that the induced emf opposes the change in flux.",
+        "module": "6.3"
+    },
+    {
+        "question": "The generation of an electromotive force (emf) can be demonstrated by:",
+        "options": {
+            "a": "Moving a magnet towards a solenoid",
+            "b": "Placing a solenoid in a static magnetic field",
+            "c": "Moving a charged particle perpendicular to the magnetic field",
+            "d": "Heating a conductor"
+        },
+        "correctAnswer": "a",
+        "explanation": "Moving a magnet towards a solenoid induces an emf due to the changing magnetic flux.",
+        "module": "6.3"
+    },
+    {
+        "question": "Lenz’s Law provides evidence for:",
+        "options": {
+            "a": "The conservation of energy",
+            "b": "The conservation of momentum",
+            "c": "The conservation of charge",
+            "d": "The conservation of mass"
+        },
+        "correctAnswer": "a",
+        "explanation": "Lenz's Law demonstrates the conservation of energy as the induced emf opposes the change causing it.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following changes will increase the induced emf in a solenoid?",
+        "options": {
+            "a": "Decreasing the strength of the magnetic field",
+            "b": "Increasing the speed of the magnet’s movement",
+            "c": "Decreasing the number of turns in the coil",
+            "d": "Keeping the area of the coil constant"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the speed of the magnet increases the rate of change of magnetic flux, leading to a higher emf.",
+        "module": "6.3"
+    },
+    {
+        "question": "The primary difference between a step-up transformer and a step-down transformer is:",
+        "options": {
+            "a": "The voltage is higher in a step-up transformer",
+            "b": "A step-down transformer increases the number of turns in the secondary coil",
+            "c": "The primary coil of a step-up transformer has more turns than the secondary",
+            "d": "A step-up transformer decreases the power output"
+        },
+        "correctAnswer": "a",
+        "explanation": "A step-up transformer increases voltage by having more turns in the secondary coil.",
+        "module": "6.3"
+    },
+    {
+        "question": "For an ideal transformer, the relationship between the primary and secondary voltages is:",
+        "options": {
+            "a": "Vp = Vs",
+            "b": "Vp × Ip = Vs × Is",
+            "c": "Vp/Vs = Np/Ns",
+            "d": "Vp/Vs = Is/Ip"
+        },
+        "correctAnswer": "c",
+        "explanation": "For an ideal transformer, the voltage ratio is proportional to the turn ratio of the primary and secondary coils.",
+        "module": "6.3"
+    },
+    {
+        "question": "The efficiency of a real transformer can be affected by:",
+        "options": {
+            "a": "Incomplete flux linkage and resistive heat losses",
+            "b": "The number of turns in the secondary coil only",
+            "c": "The current in the primary coil",
+            "d": "The amount of current in the load resistor"
+        },
+        "correctAnswer": "a",
+        "explanation": "Incomplete flux linkage and resistive heat losses reduce the efficiency of real transformers.",
+        "module": "6.3"
+    },
+    {
+        "question": "Eddy currents in transformers result in:",
+        "options": {
+            "a": "Increased efficiency",
+            "b": "Reduced heat production",
+            "c": "Energy losses due to resistive heating",
+            "d": "Stronger magnetic fields"
+        },
+        "correctAnswer": "c",
+        "explanation": "Eddy currents cause resistive heating, leading to energy losses in transformers.",
+        "module": "6.3"
+    },
+    {
+        "question": "A step-down transformer is typically used in:",
+        "options": {
+            "a": "Power generation plants",
+            "b": "The transmission of high-voltage electricity",
+            "c": "Lowering the voltage in household appliances",
+            "d": "Increasing voltage for long-distance transmission"
+        },
+        "correctAnswer": "c",
+        "explanation": "Step-down transformers are used to reduce the voltage for household appliances.",
+        "module": "6.3"
+    },
+    {
+        "question": "An ideal transformer has 100 turns on its primary coil and 200 turns on its secondary coil. If the primary voltage is 50V, what is the secondary voltage?",
+        "options": {
+            "a": "25V",
+            "b": "100V",
+            "c": "75V",
+            "d": "200V"
+        },
+        "correctAnswer": "b",
+        "explanation": "Using the transformer equation Vs/Vp = Ns/Np, the secondary voltage is 100V.",
+        "module": "6.3"
+    },
+    {
+        "question": "In a transformer, the current in the secondary coil is inversely proportional to:",
+        "options": {
+            "a": "The voltage across the secondary coil",
+            "b": "The power output of the transformer",
+            "c": "The number of turns in the secondary coil",
+            "d": "The current in the primary coil"
+        },
+        "correctAnswer": "a",
+        "explanation": "In a transformer, the current in the secondary coil is inversely proportional to the voltage across the secondary coil.",
+        "module": "6.3"
     }
 ]
+
 
 
 
