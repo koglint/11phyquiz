@@ -9622,8 +9622,610 @@
         "correctAnswer": "a",
         "explanation": "As a satellite moves closer to a planet in an elliptical orbit, its kinetic energy increases due to the increase in speed.",
         "module": "5.3"
+    },
+
+    {
+        "question": "What is the formula for the electric field strength between two parallel charged plates?",
+        "options": {
+            "a": "E=d/V",
+            "b": "E=V×d",
+            "c": "E=-V×d",
+            "d": "E=V/d"
+        },
+        "correctAnswer": "d",
+        "explanation": "The electric field strength is given by E=V/d, where V is the potential difference and d is the distance between the plates. This formula describes the relationship between voltage and separation distance for parallel plates.",
+        "module": "6.1"
+    },
+    {
+        "question": "The force experienced by a charged particle in an electric field is:",
+        "options": {
+            "a": "F=ma",
+            "b": "F=mv",
+            "c": "F=qvB",
+            "d": "F=qE"
+        },
+        "correctAnswer": "d",
+        "explanation": "The force on a charged particle in an electric field is given by F=qE, where q is the charge and E is the electric field strength. The force depends on the charge and the electric field.",
+        "module": "6.1"
+    },
+    {
+        "question": "How is the work done on a charged particle by an electric field calculated?",
+        "options": {
+            "a": "W=qvB",
+            "b": "W=qB",
+            "c": "W=qEd",
+            "d": "W=1/2 mv^2"
+        },
+        "correctAnswer": "c",
+        "explanation": "The work done on a charged particle in an electric field is W=qEd, where q is the charge, E is the electric field strength, and d is the distance the charge travels in the field.",
+        "module": "6.1"
+    },
+    {
+        "question": "The acceleration of a charged particle in an electric field is given by:",
+        "options": {
+            "a": "a=mE/q",
+            "b": "a=qvB",
+            "c": "a=vE/m",
+            "d": "a=qE/m"
+        },
+        "correctAnswer": "d",
+        "explanation": "The acceleration of a charged particle in an electric field is given by a=qE/m, where q is the charge, E is the electric field strength, and m is the mass of the particle. This formula shows how the acceleration depends on the charge and the field.",
+        "module": "6.1"
+    },
+    {
+        "question": "When a charged particle is accelerated by an electric field, its kinetic energy is given by:",
+        "options": {
+            "a": "K=qEd",
+            "b": "K=mv",
+            "c": "K=qvB",
+            "d": "K=1/2 mv^2"
+        },
+        "correctAnswer": "d",
+        "explanation": "The kinetic energy of a charged particle is given by K=1/2 mv^2, where m is the mass of the particle and v is its velocity.",
+        "module": "6.1"
+    },
+    {
+        "question": "The motion of a charged particle in an electric field is most similar to:",
+        "options": {
+            "a": "Circular motion in a magnetic field",
+            "b": "Straight-line motion",
+            "c": "Parabolic trajectory like a projectile under gravity",
+            "d": "Uniform motion without acceleration"
+        },
+        "correctAnswer": "c",
+        "explanation": "The motion of a charged particle in an electric field is similar to projectile motion, resulting in a parabolic trajectory due to the force acting on the particle.",
+        "module": "6.1"
+    },
+    {
+        "question": "The direction of the force on a charged particle in a uniform magnetic field is:",
+        "options": {
+            "a": "Parallel to the particle’s velocity",
+            "b": "Opposite to the magnetic field",
+            "c": "Parallel to the magnetic field",
+            "d": "Perpendicular to both the magnetic field and velocity"
+        },
+        "correctAnswer": "d",
+        "explanation": "The force on a charged particle in a magnetic field is always perpendicular to both the magnetic field and the particle's velocity, following the right-hand rule for direction.",
+        "module": "6.1"
+    },
+    {
+        "question": "The force acting on a charged particle moving through a magnetic field is calculated using:",
+        "options": {
+            "a": "F=mv^2",
+            "b": "F=ma",
+            "c": "F=qE",
+            "d": "F=qvBsinθ"
+        },
+        "correctAnswer": "d",
+        "explanation": "The force acting on a charged particle in a magnetic field is F=qvBsinθ, where θ is the angle between the velocity and the magnetic field. This formula applies to motion perpendicular to the field.",
+        "module": "6.1"
+    },
+    {
+        "question": "What happens to a charged particle moving perpendicular to a magnetic field?",
+        "options": {
+            "a": "It accelerates along a straight path",
+            "b": "It moves in a parabolic path",
+            "c": "It moves in a circular path",
+            "d": "It continues moving in a straight line with constant velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "A charged particle moving perpendicular to a magnetic field experiences a magnetic force that causes it to move in a circular path due to the constant perpendicular force.",
+        "module": "6.1"
+    },
+    {
+        "question": "The radius of the circular path of a charged particle in a magnetic field is proportional to:",
+        "options": {
+            "a": "The strength of the electric field",
+            "b": "The velocity of the particle",
+            "c": "The mass of the particle",
+            "d": "The charge of the particle"
+        },
+        "correctAnswer": "b",
+        "explanation": "The radius of the circular path is proportional to the particle's velocity and inversely proportional to the magnetic field strength.",
+        "module": "6.1"
+    },
+    {
+        "question": "What is the relationship between the velocity of a charged particle and the magnetic force when the particle moves parallel to the magnetic field?",
+        "options": {
+            "a": "Maximum force",
+            "b": "Minimum force",
+            "c": "Force is dependent on charge",
+            "d": "Zero force"
+        },
+        "correctAnswer": "d",
+        "explanation": "When a charged particle moves parallel to a magnetic field, the magnetic force is zero because the force is perpendicular to the velocity and the field, which results in no force when the angle is 0°.",
+        "module": "6.1"
+    },
+    {
+        "question": "The work done on a charged particle in a magnetic field is:",
+        "options": {
+            "a": "Zero",
+            "b": "Proportional to the charge",
+            "c": "Equal to the force times distance",
+            "d": "Equal to qvB"
+        },
+        "correctAnswer": "a",
+        "explanation": "The work done by a magnetic field on a moving charged particle is zero because the magnetic force is always perpendicular to the direction of motion, meaning no work is done on the particle.",
+        "module": "6.1"
+    },
+    {
+        "question": "The SI unit for magnetic field strength is:",
+        "options": {
+            "a": "Volt (V)",
+            "b": "Ampere (A)",
+            "c": "Newton (N)",
+            "d": "Tesla (T)"
+        },
+        "correctAnswer": "d",
+        "explanation": "The SI unit for magnetic field strength is the Tesla (T), named after Nikola Tesla, a pioneer in electromagnetism.",
+        "module": "6.1"
+    },
+    {
+        "question": "In comparing electric and magnetic fields, the primary difference in how they affect charged particles is:",
+        "options": {
+            "a": "Both fields accelerate the particle in the same way",
+            "b": "Electric fields have no effect, while magnetic fields accelerate the particle",
+            "c": "Magnetic fields only affect stationary particles",
+            "d": "Electric fields change the particle’s speed, magnetic fields change the particle’s direction"
+        },
+        "correctAnswer": "d",
+        "explanation": "Electric fields change a particle's speed, while magnetic fields only change the direction of a charged particle's motion without affecting its speed.",
+        "module": "6.1"
+    },
+    {
+        "question": "The angle θ in the equation F=qvBsinθ refers to:",
+        "options": {
+            "a": "The angle between velocity and magnetic field",
+            "b": "The angle between the particle’s acceleration and velocity",
+            "c": "The angle between the charge and the electric field",
+            "d": "The angle between force and velocity"
+        },
+        "correctAnswer": "a",
+        "explanation": "The angle θ in the equation F=qvBsinθ refers to the angle between the velocity of the charged particle and the magnetic field.",
+        "module": "6.1"
+    },
+    {
+        "question": "The force on a charged particle moving in a magnetic field is greatest when:",
+        "options": {
+            "a": "The particle moves parallel to the magnetic field",
+            "b": "The particle moves at an angle of 45°",
+            "c": "The particle is stationary",
+            "d": "The particle moves perpendicular to the magnetic field"
+        },
+        "correctAnswer": "d",
+        "explanation": "The force on a charged particle in a magnetic field is greatest when the particle moves perpendicular to the magnetic field because sin90°=1, resulting in maximum force.",
+        "module": "6.1"
+    },
+    {
+        "question": "The trajectory of a charged particle moving at an angle to a magnetic field will be:",
+        "options": {
+            "a": "Linear",
+            "b": "Parabolic",
+            "c": "Circular",
+            "d": "Helical"
+        },
+        "correctAnswer": "d",
+        "explanation": "When a charged particle moves at an angle to a magnetic field, the combination of circular motion and forward motion results in a helical trajectory.",
+        "module": "6.1"
+    },
+    {
+        "question": "A charged particle moving through an electric field experiences a force that is:",
+        "options": {
+            "a": "Opposite to the direction of motion",
+            "b": "Perpendicular to the field",
+            "c": "Parallel to the field",
+            "d": "In the direction of motion"
+        },
+        "correctAnswer": "c",
+        "explanation": "The force on a charged particle in an electric field is parallel to the field lines, resulting in the force being in the same direction as the field.",
+        "module": "6.1"
+    },
+    {
+        "question": "The acceleration of a charged particle in a uniform magnetic field is:",
+        "options": {
+            "a": "Proportional to the charge",
+            "b": "Dependent on the electric field strength",
+            "c": "Perpendicular to its velocity and constant in magnitude",
+            "d": "Parallel to its velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "The acceleration of a charged particle in a uniform magnetic field is constant in magnitude and perpendicular to its velocity, resulting in circular motion with constant speed.",
+        "module": "6.1"
+    },
+    {
+        "question": "A positively charged particle enters a uniform magnetic field at an angle of 90°. The particle’s motion will be:",
+        "options": {
+            "a": "Straight-line motion",
+            "b": "Circular motion",
+            "c": "Oscillatory motion",
+            "d": "Spiral motion"
+        },
+        "correctAnswer": "b",
+        "explanation": "A positively charged particle moving perpendicular to a magnetic field experiences a centripetal force that makes it follow a circular path.",
+        "module": "6.1"
+    },
+    {
+        "question": "When a charged particle moves at an angle less than 90° to a magnetic field, its trajectory is:",
+        "options": {
+            "a": "Circular",
+            "b": "Linear",
+            "c": "Parabolic",
+            "d": "Helical"
+        },
+        "correctAnswer": "d",
+        "explanation": "When a charged particle moves at an angle less than 90° to a magnetic field, its motion combines circular and linear components, creating a helical trajectory.",
+        "module": "6.1"
+    },
+    {
+        "question": "The force acting on a charged particle in a magnetic field depends on:",
+        "options": {
+            "a": "The particle's velocity and the magnetic field strength",
+            "b": "The velocity and angle to the electric field",
+            "c": "The particle's mass and charge",
+            "d": "The particle's charge and the electric field strength"
+        },
+        "correctAnswer": "a",
+        "explanation": "The force on a charged particle in a magnetic field depends on the particle's velocity and the magnetic field strength, as given by F=qvBsinθ.",
+        "module": "6.1"
+    },
+    {
+        "question": "The electric potential difference between two points in an electric field is related to the work done on the charge by:",
+        "options": {
+            "a": "The electric field strength and distance",
+            "b": "The charge's velocity",
+            "c": "The particle’s mass",
+            "d": "The charge’s acceleration"
+        },
+        "correctAnswer": "a",
+        "explanation": "The electric potential difference is related to the work done on a charged particle by the electric field and the distance it travels through the field.",
+        "module": "6.1"
+    },
+    {
+        "question": "The work done on a charge moving between two points with a potential difference of V is:",
+        "options": {
+            "a": "W=mv^2",
+            "b": "W=qvB",
+            "c": "W=qE",
+            "d": "W=qV"
+        },
+        "correctAnswer": "d",
+        "explanation": "The work done on a charge moving between two points in an electric field is W=qV, where V is the potential difference between the two points.",
+        "module": "6.1"
+    },
+    {
+        "question": "The motion of charged particles in a magnetic field is an example of:",
+        "options": {
+            "a": "Projectile motion",
+            "b": "Uniform circular motion",
+            "c": "Non-uniform circular motion",
+            "d": "Random motion"
+        },
+        "correctAnswer": "b",
+        "explanation": "The motion of a charged particle in a magnetic field is an example of uniform circular motion because the magnetic force provides the centripetal force necessary to keep the particle in circular motion.",
+        "module": "6.1"
+    },
+    {
+        "question": "The path of a charged particle in a magnetic field that is not perpendicular to the field is:",
+        "options": {
+            "a": "Parabolic",
+            "b": "Helical",
+            "c": "Circular",
+            "d": "Linear"
+        },
+        "correctAnswer": "b",
+        "explanation": "A charged particle not moving perpendicularly to a magnetic field follows a helical path, with a circular motion component due to the perpendicular velocity and a linear motion component due to the parallel velocity.",
+        "module": "6.1"
+    },
+    {
+        "question": "A particle with charge q moves through a region with both electric and magnetic fields. The force it experiences is:",
+        "options": {
+            "a": "Zero",
+            "b": "Only due to the electric field",
+            "c": "Only due to the magnetic field",
+            "d": "The sum of the forces due to both fields"
+        },
+        "correctAnswer": "d",
+        "explanation": "When both electric and magnetic fields are present, the particle experiences the sum of the forces from both fields.",
+        "module": "6.1"
+    },
+    {
+        "question": "What happens to the velocity of a charged particle when it enters a magnetic field perpendicular to its direction of motion?",
+        "options": {
+            "a": "The speed remains constant, but the direction changes",
+            "b": "The particle slows to a stop",
+            "c": "The speed increases",
+            "d": "The speed decreases"
+        },
+        "correctAnswer": "a",
+        "explanation": "The speed of a charged particle remains constant, but the direction changes when it enters a magnetic field perpendicular to its motion because the magnetic force is always perpendicular to the velocity.",
+        "module": "6.1"
+    },
+    {
+        "question": "If the electric field between two parallel plates is doubled, the force on a stationary charge:",
+        "options": {
+            "a": "Remains unchanged",
+            "b": "Doubles",
+            "c": "Halves",
+            "d": "Increases by four times"
+        },
+        "correctAnswer": "b",
+        "explanation": "If the electric field is doubled, the force on a stationary charge also doubles, as F=qE.",
+        "module": "6.1"
+    },
+    {
+        "question": "The magnetic field strength inside a solenoid is proportional to:",
+        "options": {
+            "a": "The diameter of the solenoid",
+            "b": "The voltage applied to the solenoid",
+            "c": "The current and the number of turns per unit length",
+            "d": "The material of the solenoid core"
+        },
+        "correctAnswer": "c",
+        "explanation": "The magnetic field strength inside a solenoid is proportional to the current and the number of turns per unit length.",
+        "module": "6.1"
+    },
+    {
+        "question": "The direction of the magnetic field lines around a current-carrying conductor is determined by:",
+        "options": {
+            "a": "The electric field strength",
+            "b": "The velocity of the charge",
+            "c": "The charge of the conductor",
+            "d": "The direction of the current"
+        },
+        "correctAnswer": "d",
+        "explanation": "The direction of magnetic field lines around a current-carrying conductor is determined by the right-hand rule, which states that the thumb points in the direction of the current, and the fingers curl in the direction of the magnetic field.",
+        "module": "6.1"
+    },
+    {
+        "question": "The speed of a charged particle in a magnetic field remains constant because:",
+        "options": {
+            "a": "The electric field opposes the motion",
+            "b": "The magnetic field accelerates the particle",
+            "c": "The particle’s mass increases",
+            "d": "The magnetic force does no work on the particle"
+        },
+        "correctAnswer": "d",
+        "explanation": "The speed of a charged particle in a magnetic field remains constant because the magnetic force does no work on the particle, as it acts perpendicular to the velocity.",
+        "module": "6.1"
+    },
+    {
+        "question": "In a uniform magnetic field, the force on a charged particle is:",
+        "options": {
+            "a": "Constant in magnitude but changes direction",
+            "b": "Proportional to the particle’s mass",
+            "c": "Zero if the particle is moving parallel to the field",
+            "d": "Constant in direction but changes magnitude"
+        },
+        "correctAnswer": "a",
+        "explanation": "In a uniform magnetic field, the force on a charged particle is constant in magnitude but changes direction, resulting in circular motion.",
+        "module": "6.1"
+    },
+    {
+        "question": "The magnetic force on a charged particle is maximum when:",
+        "options": {
+            "a": "The particle moves parallel to the magnetic field",
+            "b": "The particle moves perpendicular to the magnetic field",
+            "c": "The particle is at rest",
+            "d": "The charge on the particle is zero"
+        },
+        "correctAnswer": "b",
+        "explanation": "The magnetic force on a charged particle is maximum when the particle moves perpendicular to the magnetic field because sin90°=1.",
+        "module": "6.1"
+    },
+    {
+        "question": "The electric field inside a conductor in electrostatic equilibrium is:",
+        "options": {
+            "a": "Equal to the applied electric field",
+            "b": "Greater than the applied electric field",
+            "c": "Zero",
+            "d": "Less than the applied electric field"
+        },
+        "correctAnswer": "c",
+        "explanation": "The electric field inside a conductor in electrostatic equilibrium is zero because the charges within the conductor rearrange themselves to cancel any internal field.",
+        "module": "6.1"
+    },
+    {
+        "question": "The potential difference between two points in a uniform electric field depends on:",
+        "options": {
+            "a": "The distance between the points",
+            "b": "The speed of the charged particle",
+            "c": "The magnetic field strength",
+            "d": "The particle’s mass"
+        },
+        "correctAnswer": "a",
+        "explanation": "The potential difference between two points in a uniform electric field depends on the distance between the points and the strength of the electric field.",
+        "module": "6.1"
+    },
+    {
+        "question": "Which of the following will experience a force in both electric and magnetic fields?",
+        "options": {
+            "a": "A neutral particle at rest",
+            "b": "A charged particle at rest",
+            "c": "A moving neutral particle",
+            "d": "A moving charged particle"
+        },
+        "correctAnswer": "d",
+        "explanation": "A moving charged particle will experience forces in both electric and magnetic fields, while stationary charges or neutral particles are unaffected by magnetic fields.",
+        "module": "6.1"
+    },
+    {
+        "question": "The magnetic force on a moving charged particle is proportional to:",
+        "options": {
+            "a": "The particle’s speed and mass",
+            "b": "The particle's speed, charge, and the strength of the magnetic field",
+            "c": "The particle's mass and electric field strength",
+            "d": "The particle’s charge and the electric field strength"
+        },
+        "correctAnswer": "b",
+        "explanation": "The magnetic force on a moving charged particle is proportional to the particle's speed, charge, and the strength of the magnetic field, as given by F=qvBsinθ.",
+        "module": "6.1"
+    },
+    {
+        "question": "The magnetic flux through a given area is proportional to:",
+        "options": {
+            "a": "The charge of the particle",
+            "b": "The velocity of the particle",
+            "c": "The magnetic field strength and the area",
+            "d": "The particle’s acceleration"
+        },
+        "correctAnswer": "c",
+        "explanation": "The magnetic flux through an area is proportional to the magnetic field strength and the area through which the magnetic field lines pass.",
+        "module": "6.1"
+    },
+    {
+        "question": "The acceleration of a charged particle in a uniform electric field is directly proportional to:",
+        "options": {
+            "a": "The magnetic field strength",
+            "b": "The particle’s velocity",
+            "c": "The particle’s charge",
+            "d": "The particle’s mass"
+        },
+        "correctAnswer": "c",
+        "explanation": "The acceleration of a charged particle in a uniform electric field is directly proportional to the charge on the particle and inversely proportional to its mass.",
+        "module": "6.1"
+    },
+    {
+        "question": "The force acting on a charged particle in an electric field is:",
+        "options": {
+            "a": "Proportional to the particle’s velocity",
+            "b": "Inversely proportional to the particle’s charge",
+            "c": "Inversely proportional to the particle’s mass",
+            "d": "Proportional to the electric field strength"
+        },
+        "correctAnswer": "d",
+        "explanation": "The force on a charged particle in an electric field is proportional to the electric field strength, as given by F=qE.",
+        "module": "6.1"
+    },
+    {
+        "question": "The motion of a charged particle in a uniform electric field can be compared to:",
+        "options": {
+            "a": "Circular motion",
+            "b": "Motion at constant velocity",
+            "c": "Projectile motion under gravity",
+            "d": "Oscillatory motion"
+        },
+        "correctAnswer": "c",
+        "explanation": "The motion of a charged particle in a uniform electric field is similar to projectile motion under gravity, where the trajectory is parabolic.",
+        "module": "6.1"
+    },
+    {
+        "question": "The energy gained by a charged particle in an electric field is related to the:",
+        "options": {
+            "a": "Magnetic field strength",
+            "b": "Electric potential difference and charge",
+            "c": "Mass of the particle",
+            "d": "Distance travelled"
+        },
+        "correctAnswer": "b",
+        "explanation": "The energy gained by a charged particle in an electric field is related to the electric potential difference and the charge on the particle.",
+        "module": "6.1"
+    },
+    {
+        "question": "The force on a moving charged particle in a magnetic field is:",
+        "options": {
+            "a": "Perpendicular to both the magnetic field and the particle’s velocity",
+            "b": "Parallel to the particle’s velocity",
+            "c": "In the same direction as the magnetic field",
+            "d": "Opposite to the electric field"
+        },
+        "correctAnswer": "a",
+        "explanation": "The force on a moving charged particle in a magnetic field is perpendicular to both the magnetic field and the particle's velocity.",
+        "module": "6.1"
+    },
+    {
+        "question": "The SI unit of electric field strength is:",
+        "options": {
+            "a": "Tesla (T)",
+            "b": "Volt per metre (V/m)",
+            "c": "Coulomb (C)",
+            "d": "Newton per metre (N/m)"
+        },
+        "correctAnswer": "b",
+        "explanation": "The SI unit of electric field strength is volts per metre (V/m), which describes how much force is exerted on a charge per unit length in an electric field.",
+        "module": "6.1"
+    },
+    {
+        "question": "A charged particle moves through a region where both electric and magnetic fields are present. If the magnetic force balances the electric force, the particle will:",
+        "options": {
+            "a": "Move in a circular path",
+            "b": "Accelerate in the direction of the electric field",
+            "c": "Decelerate and eventually stop",
+            "d": "Move in a straight line at constant speed"
+        },
+        "correctAnswer": "d",
+        "explanation": "If the magnetic force balances the electric force, the charged particle will move in a straight line at constant speed because the net force on the particle is zero.",
+        "module": "6.1"
+    },
+    {
+        "question": "What happens to a charged particle moving parallel to a uniform magnetic field?",
+        "options": {
+            "a": "It decelerates",
+            "b": "It moves in a circular path",
+            "c": "It continues with constant speed",
+            "d": "It accelerates"
+        },
+        "correctAnswer": "c",
+        "explanation": "A charged particle moving parallel to a magnetic field experiences no magnetic force, so it continues moving at constant speed.",
+        "module": "6.1"
+    },
+    {
+        "question": "The total force acting on a charged particle moving in an electric and magnetic field is called:",
+        "options": {
+            "a": "Centripetal force",
+            "b": "Coulomb force",
+            "c": "Lorentz force",
+            "d": "Gravitational force"
+        },
+        "correctAnswer": "c",
+        "explanation": "The total force on a charged particle moving in both electric and magnetic fields is called the Lorentz force, which is the vector sum of the electric and magnetic forces.",
+        "module": "6.1"
+    },
+    {
+        "question": "If a charged particle enters a region where both an electric field and a magnetic field exist, and the fields are perpendicular to each other, the particle may:",
+        "options": {
+            "a": "Move randomly",
+            "b": "Continue in a straight line",
+            "c": "Oscillate back and forth",
+            "d": "Move in a helical path"
+        },
+        "correctAnswer": "d",
+        "explanation": "A charged particle moving in both electric and magnetic fields that are perpendicular to each other will follow a helical path due to the combined effects of the fields.",
+        "module": "6.1"
+    },
+    {
+        "question": "The strength of a uniform magnetic field between two magnets is increased. A charged particle moving perpendicular to this field will experience:",
+        "options": {
+            "a": "Greater force",
+            "b": "Less force",
+            "c": "No change in force",
+            "d": "A reduction in speed"
+        },
+        "correctAnswer": "a",
+        "explanation": "If the strength of the magnetic field increases, the force on the charged particle increases, causing it to experience a greater centripetal force and altering its circular path.",
+        "module": "6.1"
     }
 ]
+
 
 
 
