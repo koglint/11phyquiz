@@ -11041,8 +11041,394 @@
         "correctAnswer": "a",
         "explanation": "In a transformer, the current in the secondary coil is inversely proportional to the voltage across the secondary coil.",
         "module": "6.3"
+    },
+
+    {
+        "question": "Which of the following best describes the relationship between primary and secondary currents in a transformer?",
+        "options": {
+            "a": "The current is directly proportional to the voltage in both coils",
+            "b": "The current is inversely proportional to the number of turns in the primary coil",
+            "c": "Vp Ip = Vs Is",
+            "d": "Vp = Vs"
+        },
+        "correctAnswer": "c",
+        "explanation": "The power is conserved between the primary and secondary coils in an ideal transformer, so Vp Ip = Vs Is.",
+        "module": "6.3"
+    },
+    {
+        "question": "Step-up transformers are used in high-voltage transmission lines because:",
+        "options": {
+            "a": "They increase the current, reducing energy loss",
+            "b": "They decrease the voltage, reducing energy loss",
+            "c": "They increase the voltage, reducing energy loss",
+            "d": "They decrease the current, increasing energy loss"
+        },
+        "correctAnswer": "c",
+        "explanation": "Step-up transformers increase voltage, reducing energy loss in long-distance transmission by lowering the current.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following is an application of Faraday's Law?",
+        "options": {
+            "a": "The operation of a transformer",
+            "b": "The calculation of current in a circuit",
+            "c": "The generation of magnetic fields in a solenoid",
+            "d": "The heating of a resistor"
+        },
+        "correctAnswer": "a",
+        "explanation": "Faraday's Law is the principle behind the operation of transformers.",
+        "module": "6.3"
+    },
+    {
+        "question": "The formula ε = -N ΔΦ/Δt is used to calculate:",
+        "options": {
+            "a": "The emf induced in a solenoid",
+            "b": "The resistance in a conductor",
+            "c": "The electric field in a conductor",
+            "d": "The potential difference across a resistor"
+        },
+        "correctAnswer": "a",
+        "explanation": "This formula is used to calculate the induced emf in a solenoid due to a changing magnetic flux.",
+        "module": "6.3"
+    },
+    {
+        "question": "Transformers work on the principle of:",
+        "options": {
+            "a": "Electromagnetic induction",
+            "b": "Electrostatic induction",
+            "c": "Resistive heating",
+            "d": "Electric field generation"
+        },
+        "correctAnswer": "a",
+        "explanation": "Transformers operate on the principle of electromagnetic induction, where a changing magnetic field induces an emf.",
+        "module": "6.3"
+    },
+    {
+        "question": "The efficiency of an ideal transformer is:",
+        "options": {
+            "a": "Always 100%",
+            "b": "Less than 50%",
+            "c": "Dependent on the input voltage",
+            "d": "Dependent on the power output"
+        },
+        "correctAnswer": "a",
+        "explanation": "An ideal transformer operates at 100% efficiency, meaning all input power is transferred to the secondary coil.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following can reduce energy losses in a transformer?",
+        "options": {
+            "a": "Using thicker wire to reduce resistance",
+            "b": "Decreasing the voltage",
+            "c": "Decreasing the number of turns in the coil",
+            "d": "Placing the transformer in a vacuum"
+        },
+        "correctAnswer": "a",
+        "explanation": "Thicker wire reduces resistance, minimizing energy losses in transformers.",
+        "module": "6.3"
+    },
+    {
+        "question": "Eddy currents can be minimized in transformers by:",
+        "options": {
+            "a": "Using laminated iron cores",
+            "b": "Using thicker wires",
+            "c": "Increasing the current",
+            "d": "Decreasing the number of turns in the coil"
+        },
+        "correctAnswer": "a",
+        "explanation": "Laminated iron cores reduce eddy currents and heat losses in transformers.",
+        "module": "6.3"
+    },
+    {
+        "question": "The voltage ratio of a transformer is equal to:",
+        "options": {
+            "a": "The current ratio between the primary and secondary coils",
+            "b": "The resistance ratio of the coils",
+            "c": "The power ratio of the coils",
+            "d": "The ratio of the number of turns in the primary and secondary coils"
+        },
+        "correctAnswer": "d",
+        "explanation": "The voltage ratio of a transformer is equal to the ratio of the number of turns in the primary and secondary coils.",
+        "module": "6.3"
+    },
+    {
+        "question": "Transformers cannot work with:",
+        "options": {
+            "a": "Direct current",
+            "b": "Alternating current",
+            "c": "High voltage",
+            "d": "Low voltage"
+        },
+        "correctAnswer": "a",
+        "explanation": "Transformers require alternating current (AC) to operate, as changing magnetic flux is needed to induce emf.",
+        "module": "6.3"
+    },
+    {
+        "question": "In the equation Vp Ip = Vs Is, the subscript p refers to:",
+        "options": {
+            "a": "The primary coil",
+            "b": "The power output",
+            "c": "The potential difference",
+            "d": "The current in the secondary coil"
+        },
+        "correctAnswer": "a",
+        "explanation": "The subscript p refers to the primary coil in the transformer equations.",
+        "module": "6.3"
+    },
+    {
+        "question": "The current in the primary coil of a transformer is 5A and the current in the secondary coil is 2A. If the primary voltage is 100V, what is the secondary voltage?",
+        "options": {
+            "a": "250V",
+            "b": "40V",
+            "c": "200V",
+            "d": "50V"
+        },
+        "correctAnswer": "a",
+        "explanation": "Using the transformer equation, the secondary voltage is 250V.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following is true for an ideal transformer?",
+        "options": {
+            "a": "Power in the primary coil is less than the power in the secondary coil",
+            "b": "Power is conserved between the primary and secondary coils",
+            "c": "Voltage is conserved between the primary and secondary coils",
+            "d": "The current in the primary coil is always greater than the current in the secondary coil"
+        },
+        "correctAnswer": "b",
+        "explanation": "In an ideal transformer, power is conserved between the primary and secondary coils.",
+        "module": "6.3"
+    },
+    {
+        "question": "A transformer increases voltage by:",
+        "options": {
+            "a": "Increasing the current",
+            "b": "Decreasing the current",
+            "c": "Increasing the number of turns in the primary coil",
+            "d": "Decreasing the number of turns in the secondary coil"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the voltage in a transformer reduces the current to maintain power conservation.",
+        "module": "6.3"
+    },
+    {
+        "question": "Magnetic flux is measured in:",
+        "options": {
+            "a": "Teslas (T)",
+            "b": "Amperes (A)",
+            "c": "Webers (Wb)",
+            "d": "Volts (V)"
+        },
+        "correctAnswer": "c",
+        "explanation": "Magnetic flux is measured in Webers (Wb).",
+        "module": "6.3"
+    },
+    {
+        "question": "The purpose of high-voltage transmission lines is to:",
+        "options": {
+            "a": "Increase the current and reduce energy loss",
+            "b": "Increase the voltage and reduce energy loss",
+            "c": "Reduce the voltage for household use",
+            "d": "Reduce the current and increase energy loss"
+        },
+        "correctAnswer": "b",
+        "explanation": "High-voltage transmission lines reduce energy loss by increasing voltage and reducing current.",
+        "module": "6.3"
+    },
+    {
+        "question": "In an ideal transformer, the power input to the primary coil is:",
+        "options": {
+            "a": "Greater than the power output of the secondary coil",
+            "b": "Less than the power output of the secondary coil",
+            "c": "Equal to the power output of the secondary coil",
+            "d": "Independent of the current in the secondary coil"
+        },
+        "correctAnswer": "c",
+        "explanation": "The power input to the primary coil is equal to the power output of the secondary coil in an ideal transformer.",
+        "module": "6.3"
+    },
+    {
+        "question": "The unit for measuring the rate of change of magnetic flux is:",
+        "options": {
+            "a": "Volts per metre",
+            "b": "Webers per second",
+            "c": "Teslas per second",
+            "d": "Amperes per metre"
+        },
+        "correctAnswer": "b",
+        "explanation": "The rate of change of magnetic flux is measured in Webers per second (Wb/s).",
+        "module": "6.3"
+    },
+    {
+        "question": "In a transformer, incomplete flux linkage can lead to:",
+        "options": {
+            "a": "Increased efficiency",
+            "b": "Reduced efficiency",
+            "c": "Increased voltage",
+            "d": "Decreased current"
+        },
+        "correctAnswer": "b",
+        "explanation": "Incomplete flux linkage reduces the efficiency of a transformer.",
+        "module": "6.3"
+    },
+    {
+        "question": "Transformers are used in power transmission to:",
+        "options": {
+            "a": "Increase the voltage for long-distance transmission",
+            "b": "Decrease the voltage for high-current transmission",
+            "c": "Convert alternating current to direct current",
+            "d": "Increase the current for long-distance transmission"
+        },
+        "correctAnswer": "a",
+        "explanation": "Step-up transformers increase voltage for long-distance transmission to minimize energy loss.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following causes energy loss in transformers?",
+        "options": {
+            "a": "Increased flux linkage",
+            "b": "Eddy currents and resistive heating",
+            "c": "Decreased voltage",
+            "d": "Alternating current"
+        },
+        "correctAnswer": "b",
+        "explanation": "Energy loss in transformers is caused by eddy currents and resistive heating.",
+        "module": "6.3"
+    },
+    {
+        "question": "The ratio Vp/Vs = Np/Ns is used to calculate:",
+        "options": {
+            "a": "The power in a transformer",
+            "b": "The voltage ratio in a transformer",
+            "c": "The current ratio in a transformer",
+            "d": "The efficiency of a transformer"
+        },
+        "correctAnswer": "b",
+        "explanation": "The transformer equation Vp/Vs = Np/Ns is used to calculate the voltage ratio.",
+        "module": "6.3"
+    },
+    {
+        "question": "Transformers operate on which of the following principles?",
+        "options": {
+            "a": "Electromagnetic induction",
+            "b": "Conservation of momentum",
+            "c": "Electrostatic induction",
+            "d": "Thermal conduction"
+        },
+        "correctAnswer": "a",
+        "explanation": "Transformers operate based on the principle of electromagnetic induction.",
+        "module": "6.3"
+    },
+    {
+        "question": "Step-up transformers increase:",
+        "options": {
+            "a": "Voltage",
+            "b": "Current",
+            "c": "Power output",
+            "d": "Resistance"
+        },
+        "correctAnswer": "a",
+        "explanation": "Step-up transformers increase voltage by having more turns in the secondary coil.",
+        "module": "6.3"
+    },
+    {
+        "question": "The operation of an ideal transformer assumes:",
+        "options": {
+            "a": "No energy is lost between the primary and secondary coils",
+            "b": "Some energy is lost as heat",
+            "c": "The current is always constant",
+            "d": "Voltage is always constant"
+        },
+        "correctAnswer": "a",
+        "explanation": "An ideal transformer assumes no energy is lost between the primary and secondary coils.",
+        "module": "6.3"
+    },
+    {
+        "question": "An increase in the number of turns in the secondary coil of a transformer will:",
+        "options": {
+            "a": "Decrease the voltage",
+            "b": "Increase the voltage",
+            "c": "Decrease the current",
+            "d": "Increase the power output"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the number of turns in the secondary coil increases the voltage output.",
+        "module": "6.3"
+    },
+    {
+        "question": "The generation of emf is directly related to:",
+        "options": {
+            "a": "A constant magnetic field",
+            "b": "The change in magnetic flux over time",
+            "c": "The resistance of the wire",
+            "d": "The voltage applied to the conductor"
+        },
+        "correctAnswer": "b",
+        "explanation": "The generation of emf is related to the rate of change of magnetic flux over time.",
+        "module": "6.3"
+    },
+    {
+        "question": "The voltage in the secondary coil of a transformer can be calculated using:",
+        "options": {
+            "a": "Vs = Ns/Np × Vp",
+            "b": "Vs = Ns × Ip",
+            "c": "Vs = Ip/Is × Vp",
+            "d": "Vs = Np/Ns × Vp"
+        },
+        "correctAnswer": "a",
+        "explanation": "The voltage in the secondary coil can be calculated using the equation Vs = Ns/Np × Vp.",
+        "module": "6.3"
+    },
+    {
+        "question": "A step-down transformer is used to:",
+        "options": {
+            "a": "Increase the voltage for household use",
+            "b": "Increase the current in high-voltage transmission lines",
+            "c": "Decrease the voltage for household appliances",
+            "d": "Decrease the current in high-voltage transmission lines"
+        },
+        "correctAnswer": "c",
+        "explanation": "A step-down transformer reduces voltage for household appliances.",
+        "module": "6.3"
+    },
+    {
+        "question": "The conservation of energy in an ideal transformer means that:",
+        "options": {
+            "a": "The power input equals the power output",
+            "b": "The voltage input equals the voltage output",
+            "c": "The current input equals the current output",
+            "d": "The resistance of the primary coil is equal to the resistance of the secondary coil"
+        },
+        "correctAnswer": "a",
+        "explanation": "The conservation of energy in an ideal transformer means that the power input equals the power output.",
+        "module": "6.3"
+    },
+    {
+        "question": "Which of the following strategies improves transformer efficiency?",
+        "options": {
+            "a": "Increasing the current in the primary coil",
+            "b": "Minimising eddy currents by using laminated cores",
+            "c": "Using a stronger magnetic field",
+            "d": "Increasing the number of turns in the primary coil"
+        },
+        "correctAnswer": "b",
+        "explanation": "Laminated cores minimize eddy currents, improving transformer efficiency.",
+        "module": "6.3"
+    },
+    {
+        "question": "In electromagnetic induction, emf is generated by:",
+        "options": {
+            "a": "The relative motion between a conductor and a magnetic field",
+            "b": "The application of heat to a conductor",
+            "c": "The presence of an electric field",
+            "d": "The flow of current in a circuit"
+        },
+        "correctAnswer": "a",
+        "explanation": "Electromotive force (emf) is generated by the relative motion between a conductor and a magnetic field.",
+        "module": "6.3"
     }
 ]
+
 
 
 
