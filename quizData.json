@@ -1802,7 +1802,7 @@
     },
 
     {
-        "question": "An object in motion stays in motion unless acted upon by an external force.",
+        "question": "Which describes Newton's First Law of Motion",
         "options": {
             "a": "An object in motion stays in motion unless acted upon by an external force.",
             "b": "An object at rest will start moving spontaneously.",
@@ -1810,7 +1810,7 @@
             "d": "An object will change direction without an external force."
         },
         "correctAnswer": "a",
-        "explanation": "Newton’s First Law of Motion",
+        "explanation": "Newton’s First Law of Motion relates to inertia, which is the tendency of an object to maintain its current motion unless acted on by an external, unbalanced force.",
         "module": "2.2"
     },
     {
