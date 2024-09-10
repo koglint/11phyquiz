@@ -2182,7 +2182,7 @@
             "d": "When the object moves in the direction of the force."
         },
         "correctAnswer": "a",
-        "explanation": "No work is done in this case",
+        "explanation": "No work is done in this case because W = Fs and s = 0",
         "module": "2.2"
     },
     {
@@ -2194,7 +2194,7 @@
             "d": "Displacement."
         },
         "correctAnswer": "b",
-        "explanation": "Rate of doing work",
+        "explanation": "The rate of doing work is Power, which is the change in energy per time (joules per second = watts)",
         "module": "2.2"
     },
     {
@@ -2206,7 +2206,7 @@
             "d": "The net force acting on it is decreasing."
         },
         "correctAnswer": "a",
-        "explanation": "Condition for mechanical equilibrium",
+        "explanation": "When the net force is zero, all the forces added together cancel each other out",
         "module": "2.2"
     },
     {
@@ -2218,7 +2218,7 @@
             "d": "Velocity."
         },
         "correctAnswer": "b",
-        "explanation": "Area under velocity-time graph represents displacement",
+        "explanation": "Area under velocity-time graph represents displacement as area is height (y-axis) multiplied by width (x-axis) is velocity times time, which gives displacement",
         "module": "2.2"
     },
     {
