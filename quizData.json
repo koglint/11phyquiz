@@ -8420,8 +8420,610 @@
         "correctAnswer": "c",
         "explanation": "Mathematical models are used to predict outcomes like range and time of flight in projectile motion.",
         "module": "5.1"
+    },
+
+    {
+        "question": "What is the force that keeps an object moving in a circular path?",
+        "options": {
+            "a": "Gravitational force",
+            "b": "Frictional force",
+            "c": "Centripetal force",
+            "d": "Normal force"
+        },
+        "correctAnswer": "c",
+        "explanation": "Centripetal force is the force that keeps an object moving in a circular path.",
+        "module": "5.2"
+    },
+    {
+        "question": "In uniform circular motion, what is the direction of the centripetal force?",
+        "options": {
+            "a": "Tangential to the circle",
+            "b": "Radially outward",
+            "c": "Along the velocity vector",
+            "d": "Radially inward"
+        },
+        "correctAnswer": "d",
+        "explanation": "The centripetal force always points towards the centre of the circular path.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which of the following variables affects the magnitude of centripetal force?",
+        "options": {
+            "a": "Mass and radius",
+            "b": "Speed and radius",
+            "c": "Mass, speed, and radius",
+            "d": "Only mass"
+        },
+        "correctAnswer": "c",
+        "explanation": "The centripetal force depends on the mass, speed, and radius as per the formula F_c=(mv^2)/r.",
+        "module": "5.2"
+    },
+    {
+        "question": "What happens to the centripetal force if the speed of an object in circular motion is doubled?",
+        "options": {
+            "a": "It stays the same",
+            "b": "It is halved",
+            "c": "It doubles",
+            "d": "It quadruples"
+        },
+        "correctAnswer": "d",
+        "explanation": "Centripetal force is proportional to the square of the speed, so doubling the speed quadruples the force.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is the relationship between speed and radius in uniform circular motion?",
+        "options": {
+            "a": "Speed is directly proportional to the radius",
+            "b": "Speed is inversely proportional to the radius",
+            "c": "Speed is proportional to the square of the radius",
+            "d": "Speed is inversely proportional to the square root of the radius"
+        },
+        "correctAnswer": "b",
+        "explanation": "For a constant centripetal force, increasing the radius decreases the speed.",
+        "module": "5.2"
+    },
+    {
+        "question": "A car is moving around a horizontal circular bend. Which force provides the centripetal force in this scenario?",
+        "options": {
+            "a": "Gravitational force",
+            "b": "Friction between the tyres and the road",
+            "c": "Air resistance",
+            "d": "Tension in the car's suspension"
+        },
+        "correctAnswer": "b",
+        "explanation": "Friction provides the centripetal force needed for the car to navigate the bend.",
+        "module": "5.2"
+    },
+    {
+        "question": "For a mass on a string moving in a circular path, which force is responsible for providing the centripetal force?",
+        "options": {
+            "a": "Tension in the string",
+            "b": "Gravitational force",
+            "c": "Air resistance",
+            "d": "Normal force"
+        },
+        "correctAnswer": "a",
+        "explanation": "The tension in the string provides the necessary centripetal force for circular motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "If the radius of a circular path is increased while keeping the mass and speed constant, what happens to the centripetal force?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It stays the same",
+            "d": "It becomes zero"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the radius decreases the centripetal force, as F_c=(mv^2)/r.",
+        "module": "5.2"
+    },
+    {
+        "question": "On a banked track, which force contributes to providing the centripetal force needed to keep an object in circular motion?",
+        "options": {
+            "a": "Friction alone",
+            "b": "The normal force alone",
+            "c": "Both friction and the normal force",
+            "d": "Only gravitational force"
+        },
+        "correctAnswer": "c",
+        "explanation": "On a banked track, both friction and the normal force contribute to the centripetal force.",
+        "module": "5.2"
+    },
+    {
+        "question": "If a car moves faster around a banked circular track, how does the required centripetal force change?",
+        "options": {
+            "a": "It decreases",
+            "b": "It stays the same",
+            "c": "It increases",
+            "d": "It depends on the radius of the track"
+        },
+        "correctAnswer": "c",
+        "explanation": "A higher speed requires a greater centripetal force to maintain circular motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is the equation for centripetal acceleration, a_c, in uniform circular motion?",
+        "options": {
+            "a": "a_c=v·r",
+            "b": "a_c=v^2/r",
+            "c": "a_c=v^2+r",
+            "d": "a_c=v/r^2"
+        },
+        "correctAnswer": "b",
+        "explanation": "Centripetal acceleration is calculated as the square of the velocity divided by the radius.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which equation relates the speed, v, of an object in uniform circular motion to the radius, r, and period, T?",
+        "options": {
+            "a": "v=2πr/T",
+            "b": "v=2πrT",
+            "c": "v=2πT/r",
+            "d": "v=T/2πr"
+        },
+        "correctAnswer": "a",
+        "explanation": "This formula relates the speed, radius, and period in uniform circular motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "In uniform circular motion, how is the centripetal force, F_c, related to mass, m, speed, v, and radius, r?",
+        "options": {
+            "a": "F_c=(m·v)/r",
+            "b": "F_c=(m^2 v)/r",
+            "c": "F_c=(m·v^2)/r",
+            "d": "F_c=(m^2·v^2)/r"
+        },
+        "correctAnswer": "c",
+        "explanation": "The centripetal force is proportional to mass, velocity squared, and inversely proportional to the radius.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is angular velocity (ω) in terms of angle (∆θ) and time (t)?",
+        "options": {
+            "a": "ω=∆θ·t",
+            "b": "ω=∆θ/t",
+            "c": "ω=∆θ+t",
+            "d": "ω=t/∆θ"
+        },
+        "correctAnswer": "b",
+        "explanation": "Angular velocity is the rate of change of angular displacement over time.",
+        "module": "5.2"
+    },
+    {
+        "question": "A spinning wheel experiences a constant torque. What will happen to the angular velocity over time?",
+        "options": {
+            "a": "It remains constant",
+            "b": "It decreases",
+            "c": "It increases",
+            "d": "It oscillates"
+        },
+        "correctAnswer": "c",
+        "explanation": "A constant torque leads to an increase in angular velocity over time.",
+        "module": "5.2"
+    },
+    {
+        "question": "Torque (τ) is defined as:",
+        "options": {
+            "a": "τ=r·F",
+            "b": "τ=r·F·sinθ",
+            "c": "τ=F·r·cosθ",
+            "d": "τ=r^2·F"
+        },
+        "correctAnswer": "b",
+        "explanation": "Torque is calculated using the perpendicular distance between the point of application of the force and the axis of rotation.",
+        "module": "5.2"
+    },
+    {
+        "question": "If the perpendicular distance (r⊥) between the force and the point of rotation increases, what happens to the torque?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains the same",
+            "d": "It becomes zero"
+        },
+        "correctAnswer": "a",
+        "explanation": "Torque increases as the perpendicular distance increases.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which of the following variables is directly proportional to torque?",
+        "options": {
+            "a": "Force applied",
+            "b": "Mass of the object",
+            "c": "Radius of the circular path",
+            "d": "Speed of rotation"
+        },
+        "correctAnswer": "a",
+        "explanation": "Torque is directly proportional to the applied force.",
+        "module": "5.2"
+    },
+    {
+        "question": "What happens to the centripetal acceleration if the radius is doubled and the speed is halved?",
+        "options": {
+            "a": "It doubles",
+            "b": "It halves",
+            "c": "It quarters",
+            "d": "It remains the same"
+        },
+        "correctAnswer": "c",
+        "explanation": "Doubling the radius and halving the speed results in a centripetal acceleration that is reduced by a factor of four.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which type of energy is primarily associated with an object executing uniform circular motion?",
+        "options": {
+            "a": "Kinetic energy",
+            "b": "Potential energy",
+            "c": "Thermal energy",
+            "d": "Sound energy"
+        },
+        "correctAnswer": "a",
+        "explanation": "Objects in uniform circular motion primarily have kinetic energy.",
+        "module": "5.2"
+    },
+    {
+        "question": "How is the total energy of an object in uniform circular motion related to its speed?",
+        "options": {
+            "a": "It is directly proportional to the speed",
+            "b": "It is proportional to the square of the speed",
+            "c": "It is inversely proportional to the speed",
+            "d": "It is independent of the speed"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kinetic energy in circular motion depends on the square of the speed.",
+        "module": "5.2"
+    },
+    {
+        "question": "When is work done on an object moving in uniform circular motion?",
+        "options": {
+            "a": "Only when speed is increasing",
+            "b": "Only when radius is increasing",
+            "c": "Only when the object is slowing down",
+            "d": "No work is done"
+        },
+        "correctAnswer": "d",
+        "explanation": "In uniform circular motion, the force is perpendicular to the displacement, so no work is done.",
+        "module": "5.2"
+    },
+    {
+        "question": "What happens to the total mechanical energy when an object moves in a uniform circular path?",
+        "options": {
+            "a": "It decreases over time",
+            "b": "It increases over time",
+            "c": "It remains constant",
+            "d": "It fluctuates depending on the radius"
+        },
+        "correctAnswer": "c",
+        "explanation": "In uniform circular motion, the total mechanical energy remains constant as the speed and radius do not change.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is the unit of angular velocity (ω)?",
+        "options": {
+            "a": "Metres per second",
+            "b": "Radians per second",
+            "c": "Revolutions per minute",
+            "d": "Kilograms per second"
+        },
+        "correctAnswer": "b",
+        "explanation": "Angular velocity is measured in radians per second.",
+        "module": "5.2"
+    },
+    {
+        "question": "In uniform circular motion, which of the following is true about the direction of the velocity vector?",
+        "options": {
+            "a": "It is constant",
+            "b": "It points towards the centre",
+            "c": "It is tangential to the circular path",
+            "d": "It is always perpendicular to the centripetal force"
+        },
+        "correctAnswer": "c",
+        "explanation": "The velocity vector is always tangential to the circular path.",
+        "module": "5.2"
+    },
+    {
+        "question": "If the mass of an object in circular motion is doubled but the speed and radius remain constant, what happens to the centripetal force?",
+        "options": {
+            "a": "It stays the same",
+            "b": "It doubles",
+            "c": "It halves",
+            "d": "It quadruples"
+        },
+        "correctAnswer": "b",
+        "explanation": "Centripetal force is directly proportional to mass, so doubling the mass doubles the force.",
+        "module": "5.2"
+    },
+    {
+        "question": "A rotating disk has a constant angular velocity. What does this indicate about the applied torque?",
+        "options": {
+            "a": "The torque is increasing",
+            "b": "The torque is decreasing",
+            "c": "The torque is zero",
+            "d": "The torque is constant"
+        },
+        "correctAnswer": "c",
+        "explanation": "If the angular velocity is constant, no net torque is acting on the object.",
+        "module": "5.2"
+    },
+    {
+        "question": "What will happen to an object in uniform circular motion if the centripetal force is removed?",
+        "options": {
+            "a": "It will continue moving in a circular path",
+            "b": "It will stop moving",
+            "c": "It will move in a straight line tangent to the circle",
+            "d": "It will spiral towards the centre"
+        },
+        "correctAnswer": "c",
+        "explanation": "Once centripetal force is removed, the object will follow a straight-line path.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which quantity remains constant in uniform circular motion?",
+        "options": {
+            "a": "Angular velocity",
+            "b": "Centripetal acceleration",
+            "c": "Linear velocity",
+            "d": "Tangential force"
+        },
+        "correctAnswer": "a",
+        "explanation": "In uniform circular motion, the angular velocity remains constant.",
+        "module": "5.2"
+    },
+    {
+        "question": "In a rotating mechanical system, how does increasing the force at a given radius affect the torque?",
+        "options": {
+            "a": "It decreases the torque",
+            "b": "It increases the torque",
+            "c": "It keeps the torque constant",
+            "d": "It eliminates the torque"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the force at a given radius increases the torque.",
+        "module": "5.2"
+    },
+    {
+        "question": "A point mass moves in a circle of radius r with constant speed. What can be said about its acceleration?",
+        "options": {
+            "a": "The acceleration is zero",
+            "b": "The acceleration is directed tangentially",
+            "c": "The acceleration is directed radially inward",
+            "d": "The acceleration is directed outward"
+        },
+        "correctAnswer": "c",
+        "explanation": "In circular motion, the centripetal acceleration is directed towards the centre of the circle.",
+        "module": "5.2"
+    },
+    {
+        "question": "What happens to the angular velocity if the rotational period is halved?",
+        "options": {
+            "a": "It doubles",
+            "b": "It halves",
+            "c": "It remains constant",
+            "d": "It becomes zero"
+        },
+        "correctAnswer": "a",
+        "explanation": "Angular velocity is inversely proportional to the period, so halving the period doubles the angular velocity.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is the relationship between the rotational period (T) and angular velocity (ω)?",
+        "options": {
+            "a": "T=ω^2",
+            "b": "T=1/ω",
+            "c": "T=ω·r",
+            "d": "T=ω^2/r"
+        },
+        "correctAnswer": "b",
+        "explanation": "The rotational period is the inverse of angular velocity.",
+        "module": "5.2"
+    },
+    {
+        "question": "How does increasing the radius of rotation affect the linear speed of an object with a constant angular velocity?",
+        "options": {
+            "a": "The speed decreases",
+            "b": "The speed increases",
+            "c": "The speed stays the same",
+            "d": "The speed becomes zero"
+        },
+        "correctAnswer": "b",
+        "explanation": "For a constant angular velocity, increasing the radius increases the linear speed.",
+        "module": "5.2"
+    },
+    {
+        "question": "If the mass of a rotating object doubles while its radius remains constant, what happens to its kinetic energy?",
+        "options": {
+            "a": "It stays the same",
+            "b": "It doubles",
+            "c": "It quadruples",
+            "d": "It halves"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kinetic energy is directly proportional to mass, so doubling the mass doubles the kinetic energy.",
+        "module": "5.2"
+    },
+    {
+        "question": "In uniform circular motion, the magnitude of the velocity is constant, but the direction of velocity:",
+        "options": {
+            "a": "Remains constant",
+            "b": "Changes continuously",
+            "c": "Reverses periodically",
+            "d": "Decreases with time"
+        },
+        "correctAnswer": "b",
+        "explanation": "While the speed remains constant, the direction of velocity changes continuously in circular motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "The work done by the centripetal force in uniform circular motion is:",
+        "options": {
+            "a": "Positive",
+            "b": "Negative",
+            "c": "Zero",
+            "d": "Equal to the kinetic energy"
+        },
+        "correctAnswer": "c",
+        "explanation": "The centripetal force does no work because it is perpendicular to the displacement.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which of the following situations involves uniform circular motion?",
+        "options": {
+            "a": "A car accelerating on a straight road",
+            "b": "A satellite orbiting Earth at a constant speed",
+            "c": "A stone falling from a height",
+            "d": "A ball bouncing on the ground"
+        },
+        "correctAnswer": "b",
+        "explanation": "A satellite orbiting at a constant speed exhibits uniform circular motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "In circular motion, the angle swept by the radius in a given time interval is known as:",
+        "options": {
+            "a": "Angular velocity",
+            "b": "Angular acceleration",
+            "c": "Angular displacement",
+            "d": "Angular frequency"
+        },
+        "correctAnswer": "c",
+        "explanation": "Angular displacement is the angle swept by the radius over time.",
+        "module": "5.2"
+    },
+    {
+        "question": "How does the centripetal acceleration of a rotating object change if the radius is tripled while the speed remains constant?",
+        "options": {
+            "a": "It triples",
+            "b": "It decreases by a factor of three",
+            "c": "It remains constant",
+            "d": "It increases by a factor of nine"
+        },
+        "correctAnswer": "b",
+        "explanation": "Centripetal acceleration is inversely proportional to the radius.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is the SI unit of torque?",
+        "options": {
+            "a": "Newton-meter (Nm)",
+            "b": "Joule (J)",
+            "c": "Kilogram-meter (kg·m)",
+            "d": "Radian (rad)"
+        },
+        "correctAnswer": "a",
+        "explanation": "Torque is measured in newton-meters.",
+        "module": "5.2"
+    },
+    {
+        "question": "If the speed of an object moving in a circle doubles, what happens to the kinetic energy?",
+        "options": {
+            "a": "It stays the same",
+            "b": "It doubles",
+            "c": "It quadruples",
+            "d": "It halves"
+        },
+        "correctAnswer": "c",
+        "explanation": "Kinetic energy is proportional to the square of the speed, so doubling the speed quadruples the kinetic energy.",
+        "module": "5.2"
+    },
+    {
+        "question": "What does the tangential velocity of an object in uniform circular motion depend on?",
+        "options": {
+            "a": "The radius and angular velocity",
+            "b": "The mass of the object and the radius",
+            "c": "The centripetal force and the radius",
+            "d": "The mass of the object and angular velocity"
+        },
+        "correctAnswer": "a",
+        "explanation": "Tangential velocity depends on both the radius and angular velocity.",
+        "module": "5.2"
+    },
+    {
+        "question": "The direction of the net force acting on an object in uniform circular motion is:",
+        "options": {
+            "a": "Towards the centre of the circle",
+            "b": "Opposite to the direction of motion",
+            "c": "Along the direction of motion",
+            "d": "Away from the centre of the circle"
+        },
+        "correctAnswer": "a",
+        "explanation": "The net force in circular motion always points towards the centre.",
+        "module": "5.2"
+    },
+    {
+        "question": "What is the relationship between torque and angular acceleration in a rotating system?",
+        "options": {
+            "a": "Torque is inversely proportional to angular acceleration",
+            "b": "Torque is proportional to angular acceleration",
+            "c": "Torque is independent of angular acceleration",
+            "d": "Torque equals angular acceleration squared"
+        },
+        "correctAnswer": "b",
+        "explanation": "Torque is directly proportional to angular acceleration.",
+        "module": "5.2"
+    },
+    {
+        "question": "If the force acting on a rotating object increases while the radius remains constant, what happens to the angular acceleration?",
+        "options": {
+            "a": "It stays the same",
+            "b": "It decreases",
+            "c": "It increases",
+            "d": "It becomes zero"
+        },
+        "correctAnswer": "c",
+        "explanation": "Increasing the force increases the angular acceleration.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which factor does not affect the centripetal force required for circular motion?",
+        "options": {
+            "a": "The mass of the object",
+            "b": "The speed of the object",
+            "c": "The radius of the circular path",
+            "d": "The object's colour"
+        },
+        "correctAnswer": "d",
+        "explanation": "Colour does not affect the centripetal force in circular motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "What will happen to the tangential velocity if the radius is increased while keeping the angular velocity constant?",
+        "options": {
+            "a": "The tangential velocity increases",
+            "b": "The tangential velocity decreases",
+            "c": "The tangential velocity remains the same",
+            "d": "The tangential velocity becomes zero"
+        },
+        "correctAnswer": "a",
+        "explanation": "Tangential velocity increases with radius if angular velocity is constant.",
+        "module": "5.2"
+    },
+    {
+        "question": "Which equation describes the work done on an object in uniform circular motion?",
+        "options": {
+            "a": "W=F·d",
+            "b": "W=0",
+            "c": "W=F·v",
+            "d": "W=F·a"
+        },
+        "correctAnswer": "b",
+        "explanation": "No work is done in uniform circular motion as the force is perpendicular to the motion.",
+        "module": "5.2"
+    },
+    {
+        "question": "In circular motion, what is the relationship between the radius and the centripetal force required for a given mass and speed?",
+        "options": {
+            "a": "F_c∝r",
+            "b": "F_c∝1/r",
+            "c": "F_c∝r^2",
+            "d": "F_c∝1/r^2"
+        },
+        "correctAnswer": "b",
+        "explanation": "Centripetal force is inversely proportional to the radius for a given mass and speed.",
+        "module": "5.2"
     }
 ]
+
 
 
     
