@@ -9021,8 +9021,610 @@
         "correctAnswer": "b",
         "explanation": "Centripetal force is inversely proportional to the radius for a given mass and speed.",
         "module": "5.2"
+    },
+
+    {
+        "question": "What does Newton’s Law of Universal Gravitation state about the gravitational force between two objects?",
+        "options": {
+            "a": "It is inversely proportional to the square of the distance between them",
+            "b": "It is directly proportional to their masses and inversely proportional to the distance between them",
+            "c": "It is directly proportional to their masses and inversely proportional to the square of the distance between them",
+            "d": "It is directly proportional to their masses and distances"
+        },
+        "correctAnswer": "c",
+        "explanation": "Newton's Law of Universal Gravitation states that the force between two objects is proportional to their masses and inversely proportional to the square of the distance between them.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following factors affects the gravitational field strength of a planet?",
+        "options": {
+            "a": "The planet's mass and radius",
+            "b": "The planet's density",
+            "c": "The planet's surface area",
+            "d": "The planet's atmosphere"
+        },
+        "correctAnswer": "a",
+        "explanation": "Gravitational field strength depends on the planet’s mass and radius, following g=GM/r^2.",
+        "module": "5.3"
+    },
+    {
+        "question": "If the distance between two objects is doubled, how does the gravitational force between them change?",
+        "options": {
+            "a": "It remains the same",
+            "b": "It is halved",
+            "c": "It is quartered",
+            "d": "It is doubled"
+        },
+        "correctAnswer": "c",
+        "explanation": "The gravitational force is inversely proportional to the square of the distance, so doubling the distance results in one-quarter the force.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following best describes the motion of planets around the Sun according to Kepler’s First Law?",
+        "options": {
+            "a": "Planets move in circular orbits around the Sun",
+            "b": "Planets move in elliptical orbits with the Sun at one focus",
+            "c": "Planets move in a straight line at constant speed",
+            "d": "Planets move in parabolic orbits"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kepler’s First Law states that the orbits of planets are elliptical, with the Sun at one focus.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does the centripetal force required for a satellite to remain in orbit relate to its orbital velocity?",
+        "options": {
+            "a": "It is inversely proportional to the square of the velocity",
+            "b": "It is directly proportional to the velocity",
+            "c": "It is proportional to the square of the velocity",
+            "d": "It is independent of the velocity"
+        },
+        "correctAnswer": "c",
+        "explanation": "The centripetal force is given by F_c=(mv^2)/r, so it is proportional to the square of the orbital velocity.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following expressions represents gravitational field strength at the surface of a planet?",
+        "options": {
+            "a": "g = GM/r^2",
+            "b": "g = GM/r",
+            "c": "g = GmM/r^2",
+            "d": "g = 2GM/r^2"
+        },
+        "correctAnswer": "a",
+        "explanation": "Gravitational field strength at a planet's surface is determined by this formula, which relates it to the mass and radius of the planet.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is the relationship between the period (T) and the radius (r) of a planet's orbit according to Kepler’s Third Law?",
+        "options": {
+            "a": "r^3/T^2 is a constant",
+            "b": "r^2/T is a constant",
+            "c": "r^3/T is a constant",
+            "d": "T/r^2 is a constant"
+        },
+        "correctAnswer": "a",
+        "explanation": "According to Kepler’s Third Law, the square of the orbital period is proportional to the cube of the orbital radius.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following correctly defines escape velocity?",
+        "options": {
+            "a": "The velocity required for an object to leave a planet's orbit and move away indefinitely",
+            "b": "The velocity required for an object to maintain a stable orbit around a planet",
+            "c": "The velocity required for an object to stay on the planet's surface",
+            "d": "The velocity required for an object to return to the planet's surface"
+        },
+        "correctAnswer": "a",
+        "explanation": "Escape velocity is the speed needed for an object to escape the gravitational pull of a planet.",
+        "module": "5.3"
+    },
+    {
+        "question": "The total energy of a planet or satellite in its orbit is:",
+        "options": {
+            "a": "Directly proportional to the orbital velocity",
+            "b": "The sum of its gravitational potential energy and kinetic energy",
+            "c": "Always equal to its gravitational potential energy",
+            "d": "Equal to the square of its kinetic energy"
+        },
+        "correctAnswer": "b",
+        "explanation": "The total energy of a planet or satellite is the sum of its gravitational potential and kinetic energy.",
+        "module": "5.3"
+    },
+    {
+        "question": "According to Kepler’s Second Law, what happens when a planet moves closer to the Sun in its orbit?",
+        "options": {
+            "a": "Its speed decreases",
+            "b": "Its speed remains constant",
+            "c": "Its speed increases",
+            "d": "Its speed fluctuates randomly"
+        },
+        "correctAnswer": "c",
+        "explanation": "According to Kepler’s Second Law, a planet moves faster when it is closer to the Sun.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is the formula for gravitational potential energy in a radial gravitational field?",
+        "options": {
+            "a": "U = GMm/r^2",
+            "b": "U = -GMm/r",
+            "c": "U = GMm/r",
+            "d": "U = -GMm/r^2"
+        },
+        "correctAnswer": "b",
+        "explanation": "Gravitational potential energy is negative and is given by this formula for two masses at a distance r.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which law describes the relationship between the time a planet takes to orbit the Sun and its distance from the Sun?",
+        "options": {
+            "a": "Newton’s Law of Universal Gravitation",
+            "b": "Kepler’s Second Law",
+            "c": "Kepler’s Third Law",
+            "d": "Einstein’s Theory of General Relativity"
+        },
+        "correctAnswer": "c",
+        "explanation": "Kepler’s Third Law relates the orbital period and distance of planets from the Sun.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is the significance of geostationary orbits for satellites?",
+        "options": {
+            "a": "The satellite moves at a constant speed around the Earth",
+            "b": "The satellite remains over a fixed point on Earth’s surface",
+            "c": "The satellite moves in a highly elliptical orbit",
+            "d": "The satellite rotates along with the Earth's rotation"
+        },
+        "correctAnswer": "b",
+        "explanation": "In a geostationary orbit, the satellite has an orbital period equal to the Earth's rotational period, keeping it fixed above one point on Earth.",
+        "module": "5.3"
+    },
+    {
+        "question": "What does the expression F_c=(mv^2)/r represent?",
+        "options": {
+            "a": "The centripetal force acting on an object in uniform circular motion",
+            "b": "The gravitational force acting on an object",
+            "c": "The total energy of an object in its orbit",
+            "d": "The escape velocity required for an object"
+        },
+        "correctAnswer": "a",
+        "explanation": "This formula gives the centripetal force necessary to keep an object in circular motion.",
+        "module": "5.3"
+    },
+    {
+        "question": "If the orbital velocity of a satellite decreases, what happens to its orbital radius?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains constant",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "a",
+        "explanation": "A decrease in orbital velocity results in an increase in the orbital radius, as they are inversely related.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is the relationship between the mass of an object and the gravitational force it experiences in a gravitational field?",
+        "options": {
+            "a": "It is directly proportional to the square of the mass",
+            "b": "It is directly proportional to the mass",
+            "c": "It is inversely proportional to the mass",
+            "d": "It is independent of the mass"
+        },
+        "correctAnswer": "b",
+        "explanation": "The gravitational force is directly proportional to the mass of the object, as per F=GMm/r^2.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does the gravitational field strength at a point in space change as the distance from the mass increases?",
+        "options": {
+            "a": "It increases exponentially",
+            "b": "It remains constant",
+            "c": "It decreases linearly",
+            "d": "It decreases with the square of the distance"
+        },
+        "correctAnswer": "d",
+        "explanation": "Gravitational field strength decreases according to the inverse square law with distance from the mass.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following best describes Kepler’s Second Law of Planetary Motion?",
+        "options": {
+            "a": "A planet moves faster when it is closer to the Sun",
+            "b": "The total energy of a planet in orbit remains constant",
+            "c": "The square of the orbital period is proportional to the cube of the orbital radius",
+            "d": "The gravitational force is proportional to the product of two masses"
+        },
+        "correctAnswer": "a",
+        "explanation": "Kepler’s Second Law states that planets sweep out equal areas in equal times, so they move faster when closer to the Sun.",
+        "module": "5.3"
+    },
+    {
+        "question": "If a satellite moves from a low Earth orbit to a higher orbit, what happens to its potential energy?",
+        "options": {
+            "a": "It decreases",
+            "b": "It remains constant",
+            "c": "It increases",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "c",
+        "explanation": "Moving to a higher orbit increases the satellite’s potential energy.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following is a consequence of a satellite moving between orbits?",
+        "options": {
+            "a": "The total energy remains constant",
+            "b": "Its kinetic energy decreases and its potential energy increases",
+            "c": "Its kinetic energy and potential energy both decrease",
+            "d": "Its kinetic energy increases and its potential energy decreases"
+        },
+        "correctAnswer": "b",
+        "explanation": "As a satellite moves to a higher orbit, its kinetic energy decreases while its potential energy increases.",
+        "module": "5.3"
+    },
+    {
+        "question": "The concept of escape velocity depends on:",
+        "options": {
+            "a": "The object’s mass and surface area",
+            "b": "The planet's radius and mass",
+            "c": "The object’s velocity and acceleration",
+            "d": "The distance from the planet's centre and the object’s radius"
+        },
+        "correctAnswer": "b",
+        "explanation": "Escape velocity depends on the planet’s mass and radius, not the object’s characteristics.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does the total mechanical energy of a planet in its orbit relate to its gravitational potential energy?",
+        "options": {
+            "a": "It is equal to half the gravitational potential energy",
+            "b": "It is equal to the gravitational potential energy",
+            "c": "It is equal to the negative of the gravitational potential energy",
+            "d": "It is equal to twice the gravitational potential energy"
+        },
+        "correctAnswer": "c",
+        "explanation": "The total mechanical energy of an object in orbit is equal to the negative of its gravitational potential energy.",
+        "module": "5.3"
+    },
+    {
+        "question": "In which of the following orbits does a satellite remain fixed over the same location on Earth?",
+        "options": {
+            "a": "Polar orbit",
+            "b": "Low Earth orbit",
+            "c": "Geostationary orbit",
+            "d": "Elliptical orbit"
+        },
+        "correctAnswer": "c",
+        "explanation": "A satellite in geostationary orbit remains fixed over one point on Earth's surface.",
+        "module": "5.3"
+    },
+    {
+        "question": "What happens to the period of a satellite's orbit if its orbital radius is increased?",
+        "options": {
+            "a": "It decreases",
+            "b": "It increases",
+            "c": "It remains constant",
+            "d": "It fluctuates randomly"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the orbital radius increases the period of the orbit.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is Kepler’s First Law of Planetary Motion?",
+        "options": {
+            "a": "The square of the orbital period is proportional to the cube of the orbital radius",
+            "b": "A planet moves faster when it is closer to the Sun",
+            "c": "Planets move in elliptical orbits with the Sun at one focus",
+            "d": "The gravitational force between two objects is proportional to their masses"
+        },
+        "correctAnswer": "c",
+        "explanation": "Kepler’s First Law describes planetary orbits as elliptical, with the Sun at one of the foci.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does increasing the mass of a satellite affect its orbital velocity?",
+        "options": {
+            "a": "It increases the orbital velocity",
+            "b": "It decreases the orbital velocity",
+            "c": "It has no effect on the orbital velocity",
+            "d": "It fluctuates based on the satellite's radius"
+        },
+        "correctAnswer": "c",
+        "explanation": "Orbital velocity is independent of the satellite's mass.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following expressions represents escape velocity?",
+        "options": {
+            "a": "v=√(2GM/r)",
+            "b": "v=2πr/T",
+            "c": "F=GMm/r^2",
+            "d": "a_c=v^2/r"
+        },
+        "correctAnswer": "a",
+        "explanation": "This is the formula for escape velocity, which depends on the mass and radius of the planet.",
+        "module": "5.3"
+    },
+    {
+        "question": "The total energy of a planet in a circular orbit is:",
+        "options": {
+            "a": "Equal to its gravitational potential energy",
+            "b": "Equal to half of its gravitational potential energy",
+            "c": "The sum of its kinetic and gravitational potential energy",
+            "d": "Equal to its kinetic energy"
+        },
+        "correctAnswer": "c",
+        "explanation": "The total energy of a planet in orbit is the sum of its kinetic and gravitational potential energy.",
+        "module": "5.3"
+    },
+    {
+        "question": "What does the orbital period of a planet depend on?",
+        "options": {
+            "a": "The planet’s mass and velocity",
+            "b": "The planet’s radius and the gravitational force",
+            "c": "The distance from the Sun and the mass of the planet",
+            "d": "The orbital radius and the gravitational constant"
+        },
+        "correctAnswer": "d",
+        "explanation": "The period of a planet’s orbit depends on its distance from the Sun and the gravitational constant.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following statements about gravitational potential energy is correct?",
+        "options": {
+            "a": "It is always positive",
+            "b": "It increases as the distance from the planet decreases",
+            "c": "It is inversely proportional to the distance from the centre of the planet",
+            "d": "It is proportional to the square of the distance"
+        },
+        "correctAnswer": "c",
+        "explanation": "Gravitational potential energy is inversely proportional to the distance from the centre of the planet.",
+        "module": "5.3"
+    },
+    {
+        "question": "What happens to a planet’s speed as it moves closer to the Sun in its elliptical orbit?",
+        "options": {
+            "a": "Its speed increases",
+            "b": "Its speed decreases",
+            "c": "Its speed remains constant",
+            "d": "Its speed fluctuates randomly"
+        },
+        "correctAnswer": "a",
+        "explanation": "As a planet moves closer to the Sun, it accelerates due to gravitational force, increasing its speed.",
+        "module": "5.3"
+    },
+    {
+        "question": "According to Kepler’s Third Law, how does the square of the orbital period relate to the cube of the orbital radius?",
+        "options": {
+            "a": "It is directly proportional",
+            "b": "It is inversely proportional",
+            "c": "It is independent of the radius",
+            "d": "It depends on the satellite's velocity"
+        },
+        "correctAnswer": "a",
+        "explanation": "Kepler’s Third Law states that the square of the orbital period is directly proportional to the cube of the orbital radius.",
+        "module": "5.3"
+    },
+    {
+        "question": "The force that keeps a satellite in orbit is called:",
+        "options": {
+            "a": "Gravitational force",
+            "b": "Centripetal force",
+            "c": "Frictional force",
+            "d": "Normal force"
+        },
+        "correctAnswer": "b",
+        "explanation": "The force that keeps a satellite in orbit is the centripetal force, provided by gravity.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does the mass of the Sun affect the orbit of planets?",
+        "options": {
+            "a": "It determines the shape of the orbit",
+            "b": "It determines the orbital speed of planets",
+            "c": "It determines the orbital period of planets",
+            "d": "It has no effect on the planets"
+        },
+        "correctAnswer": "b",
+        "explanation": "The mass of the Sun determines the gravitational force, which affects the orbital speed of planets.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is the total potential energy of a satellite in orbit around the Earth?",
+        "options": {
+            "a": "U = GMm/r^2",
+            "b": "U = -GMm/r",
+            "c": "U = 2GM/r",
+            "d": "U = -GMm/2r"
+        },
+        "correctAnswer": "b",
+        "explanation": "Gravitational potential energy in a radial gravitational field is given by this formula.",
+        "module": "5.3"
+    },
+    {
+        "question": "If a planet’s orbital radius is doubled, how does its orbital velocity change?",
+        "options": {
+            "a": "It remains the same",
+            "b": "It decreases",
+            "c": "It increases",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "b",
+        "explanation": "Doubling the orbital radius reduces the orbital velocity due to the inverse relationship.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which of the following best describes Kepler’s Third Law of Planetary Motion?",
+        "options": {
+            "a": "Planets move faster when they are closer to the Sun",
+            "b": "Planets move in elliptical orbits with the Sun at one focus",
+            "c": "The square of the orbital period is proportional to the cube of the orbital radius",
+            "d": "Gravitational force is inversely proportional to the square of the distance"
+        },
+        "correctAnswer": "c",
+        "explanation": "This is a statement of Kepler’s Third Law.",
+        "module": "5.3"
+    },
+    {
+        "question": "What happens to the gravitational force between two objects if their masses are doubled?",
+        "options": {
+            "a": "It halves",
+            "b": "It doubles",
+            "c": "It quadruples",
+            "d": "It remains constant"
+        },
+        "correctAnswer": "c",
+        "explanation": "Doubling both masses increases the gravitational force by a factor of four.",
+        "module": "5.3"
+    },
+    {
+        "question": "What does Kepler’s Second Law of Planetary Motion state?",
+        "options": {
+            "a": "Planets move in elliptical orbits with the Sun at one focus",
+            "b": "Planets sweep out equal areas in equal times",
+            "c": "The square of the orbital period is proportional to the cube of the orbital radius",
+            "d": "Gravitational force is directly proportional to mass"
+        },
+        "correctAnswer": "b",
+        "explanation": "Kepler’s Second Law describes how a planet moves faster when closer to the Sun and slower when farther away.",
+        "module": "5.3"
+    },
+    {
+        "question": "If the gravitational constant (G) increased, what would happen to the gravitational force between two objects?",
+        "options": {
+            "a": "It would increase",
+            "b": "It would decrease",
+            "c": "It would remain the same",
+            "d": "It would become zero"
+        },
+        "correctAnswer": "a",
+        "explanation": "Increasing the gravitational constant would increase the gravitational force between two objects.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does the total mechanical energy of a satellite change if it moves to a higher orbit?",
+        "options": {
+            "a": "It decreases",
+            "b": "It increases",
+            "c": "It remains constant",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "b",
+        "explanation": "Moving to a higher orbit increases the total mechanical energy of a satellite.",
+        "module": "5.3"
+    },
+    {
+        "question": "What happens to the speed of a satellite in a circular orbit when it moves to a higher orbit?",
+        "options": {
+            "a": "Its speed increases",
+            "b": "Its speed decreases",
+            "c": "Its speed remains constant",
+            "d": "Its speed fluctuates"
+        },
+        "correctAnswer": "b",
+        "explanation": "When a satellite moves to a higher orbit, its speed decreases due to the inverse relationship between orbital speed and radius.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which quantity remains constant for a planet in a perfectly circular orbit?",
+        "options": {
+            "a": "Speed",
+            "b": "Distance from the Sun",
+            "c": "Gravitational force",
+            "d": "Kinetic energy"
+        },
+        "correctAnswer": "b",
+        "explanation": "In a perfectly circular orbit, the distance from the Sun remains constant.",
+        "module": "5.3"
+    },
+    {
+        "question": "What is the primary difference between circular and elliptical orbits?",
+        "options": {
+            "a": "Circular orbits have constant speed, while elliptical orbits have variable speed",
+            "b": "Circular orbits are faster than elliptical orbits",
+            "c": "Elliptical orbits have higher gravitational potential energy",
+            "d": "Circular orbits have constant kinetic energy"
+        },
+        "correctAnswer": "a",
+        "explanation": "In a circular orbit, speed is constant, whereas in an elliptical orbit, speed varies depending on the position.",
+        "module": "5.3"
+    },
+    {
+        "question": "What happens to the orbital period of a planet if the mass of the Sun decreases?",
+        "options": {
+            "a": "It decreases",
+            "b": "It increases",
+            "c": "It remains constant",
+            "d": "It fluctuates"
+        },
+        "correctAnswer": "b",
+        "explanation": "If the Sun’s mass decreases, the gravitational force weakens, leading to an increase in the orbital period of planets.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does the gravitational field strength change as you move further from the surface of a planet?",
+        "options": {
+            "a": "It increases exponentially",
+            "b": "It remains constant",
+            "c": "It decreases with the square of the distance",
+            "d": "It decreases linearly"
+        },
+        "correctAnswer": "c",
+        "explanation": "Gravitational field strength follows the inverse square law, decreasing as the distance increases.",
+        "module": "5.3"
+    },
+    {
+        "question": "Which quantity remains constant for a satellite in a stable geostationary orbit?",
+        "options": {
+            "a": "Angular velocity",
+            "b": "Kinetic energy",
+            "c": "Orbital radius",
+            "d": "Gravitational force"
+        },
+        "correctAnswer": "c",
+        "explanation": "In a geostationary orbit, the satellite remains at a fixed orbital radius.",
+        "module": "5.3"
+    },
+    {
+        "question": "What does the concept of orbital velocity depend on?",
+        "options": {
+            "a": "The satellite’s mass and radius",
+            "b": "The satellite’s speed and angular momentum",
+            "c": "The radius of the orbit and the gravitational force",
+            "d": "The satellite’s total energy and distance from the planet"
+        },
+        "correctAnswer": "c",
+        "explanation": "Orbital velocity depends on the radius of the orbit and the gravitational force acting on the satellite.",
+        "module": "5.3"
+    },
+    {
+        "question": "If a satellite in orbit loses energy, what happens to its orbit?",
+        "options": {
+            "a": "It moves to a lower orbit",
+            "b": "It moves to a higher orbit",
+            "c": "It remains in the same orbit",
+            "d": "It moves in a straight line"
+        },
+        "correctAnswer": "a",
+        "explanation": "If a satellite loses energy, it moves to a lower orbit as its total mechanical energy decreases.",
+        "module": "5.3"
+    },
+    {
+        "question": "How does a satellite's kinetic energy change as it moves closer to the planet in an elliptical orbit?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It remains constant",
+            "d": "It fluctuates randomly"
+        },
+        "correctAnswer": "a",
+        "explanation": "As a satellite moves closer to a planet in an elliptical orbit, its kinetic energy increases due to the increase in speed.",
+        "module": "5.3"
     }
 ]
+
 
 
 
