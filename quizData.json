@@ -12629,8 +12629,610 @@
         "correctAnswer": "b",
         "explanation": "Electromagnetic waves can travel through a vacuum, requiring no medium.",
         "module": "7.1"
+    },
+
+    {
+        "question": "Diffraction of light occurs when light:",
+        "options": {
+            "a": "Passes through a narrow slit",
+            "b": "Reflects off a mirror",
+            "c": "Refracts through a lens",
+            "d": "Absorbs in a material"
+        },
+        "correctAnswer": "a",
+        "explanation": "Diffraction occurs when light passes through a narrow slit.",
+        "module": "7.2"
+    },
+    {
+        "question": "The phenomenon of light diffraction can best be observed when light:",
+        "options": {
+            "a": "Passes through a narrow aperture",
+            "b": "Bounces off a smooth surface",
+            "c": "Travels through a vacuum",
+            "d": "Reflects off a rough surface"
+        },
+        "correctAnswer": "a",
+        "explanation": "Diffraction is best observed when light passes through a small opening.",
+        "module": "7.2"
+    },
+    {
+        "question": "Which property of light is demonstrated by the double-slit experiment?",
+        "options": {
+            "a": "Reflection",
+            "b": "Refraction",
+            "c": "Interference",
+            "d": "Polarisation"
+        },
+        "correctAnswer": "c",
+        "explanation": "The double-slit experiment demonstrates interference, a wave property of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "In the double-slit experiment, the bright fringes on the screen are caused by:",
+        "options": {
+            "a": "Destructive interference",
+            "b": "Constructive interference",
+            "c": "Reflection of light",
+            "d": "Refraction of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Bright fringes are caused by constructive interference, where the waves add together.",
+        "module": "7.2"
+    },
+    {
+        "question": "The condition for constructive interference in the double-slit experiment is:",
+        "options": {
+            "a": "Path difference equals a multiple of the wavelength",
+            "b": "Path difference equals half the wavelength",
+            "c": "Path difference equals zero",
+            "d": "No path difference"
+        },
+        "correctAnswer": "a",
+        "explanation": "Constructive interference occurs when the path difference is an integer multiple of the wavelength.",
+        "module": "7.2"
+    },
+    {
+        "question": "Diffraction gratings are used to:",
+        "options": {
+            "a": "Focus light into a single beam",
+            "b": "Separate light into its component wavelengths",
+            "c": "Absorb certain wavelengths of light",
+            "d": "Reflect light in different directions"
+        },
+        "correctAnswer": "b",
+        "explanation": "Diffraction gratings are used to separate light into its component colours.",
+        "module": "7.2"
+    },
+    {
+        "question": "The equation dsinθ=mλ relates to:",
+        "options": {
+            "a": "Interference in the double-slit experiment",
+            "b": "Polarisation of light",
+            "c": "Reflection of light",
+            "d": "Refraction of light"
+        },
+        "correctAnswer": "a",
+        "explanation": "This equation is used for diffraction gratings and the interference of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "In the equation dsinθ=mλ, what does m represent?",
+        "options": {
+            "a": "The distance between the slits",
+            "b": "The order of the interference fringe",
+            "c": "The wavelength of light",
+            "d": "The angle of incidence"
+        },
+        "correctAnswer": "b",
+        "explanation": "m is the order of the interference fringe.",
+        "module": "7.2"
+    },
+    {
+        "question": "When a higher order m is observed in the diffraction pattern, this indicates:",
+        "options": {
+            "a": "A shorter wavelength",
+            "b": "A longer wavelength",
+            "c": "Greater intensity",
+            "d": "Less interference"
+        },
+        "correctAnswer": "b",
+        "explanation": "A higher order m indicates a longer wavelength.",
+        "module": "7.2"
+    },
+    {
+        "question": "Which scientist proposed a particle model of light?",
+        "options": {
+            "a": "Isaac Newton",
+            "b": "Thomas Young",
+            "c": "Christiaan Huygens",
+            "d": "James Clerk Maxwell"
+        },
+        "correctAnswer": "a",
+        "explanation": "Isaac Newton proposed a particle model of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "Christiaan Huygens is known for proposing the:",
+        "options": {
+            "a": "Particle model of light",
+            "b": "Wave model of light",
+            "c": "Quantum model of light",
+            "d": "Electromagnetic theory of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Huygens proposed the wave model of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "Newton’s model of light was based on:",
+        "options": {
+            "a": "Light behaving as waves",
+            "b": "Light behaving as particles",
+            "c": "Light having both wave and particle properties",
+            "d": "Light travelling instantaneously"
+        },
+        "correctAnswer": "b",
+        "explanation": "Newton’s model suggested light behaves as particles.",
+        "module": "7.2"
+    },
+    {
+        "question": "The double-slit experiment provided evidence for which model of light?",
+        "options": {
+            "a": "Particle model",
+            "b": "Wave model",
+            "c": "Quantum model",
+            "d": "Electromagnetic model"
+        },
+        "correctAnswer": "b",
+        "explanation": "The double-slit experiment provides evidence for the wave model of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "Which experiment provided evidence against Newton’s particle model of light?",
+        "options": {
+            "a": "Michelson-Morley experiment",
+            "b": "Double-slit experiment",
+            "c": "Photoelectric effect",
+            "d": "Fizeau experiment"
+        },
+        "correctAnswer": "b",
+        "explanation": "The double-slit experiment showed that light exhibits interference, contrary to the particle model.",
+        "module": "7.2"
+    },
+    {
+        "question": "In Malus’ Law, I=I_max cos^2 θ, the angle θ represents:",
+        "options": {
+            "a": "The angle of refraction",
+            "b": "The angle between the light and the polarising filter",
+            "c": "The angle of incidence",
+            "d": "The angle between the light and the surface"
+        },
+        "correctAnswer": "b",
+        "explanation": "θ is the angle between the light and the polarising filter.",
+        "module": "7.2"
+    },
+    {
+        "question": "According to Malus’ Law, when θ=90^∘, the intensity of light passing through a polariser is:",
+        "options": {
+            "a": "Maximum",
+            "b": "Half of the original intensity",
+            "c": "Zero",
+            "d": "Double the original intensity"
+        },
+        "correctAnswer": "c",
+        "explanation": "When θ=90^∘, no light passes through the polariser.",
+        "module": "7.2"
+    },
+    {
+        "question": "Malus’ Law is used to describe:",
+        "options": {
+            "a": "Diffraction of light",
+            "b": "Interference of light",
+            "c": "Polarisation of light",
+            "d": "Refraction of light"
+        },
+        "correctAnswer": "c",
+        "explanation": "Malus' Law describes the polarisation of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "Polarisation of light occurs when:",
+        "options": {
+            "a": "Light waves oscillate in multiple directions",
+            "b": "Light waves oscillate in a single plane",
+            "c": "Light waves bend around an obstacle",
+            "d": "Light waves are absorbed by a material"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarisation occurs when light waves oscillate in a single plane.",
+        "module": "7.2"
+    },
+    {
+        "question": "Plane polarised light consists of waves that:",
+        "options": {
+            "a": "Travel in a circular pattern",
+            "b": "Oscillate in one direction",
+            "c": "Reflect off a smooth surface",
+            "d": "Pass through a prism"
+        },
+        "correctAnswer": "b",
+        "explanation": "Plane-polarised light oscillates in one direction.",
+        "module": "7.2"
+    },
+    {
+        "question": "Polarised sunglasses work by:",
+        "options": {
+            "a": "Reflecting light of all wavelengths",
+            "b": "Blocking light waves oscillating in certain directions",
+            "c": "Absorbing light waves",
+            "d": "Refracting light into different colours"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarised sunglasses block light oscillating in certain directions, reducing glare.",
+        "module": "7.2"
+    },
+    {
+        "question": "The intensity of plane-polarised light passing through a polariser depends on:",
+        "options": {
+            "a": "The wavelength of the light",
+            "b": "The frequency of the light",
+            "c": "The angle between the light and the polariser",
+            "d": "The amplitude of the light wave"
+        },
+        "correctAnswer": "c",
+        "explanation": "The intensity of light depends on the angle between the light and the polariser.",
+        "module": "7.2"
+    },
+    {
+        "question": "The experimental evidence that supported Huygens’ wave theory of light included:",
+        "options": {
+            "a": "Reflection and refraction of light",
+            "b": "Polarisation and diffraction of light",
+            "c": "The photoelectric effect",
+            "d": "The Compton effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarisation and diffraction provided evidence for Huygens’ wave theory of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "In the double-slit experiment, the dark fringes are produced by:",
+        "options": {
+            "a": "Constructive interference",
+            "b": "Destructive interference",
+            "c": "Reflection of light",
+            "d": "Refraction of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Dark fringes are caused by destructive interference, where the waves cancel out.",
+        "module": "7.2"
+    },
+    {
+        "question": "A diffraction grating with more lines per millimetre produces:",
+        "options": {
+            "a": "More widely spaced fringes",
+            "b": "More closely spaced fringes",
+            "c": "No fringes at all",
+            "d": "Only one bright fringe"
+        },
+        "correctAnswer": "b",
+        "explanation": "A diffraction grating with more lines per millimetre produces more closely spaced fringes.",
+        "module": "7.2"
+    },
+    {
+        "question": "The separation of light into its component colours by a diffraction grating is called:",
+        "options": {
+            "a": "Refraction",
+            "b": "Interference",
+            "c": "Dispersion",
+            "d": "Polarisation"
+        },
+        "correctAnswer": "c",
+        "explanation": "Dispersion is the separation of light into its component wavelengths.",
+        "module": "7.2"
+    },
+    {
+        "question": "The diffraction pattern produced by a single slit shows:",
+        "options": {
+            "a": "Alternating bright and dark bands",
+            "b": "Only a central bright band",
+            "c": "Only destructive interference",
+            "d": "No bands"
+        },
+        "correctAnswer": "a",
+        "explanation": "A single-slit diffraction pattern consists of alternating bright and dark bands.",
+        "module": "7.2"
+    },
+    {
+        "question": "The principle of superposition states that when two waves overlap, the resulting wave is:",
+        "options": {
+            "a": "The sum of the individual waves",
+            "b": "The difference between the individual waves",
+            "c": "Dependent on the frequency of the waves",
+            "d": "Independent of the original waves"
+        },
+        "correctAnswer": "a",
+        "explanation": "According to the principle of superposition, overlapping waves combine to form a resultant wave.",
+        "module": "7.2"
+    },
+    {
+        "question": "In the equation dsinθ=mλ, increasing d (the distance between slits) will result in:",
+        "options": {
+            "a": "Increased interference",
+            "b": "More closely spaced fringes",
+            "c": "More widely spaced fringes",
+            "d": "No change in fringe spacing"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing the distance between the slits causes the fringes to be more closely spaced.",
+        "module": "7.2"
+    },
+    {
+        "question": "Huygens' principle is used to explain:",
+        "options": {
+            "a": "Reflection of light",
+            "b": "The wavefronts of light and how they propagate",
+            "c": "The interaction between light and particles",
+            "d": "The bending of light through a lens"
+        },
+        "correctAnswer": "b",
+        "explanation": "Huygens’ principle explains the propagation of wavefronts.",
+        "module": "7.2"
+    },
+    {
+        "question": "Light behaves as a wave when it:",
+        "options": {
+            "a": "Reflects off a surface",
+            "b": "Passes through a small aperture",
+            "c": "Is absorbed by a material",
+            "d": "Passes through a prism"
+        },
+        "correctAnswer": "b",
+        "explanation": "Light behaves as a wave when it passes through a small aperture, producing a diffraction pattern.",
+        "module": "7.2"
+    },
+    {
+        "question": "In the context of light, polarisation refers to:",
+        "options": {
+            "a": "The angle of reflection",
+            "b": "The direction of the wave’s oscillation",
+            "c": "The refraction of light",
+            "d": "The wavelength of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarisation refers to the direction of oscillation of a light wave.",
+        "module": "7.2"
+    },
+    {
+        "question": "A polarising filter is used to:",
+        "options": {
+            "a": "Increase the intensity of light",
+            "b": "Block light oscillating in certain directions",
+            "c": "Reflect light",
+            "d": "Refract light into different colours"
+        },
+        "correctAnswer": "b",
+        "explanation": "A polarising filter blocks light waves oscillating in certain directions.",
+        "module": "7.2"
+    },
+    {
+        "question": "The intensity of light decreases as it passes through multiple polarisers because:",
+        "options": {
+            "a": "Polarisation reduces the amplitude of the light wave",
+            "b": "Each polariser blocks more oscillations",
+            "c": "The wavelength of the light changes",
+            "d": "The frequency of the light decreases"
+        },
+        "correctAnswer": "b",
+        "explanation": "Multiple polarisers further block oscillations, reducing light intensity.",
+        "module": "7.2"
+    },
+    {
+        "question": "Polarisation of light is evidence that light behaves as:",
+        "options": {
+            "a": "A particle",
+            "b": "A longitudinal wave",
+            "c": "A mechanical wave",
+            "d": "A transverse wave"
+        },
+        "correctAnswer": "d",
+        "explanation": "Polarisation is evidence that light is a transverse wave.",
+        "module": "7.2"
+    },
+    {
+        "question": "When unpolarised light passes through a polarising filter, its intensity is:",
+        "options": {
+            "a": "Doubled",
+            "b": "Reduced by half",
+            "c": "Unchanged",
+            "d": "Increased by four times"
+        },
+        "correctAnswer": "b",
+        "explanation": "The intensity of unpolarised light is reduced by half when it passes through a polarising filter.",
+        "module": "7.2"
+    },
+    {
+        "question": "The double-slit experiment is significant because it demonstrates the:",
+        "options": {
+            "a": "Wave nature of light",
+            "b": "Particle nature of light",
+            "c": "Speed of light",
+            "d": "Refraction of light"
+        },
+        "correctAnswer": "a",
+        "explanation": "The double-slit experiment demonstrates the wave nature of light through interference patterns.",
+        "module": "7.2"
+    },
+    {
+        "question": "Newton's model of light could not explain:",
+        "options": {
+            "a": "Reflection",
+            "b": "Refraction",
+            "c": "Diffraction",
+            "d": "Transmission"
+        },
+        "correctAnswer": "c",
+        "explanation": "Newton's model could not explain diffraction, a wave phenomenon.",
+        "module": "7.2"
+    },
+    {
+        "question": "Huygens' wave theory was supported by the observation of:",
+        "options": {
+            "a": "Reflection",
+            "b": "Polarisation",
+            "c": "Diffraction and interference",
+            "d": "Absorption"
+        },
+        "correctAnswer": "c",
+        "explanation": "Huygens' wave theory was supported by diffraction and interference.",
+        "module": "7.2"
+    },
+    {
+        "question": "The wavelength of light can be calculated using the equation λ=dsinθ/m. To decrease the wavelength, you can:",
+        "options": {
+            "a": "Increase the slit separation d",
+            "b": "Decrease the slit separation d",
+            "c": "Decrease the angle θ",
+            "d": "Increase the angle θ"
+        },
+        "correctAnswer": "a",
+        "explanation": "Increasing the slit separation decreases the wavelength.",
+        "module": "7.2"
+    },
+    {
+        "question": "The term 'constructive interference' refers to:",
+        "options": {
+            "a": "Waves adding up to make a larger wave",
+            "b": "Waves cancelling each other out",
+            "c": "The scattering of waves",
+            "d": "The refraction of waves"
+        },
+        "correctAnswer": "a",
+        "explanation": "Constructive interference occurs when two waves add up to make a larger wave.",
+        "module": "7.2"
+    },
+    {
+        "question": "In a diffraction pattern, the central bright fringe is:",
+        "options": {
+            "a": "Dimmer than the surrounding fringes",
+            "b": "Brighter than the surrounding fringes",
+            "c": "Of equal brightness as the surrounding fringes",
+            "d": "Absent"
+        },
+        "correctAnswer": "b",
+        "explanation": "The central bright fringe is brighter than the surrounding fringes in a diffraction pattern.",
+        "module": "7.2"
+    },
+    {
+        "question": "Polarisation can be used to:",
+        "options": {
+            "a": "Measure the speed of light",
+            "b": "Identify whether light is transverse or longitudinal",
+            "c": "Separate different wavelengths of light",
+            "d": "Reflect light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarisation is used to determine if light is a transverse wave.",
+        "module": "7.2"
+    },
+    {
+        "question": "The experiment by Thomas Young showed that light:",
+        "options": {
+            "a": "Is composed of particles",
+            "b": "Can be polarised",
+            "c": "Travels instantaneously",
+            "d": "Exhibits wave-like interference patterns"
+        },
+        "correctAnswer": "d",
+        "explanation": "Young’s experiment showed that light exhibits wave-like interference patterns.",
+        "module": "7.2"
+    },
+    {
+        "question": "Polarisation provides evidence that:",
+        "options": {
+            "a": "Light behaves as a longitudinal wave",
+            "b": "Light behaves as a transverse wave",
+            "c": "Light consists of particles",
+            "d": "Light is absorbed by a medium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarisation provides evidence that light behaves as a transverse wave.",
+        "module": "7.2"
+    },
+    {
+        "question": "The intensity of light passing through a second polarising filter is:",
+        "options": {
+            "a": "Maximum when the filters are perpendicular",
+            "b": "Zero when the filters are perpendicular",
+            "c": "Maximum when the filters are parallel",
+            "d": "Zero when the filters are parallel"
+        },
+        "correctAnswer": "b",
+        "explanation": "The intensity is zero when the polarising filters are perpendicular to each other.",
+        "module": "7.2"
+    },
+    {
+        "question": "Which of the following phenomena can only be explained by the wave model of light?",
+        "options": {
+            "a": "Reflection",
+            "b": "Refraction",
+            "c": "Diffraction",
+            "d": "Transmission"
+        },
+        "correctAnswer": "c",
+        "explanation": "Diffraction can only be explained by the wave model of light.",
+        "module": "7.2"
+    },
+    {
+        "question": "As the angle between two polarising filters increases, the intensity of transmitted light:",
+        "options": {
+            "a": "Increases",
+            "b": "Decreases",
+            "c": "Remains the same",
+            "d": "Is unaffected by the angle"
+        },
+        "correctAnswer": "b",
+        "explanation": "As the angle increases, the intensity of transmitted light decreases.",
+        "module": "7.2"
+    },
+    {
+        "question": "The polarisation of light occurs due to:",
+        "options": {
+            "a": "Absorption of certain wavelengths",
+            "b": "The alignment of light waves in a single plane",
+            "c": "Refraction of light",
+            "d": "The Doppler effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "Polarisation occurs when light waves align in a single plane.",
+        "module": "7.2"
+    },
+    {
+        "question": "A diffraction grating is used to:",
+        "options": {
+            "a": "Increase the frequency of light",
+            "b": "Separate light into its component wavelengths",
+            "c": "Reflect light in a single direction",
+            "d": "Absorb light of different wavelengths"
+        },
+        "correctAnswer": "b",
+        "explanation": "A diffraction grating separates light into its component wavelengths.",
+        "module": "7.2"
+    },
+    {
+        "question": "Which law relates to the polarisation of light?",
+        "options": {
+            "a": "Snell’s Law",
+            "b": "Malus’ Law",
+            "c": "Ohm’s Law",
+            "d": "Faraday’s Law"
+        },
+        "correctAnswer": "b",
+        "explanation": "Malus' Law relates to the polarisation of light.",
+        "module": "7.2"
     }
 ]
+
 
 
 
