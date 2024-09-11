@@ -16834,8 +16834,610 @@
         "correctAnswer": "c",
         "explanation": "The decay constant λ determines the half-life of a radioactive material.",
         "module": "8.4"
+    },
+
+    {
+        "question": "Evidence that protons and neutrons are not fundamental particles includes:",
+        "options": {
+            "a": "The discovery of quarks",
+            "b": "The existence of antimatter",
+            "c": "The creation of new elements in particle accelerators",
+            "d": "The discovery of the electron"
+        },
+        "correctAnswer": "a",
+        "explanation": "The discovery of quarks provided evidence that protons and neutrons are not fundamental particles.",
+        "module": "8.5"
+    },
+    {
+        "question": "Protons and neutrons are composed of:",
+        "options": {
+            "a": "Leptons",
+            "b": "Quarks",
+            "c": "Photons",
+            "d": "Neutrinos"
+        },
+        "correctAnswer": "b",
+        "explanation": "Protons and neutrons are made up of quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Standard Model of matter describes protons as being made up of:",
+        "options": {
+            "a": "Two up quarks and one down quark",
+            "b": "Two down quarks and one up quark",
+            "c": "Three down quarks",
+            "d": "Three up quarks"
+        },
+        "correctAnswer": "a",
+        "explanation": "Protons are composed of two up quarks and one down quark.",
+        "module": "8.5"
+    },
+    {
+        "question": "Neutrons consist of:",
+        "options": {
+            "a": "Three up quarks",
+            "b": "Two up quarks and one down quark",
+            "c": "Two down quarks and one up quark",
+            "d": "Two down quarks and a lepton"
+        },
+        "correctAnswer": "c",
+        "explanation": "Neutrons consist of two down quarks and one up quark.",
+        "module": "8.5"
+    },
+    {
+        "question": "The quark composition of hadrons includes:",
+        "options": {
+            "a": "Quarks and neutrinos",
+            "b": "Quarks only",
+            "c": "Quarks and leptons",
+            "d": "Neutrinos only"
+        },
+        "correctAnswer": "b",
+        "explanation": "Hadrons are composed only of quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "Leptons are a class of particles that include:",
+        "options": {
+            "a": "Protons and neutrons",
+            "b": "Electrons and neutrinos",
+            "c": "Quarks and gluons",
+            "d": "Photons and electrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Leptons include particles like electrons and neutrinos.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Standard Model of matter includes which fundamental forces?",
+        "options": {
+            "a": "Gravity, electromagnetism, weak force, and strong force",
+            "b": "Gravity, strong force, and nuclear force",
+            "c": "Electromagnetism, strong force, and weak force only",
+            "d": "Gravity and electromagnetism only"
+        },
+        "correctAnswer": "a",
+        "explanation": "The fundamental forces in the Standard Model are gravity, electromagnetism, weak force, and strong force.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which of the following particles is considered a lepton?",
+        "options": {
+            "a": "Proton",
+            "b": "Neutron",
+            "c": "Electron",
+            "d": "Quark"
+        },
+        "correctAnswer": "c",
+        "explanation": "Electrons are classified as leptons in the Standard Model.",
+        "module": "8.5"
+    },
+    {
+        "question": "Quarks combine to form:",
+        "options": {
+            "a": "Electrons",
+            "b": "Leptons",
+            "c": "Hadrons",
+            "d": "Photons"
+        },
+        "correctAnswer": "c",
+        "explanation": "Quarks combine to form hadrons, such as protons and neutrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "In the Standard Model, the force carriers for the electromagnetic force are:",
+        "options": {
+            "a": "Gluons",
+            "b": "W and Z bosons",
+            "c": "Gravitons",
+            "d": "Photons"
+        },
+        "correctAnswer": "d",
+        "explanation": "Photons are the force carriers for the electromagnetic force.",
+        "module": "8.5"
+    },
+    {
+        "question": "The existence of subatomic particles other than protons, neutrons, and electrons was first suggested by:",
+        "options": {
+            "a": "The discovery of positrons",
+            "b": "The discovery of neutrinos",
+            "c": "Experiments with particle accelerators",
+            "d": "Rutherford’s gold foil experiment"
+        },
+        "correctAnswer": "c",
+        "explanation": "Particle accelerators helped to discover subatomic particles beyond protons, neutrons, and electrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "Particle accelerators are used to:",
+        "options": {
+            "a": "Break atoms into smaller pieces",
+            "b": "Accelerate protons to the speed of light",
+            "c": "Collide particles at high speeds to test theories of matter",
+            "d": "Create gamma radiation"
+        },
+        "correctAnswer": "c",
+        "explanation": "Particle accelerators collide particles at high speeds to test theories of matter.",
+        "module": "8.5"
+    },
+    {
+        "question": "One function of particle accelerators is to:",
+        "options": {
+            "a": "Create new elements",
+            "b": "Test the validity of the Standard Model",
+            "c": "Isolate protons and neutrons",
+            "d": "Generate large amounts of electricity"
+        },
+        "correctAnswer": "b",
+        "explanation": "Particle accelerators validate aspects of the Standard Model, such as the existence of quarks and other particles.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Higgs boson is important in the Standard Model because it:",
+        "options": {
+            "a": "Explains the existence of mass",
+            "b": "Combines quarks into protons and neutrons",
+            "c": "Is responsible for electromagnetic interactions",
+            "d": "Explains the existence of neutrinos"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Higgs boson is essential because it explains how particles acquire mass.",
+        "module": "8.5"
+    },
+    {
+        "question": "Leptons differ from quarks because:",
+        "options": {
+            "a": "Leptons experience the strong nuclear force",
+            "b": "Leptons do not experience the strong nuclear force",
+            "c": "Quarks do not experience the weak force",
+            "d": "Leptons are made up of quarks"
+        },
+        "correctAnswer": "b",
+        "explanation": "Leptons do not experience the strong nuclear force, unlike quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "Neutrinos are classified as:",
+        "options": {
+            "a": "Hadrons",
+            "b": "Leptons",
+            "c": "Quarks",
+            "d": "Baryons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Neutrinos are classified as leptons.",
+        "module": "8.5"
+    },
+    {
+        "question": "The strong force is responsible for:",
+        "options": {
+            "a": "Holding quarks together within protons and neutrons",
+            "b": "Repelling protons from one another",
+            "c": "Binding electrons to the nucleus",
+            "d": "Keeping neutrinos within atoms"
+        },
+        "correctAnswer": "a",
+        "explanation": "The strong force holds quarks together within protons and neutrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "The weak nuclear force is responsible for:",
+        "options": {
+            "a": "The interaction of quarks within hadrons",
+            "b": "The fusion of protons and neutrons",
+            "c": "The decay of neutrons and other particles",
+            "d": "The emission of gamma radiation"
+        },
+        "correctAnswer": "c",
+        "explanation": "The weak nuclear force is responsible for processes such as the decay of neutrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which of the following is a fundamental force in nature?",
+        "options": {
+            "a": "Gravity",
+            "b": "Beta decay",
+            "c": "Nuclear fusion",
+            "d": "Electromagnetism"
+        },
+        "correctAnswer": "d",
+        "explanation": "Electromagnetism is one of the four fundamental forces in nature.",
+        "module": "8.5"
+    },
+    {
+        "question": "Particle accelerators provide evidence for the Standard Model by:",
+        "options": {
+            "a": "Detecting gravity waves",
+            "b": "Isolating electrons and neutrons",
+            "c": "Generating antimatter",
+            "d": "Observing subatomic particles created in collisions"
+        },
+        "correctAnswer": "d",
+        "explanation": "Particle accelerators provide evidence for the Standard Model by observing subatomic particles created in collisions.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Standard Model does not currently explain:",
+        "options": {
+            "a": "The existence of mass",
+            "b": "Gravity",
+            "c": "Electromagnetic interactions",
+            "d": "The weak nuclear force"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Standard Model does not yet explain gravity.",
+        "module": "8.5"
+    },
+    {
+        "question": "A hadron is a particle made of:",
+        "options": {
+            "a": "Two leptons",
+            "b": "Two or more quarks",
+            "c": "A proton and an electron",
+            "d": "Neutrons and electrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Hadrons are made up of quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which of the following particles is fundamental according to the Standard Model?",
+        "options": {
+            "a": "Proton",
+            "b": "Neutron",
+            "c": "Quark",
+            "d": "Atom"
+        },
+        "correctAnswer": "c",
+        "explanation": "Quarks are fundamental particles in the Standard Model.",
+        "module": "8.5"
+    },
+    {
+        "question": "The primary role of particle accelerators in testing the Standard Model is to:",
+        "options": {
+            "a": "Create heavier elements",
+            "b": "Isolate quarks",
+            "c": "Collide particles and observe the resulting particles and forces",
+            "d": "Generate high-energy gamma rays"
+        },
+        "correctAnswer": "c",
+        "explanation": "Particle accelerators test the Standard Model by colliding particles and observing the results.",
+        "module": "8.5"
+    },
+    {
+        "question": "Quarks combine in groups of:",
+        "options": {
+            "a": "Three to form hadrons",
+            "b": "Two to form neutrinos",
+            "c": "Four to form protons",
+            "d": "Three to form leptons"
+        },
+        "correctAnswer": "a",
+        "explanation": "Quarks combine in groups of three to form hadrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Standard Model includes which of the following fundamental particles?",
+        "options": {
+            "a": "Protons, neutrons, and electrons",
+            "b": "Quarks, leptons, and gauge bosons",
+            "c": "Hadrons and neutrinos",
+            "d": "Neutrons and positrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Standard Model includes quarks, leptons, and gauge bosons.",
+        "module": "8.5"
+    },
+    {
+        "question": "The photon is the force carrier for:",
+        "options": {
+            "a": "The strong force",
+            "b": "The electromagnetic force",
+            "c": "The weak force",
+            "d": "Gravity"
+        },
+        "correctAnswer": "b",
+        "explanation": "The photon is the force carrier for the electromagnetic force.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which particle is associated with the weak nuclear force?",
+        "options": {
+            "a": "Photon",
+            "b": "Gluon",
+            "c": "W and Z bosons",
+            "d": "Neutrino"
+        },
+        "correctAnswer": "c",
+        "explanation": "W and Z bosons mediate the weak nuclear force.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Higgs field is responsible for:",
+        "options": {
+            "a": "Giving particles mass",
+            "b": "Binding protons and neutrons together",
+            "c": "Allowing neutrinos to decay",
+            "d": "Holding quarks together"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Higgs field is responsible for giving particles their mass.",
+        "module": "8.5"
+    },
+    {
+        "question": "What evidence suggests that protons and neutrons are not fundamental particles?",
+        "options": {
+            "a": "They can be split into quarks",
+            "b": "They can be split into positrons",
+            "c": "They emit photons during decay",
+            "d": "They can be broken into neutrons and electrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "Protons and neutrons can be split into quarks, indicating they are not fundamental particles.",
+        "module": "8.5"
+    },
+    {
+        "question": "Leptons do not:",
+        "options": {
+            "a": "Experience the electromagnetic force",
+            "b": "Combine to form larger particles",
+            "c": "Interact with the weak force",
+            "d": "Exist in nature"
+        },
+        "correctAnswer": "b",
+        "explanation": "Leptons do not combine to form larger particles, unlike quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "Quarks are never found alone because:",
+        "options": {
+            "a": "They experience the strong nuclear force",
+            "b": "They decay too quickly",
+            "c": "They combine with neutrinos",
+            "d": "They are held together by gluons"
+        },
+        "correctAnswer": "a",
+        "explanation": "Quarks are never found alone because they are held together by the strong nuclear force.",
+        "module": "8.5"
+    },
+    {
+        "question": "The existence of antimatter was confirmed by:",
+        "options": {
+            "a": "The discovery of positrons",
+            "b": "The detection of neutrinos",
+            "c": "The collision of quarks",
+            "d": "Rutherford's gold foil experiment"
+        },
+        "correctAnswer": "a",
+        "explanation": "The existence of antimatter was confirmed by the discovery of positrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which particle is considered a boson in the Standard Model?",
+        "options": {
+            "a": "Electron",
+            "b": "Gluon",
+            "c": "Quark",
+            "d": "Neutrino"
+        },
+        "correctAnswer": "b",
+        "explanation": "Gluons are considered bosons in the Standard Model.",
+        "module": "8.5"
+    },
+    {
+        "question": "Hadrons are particles made of:",
+        "options": {
+            "a": "Neutrinos and photons",
+            "b": "Quarks and leptons",
+            "c": "Electrons and positrons",
+            "d": "Quarks only"
+        },
+        "correctAnswer": "d",
+        "explanation": "Hadrons are particles made up of quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "The discovery of the Higgs boson was significant because it:",
+        "options": {
+            "a": "Confirmed the mechanism by which particles acquire mass",
+            "b": "Proved that protons are fundamental particles",
+            "c": "Explained the nature of quarks",
+            "d": "Showed that neutrons are made of electrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "The discovery of the Higgs boson confirmed the mechanism by which particles acquire mass.",
+        "module": "8.5"
+    },
+    {
+        "question": "Neutrinos are nearly impossible to detect because:",
+        "options": {
+            "a": "They do not interact with matter",
+            "b": "They move faster than the speed of light",
+            "c": "They have a large mass",
+            "d": "They have a positive charge"
+        },
+        "correctAnswer": "a",
+        "explanation": "Neutrinos are nearly impossible to detect because they interact very weakly with matter.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which force is responsible for holding protons and neutrons together in the nucleus?",
+        "options": {
+            "a": "Electromagnetic force",
+            "b": "Weak force",
+            "c": "Strong nuclear force",
+            "d": "Gravitational force"
+        },
+        "correctAnswer": "c",
+        "explanation": "The strong nuclear force holds protons and neutrons together in the nucleus.",
+        "module": "8.5"
+    },
+    {
+        "question": "What type of particle is a neutron?",
+        "options": {
+            "a": "Lepton",
+            "b": "Hadron",
+            "c": "Meson",
+            "d": "Photon"
+        },
+        "correctAnswer": "b",
+        "explanation": "Neutrons are classified as hadrons because they are made up of quarks.",
+        "module": "8.5"
+    },
+    {
+        "question": "Leptons differ from hadrons because:",
+        "options": {
+            "a": "Hadrons are unaffected by the weak force",
+            "b": "Leptons are made of quarks",
+            "c": "Hadrons are fundamental particles",
+            "d": "Leptons do not experience the strong force"
+        },
+        "correctAnswer": "d",
+        "explanation": "Leptons do not experience the strong nuclear force, unlike hadrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "The primary role of gluons is to:",
+        "options": {
+            "a": "Hold quarks together within protons and neutrons",
+            "b": "Mediate the weak nuclear force",
+            "c": "Carry the electromagnetic force",
+            "d": "Provide mass to particles"
+        },
+        "correctAnswer": "a",
+        "explanation": "Gluons hold quarks together within protons and neutrons.",
+        "module": "8.5"
+    },
+    {
+        "question": "The fundamental forces described by the Standard Model include all of the following EXCEPT:",
+        "options": {
+            "a": "Electromagnetism",
+            "b": "Weak nuclear force",
+            "c": "Gravity",
+            "d": "Strong nuclear force"
+        },
+        "correctAnswer": "c",
+        "explanation": "Gravity is not included in the Standard Model.",
+        "module": "8.5"
+    },
+    {
+        "question": "Quarks combine in sets of three to form:",
+        "options": {
+            "a": "Electrons",
+            "b": "Leptons",
+            "c": "Baryons",
+            "d": "Mesons"
+        },
+        "correctAnswer": "c",
+        "explanation": "Quarks combine in sets of three to form baryons, a type of hadron.",
+        "module": "8.5"
+    },
+    {
+        "question": "A particle accelerator works by:",
+        "options": {
+            "a": "Accelerating charged particles and colliding them at high speeds",
+            "b": "Generating electric fields to produce neutrons",
+            "c": "Emitting large amounts of gamma radiation",
+            "d": "Slowing down electrons to observe quark behaviour"
+        },
+        "correctAnswer": "a",
+        "explanation": "A particle accelerator works by accelerating charged particles and colliding them at high speeds.",
+        "module": "8.5"
+    },
+    {
+        "question": "Which of the following is a gauge boson?",
+        "options": {
+            "a": "Electron",
+            "b": "Gluon",
+            "c": "Proton",
+            "d": "Neutrino"
+        },
+        "correctAnswer": "b",
+        "explanation": "Gluons are gauge bosons responsible for the strong force.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Standard Model is incomplete because it does not yet:",
+        "options": {
+            "a": "Explain how particles acquire mass",
+            "b": "Include the force of gravity",
+            "c": "Include the electromagnetic force",
+            "d": "Predict the behaviour of quarks"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Standard Model is incomplete because it does not yet include gravity.",
+        "module": "8.5"
+    },
+    {
+        "question": "The W and Z bosons are responsible for:",
+        "options": {
+            "a": "The strong nuclear force",
+            "b": "The weak nuclear force",
+            "c": "The electromagnetic force",
+            "d": "The gravitational force"
+        },
+        "correctAnswer": "b",
+        "explanation": "W and Z bosons are responsible for mediating the weak nuclear force.",
+        "module": "8.5"
+    },
+    {
+        "question": "The Standard Model suggests that quarks are held together by:",
+        "options": {
+            "a": "Photons",
+            "b": "Gluons",
+            "c": "W and Z bosons",
+            "d": "Neutrinos"
+        },
+        "correctAnswer": "b",
+        "explanation": "Quarks are held together by gluons in the Standard Model.",
+        "module": "8.5"
+    },
+    {
+        "question": "The primary evidence for quarks comes from:",
+        "options": {
+            "a": "High-energy particle collisions in accelerators",
+            "b": "Observations of atomic structure in telescopes",
+            "c": "The detection of gamma radiation",
+            "d": "Experiments involving protons and neutrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "Evidence for quarks comes from high-energy particle collisions in accelerators.",
+        "module": "8.5"
+    },
+    {
+        "question": "A fundamental particle that does not experience the strong force is:",
+        "options": {
+            "a": "Quark",
+            "b": "Gluon",
+            "c": "Electron",
+            "d": "Proton"
+        },
+        "correctAnswer": "c",
+        "explanation": "Electrons do not experience the strong force, making them different from quarks and gluons.",
+        "module": "8.5"
     }
 ]
+
 
 
     
