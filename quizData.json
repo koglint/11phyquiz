@@ -13230,8 +13230,609 @@
         "correctAnswer": "b",
         "explanation": "Malus' Law relates to the polarisation of light.",
         "module": "7.2"
+    },
+    {
+        "question": "Wien’s Law (𝜆𝑚𝑎𝑥 = 𝑏/𝑇) shows that the peak wavelength of black body radiation is:",
+        "options": {
+            "a": "Directly proportional to the temperature",
+            "b": "Inversely proportional to the temperature",
+            "c": "Unrelated to the temperature",
+            "d": "The same for all temperatures"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wien’s Law states that peak wavelength is inversely proportional to temperature.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which scientist’s work on black body radiation led to the quantum model of light?",
+        "options": {
+            "a": "Albert Einstein",
+            "b": "Niels Bohr",
+            "c": "Max Planck",
+            "d": "James Clerk Maxwell"
+        },
+        "correctAnswer": "c",
+        "explanation": "Planck’s work led to the quantum theory through his solution to black body radiation.",
+        "module": "7.3"
+    },
+    {
+        "question": "Wien’s Law helps explain:",
+        "options": {
+            "a": "The relationship between frequency and intensity",
+            "b": "The shift in peak wavelength of radiation with temperature",
+            "c": "The rate of emission of photons",
+            "d": "The relationship between wavelength and photon energy"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wien’s Law describes how peak wavelength changes with temperature.",
+        "module": "7.3"
+    },
+    {
+        "question": "Planck’s solution to the ultraviolet catastrophe involved:",
+        "options": {
+            "a": "The introduction of discrete energy levels for photons",
+            "b": "The discovery of new wave properties of light",
+            "c": "A mathematical description of wave-particle duality",
+            "d": "Electromagnetic wave theory"
+        },
+        "correctAnswer": "a",
+        "explanation": "Planck proposed quantisation of energy to solve the ultraviolet catastrophe.",
+        "module": "7.3"
+    },
+    {
+        "question": "The photoelectric effect could not be explained by the classical wave model because:",
+        "options": {
+            "a": "Increasing the frequency of light caused more photoelectrons to be emitted",
+            "b": "Photoelectrons were emitted instantaneously regardless of intensity",
+            "c": "Low-frequency light emitted electrons with more kinetic energy",
+            "d": "Electrons emitted were slower at higher intensities"
+        },
+        "correctAnswer": "b",
+        "explanation": "Photoelectrons were emitted instantaneously, which contradicted the classical wave theory.",
+        "module": "7.3"
+    },
+    {
+        "question": "In the photoelectric effect, the kinetic energy of emitted electrons is given by:",
+        "options": {
+            "a": "E_k=1/2 mv^2",
+            "b": "E_k=hf-Φ",
+            "c": "E_k=mc^2",
+            "d": "E_k=λc/h"
+        },
+        "correctAnswer": "b",
+        "explanation": "This is the equation for the kinetic energy of emitted electrons in the photoelectric effect.",
+        "module": "7.3"
+    },
+    {
+        "question": "The work function (Φ) in the equation E_k=hf-Φ refers to:",
+        "options": {
+            "a": "The kinetic energy of the emitted electron",
+            "b": "The energy required to free an electron from a metal surface",
+            "c": "The frequency of light needed to emit an electron",
+            "d": "The wavelength of the incident light"
+        },
+        "correctAnswer": "b",
+        "explanation": "The work function is the energy needed to release an electron.",
+        "module": "7.3"
+    },
+    {
+        "question": "Max Planck’s assumption that energy is quantised helped explain:",
+        "options": {
+            "a": "Black body radiation",
+            "b": "The diffraction of light",
+            "c": "Refraction of light through a prism",
+            "d": "Interference patterns"
+        },
+        "correctAnswer": "a",
+        "explanation": "Planck’s quantised energy explained the black body radiation spectrum.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which of the following correctly describes how energy is related to the frequency of light in the quantum model?",
+        "options": {
+            "a": "Energy is inversely proportional to frequency",
+            "b": "Energy is proportional to the square of the wavelength",
+            "c": "Energy is directly proportional to frequency",
+            "d": "Energy is proportional to the amplitude of the wave"
+        },
+        "correctAnswer": "c",
+        "explanation": "The photon model states that energy is proportional to frequency (E = hf).",
+        "module": "7.3"
+    },
+    {
+        "question": "The photoelectric effect showed that light:",
+        "options": {
+            "a": "Only behaves as a wave",
+            "b": "Behaves only as a particle",
+            "c": "Can be explained purely by classical physics",
+            "d": "Has both wave and particle properties"
+        },
+        "correctAnswer": "d",
+        "explanation": "The photoelectric effect provided evidence for the particle nature of light.",
+        "module": "7.3"
+    },
+    {
+        "question": "What did Einstein propose to explain the photoelectric effect?",
+        "options": {
+            "a": "Light is made up of waves",
+            "b": "Light is made of energy packets called photons",
+            "c": "Light has no quantised energy levels",
+            "d": "Light only acts as a wave in this effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "Einstein proposed that light consists of photons, which explained the photoelectric effect.",
+        "module": "7.3"
+    },
+    {
+        "question": "The experimental evidence from black body radiation led to:",
+        "options": {
+            "a": "The creation of the Bohr model",
+            "b": "The idea that energy is continuous",
+            "c": "The development of the quantum theory",
+            "d": "The refutation of Planck’s theory"
+        },
+        "correctAnswer": "c",
+        "explanation": "Planck’s work on black body radiation was foundational for quantum theory.",
+        "module": "7.3"
+    },
+    {
+        "question": "In the context of black body radiation, Wien’s Law relates to:",
+        "options": {
+            "a": "The emission spectrum of gases",
+            "b": "The temperature dependence of peak emission wavelength",
+            "c": "The wavelength of visible light",
+            "d": "The speed of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wien’s Law connects temperature with the peak wavelength of radiation.",
+        "module": "7.3"
+    },
+    {
+        "question": "The photoelectric effect provided evidence for:",
+        "options": {
+            "a": "Light’s wave nature only",
+            "b": "Light’s particle nature",
+            "c": "The photoelectric constant",
+            "d": "The refraction of light in metals"
+        },
+        "correctAnswer": "b",
+        "explanation": "The photoelectric effect could not be explained by the wave model, supporting light’s particle nature.",
+        "module": "7.3"
+    },
+    {
+        "question": "What is one implication of Planck’s work for the quantum model of light?",
+        "options": {
+            "a": "Light must travel in waves",
+            "b": "Energy must be emitted in whole-number multiples of h",
+            "c": "Light is continuous in nature",
+            "d": "Frequency and wavelength of light are unrelated"
+        },
+        "correctAnswer": "b",
+        "explanation": "Planck’s quantisation of energy meant energy is emitted in discrete packets.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which scientist first proposed that light energy is quantised?",
+        "options": {
+            "a": "Max Planck",
+            "b": "Albert Einstein",
+            "c": "Isaac Newton",
+            "d": "James Clerk Maxwell"
+        },
+        "correctAnswer": "a",
+        "explanation": "Planck first introduced the idea that energy is quantised, leading to the quantum model.",
+        "module": "7.3"
+    },
+    {
+        "question": "In the photoelectric effect, no electrons are emitted if:",
+        "options": {
+            "a": "The intensity of the light is too high",
+            "b": "The wavelength is too long (low frequency)",
+            "c": "The metal surface is too cold",
+            "d": "The light is monochromatic"
+        },
+        "correctAnswer": "b",
+        "explanation": "If the frequency is below the threshold, no electrons will be emitted.",
+        "module": "7.3"
+    },
+    {
+        "question": "The threshold frequency in the photoelectric effect is:",
+        "options": {
+            "a": "The frequency at which electrons are absorbed",
+            "b": "The minimum frequency required to emit electrons",
+            "c": "The maximum frequency before photoelectrons stop",
+            "d": "The frequency at which light is completely reflected"
+        },
+        "correctAnswer": "b",
+        "explanation": "The threshold frequency is the minimum frequency needed to emit electrons in the photoelectric effect.",
+        "module": "7.3"
+    },
+    {
+        "question": "Black body radiation experiments demonstrated that:",
+        "options": {
+            "a": "The wave theory of light is sufficient",
+            "b": "Energy is continuous in nature",
+            "c": "Energy is quantised",
+            "d": "There is no relation between temperature and emission"
+        },
+        "correctAnswer": "c",
+        "explanation": "Black body radiation experiments showed that energy is emitted in discrete quantities, not continuously.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which equation best represents the energy of a photon?",
+        "options": {
+            "a": "E=1/2 mv^2",
+            "b": "E=hf",
+            "c": "E=mc^2",
+            "d": "E=kT"
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation represents the energy of a photon, where h is Planck’s constant and f is the frequency.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which phenomenon could not be explained by the classical wave model but was explained by the photon model?",
+        "options": {
+            "a": "Diffraction",
+            "b": "Refraction",
+            "c": "Photoelectric effect",
+            "d": "Polarisation"
+        },
+        "correctAnswer": "c",
+        "explanation": "The classical wave model could not explain the photoelectric effect, but the photon model did.",
+        "module": "7.3"
+    },
+    {
+        "question": "According to the quantum model of light, photons:",
+        "options": {
+            "a": "Have no energy",
+            "b": "Have energy proportional to their wavelength",
+            "c": "Have energy proportional to their frequency",
+            "d": "Are massless and cannot carry energy"
+        },
+        "correctAnswer": "c",
+        "explanation": "According to the quantum model, the energy of photons is proportional to their frequency.",
+        "module": "7.3"
+    },
+    {
+        "question": "The ultraviolet catastrophe refers to:",
+        "options": {
+            "a": "The emission of low-energy photons by a black body",
+            "b": "The incorrect prediction that classical physics made about the energy distribution in black body radiation",
+            "c": "The complete absorption of ultraviolet light",
+            "d": "The inability of ultraviolet light to produce a photoelectric effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "The ultraviolet catastrophe involved classical physics incorrectly predicting infinite energy at high frequencies.",
+        "module": "7.3"
+    },
+    {
+        "question": "The wave model of light predicts that:",
+        "options": {
+            "a": "The energy of emitted electrons depends on the light’s intensity",
+            "b": "Electrons are emitted only at certain frequencies",
+            "c": "Increasing the intensity increases the energy of emitted electrons",
+            "d": "Emission is immediate regardless of intensity"
+        },
+        "correctAnswer": "a",
+        "explanation": "The classical wave model incorrectly predicted that the intensity, not frequency, determined electron energy.",
+        "module": "7.3"
+    },
+    {
+        "question": "The conservation of energy is applied in the photoelectric effect by:",
+        "options": {
+            "a": "Balancing photon energy with emitted electron frequency",
+            "b": "Converting photon energy into the kinetic energy of electrons",
+            "c": "Calculating the wavelength of emitted light",
+            "d": "Ensuring no electrons are emitted if frequency is too high"
+        },
+        "correctAnswer": "b",
+        "explanation": "In the photoelectric effect, the photon energy is converted into the kinetic energy of the emitted electrons.",
+        "module": "7.3"
+    },
+    {
+        "question": "The constant “h” in Planck’s equation is known as:",
+        "options": {
+            "a": "Planck’s frequency",
+            "b": "The energy constant",
+            "c": "Planck’s constant",
+            "d": "The emission constant"
+        },
+        "correctAnswer": "c",
+        "explanation": "Planck’s constant (h) relates the energy of a photon to its frequency.",
+        "module": "7.3"
+    },
+    {
+        "question": "The photoelectric effect cannot be observed if:",
+        "options": {
+            "a": "The light frequency is lower than the threshold frequency",
+            "b": "The light intensity is very high",
+            "c": "The photons have too much energy",
+            "d": "The work function of the metal is very low"
+        },
+        "correctAnswer": "a",
+        "explanation": "If the light frequency is too low, no electrons will be emitted.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which statement about the photoelectric effect is true?",
+        "options": {
+            "a": "It provided evidence for the wave theory of light",
+            "b": "It showed that light behaves as a particle",
+            "c": "It confirmed the wave-particle duality of matter",
+            "d": "It disproved the existence of photons"
+        },
+        "correctAnswer": "b",
+        "explanation": "The photoelectric effect demonstrated that light behaves like particles called photons.",
+        "module": "7.3"
+    },
+    {
+        "question": "The quantum model of light differs from the classical model because:",
+        "options": {
+            "a": "It describes light as waves only",
+            "b": "It proposes that light is composed of particles called photons",
+            "c": "It does not account for light’s wave properties",
+            "d": "It predicts that light can be emitted continuously"
+        },
+        "correctAnswer": "b",
+        "explanation": "The quantum model introduces the idea that light consists of discrete packets of energy (photons).",
+        "module": "7.3"
+    },
+    {
+        "question": "In the photoelectric effect, increasing the intensity of light:",
+        "options": {
+            "a": "Increases the kinetic energy of emitted electrons",
+            "b": "Increases the number of emitted electrons",
+            "c": "Increases both energy and number of electrons emitted",
+            "d": "Has no effect on the emitted electrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Increasing light intensity increases the number of emitted electrons but not their kinetic energy.",
+        "module": "7.3"
+    },
+    {
+        "question": "Planck’s quantisation of energy was important because it:",
+        "options": {
+            "a": "Applied to all forms of radiation",
+            "b": "Introduced the idea of continuous energy absorption",
+            "c": "Explained energy emission at certain wavelengths",
+            "d": "Introduced the concept that energy is proportional to temperature"
+        },
+        "correctAnswer": "c",
+        "explanation": "Planck’s quantisation of energy helped explain why energy is emitted at specific wavelengths in black body radiation.",
+        "module": "7.3"
+    },
+    {
+        "question": "The photon model suggests that light:",
+        "options": {
+            "a": "Is a wave",
+            "b": "Is a continuous stream of energy",
+            "c": "Is made of discrete packets of energy",
+            "d": "Travels faster than sound waves"
+        },
+        "correctAnswer": "c",
+        "explanation": "The photon model suggests light is composed of photons, which are quantised energy packets.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which of the following experiments confirmed light’s particle nature?",
+        "options": {
+            "a": "Young’s double-slit experiment",
+            "b": "The diffraction of light",
+            "c": "The photoelectric effect",
+            "d": "The reflection of light in a mirror"
+        },
+        "correctAnswer": "c",
+        "explanation": "The photoelectric effect confirmed light’s particle nature, as it could not be explained by the wave model.",
+        "module": "7.3"
+    },
+    {
+        "question": "The quantum model of light describes light as:",
+        "options": {
+            "a": "Having only particle properties",
+            "b": "Having only wave properties",
+            "c": "Having both particle and wave properties",
+            "d": "Neither a wave nor a particle"
+        },
+        "correctAnswer": "c",
+        "explanation": "Light has dual properties, behaving as both a particle and a wave depending on the context.",
+        "module": "7.3"
+    },
+    {
+        "question": "The energy of a photon is directly proportional to its:",
+        "options": {
+            "a": "Speed",
+            "b": "Frequency",
+            "c": "Wavelength",
+            "d": "Amplitude"
+        },
+        "correctAnswer": "b",
+        "explanation": "The energy of a photon is directly proportional to its frequency, as described by E=hf.",
+        "module": "7.3"
+    },
+    {
+        "question": "What experimental result from the photoelectric effect was inconsistent with the classical wave model?",
+        "options": {
+            "a": "Electrons were emitted below a certain light intensity",
+            "b": "Electrons were emitted only when light had a high intensity",
+            "c": "Electrons were emitted instantaneously when light of a high enough frequency was shone on the metal",
+            "d": "Electrons were emitted at lower frequencies, but not at higher ones"
+        },
+        "correctAnswer": "c",
+        "explanation": "In the photoelectric effect, electron emission was immediate, contradicting the classical wave model.",
+        "module": "7.3"
+    },
+    {
+        "question": "If the frequency of incident light is increased in the photoelectric effect, what happens to the emitted electrons?",
+        "options": {
+            "a": "Their kinetic energy increases",
+            "b": "Their speed decreases",
+            "c": "Their number increases",
+            "d": "Their energy stays the same"
+        },
+        "correctAnswer": "a",
+        "explanation": "As the frequency of light increases, the kinetic energy of the emitted electrons also increases.",
+        "module": "7.3"
+    },
+    {
+        "question": "Planck’s constant is significant in the study of:",
+        "options": {
+            "a": "The speed of light",
+            "b": "The photoelectric effect",
+            "c": "Diffraction patterns",
+            "d": "Wave interference"
+        },
+        "correctAnswer": "b",
+        "explanation": "Planck’s constant is central to the equation E=hf, which describes photon energy in the photoelectric effect.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which scientist’s work is most directly associated with explaining the photoelectric effect?",
+        "options": {
+            "a": "Niels Bohr",
+            "b": "James Clerk Maxwell",
+            "c": "Albert Einstein",
+            "d": "Isaac Newton"
+        },
+        "correctAnswer": "c",
+        "explanation": "Einstein explained the photoelectric effect using the concept of photons.",
+        "module": "7.3"
+    },
+    {
+        "question": "In black body radiation, the term 'black body' refers to:",
+        "options": {
+            "a": "A perfect emitter and absorber of radiation",
+            "b": "A completely opaque object",
+            "c": "An object that reflects all light",
+            "d": "An object that emits only ultraviolet light"
+        },
+        "correctAnswer": "a",
+        "explanation": "A black body absorbs all radiation and emits it based on its temperature.",
+        "module": "7.3"
+    },
+    {
+        "question": "According to the photon model of light, the energy of a photon depends on its:",
+        "options": {
+            "a": "Amplitude",
+            "b": "Frequency",
+            "c": "Speed",
+            "d": "Number of photons"
+        },
+        "correctAnswer": "b",
+        "explanation": "The energy of a photon is proportional to its frequency, as given by E=hf.",
+        "module": "7.3"
+    },
+    {
+        "question": "What happens to the wavelength of light as the temperature of a black body increases?",
+        "options": {
+            "a": "It decreases",
+            "b": "It increases",
+            "c": "It remains the same",
+            "d": "It first increases and then decreases"
+        },
+        "correctAnswer": "a",
+        "explanation": "As temperature increases, the peak wavelength of radiation decreases according to Wien’s Law.",
+        "module": "7.3"
+    },
+    {
+        "question": "In the photoelectric effect, if the frequency of the incident light is below the threshold frequency, what will occur?",
+        "options": {
+            "a": "Electrons will be emitted with less energy",
+            "b": "No electrons will be emitted",
+            "c": "Electrons will be emitted with higher energy",
+            "d": "The intensity of the emitted light will decrease"
+        },
+        "correctAnswer": "b",
+        "explanation": "If the frequency of light is below the threshold, no electrons will be emitted regardless of intensity.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which of the following best describes the energy distribution of black body radiation?",
+        "options": {
+            "a": "Energy is evenly distributed across all frequencies",
+            "b": "More energy is emitted at higher frequencies",
+            "c": "Energy peaks at a specific frequency based on temperature",
+            "d": "No energy is emitted at low frequencies"
+        },
+        "correctAnswer": "c",
+        "explanation": "Black body radiation shows that energy peaks at a particular frequency determined by the object’s temperature.",
+        "module": "7.3"
+    },
+    {
+        "question": "The photoelectric effect demonstrated that light:",
+        "options": {
+            "a": "Travels as a continuous wave",
+            "b": "Can only behave as a wave",
+            "c": "Has particle-like properties",
+            "d": "Has no effect on metal surfaces"
+        },
+        "correctAnswer": "c",
+        "explanation": "The photoelectric effect demonstrated that light behaves like particles, or photons.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which experimental observation directly contradicted the wave theory of light?",
+        "options": {
+            "a": "The intensity of light affects the number of emitted electrons",
+            "b": "Increasing the frequency of light increases the number of electrons",
+            "c": "Electrons are emitted instantaneously when the threshold frequency is met",
+            "d": "The wavelength of light affects the emitted electrons’ speed"
+        },
+        "correctAnswer": "c",
+        "explanation": "This observation contradicted the wave theory, which predicted a time delay.",
+        "module": "7.3"
+    },
+    {
+        "question": "The equation E=hf describes:",
+        "options": {
+            "a": "The energy of a wave",
+            "b": "The frequency of light in a vacuum",
+            "c": "The energy of a photon",
+            "d": "The speed of light"
+        },
+        "correctAnswer": "c",
+        "explanation": "The equation E=hf describes the energy of a photon based on its frequency.",
+        "module": "7.3"
+    },
+    {
+        "question": "Which of the following accurately describes the wave-particle duality of light?",
+        "options": {
+            "a": "Light only behaves as a wave under certain conditions",
+            "b": "Light behaves as a wave in all experiments",
+            "c": "Light behaves as both a wave and a particle, depending on the experiment",
+            "d": "Light always behaves as a particle"
+        },
+        "correctAnswer": "c",
+        "explanation": "The concept of wave-particle duality means light exhibits both wave-like and particle-like properties.",
+        "module": "7.3"
+    },
+    {
+        "question": "In the context of the photoelectric effect, the term 'photon' refers to:",
+        "options": {
+            "a": "A wave",
+            "b": "A particle of light energy",
+            "c": "A magnetic disturbance",
+            "d": "An electron"
+        },
+        "correctAnswer": "b",
+        "explanation": "A photon is a quantised packet of light energy.",
+        "module": "7.3"
+    },
+    {
+        "question": "What experimental evidence led to the conclusion that light behaves as a particle?",
+        "options": {
+            "a": "Diffraction experiments",
+            "b": "Young’s double-slit experiment",
+            "c": "The photoelectric effect",
+            "d": "Refraction of light through a prism"
+        },
+        "correctAnswer": "c",
+        "explanation": "The photoelectric effect provided experimental evidence for light’s particle nature.",
+        "module": "7.3"
     }
 ]
+
 
 
 
