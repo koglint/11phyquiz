@@ -12028,8 +12028,610 @@
         "correctAnswer": "a",
         "explanation": "Magnetic braking systems use induced current to oppose the motion, converting kinetic energy into heat.",
         "module": "6.4"
+    },
+
+    {
+        "question": "Maxwell's equations predicted the existence of which type of wave?",
+        "options": {
+            "a": "Gravitational waves",
+            "b": "Electromagnetic waves",
+            "c": "Sound waves",
+            "d": "Mechanical waves"
+        },
+        "correctAnswer": "b",
+        "explanation": "Maxwell's equations predicted the existence of electromagnetic waves.",
+        "module": "7.1"
+    },
+    {
+        "question": "The unification of electricity and magnetism by Maxwell led to the development of which field?",
+        "options": {
+            "a": "Thermodynamics",
+            "b": "Electromagnetism",
+            "c": "Classical mechanics",
+            "d": "Optics"
+        },
+        "correctAnswer": "b",
+        "explanation": "Maxwell’s work unified electricity and magnetism into electromagnetism.",
+        "module": "7.1"
+    },
+    {
+        "question": "Electromagnetic waves, according to Maxwell’s theory, are composed of:",
+        "options": {
+            "a": "Sound and magnetic waves",
+            "b": "Electric and magnetic fields",
+            "c": "Heat and light waves",
+            "d": "Gravitational and mechanical waves"
+        },
+        "correctAnswer": "b",
+        "explanation": "Electromagnetic waves consist of oscillating electric and magnetic fields.",
+        "module": "7.1"
+    },
+    {
+        "question": "Maxwell’s equations predicted the velocity of electromagnetic waves to be:",
+        "options": {
+            "a": "Equal to the speed of sound",
+            "b": "Infinite",
+            "c": "The same as the speed of light",
+            "d": "Dependent on the frequency of the wave"
+        },
+        "correctAnswer": "c",
+        "explanation": "Maxwell predicted the velocity of electromagnetic waves would equal the speed of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "The speed of electromagnetic waves in a vacuum is:",
+        "options": {
+            "a": "3.0 × 10^8 m/s",
+            "b": "3.0 × 10^6 m/s",
+            "c": "5.0 × 10^8 m/s",
+            "d": "2.5 × 10^8 m/s"
+        },
+        "correctAnswer": "a",
+        "explanation": "The speed of light is approximately 3.0 × 10^8 m/s in a vacuum.",
+        "module": "7.1"
+    },
+    {
+        "question": "Maxwell's equations unified electricity and:",
+        "options": {
+            "a": "Nuclear forces",
+            "b": "Sound waves",
+            "c": "Magnetism",
+            "d": "Gravitational forces"
+        },
+        "correctAnswer": "c",
+        "explanation": "Maxwell's equations unified electricity and magnetism.",
+        "module": "7.1"
+    },
+    {
+        "question": "The propagation of electromagnetic waves is possible in:",
+        "options": {
+            "a": "Only solids",
+            "b": "Only liquids",
+            "c": "A vacuum and any medium",
+            "d": "Only through air"
+        },
+        "correctAnswer": "c",
+        "explanation": "Electromagnetic waves can propagate through both a vacuum and matter.",
+        "module": "7.1"
+    },
+    {
+        "question": "Electromagnetic waves are classified as:",
+        "options": {
+            "a": "Longitudinal waves",
+            "b": "Mechanical waves",
+            "c": "Transverse waves",
+            "d": "Acoustic waves"
+        },
+        "correctAnswer": "c",
+        "explanation": "Electromagnetic waves are transverse waves, with perpendicular oscillations of electric and magnetic fields.",
+        "module": "7.1"
+    },
+    {
+        "question": "Electromagnetic waves carry energy by:",
+        "options": {
+            "a": "Oscillating electric and magnetic fields",
+            "b": "Converting heat into sound",
+            "c": "Interacting with matter",
+            "d": "Colliding with particles"
+        },
+        "correctAnswer": "a",
+        "explanation": "Electromagnetic waves carry energy through oscillating electric and magnetic fields.",
+        "module": "7.1"
+    },
+    {
+        "question": "The speed of light is now used as a basis for measuring:",
+        "options": {
+            "a": "Temperature and pressure",
+            "b": "Time and distance",
+            "c": "Force and velocity",
+            "d": "Mass and density"
+        },
+        "correctAnswer": "b",
+        "explanation": "The speed of light is now used as the basis for measuring both time and distance.",
+        "module": "7.1"
+    },
+    {
+        "question": "Historically, the speed of light was first measured by:",
+        "options": {
+            "a": "Galileo using lanterns",
+            "b": "Michelson using rotating mirrors",
+            "c": "Fizeau using a toothed wheel",
+            "d": "Roemer using the moons of Jupiter"
+        },
+        "correctAnswer": "d",
+        "explanation": "Roemer measured the speed of light by observing the moons of Jupiter.",
+        "module": "7.1"
+    },
+    {
+        "question": "Modern techniques for measuring the speed of light involve:",
+        "options": {
+            "a": "Interferometry with lasers",
+            "b": "Sound waves in air",
+            "c": "Mechanical clocks",
+            "d": "Reflection of light on mirrors"
+        },
+        "correctAnswer": "a",
+        "explanation": "Modern techniques use laser interferometry to measure the speed of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "The speed of light in a vacuum is used to define:",
+        "options": {
+            "a": "The length of a second",
+            "b": "The mass of an object",
+            "c": "The length of a meter",
+            "d": "The intensity of light"
+        },
+        "correctAnswer": "c",
+        "explanation": "The speed of light defines the meter, which is the distance light travels in a specific time.",
+        "module": "7.1"
+    },
+    {
+        "question": "Which of the following best describes the relationship between light and time?",
+        "options": {
+            "a": "Time is independent of light’s speed",
+            "b": "The speed of light determines time intervals",
+            "c": "Time and light are unrelated",
+            "d": "The speed of light is affected by the passage of time"
+        },
+        "correctAnswer": "b",
+        "explanation": "The speed of light is used to measure time intervals and distances.",
+        "module": "7.1"
+    },
+    {
+        "question": "Light exhibits both:",
+        "options": {
+            "a": "Wave and particle properties",
+            "b": "Magnetic and sound properties",
+            "c": "Thermal and sound properties",
+            "d": "Gravitational and wave properties"
+        },
+        "correctAnswer": "a",
+        "explanation": "Light exhibits both wave-like and particle-like properties, known as wave-particle duality.",
+        "module": "7.1"
+    },
+    {
+        "question": "A continuous spectrum is produced when:",
+        "options": {
+            "a": "Light passes through a gas",
+            "b": "Light is emitted from a hot, dense object",
+            "c": "Light reflects off a mirror",
+            "d": "Light refracts through a prism"
+        },
+        "correctAnswer": "b",
+        "explanation": "A continuous spectrum is emitted by hot, dense objects like stars or incandescent filaments.",
+        "module": "7.1"
+    },
+    {
+        "question": "The emission spectrum of a gas provides information about:",
+        "options": {
+            "a": "The temperature of the gas",
+            "b": "The chemical composition of the gas",
+            "c": "The mass of the gas",
+            "d": "The velocity of the gas"
+        },
+        "correctAnswer": "b",
+        "explanation": "The emission spectrum provides information about the chemical composition of the gas.",
+        "module": "7.1"
+    },
+    {
+        "question": "Spectroscopy is used to identify elements by:",
+        "options": {
+            "a": "Observing the color of the star",
+            "b": "Detecting the spectral lines of the element",
+            "c": "Measuring the size of the star",
+            "d": "Calculating the mass of the star"
+        },
+        "correctAnswer": "b",
+        "explanation": "Spectroscopy identifies elements by observing their spectral lines.",
+        "module": "7.1"
+    },
+    {
+        "question": "The surface temperature of a star can be determined by examining:",
+        "options": {
+            "a": "The star’s chemical composition",
+            "b": "The spectrum of light it emits",
+            "c": "The size of the star",
+            "d": "The star’s distance from Earth"
+        },
+        "correctAnswer": "b",
+        "explanation": "The spectrum of a star provides information on its surface temperature.",
+        "module": "7.1"
+    },
+    {
+        "question": "The rotational velocity of a star can be inferred from:",
+        "options": {
+            "a": "The broadening of its spectral lines",
+            "b": "The brightness of the star",
+            "c": "The color of the star",
+            "d": "The size of the star"
+        },
+        "correctAnswer": "a",
+        "explanation": "Rotational velocity broadens spectral lines.",
+        "module": "7.1"
+    },
+    {
+        "question": "The translational velocity of a star is calculated using:",
+        "options": {
+            "a": "The star’s luminosity",
+            "b": "The star’s redshift or blueshift",
+            "c": "The distance of the star",
+            "d": "The size of the star"
+        },
+        "correctAnswer": "b",
+        "explanation": "Translational velocity is inferred from the redshift or blueshift of the star’s spectrum.",
+        "module": "7.1"
+    },
+    {
+        "question": "Spectral lines of a star can reveal information about:",
+        "options": {
+            "a": "The rotational velocity of the star",
+            "b": "The gravitational pull of the star",
+            "c": "The age of the star",
+            "d": "The distance of the star from Earth"
+        },
+        "correctAnswer": "a",
+        "explanation": "The broadening of spectral lines can indicate a star’s rotational velocity.",
+        "module": "7.1"
+    },
+    {
+        "question": "Spectral lines are caused by:",
+        "options": {
+            "a": "The motion of the star’s surface",
+            "b": "The absorption or emission of light by atoms",
+            "c": "The star’s reflection of light",
+            "d": "The gravitational pull of the star"
+        },
+        "correctAnswer": "b",
+        "explanation": "Spectral lines result from the absorption or emission of light by atoms in a star’s atmosphere.",
+        "module": "7.1"
+    },
+    {
+        "question": "The broadening of spectral lines can indicate:",
+        "options": {
+            "a": "The star’s rotational velocity",
+            "b": "The star’s size",
+            "c": "The star’s chemical composition",
+            "d": "The star’s distance from Earth"
+        },
+        "correctAnswer": "a",
+        "explanation": "Broadening of spectral lines is related to rotational velocity.",
+        "module": "7.1"
+    },
+    {
+        "question": "Stars with higher surface temperatures emit more light at:",
+        "options": {
+            "a": "Blue wavelengths",
+            "b": "Red wavelengths",
+            "c": "Infrared wavelengths",
+            "d": "Radio wavelengths"
+        },
+        "correctAnswer": "a",
+        "explanation": "Hotter stars emit more light at blue wavelengths.",
+        "module": "7.1"
+    },
+    {
+        "question": "The chemical composition of a star can be determined using:",
+        "options": {
+            "a": "The brightness of the star",
+            "b": "The star’s mass",
+            "c": "The star’s spectrum",
+            "d": "The distance of the star from Earth"
+        },
+        "correctAnswer": "c",
+        "explanation": "Spectra reveal the chemical composition of stars.",
+        "module": "7.1"
+    },
+    {
+        "question": "Which method was used by Fizeau to measure the speed of light?",
+        "options": {
+            "a": "Observing planetary orbits",
+            "b": "Using rotating mirrors",
+            "c": "Using a toothed wheel",
+            "d": "Measuring sound waves"
+        },
+        "correctAnswer": "c",
+        "explanation": "Fizeau used a toothed wheel to measure the speed of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "The Doppler effect in light is used to measure:",
+        "options": {
+            "a": "The temperature of a star",
+            "b": "The velocity of a star relative to Earth",
+            "c": "The mass of a star",
+            "d": "The gravitational field of a star"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Doppler effect is used to measure the velocity of a star relative to Earth.",
+        "module": "7.1"
+    },
+    {
+        "question": "The speed of light was first measured in a laboratory using:",
+        "options": {
+            "a": "A rotating mirror system",
+            "b": "A pendulum clock",
+            "c": "A sound wave generator",
+            "d": "Reflection of sunlight"
+        },
+        "correctAnswer": "a",
+        "explanation": "A rotating mirror system was used in Michelson's experiment to measure the speed of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "Maxwell’s prediction of electromagnetic waves suggested that:",
+        "options": {
+            "a": "Electromagnetic waves require a medium",
+            "b": "Electromagnetic waves travel at the speed of light",
+            "c": "Electromagnetic waves are slower than sound waves",
+            "d": "Electromagnetic waves do not carry energy"
+        },
+        "correctAnswer": "b",
+        "explanation": "Maxwell’s equations suggested electromagnetic waves travel at the speed of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "The redshift of a star’s light indicates:",
+        "options": {
+            "a": "The star is moving away from Earth",
+            "b": "The star is moving toward Earth",
+            "c": "The star’s temperature is decreasing",
+            "d": "The star’s mass is increasing"
+        },
+        "correctAnswer": "a",
+        "explanation": "A redshift indicates the star is moving away from Earth.",
+        "module": "7.1"
+    },
+    {
+        "question": "The sun’s spectrum contains dark lines called:",
+        "options": {
+            "a": "Emission lines",
+            "b": "Absorption lines",
+            "c": "Continuous spectrum",
+            "d": "Fluorescence lines"
+        },
+        "correctAnswer": "b",
+        "explanation": "Absorption lines appear in the sun’s spectrum due to elements absorbing specific wavelengths of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "The speed of light is fundamental in determining:",
+        "options": {
+            "a": "The age of the universe",
+            "b": "The amount of energy in a wave",
+            "c": "The distance between galaxies",
+            "d": "The temperature of a star"
+        },
+        "correctAnswer": "c",
+        "explanation": "The speed of light is used to determine distances in space.",
+        "module": "7.1"
+    },
+    {
+        "question": "Light travels fastest in:",
+        "options": {
+            "a": "Water",
+            "b": "Air",
+            "c": "Glass",
+            "d": "Vacuum"
+        },
+        "correctAnswer": "d",
+        "explanation": "Light travels fastest in a vacuum.",
+        "module": "7.1"
+    },
+    {
+        "question": "The Doppler effect in light occurs when:",
+        "options": {
+            "a": "A light source is stationary",
+            "b": "A light source is moving toward or away from an observer",
+            "c": "A light source is moving perpendicular to the observer",
+            "d": "A light source is at rest"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Doppler effect occurs when a light source moves toward or away from an observer.",
+        "module": "7.1"
+    },
+    {
+        "question": "Stars moving toward Earth exhibit:",
+        "options": {
+            "a": "A blueshift",
+            "b": "A redshift",
+            "c": "No shift",
+            "d": "A green shift"
+        },
+        "correctAnswer": "a",
+        "explanation": "A blueshift indicates a star is moving toward Earth.",
+        "module": "7.1"
+    },
+    {
+        "question": "The speed of light was measured most accurately in modern times using:",
+        "options": {
+            "a": "Laser interferometry",
+            "b": "The timing of planetary orbits",
+            "c": "Reflection off a mirror",
+            "d": "The Doppler effect"
+        },
+        "correctAnswer": "a",
+        "explanation": "Laser interferometry is the most accurate method for measuring the speed of light.",
+        "module": "7.1"
+    },
+    {
+        "question": "Maxwell’s equations explain that electromagnetic waves are:",
+        "options": {
+            "a": "Produced by electric charges at rest",
+            "b": "Produced by accelerating electric charges",
+            "c": "Produced only in vacuum",
+            "d": "Produced by constant electric fields"
+        },
+        "correctAnswer": "b",
+        "explanation": "Electromagnetic waves are produced by accelerating electric charges.",
+        "module": "7.1"
+    },
+    {
+        "question": "The Michelson experiment for measuring the speed of light used:",
+        "options": {
+            "a": "A rotating mirror and a fixed mirror",
+            "b": "A toothed wheel",
+            "c": "A pendulum clock",
+            "d": "A sound wave generator"
+        },
+        "correctAnswer": "a",
+        "explanation": "Michelson’s experiment involved a rotating mirror and a fixed mirror.",
+        "module": "7.1"
+    },
+    {
+        "question": "The energy of an electromagnetic wave depends on its:",
+        "options": {
+            "a": "Wavelength",
+            "b": "Speed",
+            "c": "Frequency",
+            "d": "Amplitude"
+        },
+        "correctAnswer": "c",
+        "explanation": "The energy of an electromagnetic wave depends on its frequency.",
+        "module": "7.1"
+    },
+    {
+        "question": "Spectral lines shift toward the red part of the spectrum when:",
+        "options": {
+            "a": "A star is moving toward Earth",
+            "b": "A star is moving away from Earth",
+            "c": "A star’s temperature increases",
+            "d": "A star rotates more slowly"
+        },
+        "correctAnswer": "b",
+        "explanation": "A redshift occurs when a star is moving away from Earth.",
+        "module": "7.1"
+    },
+    {
+        "question": "Light is best described as:",
+        "options": {
+            "a": "A mechanical wave",
+            "b": "A transverse wave",
+            "c": "A longitudinal wave",
+            "d": "A sound wave"
+        },
+        "correctAnswer": "b",
+        "explanation": "Light is a transverse wave.",
+        "module": "7.1"
+    },
+    {
+        "question": "The spectrum of sunlight contains:",
+        "options": {
+            "a": "Only infrared waves",
+            "b": "Only visible light",
+            "c": "A combination of ultraviolet, visible, and infrared light",
+            "d": "Only ultraviolet light"
+        },
+        "correctAnswer": "c",
+        "explanation": "Sunlight contains a combination of ultraviolet, visible, and infrared light.",
+        "module": "7.1"
+    },
+    {
+        "question": "The first person to suggest that light has a finite speed was:",
+        "options": {
+            "a": "Galileo",
+            "b": "Newton",
+            "c": "Huygens",
+            "d": "Einstein"
+        },
+        "correctAnswer": "a",
+        "explanation": "Galileo was the first to propose that light has a finite speed.",
+        "module": "7.1"
+    },
+    {
+        "question": "Stars emit light primarily due to:",
+        "options": {
+            "a": "Nuclear fusion reactions",
+            "b": "Gravitational collapse",
+            "c": "Magnetic field interactions",
+            "d": "Chemical reactions"
+        },
+        "correctAnswer": "a",
+        "explanation": "Stars emit light primarily due to nuclear fusion reactions.",
+        "module": "7.1"
+    },
+    {
+        "question": "The term 'wavelength' refers to:",
+        "options": {
+            "a": "The speed of the wave",
+            "b": "The distance between consecutive peaks of a wave",
+            "c": "The frequency of a wave",
+            "d": "The amplitude of a wave"
+        },
+        "correctAnswer": "b",
+        "explanation": "Wavelength refers to the distance between consecutive peaks of a wave.",
+        "module": "7.1"
+    },
+    {
+        "question": "The process by which electromagnetic waves are generated involves:",
+        "options": {
+            "a": "Stationary charges",
+            "b": "Accelerating charges",
+            "c": "Constant electric fields",
+            "d": "Oscillating magnetic fields only"
+        },
+        "correctAnswer": "b",
+        "explanation": "Electromagnetic waves are generated by accelerating charges.",
+        "module": "7.1"
+    },
+    {
+        "question": "Spectroscopy of stars allows scientists to measure:",
+        "options": {
+            "a": "The temperature and chemical composition of stars",
+            "b": "The age of stars",
+            "c": "The mass of stars",
+            "d": "The size of stars"
+        },
+        "correctAnswer": "a",
+        "explanation": "Spectroscopy provides information about the temperature and chemical composition of stars.",
+        "module": "7.1"
+    },
+    {
+        "question": "The brightness of a star depends on:",
+        "options": {
+            "a": "Its temperature and size",
+            "b": "Its rotational velocity",
+            "c": "Its chemical composition",
+            "d": "Its distance from Earth"
+        },
+        "correctAnswer": "a",
+        "explanation": "The brightness of a star depends on its temperature and size.",
+        "module": "7.1"
+    },
+    {
+        "question": "Electromagnetic waves can travel through:",
+        "options": {
+            "a": "Solids only",
+            "b": "A vacuum",
+            "c": "Liquids only",
+            "d": "Gases only"
+        },
+        "correctAnswer": "b",
+        "explanation": "Electromagnetic waves can travel through a vacuum, requiring no medium.",
+        "module": "7.1"
     }
 ]
+
 
 
 
