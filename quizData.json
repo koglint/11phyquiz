@@ -16233,8 +16233,251 @@
         "correctAnswer": "b",
         "explanation": "Schrödinger’s wave equation is crucial for explaining the dual wave-particle nature of electrons.",
         "module": "8.3"
+    },
+
+    {
+        "question": "Which of the following is a property of alpha radiation?",
+        "options": {
+            "a": "It consists of two protons and two neutrons",
+            "b": "It is a high-energy photon",
+            "c": "It has a negative charge",
+            "d": "It can penetrate through lead"
+        },
+        "correctAnswer": "a",
+        "explanation": "Alpha radiation consists of two protons and two neutrons.",
+        "module": "8.4"
+    },
+    {
+        "question": "Beta decay results in the emission of:",
+        "options": {
+            "a": "A helium nucleus",
+            "b": "A high-energy photon",
+            "c": "An electron or positron",
+            "d": "A proton"
+        },
+        "correctAnswer": "c",
+        "explanation": "Beta decay emits an electron or positron.",
+        "module": "8.4"
+    },
+    {
+        "question": "Gamma radiation is best described as:",
+        "options": {
+            "a": "A stream of neutrons",
+            "b": "Electromagnetic radiation",
+            "c": "A type of electron emission",
+            "d": "An emission of a helium nucleus"
+        },
+        "correctAnswer": "b",
+        "explanation": "Gamma radiation is electromagnetic radiation.",
+        "module": "8.4"
+    },
+    {
+        "question": "The term 'half-life' refers to:",
+        "options": {
+            "a": "The time it takes for half of a radioactive substance to decay",
+            "b": "The time it takes for all particles in a substance to decay",
+            "c": "The amount of energy emitted during decay",
+            "d": "The number of particles emitted per second"
+        },
+        "correctAnswer": "a",
+        "explanation": "Half-life is the time it takes for half of a radioactive substance to decay.",
+        "module": "8.4"
+    },
+    {
+        "question": "The decay constant λ is related to the half-life of a substance by:",
+        "options": {
+            "a": "λ = 1/t1/2",
+            "b": "λ = ln(2)/t1/2",
+            "c": "λ = ln(2) * t1/2",
+            "d": "λ = 2 * t1/2"
+        },
+        "correctAnswer": "b",
+        "explanation": "λ = ln(2)/t1/2 relates the decay constant and half-life.",
+        "module": "8.4"
+    },
+    {
+        "question": "In the equation N(t) = N0 * e^(-λt), N(t) represents:",
+        "options": {
+            "a": "The decay constant",
+            "b": "The number of particles remaining at time t",
+            "c": "The initial number of particles",
+            "d": "The number of particles at the start"
+        },
+        "correctAnswer": "b",
+        "explanation": "N(t) represents the number of particles remaining at time t.",
+        "module": "8.4"
+    },
+    {
+        "question": "The process of nuclear fission involves:",
+        "options": {
+            "a": "The transformation of a neutron into a proton",
+            "b": "The fusion of two nuclei to form a larger nucleus",
+            "c": "The emission of gamma radiation",
+            "d": "The splitting of a nucleus into smaller nuclei"
+        },
+        "correctAnswer": "d",
+        "explanation": "Fission involves the splitting of a nucleus into smaller nuclei.",
+        "module": "8.4"
+    },
+    {
+        "question": "Controlled nuclear chain reactions are most commonly used in:",
+        "options": {
+            "a": "Nuclear power plants",
+            "b": "Solar power",
+            "c": "Alpha particle generators",
+            "d": "Wind turbines"
+        },
+        "correctAnswer": "a",
+        "explanation": "Controlled chain reactions are used in nuclear power plants.",
+        "module": "8.4"
+    },
+    {
+        "question": "An uncontrolled nuclear chain reaction leads to:",
+        "options": {
+            "a": "The slow release of energy",
+            "b": "An explosion, as in a nuclear bomb",
+            "c": "The production of alpha particles",
+            "d": "The emission of gamma rays only"
+        },
+        "correctAnswer": "b",
+        "explanation": "An uncontrolled chain reaction leads to a nuclear explosion.",
+        "module": "8.4"
+    },
+    {
+        "question": "The concept of mass defect refers to:",
+        "options": {
+            "a": "The difference between the mass of a nucleus and the sum of its individual nucleons",
+            "b": "The energy released when an atom undergoes radioactive decay",
+            "c": "The time it takes for half of the nucleus to decay",
+            "d": "The conversion of mass into energy during fusion"
+        },
+        "correctAnswer": "a",
+        "explanation": "Mass defect refers to the difference between the mass of a nucleus and the sum of its individual nucleons.",
+        "module": "8.4"
+    },
+    {
+        "question": "The binding energy of a nucleus is:",
+        "options": {
+            "a": "The energy required to split a nucleus into its component protons and neutrons",
+            "b": "The energy released during gamma radiation",
+            "c": "The energy emitted during beta decay",
+            "d": "The energy gained during fusion"
+        },
+        "correctAnswer": "a",
+        "explanation": "The binding energy is the energy required to split a nucleus into its component nucleons.",
+        "module": "8.4"
+    },
+    {
+        "question": "Einstein’s mass-energy equivalence relationship is expressed as:",
+        "options": {
+            "a": "E = mc^3",
+            "b": "E = mc^22",
+            "c": "E = mc^2",
+            "d": "E = m2c"
+        },
+        "correctAnswer": "c",
+        "explanation": "Einstein’s equation E = mc^2 relates mass and energy.",
+        "module": "8.4"
+    },
+    {
+        "question": "Nuclear fusion occurs when:",
+        "options": {
+            "a": "Two light nuclei combine to form a heavier nucleus",
+            "b": "A heavy nucleus splits into two smaller nuclei",
+            "c": "Neutrons are emitted from a nucleus",
+            "d": "Electrons combine with protons"
+        },
+        "correctAnswer": "a",
+        "explanation": "Fusion occurs when two light nuclei combine to form a heavier nucleus.",
+        "module": "8.4"
+    },
+    {
+        "question": "The energy released during nuclear fusion comes from:",
+        "options": {
+            "a": "The annihilation of protons and neutrons",
+            "b": "The conversion of mass into energy",
+            "c": "The emission of beta particles",
+            "d": "The absorption of alpha particles"
+        },
+        "correctAnswer": "b",
+        "explanation": "Fusion converts mass into energy, releasing large amounts of energy.",
+        "module": "8.4"
+    },
+    {
+        "question": "The relationship E = mc^2 can be used to predict:",
+        "options": {
+            "a": "The speed of light",
+            "b": "The energy released in a nuclear reaction",
+            "c": "The mass of an electron",
+            "d": "The half-life of a substance"
+        },
+        "correctAnswer": "b",
+        "explanation": "E = mc^2 predicts the energy released in nuclear reactions.",
+        "module": "8.4"
+    },
+    {
+        "question": "Beta decay results in the emission of:",
+        "options": {
+            "a": "A proton",
+            "b": "A neutron",
+            "c": "An electron or positron",
+            "d": "An alpha particle"
+        },
+        "correctAnswer": "c",
+        "explanation": "Beta decay results in the emission of an electron or positron.",
+        "module": "8.4"
+    },
+    {
+        "question": "Alpha particles have:",
+        "options": {
+            "a": "A positive charge",
+            "b": "A negative charge",
+            "c": "No charge",
+            "d": "A charge that changes with time"
+        },
+        "correctAnswer": "a",
+        "explanation": "Alpha particles have a positive charge.",
+        "module": "8.4"
+    },
+    {
+        "question": "In the context of nuclear decay, gamma radiation:",
+        "options": {
+            "a": "Has no mass or charge",
+            "b": "Is identical to beta radiation",
+            "c": "Has a positive charge",
+            "d": "Is composed of protons and neutrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "Gamma radiation has no mass or charge.",
+        "module": "8.4"
+    },
+    {
+        "question": "The rate of decay of a radioactive sample depends on:",
+        "options": {
+            "a": "The size of the nucleus",
+            "b": "The half-life of the substance",
+            "c": "The number of neutrons",
+            "d": "The energy of the emitted radiation"
+        },
+        "correctAnswer": "b",
+        "explanation": "The rate of decay depends on the half-life of the substance.",
+        "module": "8.4"
+    },
+    {
+        "question": "In the equation N(t) = N0 * e^(-λt), the decay constant λ represents:",
+        "options": {
+            "a": "The rate at which the particles are emitted",
+            "b": "The fraction of particles decaying per unit time",
+            "c": "The initial number of particles",
+            "d": "The time for half of the sample to decay"
+        },
+        "correctAnswer": "b",
+        "explanation": "The decay constant represents the fraction of particles decaying per unit time.",
+        "module": "8.4"
     }
+    // (continue adding remaining questions here)
 ]
+
 
 
 
