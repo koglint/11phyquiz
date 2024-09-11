@@ -15632,8 +15632,610 @@
         "correctAnswer": "b",
         "explanation": "Thomson’s atomic model suggested that electrons are scattered throughout a positively charged substance.",
         "module": "8.2"
+    },
+
+    {
+        "question": "Which of the following was a limitation of the Rutherford atomic model?",
+        "options": {
+            "a": "It couldn’t explain the line emission spectrum of hydrogen",
+            "b": "It accounted for only protons and neutrons in the nucleus",
+            "c": "It described electrons as having both particle and wave properties",
+            "d": "It explained why atoms were stable"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Rutherford model couldn’t explain the line emission spectrum, as it did not account for quantised energy levels.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Bohr model of the atom introduced the concept of:",
+        "options": {
+            "a": "Electrons behaving like waves",
+            "b": "Electrons orbiting the nucleus in fixed energy levels",
+            "c": "A dense nucleus with electrons scattered randomly",
+            "d": "Electrons constantly radiating energy"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Bohr model introduced fixed energy levels where electrons orbit without radiating energy.",
+        "module": "8.3"
+    },
+    {
+        "question": "One limitation of the Bohr atomic model is that:",
+        "options": {
+            "a": "It only explained the spectra of hydrogen-like atoms",
+            "b": "It predicted energy levels for all elements",
+            "c": "It did not include protons and neutrons",
+            "d": "It included wave-particle duality of electrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Bohr model only explained hydrogen-like atoms, failing to generalise to other elements.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Balmer series in the hydrogen spectrum corresponds to:",
+        "options": {
+            "a": "Transitions of electrons to the first energy level",
+            "b": "Transitions of electrons to the second energy level",
+            "c": "Transitions of electrons to the third energy level",
+            "d": "Transitions of electrons to the fourth energy level"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Balmer series corresponds to transitions to the second energy level in hydrogen.",
+        "module": "8.3"
+    },
+    {
+        "question": "The equation E=hf relates to:",
+        "options": {
+            "a": "The energy of a photon emitted or absorbed by an atom",
+            "b": "The mass of a proton",
+            "c": "The speed of an electron in orbit",
+            "d": "The wavelength of an electron"
+        },
+        "correctAnswer": "a",
+        "explanation": "The equation E=hf gives the energy of a photon, where f is the frequency of light.",
+        "module": "8.3"
+    },
+    {
+        "question": "The line emission spectrum of hydrogen is produced when:",
+        "options": {
+            "a": "Electrons move to lower energy levels",
+            "b": "Protons transition to lower energy states",
+            "c": "Electrons are emitted from the atom",
+            "d": "Neutrons decay inside the nucleus"
+        },
+        "correctAnswer": "a",
+        "explanation": "The line emission spectrum of hydrogen is produced when electrons drop to lower energy levels.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which equation describes the energy of a photon in terms of its wavelength?",
+        "options": {
+            "a": "E=mc^2",
+            "b": "E=hc/λ",
+            "c": "E=hf",
+            "d": "E=1/2mv^2"
+        },
+        "correctAnswer": "b",
+        "explanation": "The equation E=hc/λ relates energy to the wavelength of a photon.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Rydberg formula 1/λ = R(1/nf^2 - 1/ni^2) is used to calculate:",
+        "options": {
+            "a": "The frequency of light emitted by an atom",
+            "b": "The wavelength of light emitted during an electron transition",
+            "c": "The mass of an electron",
+            "d": "The energy of a photon in a hydrogen atom"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Rydberg formula calculates the wavelength of light emitted during electron transitions.",
+        "module": "8.3"
+    },
+    {
+        "question": "In the Rydberg formula, ni refers to:",
+        "options": {
+            "a": "The initial energy level of the electron",
+            "b": "The final energy level of the electron",
+            "c": "The number of protons in the nucleus",
+            "d": "The number of neutrons in the nucleus"
+        },
+        "correctAnswer": "a",
+        "explanation": "In the Rydberg formula, ni refers to the initial energy level of the electron.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which constant appears in the Rydberg formula?",
+        "options": {
+            "a": "Planck’s constant",
+            "b": "Gravitational constant",
+            "c": "Rydberg constant",
+            "d": "Coulomb’s constant"
+        },
+        "correctAnswer": "c",
+        "explanation": "The Rydberg constant is used to calculate the wavelengths in hydrogen’s emission spectrum.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Bohr model of the atom could successfully explain:",
+        "options": {
+            "a": "The spectra of all elements",
+            "b": "The spectra of hydrogen-like atoms",
+            "c": "The stability of neutrons",
+            "d": "The mass of protons and electrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Bohr model successfully explained the spectra of hydrogen-like atoms.",
+        "module": "8.3"
+    },
+    {
+        "question": "The de Broglie hypothesis states that:",
+        "options": {
+            "a": "Matter has only particle properties",
+            "b": "Electrons behave like waves under certain conditions",
+            "c": "Only photons exhibit wave-particle duality",
+            "d": "Protons and electrons are equally distributed in the atom"
+        },
+        "correctAnswer": "b",
+        "explanation": "De Broglie hypothesised that electrons behave like waves under certain conditions.",
+        "module": "8.3"
+    },
+    {
+        "question": "According to de Broglie, the wavelength of an electron is:",
+        "options": {
+            "a": "Directly proportional to its velocity",
+            "b": "Inversely proportional to its velocity",
+            "c": "Independent of its mass",
+            "d": "Dependent on its charge"
+        },
+        "correctAnswer": "b",
+        "explanation": "The wavelength of an electron is inversely proportional to its velocity, according to de Broglie.",
+        "module": "8.3"
+    },
+    {
+        "question": "The equation λ=h/mv describes:",
+        "options": {
+            "a": "The velocity of a photon",
+            "b": "The wavelength of a particle, such as an electron",
+            "c": "The energy of a neutron",
+            "d": "The frequency of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "The equation λ=h/mv describes the wavelength of a particle like an electron.",
+        "module": "8.3"
+    },
+    {
+        "question": "What experimental evidence confirmed de Broglie’s hypothesis of matter waves?",
+        "options": {
+            "a": "Thomson’s cathode ray experiment",
+            "b": "The double-slit experiment with electrons",
+            "c": "Rutherford’s gold foil experiment",
+            "d": "The photoelectric effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "The double-slit experiment provided experimental evidence of the wave nature of electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s contribution to the atomic model involved:",
+        "options": {
+            "a": "The discovery of neutrons",
+            "b": "The idea of electrons moving in fixed orbits",
+            "c": "The development of the wave equation to describe electron behaviour",
+            "d": "The planetary model of the atom"
+        },
+        "correctAnswer": "c",
+        "explanation": "Schrödinger developed the wave equation to describe the behaviour of electrons as waves.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s wave equation is used to calculate:",
+        "options": {
+            "a": "The exact position of an electron",
+            "b": "The probability of finding an electron in a certain region",
+            "c": "The energy of a photon emitted by an atom",
+            "d": "The speed of an electron"
+        },
+        "correctAnswer": "b",
+        "explanation": "Schrödinger’s wave equation calculates the probability of finding an electron in a particular region.",
+        "module": "8.3"
+    },
+    {
+        "question": "In Schrödinger’s model, electrons are described as:",
+        "options": {
+            "a": "Particles with well-defined orbits",
+            "b": "Standing waves with no fixed position",
+            "c": "Particles that revolve around the nucleus",
+            "d": "Points of charge with no mass"
+        },
+        "correctAnswer": "b",
+        "explanation": "In Schrödinger’s model, electrons are described as standing waves with no fixed position.",
+        "module": "8.3"
+    },
+    {
+        "question": "The wave-particle duality of electrons is supported by:",
+        "options": {
+            "a": "The scattering of alpha particles",
+            "b": "The diffraction of electrons through a crystal",
+            "c": "The deflection of electrons in electric fields",
+            "d": "The photoelectric effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "The diffraction of electrons through a crystal supports the wave-particle duality of electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Schrödinger equation replaced the Bohr model because it:",
+        "options": {
+            "a": "Explained the stability of electron orbits more accurately",
+            "b": "Worked only for hydrogen atoms",
+            "c": "Predicted the position of protons and neutrons",
+            "d": "Was based on classical mechanics"
+        },
+        "correctAnswer": "a",
+        "explanation": "Schrödinger’s equation provided a better explanation for the stability of electron orbits.",
+        "module": "8.3"
+    },
+    {
+        "question": "In the Bohr model, the line emission spectrum of hydrogen is explained by:",
+        "options": {
+            "a": "The movement of neutrons in the nucleus",
+            "b": "The quantised energy levels of electrons",
+            "c": "The interaction between protons and electrons",
+            "d": "The energy levels of photons"
+        },
+        "correctAnswer": "b",
+        "explanation": "In the Bohr model, hydrogen’s emission spectrum is explained by electrons moving between quantised energy levels.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which of the following is a limitation of the Bohr atomic model?",
+        "options": {
+            "a": "It couldn’t explain why atoms were stable",
+            "b": "It couldn’t explain the wave-like behaviour of electrons",
+            "c": "It couldn’t explain the spectra of hydrogen atoms",
+            "d": "It couldn’t predict the mass of the atom"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Bohr model couldn’t explain the wave-like behaviour of electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "In Schrödinger’s model, the position of an electron is described by:",
+        "options": {
+            "a": "Fixed orbits around the nucleus",
+            "b": "Probability clouds",
+            "c": "Straight lines from the nucleus",
+            "d": "Definite circular paths"
+        },
+        "correctAnswer": "b",
+        "explanation": "In Schrödinger’s model, the position of an electron is described by probability clouds.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Balmer series refers to:",
+        "options": {
+            "a": "The infrared part of the hydrogen spectrum",
+            "b": "The visible part of the hydrogen spectrum",
+            "c": "The ultraviolet part of the hydrogen spectrum",
+            "d": "The X-ray part of the hydrogen spectrum"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Balmer series refers to the visible part of the hydrogen spectrum.",
+        "module": "8.3"
+    },
+    {
+        "question": "What is the significance of the Schrödinger equation in atomic theory?",
+        "options": {
+            "a": "It confirmed that electrons have fixed orbits",
+            "b": "It predicted the mass of the neutron",
+            "c": "It supported the planetary model of the atom",
+            "d": "It described electrons as probability distributions or waves"
+        },
+        "correctAnswer": "d",
+        "explanation": "Schrödinger’s equation describes electrons as probability distributions or waves, replacing the idea of fixed orbits.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Rydberg constant is used to:",
+        "options": {
+            "a": "Calculate the frequency of light emitted by atoms",
+            "b": "Determine the velocity of an electron",
+            "c": "Predict the position of neutrons in the nucleus",
+            "d": "Calculate the wavelength of light emitted by electrons transitioning between energy levels"
+        },
+        "correctAnswer": "d",
+        "explanation": "The Rydberg constant helps calculate the wavelength of light emitted when electrons transition between energy levels.",
+        "module": "8.3"
+    },
+    {
+        "question": "According to de Broglie’s hypothesis, matter waves:",
+        "options": {
+            "a": "Apply only to large objects",
+            "b": "Are only relevant for particles at rest",
+            "c": "Only apply to light and other electromagnetic waves",
+            "d": "Apply to all particles, including electrons"
+        },
+        "correctAnswer": "d",
+        "explanation": "According to de Broglie, matter waves apply to all particles, including electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "The de Broglie wavelength of an electron can be increased by:",
+        "options": {
+            "a": "Increasing the electron’s velocity",
+            "b": "Decreasing the electron’s mass",
+            "c": "Decreasing the electron’s velocity",
+            "d": "Increasing the electron’s charge"
+        },
+        "correctAnswer": "c",
+        "explanation": "Decreasing the velocity of an electron increases its wavelength, according to de Broglie’s equation.",
+        "module": "8.3"
+    },
+    {
+        "question": "What does Schrödinger’s wave equation help to predict?",
+        "options": {
+            "a": "The exact trajectory of an electron around the nucleus",
+            "b": "The energy levels and probable location of an electron",
+            "c": "The speed of light in a vacuum",
+            "d": "The interaction between protons and neutrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Schrödinger’s wave equation helps predict the energy levels and probable locations of electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "In the Rydberg formula, nf refers to:",
+        "options": {
+            "a": "The initial energy level of the electron",
+            "b": "The final energy level of the electron",
+            "c": "The number of protons in the nucleus",
+            "d": "The number of neutrons in the atom"
+        },
+        "correctAnswer": "b",
+        "explanation": "In the Rydberg formula, nf refers to the final energy level of the electron.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s wave equation helped develop the concept of:",
+        "options": {
+            "a": "Fixed electron orbits",
+            "b": "The uncertainty principle",
+            "c": "Electron probability clouds",
+            "d": "Electrons as tiny solid spheres"
+        },
+        "correctAnswer": "c",
+        "explanation": "Schrödinger’s wave equation introduced the concept of electron probability clouds, rather than fixed orbits.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Balmer series in the hydrogen spectrum corresponds to electron transitions from:",
+        "options": {
+            "a": "Higher energy levels to the second energy level",
+            "b": "Higher energy levels to the first energy level",
+            "c": "Lower energy levels to the third energy level",
+            "d": "The nucleus to the outer shells"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Balmer series corresponds to transitions from higher energy levels to the second energy level.",
+        "module": "8.3"
+    },
+    {
+        "question": "In the Bohr model, an electron emits light when it:",
+        "options": {
+            "a": "Jumps to a higher energy level",
+            "b": "Jumps to a lower energy level",
+            "c": "Moves in a circular orbit",
+            "d": "Absorbs a photon"
+        },
+        "correctAnswer": "b",
+        "explanation": "In the Bohr model, light is emitted when an electron jumps to a lower energy level.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s atomic model differs from Bohr’s model in that:",
+        "options": {
+            "a": "It describes electrons as waves, not particles",
+            "b": "It predicts fixed orbits for electrons",
+            "c": "It includes the proton in the atomic structure",
+            "d": "It does not consider neutrons in the nucleus"
+        },
+        "correctAnswer": "a",
+        "explanation": "Schrödinger’s model describes electrons as waves, in contrast to Bohr’s particle description.",
+        "module": "8.3"
+    },
+    {
+        "question": "According to de Broglie, the wavelength of a particle is inversely proportional to its:",
+        "options": {
+            "a": "Velocity",
+            "b": "Mass",
+            "c": "Charge",
+            "d": "Energy"
+        },
+        "correctAnswer": "b",
+        "explanation": "According to de Broglie, the wavelength of a particle is inversely proportional to its mass.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s model of the atom is based on:",
+        "options": {
+            "a": "Classical mechanics",
+            "b": "The wave nature of electrons",
+            "c": "The particle nature of electrons",
+            "d": "The circular motion of electrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Schrödinger’s model is based on the wave nature of electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "The equation E=hf describes:",
+        "options": {
+            "a": "The energy of a photon in terms of its frequency",
+            "b": "The speed of an electron in an atom",
+            "c": "The mass of a proton",
+            "d": "The energy of an electron in orbit"
+        },
+        "correctAnswer": "a",
+        "explanation": "The equation E=hf describes the energy of a photon in terms of its frequency.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s contribution to the quantum model of the atom involved:",
+        "options": {
+            "a": "Proposing that atoms are indivisible",
+            "b": "Developing a mathematical model for electron probability",
+            "c": "Predicting the existence of neutrons",
+            "d": "Suggesting that electrons revolve in fixed orbits"
+        },
+        "correctAnswer": "b",
+        "explanation": "Schrödinger contributed a mathematical model describing electron probability, revolutionising quantum mechanics.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which experimental result confirmed the wave nature of electrons?",
+        "options": {
+            "a": "The scattering of alpha particles",
+            "b": "The diffraction of electrons through a crystal",
+            "c": "The observation of cathode rays",
+            "d": "The deflection of electrons in electric fields"
+        },
+        "correctAnswer": "b",
+        "explanation": "The diffraction of electrons through a crystal confirmed their wave-like behaviour.",
+        "module": "8.3"
+    },
+    {
+        "question": "What is the significance of Schrödinger’s contribution to atomic theory?",
+        "options": {
+            "a": "It confirmed that atoms are indivisible",
+            "b": "It explained the dual nature of light",
+            "c": "It introduced the concept of probability clouds for electrons",
+            "d": "It explained how protons are distributed in the nucleus"
+        },
+        "correctAnswer": "c",
+        "explanation": "Schrödinger introduced the idea of probability clouds, replacing fixed orbits for electrons.",
+        "module": "8.3"
+    },
+    {
+        "question": "The wavelength of matter waves, such as an electron, is given by:",
+        "options": {
+            "a": "λ=h/mv",
+            "b": "E=mc^2",
+            "c": "p=mv",
+            "d": "E=hf"
+        },
+        "correctAnswer": "a",
+        "explanation": "The de Broglie wavelength is given by λ=h/mv, describing the wavelength of matter waves.",
+        "module": "8.3"
+    },
+    {
+        "question": "In the Bohr model of the atom, the stability of the atom was explained by:",
+        "options": {
+            "a": "Electrons in fixed energy levels",
+            "b": "Electrons behaving like waves",
+            "c": "The interaction between protons and neutrons",
+            "d": "Electrons radiating energy as they orbit"
+        },
+        "correctAnswer": "a",
+        "explanation": "In the Bohr model, electrons in fixed energy levels explained the stability of the atom.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which equation can be used to calculate the energy of a photon emitted by an electron in a hydrogen atom?",
+        "options": {
+            "a": "E=hf",
+            "b": "E=mc^2",
+            "c": "E=1/2mv^2",
+            "d": "E=qV"
+        },
+        "correctAnswer": "a",
+        "explanation": "The energy of a photon emitted by an electron in a hydrogen atom can be calculated using E=hf.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which of the following was an important feature of the Bohr model of the atom?",
+        "options": {
+            "a": "Electrons orbit the nucleus in specific, fixed energy levels",
+            "b": "Electrons radiate energy continuously as they orbit",
+            "c": "Electrons are distributed throughout the atom randomly",
+            "d": "The nucleus is composed only of neutrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "One key feature of the Bohr model is that electrons orbit the nucleus in specific, fixed energy levels.",
+        "module": "8.3"
+    },
+    {
+        "question": "What evidence supports de Broglie’s matter waves hypothesis?",
+        "options": {
+            "a": "The scattering of alpha particles in the gold foil experiment",
+            "b": "The diffraction patterns observed in electron experiments",
+            "c": "The emission spectra of hydrogen atoms",
+            "d": "The deflection of electrons in a cathode ray tube"
+        },
+        "correctAnswer": "b",
+        "explanation": "The diffraction patterns of electrons provided evidence supporting de Broglie’s hypothesis of matter waves.",
+        "module": "8.3"
+    },
+    {
+        "question": "According to Schrödinger’s atomic model, the position of an electron is best described as:",
+        "options": {
+            "a": "A fixed orbit around the nucleus",
+            "b": "A region of high probability in an electron cloud",
+            "c": "A continuous path around the nucleus",
+            "d": "A definite circular path with no variation"
+        },
+        "correctAnswer": "b",
+        "explanation": "Schrödinger’s model describes the position of an electron as a region of high probability, known as an electron cloud.",
+        "module": "8.3"
+    },
+    {
+        "question": "Which constant is involved in the equations E=hf and E=hc/λ?",
+        "options": {
+            "a": "Gravitational constant",
+            "b": "Planck’s constant",
+            "c": "Coulomb’s constant",
+            "d": "Rydberg constant"
+        },
+        "correctAnswer": "b",
+        "explanation": "Planck’s constant is involved in both E=hf and E=hc/λ, describing the energy of photons.",
+        "module": "8.3"
+    },
+    {
+        "question": "The quantised nature of electron energy levels helps to explain:",
+        "options": {
+            "a": "The line emission spectrum of hydrogen",
+            "b": "The motion of protons in the nucleus",
+            "c": "The scattering of electrons in a crystal",
+            "d": "The speed of electron orbits"
+        },
+        "correctAnswer": "a",
+        "explanation": "The quantised nature of electron energy levels helps explain the line emission spectrum of hydrogen.",
+        "module": "8.3"
+    },
+    {
+        "question": "The Bohr model could successfully explain:",
+        "options": {
+            "a": "The line spectra of hydrogen",
+            "b": "The mass of the electron",
+            "c": "The wave nature of electrons",
+            "d": "The interaction between protons and electrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Bohr model successfully explained the line spectra of hydrogen atoms.",
+        "module": "8.3"
+    },
+    {
+        "question": "Schrödinger’s wave equation is key to explaining:",
+        "options": {
+            "a": "The particle nature of electrons",
+            "b": "The dual wave-particle nature of electrons",
+            "c": "The existence of protons",
+            "d": "The circular orbits of electrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Schrödinger’s wave equation is crucial for explaining the dual wave-particle nature of electrons.",
+        "module": "8.3"
     }
 ]
+
 
 
 
