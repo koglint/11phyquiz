@@ -13830,8 +13830,609 @@
         "correctAnswer": "c",
         "explanation": "The photoelectric effect provided experimental evidence for light’s particle nature.",
         "module": "7.3"
+    },
+    {
+        "question": "Einstein's first postulate states that the speed of light in a vacuum is:",
+        "options": {
+            "a": "Dependent on the observer's motion",
+            "b": "An absolute constant",
+            "c": "Variable with different mediums",
+            "d": "The same as the speed of sound"
+        },
+        "correctAnswer": "b",
+        "explanation": "Einstein's first postulate states that the speed of light in a vacuum is the same for all observers, regardless of their motion.",
+        "module": "7.4"
+    },
+    {
+        "question": "The second postulate of special relativity asserts that:",
+        "options": {
+            "a": "The speed of light is relative to the observer",
+            "b": "All frames of reference are equivalent in non-inertial motion",
+            "c": "All inertial frames of reference are equivalent",
+            "d": "Time is absolute in all frames"
+        },
+        "correctAnswer": "c",
+        "explanation": "This is Einstein's second postulate, which asserts that the laws of physics are the same in all inertial frames.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which experiment provided evidence supporting Einstein’s postulates?",
+        "options": {
+            "a": "The Michelson-Morley experiment",
+            "b": "Rutherford’s gold foil experiment",
+            "c": "The photoelectric effect experiment",
+            "d": "The double-slit experiment"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Michelson-Morley experiment failed to detect the aether, supporting the idea that the speed of light is constant in all directions.",
+        "module": "7.4"
+    },
+    {
+        "question": "According to the theory of special relativity, time dilation occurs because:",
+        "options": {
+            "a": "Time speeds up for objects moving at high velocities",
+            "b": "Time slows down for objects moving at high velocities",
+            "c": "Time remains the same for all observers",
+            "d": "Time depends only on the mass of an object"
+        },
+        "correctAnswer": "b",
+        "explanation": "According to special relativity, time dilates or slows down as an object's speed approaches the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "The equation for time dilation is:",
+        "options": {
+            "a": "t = t0 / sqrt(1 - v^2/c^2)",
+            "b": "t = t0 sqrt(1 - v^2/c^2)",
+            "c": "t = t0 / sqrt(1 + v^2/c^2)",
+            "d": "t = t0 sqrt(1 + v^2/c^2)"
+        },
+        "correctAnswer": "a",
+        "explanation": "This is the correct formula for time dilation in special relativity.",
+        "module": "7.4"
+    },
+    {
+        "question": "Time dilation has been experimentally validated using:",
+        "options": {
+            "a": "Solar eclipses",
+            "b": "The Michelson-Morley experiment",
+            "c": "The Hafele–Keating experiment",
+            "d": "Compton scattering"
+        },
+        "correctAnswer": "c",
+        "explanation": "This experiment involved atomic clocks on airplanes, confirming time dilation by comparing them to clocks on the ground.",
+        "module": "7.4"
+    },
+    {
+        "question": "Length contraction occurs when an object:",
+        "options": {
+            "a": "Is observed from an accelerating reference frame",
+            "b": "Travels at a velocity near the speed of light",
+            "c": "Is placed in a strong gravitational field",
+            "d": "Is at rest relative to the observer"
+        },
+        "correctAnswer": "b",
+        "explanation": "Length contraction occurs when an object moves close to the speed of light relative to an observer.",
+        "module": "7.4"
+    },
+    {
+        "question": "The equation for length contraction is:",
+        "options": {
+            "a": "l = l0 / sqrt(1 - v^2/c^2)",
+            "b": "l = l0 sqrt(1 - v^2/c^2)",
+            "c": "l = l0 / sqrt(1 + v^2/c^2)",
+            "d": "l = l0 sqrt(1 + v^2/c^2)"
+        },
+        "correctAnswer": "a",
+        "explanation": "This is the formula for length contraction in special relativity.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which phenomenon provides evidence for time dilation?",
+        "options": {
+            "a": "The bending of light near a star",
+            "b": "The observation of muons reaching the Earth’s surface",
+            "c": "The expansion of space in cosmology",
+            "d": "The refraction of light in a medium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Muons live longer than expected due to time dilation, allowing them to reach the Earth's surface.",
+        "module": "7.4"
+    },
+    {
+        "question": "What does the Hafele–Keating experiment involve?",
+        "options": {
+            "a": "Measuring the speed of light in different directions",
+            "b": "Observing time dilation using atomic clocks on airplanes",
+            "c": "Comparing time on clocks at rest with those in motion",
+            "d": "Measuring gravitational time dilation near black holes"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Hafele–Keating experiment involved comparing clocks in motion to those at rest.",
+        "module": "7.4"
+    },
+    {
+        "question": "Cosmic muons observed at the Earth’s surface provide evidence for:",
+        "options": {
+            "a": "Length contraction",
+            "b": "Time dilation",
+            "c": "Gravitational waves",
+            "d": "Dark matter"
+        },
+        "correctAnswer": "b",
+        "explanation": "The detection of muons at the Earth's surface is evidence for time dilation because muons live longer than expected.",
+        "module": "7.4"
+    },
+    {
+        "question": "The relativistic momentum of a particle is given by:",
+        "options": {
+            "a": "p = mv",
+            "b": "p = mv / sqrt(1 - v^2/c^2)",
+            "c": "p = mv^2/c",
+            "d": "p = m sqrt(1 - v/c)"
+        },
+        "correctAnswer": "b",
+        "explanation": "This is the formula for relativistic momentum, which increases as the velocity approaches the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "Relativistic momentum becomes significant when:",
+        "options": {
+            "a": "An object’s velocity is much less than the speed of light",
+            "b": "An object’s velocity approaches the speed of light",
+            "c": "An object is moving in a gravitational field",
+            "d": "An object’s mass is close to zero"
+        },
+        "correctAnswer": "b",
+        "explanation": "Relativistic momentum becomes significant when objects move at velocities close to the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "According to special relativity, what is the maximum possible velocity for any particle?",
+        "options": {
+            "a": "The speed of sound",
+            "b": "The speed of light in a vacuum",
+            "c": "Twice the speed of light",
+            "d": "Infinite speed"
+        },
+        "correctAnswer": "b",
+        "explanation": "Special relativity states that the speed of light in a vacuum is the maximum possible velocity for any particle with mass.",
+        "module": "7.4"
+    },
+    {
+        "question": "Einstein’s mass-energy equivalence formula is:",
+        "options": {
+            "a": "E = mc^2",
+            "b": "E = mv^2",
+            "c": "E = mc^2",
+            "d": "E = 1/2 mv^2"
+        },
+        "correctAnswer": "a",
+        "explanation": "This is Einstein's famous mass-energy equivalence formula, relating mass to energy.",
+        "module": "7.4"
+    },
+    {
+        "question": "The equation E = mc^2 implies that:",
+        "options": {
+            "a": "Mass and energy are unrelated",
+            "b": "Mass can be converted into energy",
+            "c": "Energy and momentum are the same",
+            "d": "Energy can only be transferred through waves"
+        },
+        "correctAnswer": "b",
+        "explanation": "The equation E = mc^2 shows that mass can be converted into energy, such as in nuclear reactions.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which of the following is an application of Einstein’s mass-energy equivalence?",
+        "options": {
+            "a": "The formation of rainbows",
+            "b": "The production of energy in the sun",
+            "c": "The reflection of light from surfaces",
+            "d": "The polarisation of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "The sun's energy comes from nuclear fusion, where mass is converted into energy according to E = mc^2.",
+        "module": "7.4"
+    },
+    {
+        "question": "The energy produced by the sun is primarily due to:",
+        "options": {
+            "a": "Chemical reactions",
+            "b": "Gravitational forces",
+            "c": "Mass-energy conversion in nuclear fusion",
+            "d": "Electromagnetic forces"
+        },
+        "correctAnswer": "c",
+        "explanation": "The sun produces energy through nuclear fusion, converting mass into energy via Einstein’s equation.",
+        "module": "7.4"
+    },
+    {
+        "question": "In the context of special relativity, what happens to the mass of an object as its velocity approaches the speed of light?",
+        "options": {
+            "a": "The mass decreases",
+            "b": "The mass remains constant",
+            "c": "The mass increases",
+            "d": "The mass disappears"
+        },
+        "correctAnswer": "c",
+        "explanation": "As an object's velocity approaches the speed of light, its relativistic mass increases.",
+        "module": "7.4"
+    },
+    {
+        "question": "What is the primary evidence for relativistic effects in particle accelerators?",
+        "options": {
+            "a": "Particles at high speeds emit visible light",
+            "b": "Time dilation and length contraction are observed",
+            "c": "Particles exceed the speed of light",
+            "d": "The gravitational force increases"
+        },
+        "correctAnswer": "b",
+        "explanation": "In particle accelerators, particles moving at high speeds exhibit time dilation and length contraction.",
+        "module": "7.4"
+    },
+    {
+        "question": "The speed of light in a vacuum is approximately:",
+        "options": {
+            "a": "3.0×10^6 m/s",
+            "b": "3.0×10^8 m/s",
+            "c": "3.0×10^10 m/s",
+            "d": "3.0×10^12 m/s"
+        },
+        "correctAnswer": "b",
+        "explanation": "The speed of light in a vacuum is approximately 300,000,000 m/s (or 3.0×10^8 m/s).",
+        "module": "7.4"
+    },
+    {
+        "question": "The Michelson-Morley experiment was designed to detect:",
+        "options": {
+            "a": "Gravitational waves",
+            "b": "The luminiferous aether",
+            "c": "Cosmic microwave background radiation",
+            "d": "Electrons in atoms"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Michelson-Morley experiment attempted to detect the aether, but its failure supported the constancy of the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "Time dilation means that time passes:",
+        "options": {
+            "a": "Faster in all reference frames",
+            "b": "Slower for objects moving at high speeds",
+            "c": "The same for all observers",
+            "d": "Differently depending on an object's mass"
+        },
+        "correctAnswer": "b",
+        "explanation": "Time dilation means that time passes more slowly for objects moving at high velocities relative to a stationary observer.",
+        "module": "7.4"
+    },
+    {
+        "question": "What experimental evidence supports length contraction?",
+        "options": {
+            "a": "The bending of light around massive objects",
+            "b": "The detection of muons at the Earth’s surface",
+            "c": "The redshift of galaxies",
+            "d": "The photoelectric effect"
+        },
+        "correctAnswer": "b",
+        "explanation": "Length contraction is observed in cosmic muons, allowing them to travel further than expected.",
+        "module": "7.4"
+    },
+    {
+        "question": "Relativistic effects are most significant for objects:",
+        "options": {
+            "a": "Moving at velocities much less than the speed of light",
+            "b": "Moving at velocities close to the speed of light",
+            "c": "At rest relative to each other",
+            "d": "In gravitational fields"
+        },
+        "correctAnswer": "b",
+        "explanation": "Relativistic effects become significant as objects approach the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which of the following best describes relativistic momentum?",
+        "options": {
+            "a": "It is the same as classical momentum for all objects",
+            "b": "It increases dramatically as the velocity of an object approaches the speed of light",
+            "c": "It decreases as an object's velocity approaches the speed of light",
+            "d": "It is independent of the object's velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "Relativistic momentum increases without limit as an object's velocity nears the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "In the Hafele–Keating experiment, time dilation was observed by:",
+        "options": {
+            "a": "Sending light through two different media",
+            "b": "Comparing atomic clocks on airplanes with those on the ground",
+            "c": "Measuring the decay of radioactive particles",
+            "d": "Timing the oscillations of a pendulum in space"
+        },
+        "correctAnswer": "b",
+        "explanation": "This experiment showed that time dilates for moving clocks compared to stationary ones.",
+        "module": "7.4"
+    },
+    {
+        "question": "The equation t = t0 / sqrt(1 - v^2/c^2) describes:",
+        "options": {
+            "a": "Length contraction",
+            "b": "Time dilation",
+            "c": "Mass increase",
+            "d": "Relativistic momentum"
+        },
+        "correctAnswer": "b",
+        "explanation": "The equation describes time dilation, where time slows down at high velocities.",
+        "module": "7.4"
+    },
+    {
+        "question": "The Hafele–Keating experiment confirmed that:",
+        "options": {
+            "a": "Time slows down for objects in motion",
+            "b": "Length contracts for objects in motion",
+            "c": "Light always travels faster than sound",
+            "d": "Mass decreases as velocity increases"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Hafele–Keating experiment confirmed that time dilation occurs for objects in motion.",
+        "module": "7.4"
+    },
+    {
+        "question": "What happens to the relativistic momentum of an object as its velocity approaches the speed of light?",
+        "options": {
+            "a": "It increases without bound",
+            "b": "It decreases",
+            "c": "It remains constant",
+            "d": "It approaches zero"
+        },
+        "correctAnswer": "a",
+        "explanation": "As the velocity of an object approaches the speed of light, its momentum increases infinitely.",
+        "module": "7.4"
+    },
+    {
+        "question": "According to special relativity, the length of an object moving at high speeds:",
+        "options": {
+            "a": "Increases",
+            "b": "Decreases",
+            "c": "Remains constant",
+            "d": "Depends on the observer's speed"
+        },
+        "correctAnswer": "b",
+        "explanation": "Length contraction means that an object moving at high speeds appears shorter in the direction of motion.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which of the following correctly describes the phenomenon of length contraction?",
+        "options": {
+            "a": "An object moving at a high velocity will appear longer in the direction of motion",
+            "b": "An object moving at a high velocity will appear shorter in the direction of motion",
+            "c": "Length contraction only occurs at rest",
+            "d": "Length contraction increases with speed"
+        },
+        "correctAnswer": "b",
+        "explanation": "This is the phenomenon of length contraction.",
+        "module": "7.4"
+    },
+    {
+        "question": "The equation p = mv / sqrt(1 - v^2/c^2) is used to calculate:",
+        "options": {
+            "a": "The classical momentum of an object",
+            "b": "The relativistic momentum of an object",
+            "c": "The energy of a photon",
+            "d": "The mass of a particle"
+        },
+        "correctAnswer": "b",
+        "explanation": "This equation is used to calculate the momentum of an object moving at relativistic speeds.",
+        "module": "7.4"
+    },
+    {
+        "question": "What is the speed of light in a vacuum?",
+        "options": {
+            "a": "150,000 m/s",
+            "b": "300,000 km/s",
+            "c": "450,000 km/s",
+            "d": "600,000 km/s"
+        },
+        "correctAnswer": "b",
+        "explanation": "The speed of light in a vacuum is approximately 300,000 km/s (or 300,000,000 m/s).",
+        "module": "7.4"
+    },
+    {
+        "question": "How was time dilation measured in the Hafele-Keating experiment?",
+        "options": {
+            "a": "Using light clocks in a laboratory",
+            "b": "Measuring time differences on atomic clocks flown on airplanes",
+            "c": "Observing the decay rates of particles",
+            "d": "Measuring the gravitational time dilation near Earth"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Hafele-Keating experiment used atomic clocks on airplanes to measure time dilation.",
+        "module": "7.4"
+    },
+    {
+        "question": "The equation for relativistic momentum is:",
+        "options": {
+            "a": "p = mv",
+            "b": "p = mv / sqrt(1 - v^2/c^2)",
+            "c": "p = m + v/c^2",
+            "d": "p = mc^2 / v"
+        },
+        "correctAnswer": "b",
+        "explanation": "This is the formula for relativistic momentum, which applies to objects moving at high velocities.",
+        "module": "7.4"
+    },
+    {
+        "question": "Time dilation is observed in particle accelerators because:",
+        "options": {
+            "a": "Particles moving near the speed of light experience slower internal processes",
+            "b": "Particles move in a circular path",
+            "c": "Gravitational forces are stronger",
+            "d": "Electrons move with wave-like properties"
+        },
+        "correctAnswer": "a",
+        "explanation": "In particle accelerators, fast-moving particles undergo time dilation.",
+        "module": "7.4"
+    },
+    {
+        "question": "The bending of light near massive objects, like stars, is due to:",
+        "options": {
+            "a": "The wave properties of light",
+            "b": "The relativistic momentum of particles",
+            "c": "The curvature of space-time",
+            "d": "Quantum mechanics"
+        },
+        "correctAnswer": "c",
+        "explanation": "The bending of light near massive objects is caused by the warping of space-time, as predicted by general relativity.",
+        "module": "7.4"
+    },
+    {
+        "question": "Einstein’s special relativity affects the way we view time and space by suggesting:",
+        "options": {
+            "a": "Space is flat and unchanging",
+            "b": "Time and space are absolute",
+            "c": "Time and space are relative to the observer's motion",
+            "d": "Light can move slower than c in some cases"
+        },
+        "correctAnswer": "c",
+        "explanation": "Special relativity shows that time and space are not absolute but depend on the observer's motion.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which principle explains why muons created in the upper atmosphere reach the Earth’s surface?",
+        "options": {
+            "a": "Gravitational lensing",
+            "b": "Time dilation",
+            "c": "Quantum tunnelling",
+            "d": "Polarisation of light"
+        },
+        "correctAnswer": "b",
+        "explanation": "Muons experience time dilation, allowing them to survive long enough to reach the Earth’s surface.",
+        "module": "7.4"
+    },
+    {
+        "question": "How is the energy released by the sun related to special relativity?",
+        "options": {
+            "a": "The sun converts gravitational energy into light",
+            "b": "The sun’s energy comes from chemical reactions",
+            "c": "The sun converts mass into energy via E = mc^2",
+            "d": "The sun’s light is slowed down due to its mass"
+        },
+        "correctAnswer": "c",
+        "explanation": "The sun produces energy by converting mass into energy through nuclear fusion.",
+        "module": "7.4"
+    },
+    {
+        "question": "According to the theory of special relativity, as an object's speed increases, what happens to its energy?",
+        "options": {
+            "a": "Its energy decreases",
+            "b": "Its energy remains constant",
+            "c": "Its energy increases infinitely as it approaches the speed of light",
+            "d": "Its energy becomes zero at maximum speed"
+        },
+        "correctAnswer": "c",
+        "explanation": "As an object's speed increases toward the speed of light, its energy also increases dramatically.",
+        "module": "7.4"
+    },
+    {
+        "question": "What does E = mc^2 suggest about matter and energy?",
+        "options": {
+            "a": "Energy and matter are interchangeable",
+            "b": "Matter is more fundamental than energy",
+            "c": "Energy is created by matter",
+            "d": "Energy and matter are unrelated"
+        },
+        "correctAnswer": "a",
+        "explanation": "Einstein's equation E = mc^2 shows that energy and matter can be converted into one another.",
+        "module": "7.4"
+    },
+    {
+        "question": "What is the speed of light a fundamental limit for?",
+        "options": {
+            "a": "Gravitational fields",
+            "b": "The speed of all objects with mass",
+            "c": "Energy transfer between particles",
+            "d": "Electromagnetic waves only"
+        },
+        "correctAnswer": "b",
+        "explanation": "Special relativity limits the speed of objects with mass to less than the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "What happens to the wavelength of light when it is redshifted in an expanding universe?",
+        "options": {
+            "a": "It increases",
+            "b": "It decreases",
+            "c": "It stays the same",
+            "d": "It fluctuates depending on speed"
+        },
+        "correctAnswer": "a",
+        "explanation": "Redshift occurs when light's wavelength increases as the universe expands, stretching the light.",
+        "module": "7.4"
+    },
+    {
+        "question": "Which of the following is evidence for time dilation in cosmology?",
+        "options": {
+            "a": "The blue shift of galaxies",
+            "b": "The gravitational lensing of light from stars",
+            "c": "The redshift observed in distant galaxies",
+            "d": "The diffraction of starlight"
+        },
+        "correctAnswer": "c",
+        "explanation": "The redshift of galaxies provides evidence for time dilation as space expands.",
+        "module": "7.4"
+    },
+    {
+        "question": "Length contraction is most noticeable for objects moving at:",
+        "options": {
+            "a": "Everyday speeds",
+            "b": "Near the speed of light",
+            "c": "The speed of sound",
+            "d": "The speed of sound in a medium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Length contraction is most noticeable for objects moving at speeds close to the speed of light.",
+        "module": "7.4"
+    },
+    {
+        "question": "What practical technology relies on corrections for time dilation?",
+        "options": {
+            "a": "Fibre optic communication",
+            "b": "GPS satellite systems",
+            "c": "Microwave ovens",
+            "d": "Radio telescopes"
+        },
+        "correctAnswer": "b",
+        "explanation": "GPS satellites experience time dilation due to their high speeds and must correct for these effects.",
+        "module": "7.4"
+    },
+    {
+        "question": "The cosmic microwave background radiation is related to special relativity because:",
+        "options": {
+            "a": "It moves slower than visible light",
+            "b": "It shows the curvature of space-time",
+            "c": "It travels at the speed of light and interacts with time and space",
+            "d": "It contains the energy of dark matter"
+        },
+        "correctAnswer": "c",
+        "explanation": "The cosmic microwave background radiation moves at the speed of light, influenced by relativistic effects.",
+        "module": "7.4"
+    },
+    {
+        "question": "Relativistic effects must be considered when calculating:",
+        "options": {
+            "a": "The velocity of slow-moving objects",
+            "b": "The momentum of objects moving at relativistic speeds",
+            "c": "The behaviour of water waves",
+            "d": "The motion of light in a vacuum"
+        },
+        "correctAnswer": "b",
+        "explanation": "Relativistic effects must be considered when calculating the momentum of objects moving near the speed of light.",
+        "module": "7.4"
     }
 ]
+
 
 
 
