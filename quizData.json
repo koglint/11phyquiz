@@ -15031,8 +15031,610 @@
         "correctAnswer": "b",
         "explanation": "The cosmic microwave background radiation is a remnant of the Big Bang and provides important evidence for the early stages of the universe, including the formation of the first elements.",
         "module": "8.1"
+    },
+
+    {
+        "question": "What evidence led to the conclusion that cathode rays are made of negatively charged particles?",
+        "options": {
+            "a": "Cathode rays deflect toward a positively charged plate",
+            "b": "Cathode rays produce a glow when striking a surface",
+            "c": "Cathode rays move in straight lines in a vacuum",
+            "d": "Cathode rays are unaffected by electric fields"
+        },
+        "correctAnswer": "a",
+        "explanation": "Cathode rays deflect toward a positively charged plate, showing that they are negatively charged particles.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which of the following experiments provided the first measurement of the charge-to-mass ratio of the electron?",
+        "options": {
+            "a": "Millikan’s oil drop experiment",
+            "b": "Geiger-Marsden experiment",
+            "c": "Thomson’s cathode ray tube experiment",
+            "d": "Rutherford’s gold foil experiment"
+        },
+        "correctAnswer": "c",
+        "explanation": "Thomson’s cathode ray tube experiment provided the first measurement of the electron’s charge-to-mass ratio.",
+        "module": "8.2"
+    },
+    {
+        "question": "The charge-to-mass ratio of the electron was calculated using:",
+        "options": {
+            "a": "The deflection of cathode rays in an electric and magnetic field",
+            "b": "The impact of cathode rays on photographic plates",
+            "c": "The movement of electrons in a hydrogen atom",
+            "d": "The absorption of X-rays by electrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "The deflection of cathode rays in electric and magnetic fields allowed Thomson to calculate the charge-to-mass ratio of the electron.",
+        "module": "8.2"
+    },
+    {
+        "question": "In Millikan’s oil drop experiment, what force was balanced by the electric field to measure the charge of an electron?",
+        "options": {
+            "a": "Gravitational force",
+            "b": "Magnetic force",
+            "c": "Nuclear force",
+            "d": "Electromagnetic force"
+        },
+        "correctAnswer": "a",
+        "explanation": "Millikan balanced gravitational force with the electric force to measure the charge on individual oil droplets, determining the electron’s charge.",
+        "module": "8.2"
+    },
+    {
+        "question": "What did Millikan’s oil drop experiment demonstrate?",
+        "options": {
+            "a": "The quantisation of electric charge",
+            "b": "The existence of cathode rays",
+            "c": "The structure of the atom",
+            "d": "The presence of protons in the nucleus"
+        },
+        "correctAnswer": "a",
+        "explanation": "Millikan’s oil drop experiment demonstrated the quantisation of electric charge, confirming that charge comes in discrete amounts.",
+        "module": "8.2"
+    },
+    {
+        "question": "Thomson’s charge-to-mass experiment helped demonstrate that:",
+        "options": {
+            "a": "Electrons are larger than protons",
+            "b": "Electrons have a much smaller mass than protons",
+            "c": "Electrons are neutral particles",
+            "d": "Electrons are located in the nucleus"
+        },
+        "correctAnswer": "b",
+        "explanation": "Thomson’s experiment showed that electrons have a much smaller mass than protons, establishing their charge-to-mass ratio.",
+        "module": "8.2"
+    },
+    {
+        "question": "The Geiger-Marsden experiment involved:",
+        "options": {
+            "a": "Deflecting alpha particles through a thin sheet of gold",
+            "b": "Deflecting electrons in an electric field",
+            "c": "Measuring the charge of oil droplets",
+            "d": "Calculating the energy of neutrons in a reaction"
+        },
+        "correctAnswer": "a",
+        "explanation": "In the Geiger-Marsden experiment, alpha particles were deflected when passed through a thin sheet of gold, leading to the nuclear model of the atom.",
+        "module": "8.2"
+    },
+    {
+        "question": "What conclusion did Rutherford draw from the results of the Geiger-Marsden experiment?",
+        "options": {
+            "a": "Most of the atom’s mass is concentrated in the nucleus",
+            "b": "Atoms are indivisible particles",
+            "c": "Electrons orbit the nucleus in fixed orbits",
+            "d": "Protons and neutrons are evenly distributed throughout the atom"
+        },
+        "correctAnswer": "a",
+        "explanation": "Rutherford concluded that the atom’s mass is concentrated in a small, dense nucleus after observing alpha particle deflection.",
+        "module": "8.2"
+    },
+    {
+        "question": "The Geiger-Marsden experiment showed that most alpha particles:",
+        "options": {
+            "a": "Passed through the gold foil without deflection",
+            "b": "Were deflected at large angles",
+            "c": "Were absorbed by the gold foil",
+            "d": "Were scattered in all directions"
+        },
+        "correctAnswer": "a",
+        "explanation": "Most alpha particles passed through the gold foil without deflection, suggesting that most of the atom is empty space.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was the most surprising result of the Geiger-Marsden experiment?",
+        "options": {
+            "a": "Some alpha particles were deflected at very large angles",
+            "b": "All alpha particles passed straight through the gold foil",
+            "c": "Most alpha particles were absorbed by the gold foil",
+            "d": "The gold foil emitted X-rays during the experiment"
+        },
+        "correctAnswer": "a",
+        "explanation": "Some alpha particles were deflected at large angles, indicating the presence of a dense, positively charged nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "Rutherford's model of the atom proposed that:",
+        "options": {
+            "a": "Electrons are embedded in a positively charged 'pudding'",
+            "b": "The atom has a small, dense nucleus surrounded by electrons",
+            "c": "Electrons move in fixed orbits around the nucleus",
+            "d": "Protons and neutrons orbit the nucleus"
+        },
+        "correctAnswer": "b",
+        "explanation": "Rutherford's model proposed that the atom has a small, dense nucleus surrounded by electrons in mostly empty space.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was one limitation of Rutherford’s atomic model?",
+        "options": {
+            "a": "It could not explain why atoms are electrically neutral",
+            "b": "It could not explain the stability of electron orbits",
+            "c": "It did not include the existence of neutrons",
+            "d": "It assumed that electrons had no mass"
+        },
+        "correctAnswer": "b",
+        "explanation": "Rutherford's model did not explain why electrons in orbit around the nucleus do not collapse into the nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was discovered through Chadwick’s experiment?",
+        "options": {
+            "a": "The proton",
+            "b": "The electron",
+            "c": "The neutron",
+            "d": "The photon"
+        },
+        "correctAnswer": "c",
+        "explanation": "Chadwick’s experiment led to the discovery of the neutron, a neutral particle in the nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "Chadwick’s discovery of the neutron helped explain:",
+        "options": {
+            "a": "The charge of the nucleus",
+            "b": "The mass of the atom",
+            "c": "The movement of electrons around the nucleus",
+            "d": "The structure of the electron cloud"
+        },
+        "correctAnswer": "b",
+        "explanation": "Chadwick’s discovery of the neutron helped explain the mass of the atom, as neutrons contribute to atomic mass without adding charge.",
+        "module": "8.2"
+    },
+    {
+        "question": "What evidence did Chadwick use to demonstrate the existence of the neutron?",
+        "options": {
+            "a": "The scattering of alpha particles by beryllium",
+            "b": "The deflection of cathode rays in electric fields",
+            "c": "The movement of oil droplets in an electric field",
+            "d": "The absorption of X-rays by metals"
+        },
+        "correctAnswer": "a",
+        "explanation": "Chadwick’s neutron discovery was based on the scattering of alpha particles by beryllium, which emitted neutral particles.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was the key difference between Thomson's model of the atom and Rutherford's model?",
+        "options": {
+            "a": "Rutherford’s model included neutrons in the nucleus",
+            "b": "Thomson's model involved a solid atom, while Rutherford's model involved a mostly empty space",
+            "c": "Thomson's model placed protons in the nucleus",
+            "d": "Rutherford’s model included electrons orbiting the nucleus"
+        },
+        "correctAnswer": "b",
+        "explanation": "Thomson’s model proposed a solid atom (plum pudding), while Rutherford’s model proposed that atoms are mostly empty space with a dense nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "How did the results of the Geiger-Marsden experiment challenge Thomson’s plum pudding model of the atom?",
+        "options": {
+            "a": "They showed that most of the atom is empty space",
+            "b": "They demonstrated that the atom is indivisible",
+            "c": "They proved that electrons are neutral particles",
+            "d": "They indicated that protons and electrons are equally distributed"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Geiger-Marsden experiment showed that most of the atom is empty space, contradicting the solid atom proposed by Thomson’s plum pudding model.",
+        "module": "8.2"
+    },
+    {
+        "question": "What did Thomson’s plum pudding model propose?",
+        "options": {
+            "a": "Atoms are made of a dense nucleus with orbiting electrons",
+            "b": "Atoms are made of electrons scattered throughout a positive 'pudding'",
+            "c": "Electrons are located in fixed energy levels",
+            "d": "Neutrons are located in the nucleus with protons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Thomson’s plum pudding model proposed that electrons are scattered throughout a positively charged 'pudding.'",
+        "module": "8.2"
+    },
+    {
+        "question": "The charge of an electron was determined using:",
+        "options": {
+            "a": "Rutherford’s gold foil experiment",
+            "b": "Thomson’s cathode ray experiment",
+            "c": "Millikan’s oil drop experiment",
+            "d": "Geiger-Marsden experiment"
+        },
+        "correctAnswer": "c",
+        "explanation": "Millikan’s oil drop experiment was used to determine the charge of the electron by balancing gravitational and electric forces on oil droplets.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was the main result of Millikan’s oil drop experiment?",
+        "options": {
+            "a": "The electron has a negative charge",
+            "b": "The mass of the proton is larger than the mass of the electron",
+            "c": "The charge of the electron is quantised",
+            "d": "Electrons move in fixed orbits around the nucleus"
+        },
+        "correctAnswer": "c",
+        "explanation": "Millikan’s oil drop experiment showed that the charge of the electron is quantised, with each electron having the same charge.",
+        "module": "8.2"
+    },
+    {
+        "question": "What is the purpose of Rutherford's gold foil experiment?",
+        "options": {
+            "a": "To measure the mass of the electron",
+            "b": "To discover the proton",
+            "c": "To investigate the structure of the atom",
+            "d": "To calculate the speed of alpha particles"
+        },
+        "correctAnswer": "c",
+        "explanation": "Rutherford’s gold foil experiment was conducted to investigate the structure of the atom, leading to the discovery of the nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "In Rutherford's gold foil experiment, most alpha particles:",
+        "options": {
+            "a": "Were absorbed by the gold foil",
+            "b": "Passed straight through the foil",
+            "c": "Deflected at 90 degrees",
+            "d": "Converted into neutrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "Most alpha particles passed straight through the foil, suggesting that atoms are mostly empty space.",
+        "module": "8.2"
+    },
+    {
+        "question": "What conclusion did Rutherford make based on the deflection of alpha particles?",
+        "options": {
+            "a": "Atoms are mostly empty space",
+            "b": "Atoms are solid spheres",
+            "c": "Electrons are in the nucleus",
+            "d": "Neutrons are negatively charged particles"
+        },
+        "correctAnswer": "a",
+        "explanation": "The deflection of alpha particles led Rutherford to conclude that atoms are mostly empty space with a dense nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which scientist is credited with the discovery of the electron?",
+        "options": {
+            "a": "Ernest Rutherford",
+            "b": "J.J. Thomson",
+            "c": "James Chadwick",
+            "d": "Niels Bohr"
+        },
+        "correctAnswer": "b",
+        "explanation": "J.J. Thomson is credited with the discovery of the electron through his cathode ray tube experiment.",
+        "module": "8.2"
+    },
+    {
+        "question": "The purpose of the cathode ray tube experiment was to:",
+        "options": {
+            "a": "Study the behaviour of protons",
+            "b": "Discover the existence of neutrons",
+            "c": "Investigate the properties of electrons",
+            "d": "Understand the behaviour of alpha particles"
+        },
+        "correctAnswer": "c",
+        "explanation": "The cathode ray tube experiment was used to investigate the properties of electrons, leading to their discovery.",
+        "module": "8.2"
+    },
+    {
+        "question": "How did the discovery of the neutron improve the understanding of atomic structure?",
+        "options": {
+            "a": "It explained the source of the atom’s positive charge",
+            "b": "It accounted for the mass of the nucleus without adding charge",
+            "c": "It showed that electrons are heavier than protons",
+            "d": "It proved that electrons are located in the nucleus"
+        },
+        "correctAnswer": "b",
+        "explanation": "The discovery of the neutron explained the mass of the nucleus without adding charge, as neutrons are neutral particles.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which of the following experiments demonstrated that electrons have a small mass compared to protons?",
+        "options": {
+            "a": "Millikan’s oil drop experiment",
+            "b": "Thomson’s charge-to-mass experiment",
+            "c": "Geiger-Marsden experiment",
+            "d": "Chadwick’s neutron discovery"
+        },
+        "correctAnswer": "b",
+        "explanation": "Thomson’s charge-to-mass experiment demonstrated that electrons have a much smaller mass compared to protons.",
+        "module": "8.2"
+    },
+    {
+        "question": "In the context of atomic models, what did Thomson’s plum pudding model suggest?",
+        "options": {
+            "a": "Atoms are mostly empty space",
+            "b": "Atoms have a small, dense nucleus",
+            "c": "Electrons are embedded in a positively charged substance",
+            "d": "Electrons orbit the nucleus like planets around the sun"
+        },
+        "correctAnswer": "c",
+        "explanation": "Thomson’s plum pudding model suggested that electrons are embedded in a positively charged substance.",
+        "module": "8.2"
+    },
+    {
+        "question": "What key feature did Rutherford’s atomic model introduce?",
+        "options": {
+            "a": "The idea that atoms are indivisible",
+            "b": "The concept of a small, dense, positively charged nucleus",
+            "c": "Electrons are located inside the nucleus",
+            "d": "The idea that atoms are made up of protons and neutrons only"
+        },
+        "correctAnswer": "b",
+        "explanation": "Rutherford’s atomic model introduced the concept of a small, dense, positively charged nucleus surrounded by electrons.",
+        "module": "8.2"
+    },
+    {
+        "question": "What evidence supported Chadwick’s discovery of the neutron?",
+        "options": {
+            "a": "The deflection of alpha particles in a gold foil experiment",
+            "b": "The scattering of alpha particles by beryllium",
+            "c": "The deflection of cathode rays in electric fields",
+            "d": "The movement of oil droplets in an electric field"
+        },
+        "correctAnswer": "b",
+        "explanation": "Chadwick’s discovery of the neutron was supported by the scattering of alpha particles by beryllium, which emitted neutral particles.",
+        "module": "8.2"
+    },
+    {
+        "question": "How did the discovery of the electron challenge the classical view of the atom?",
+        "options": {
+            "a": "It showed that atoms were not indivisible",
+            "b": "It proved that atoms were electrically neutral",
+            "c": "It demonstrated that atoms were solid spheres",
+            "d": "It confirmed that neutrons carry no charge"
+        },
+        "correctAnswer": "a",
+        "explanation": "The discovery of the electron showed that atoms are not indivisible, challenging the classical view of the atom.",
+        "module": "8.2"
+    },
+    {
+        "question": "How did Rutherford’s gold foil experiment disprove Thomson’s plum pudding model?",
+        "options": {
+            "a": "It showed that atoms have a dense nucleus",
+            "b": "It demonstrated that electrons are in fixed energy levels",
+            "c": "It proved that neutrons exist in the nucleus",
+            "d": "It revealed that protons and neutrons are evenly distributed in the atom"
+        },
+        "correctAnswer": "a",
+        "explanation": "Rutherford’s gold foil experiment showed that atoms have a dense nucleus, disproving Thomson’s plum pudding model.",
+        "module": "8.2"
+    },
+    {
+        "question": "What type of particle was used in Rutherford's gold foil experiment?",
+        "options": {
+            "a": "Beta particles",
+            "b": "Neutrons",
+            "c": "Alpha particles",
+            "d": "Electrons"
+        },
+        "correctAnswer": "c",
+        "explanation": "Alpha particles were used in Rutherford’s gold foil experiment to probe the structure of the atom.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was surprising about the results of Rutherford’s gold foil experiment?",
+        "options": {
+            "a": "Most alpha particles passed through the gold foil",
+            "b": "All alpha particles were absorbed by the gold foil",
+            "c": "No alpha particles were deflected",
+            "d": "Alpha particles formed a continuous spectrum"
+        },
+        "correctAnswer": "a",
+        "explanation": "The surprising result was that most alpha particles passed through the foil, showing that atoms are mostly empty space.",
+        "module": "8.2"
+    },
+    {
+        "question": "What is the primary difference between Rutherford’s atomic model and Thomson’s model?",
+        "options": {
+            "a": "Rutherford’s model placed protons in fixed orbits",
+            "b": "Thomson’s model involved neutrons",
+            "c": "Rutherford’s model included a dense nucleus",
+            "d": "Thomson’s model included a dense nucleus"
+        },
+        "correctAnswer": "c",
+        "explanation": "Rutherford’s model included a dense nucleus, which was absent in Thomson’s plum pudding model.",
+        "module": "8.2"
+    },
+    {
+        "question": "What property of the electron was discovered using Thomson's cathode ray tube experiment?",
+        "options": {
+            "a": "Its position in the nucleus",
+            "b": "Its charge-to-mass ratio",
+            "c": "Its movement in a magnetic field",
+            "d": "Its wavelength"
+        },
+        "correctAnswer": "b",
+        "explanation": "Thomson's cathode ray tube experiment discovered the charge-to-mass ratio of the electron.",
+        "module": "8.2"
+    },
+    {
+        "question": "What was the purpose of the Millikan oil drop experiment?",
+        "options": {
+            "a": "To determine the charge of an electron",
+            "b": "To measure the size of an atom",
+            "c": "To discover the proton",
+            "d": "To calculate the speed of alpha particles"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Millikan oil drop experiment was conducted to determine the charge of an electron.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which of the following statements is true about the neutron?",
+        "options": {
+            "a": "It has the same mass as the electron",
+            "b": "It carries a positive charge",
+            "c": "It has no electric charge",
+            "d": "It is smaller than the electron"
+        },
+        "correctAnswer": "c",
+        "explanation": "The neutron has no electric charge, distinguishing it from protons and electrons.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which experiment provided the first evidence that the atom is mostly empty space?",
+        "options": {
+            "a": "Geiger-Marsden experiment",
+            "b": "Millikan oil drop experiment",
+            "c": "Thomson’s cathode ray experiment",
+            "d": "Chadwick’s neutron discovery"
+        },
+        "correctAnswer": "a",
+        "explanation": "The Geiger-Marsden experiment provided the first evidence that the atom is mostly empty space.",
+        "module": "8.2"
+    },
+    {
+        "question": "What did Rutherford conclude from the fact that some alpha particles were deflected backward in the gold foil experiment?",
+        "options": {
+            "a": "The atom is solid",
+            "b": "The atom contains a small, dense, positively charged nucleus",
+            "c": "The atom contains neutrons",
+            "d": "Electrons orbit the nucleus in fixed paths"
+        },
+        "correctAnswer": "b",
+        "explanation": "Rutherford concluded that atoms contain a small, dense, positively charged nucleus based on the deflection of alpha particles.",
+        "module": "8.2"
+    },
+    {
+        "question": "What is the charge of a neutron?",
+        "options": {
+            "a": "Positive",
+            "b": "Negative",
+            "c": "Neutral",
+            "d": "Varies depending on the element"
+        },
+        "correctAnswer": "c",
+        "explanation": "Neutrons are neutral, meaning they have no electric charge.",
+        "module": "8.2"
+    },
+    {
+        "question": "In Rutherford’s model of the atom, what occupies most of the space in the atom?",
+        "options": {
+            "a": "The nucleus",
+            "b": "Protons",
+            "c": "Empty space",
+            "d": "Neutrons"
+        },
+        "correctAnswer": "c",
+        "explanation": "In Rutherford’s model, most of the space in an atom is empty space, with electrons orbiting a dense nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "How did Millikan's oil drop experiment contribute to the understanding of atomic structure?",
+        "options": {
+            "a": "It confirmed the mass of the proton",
+            "b": "It measured the charge of the electron",
+            "c": "It discovered the neutron",
+            "d": "It demonstrated the existence of alpha particles"
+        },
+        "correctAnswer": "b",
+        "explanation": "Millikan's oil drop experiment measured the charge of the electron.",
+        "module": "8.2"
+    },
+    {
+        "question": "The discovery of the neutron helped explain:",
+        "options": {
+            "a": "The missing mass of the atom",
+            "b": "The existence of cathode rays",
+            "c": "The charge of the nucleus",
+            "d": "The energy levels of electrons"
+        },
+        "correctAnswer": "a",
+        "explanation": "The discovery of the neutron helped explain the missing mass of the atom that had not been accounted for by protons and electrons alone.",
+        "module": "8.2"
+    },
+    {
+        "question": "What observation from the Geiger-Marsden experiment disproved the plum pudding model of the atom?",
+        "options": {
+            "a": "Most alpha particles passed straight through the gold foil",
+            "b": "Some alpha particles were deflected at large angles",
+            "c": "Alpha particles were emitted by the gold foil",
+            "d": "Cathode rays were detected"
+        },
+        "correctAnswer": "b",
+        "explanation": "The deflection of some alpha particles at large angles disproved the plum pudding model, indicating the presence of a dense nucleus.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which of the following is NOT part of Rutherford’s atomic model?",
+        "options": {
+            "a": "A dense nucleus",
+            "b": "Electrons orbiting the nucleus",
+            "c": "Electrons embedded in a positive 'pudding'",
+            "d": "Most of the atom is empty space"
+        },
+        "correctAnswer": "c",
+        "explanation": "Rutherford’s atomic model did not include electrons embedded in a positive 'pudding'; that was part of Thomson’s model.",
+        "module": "8.2"
+    },
+    {
+        "question": "What is the significance of the discovery of the electron in terms of atomic structure?",
+        "options": {
+            "a": "It proved that atoms were solid spheres",
+            "b": "It showed that atoms have subatomic particles",
+            "c": "It demonstrated that atoms were indivisible",
+            "d": "It confirmed the existence of neutrons"
+        },
+        "correctAnswer": "b",
+        "explanation": "The discovery of the electron showed that atoms have subatomic particles, changing the understanding of atomic structure.",
+        "module": "8.2"
+    },
+    {
+        "question": "How did Rutherford’s gold foil experiment lead to the development of a new atomic model?",
+        "options": {
+            "a": "It provided evidence for the existence of protons",
+            "b": "It demonstrated that atoms have a dense nucleus surrounded by empty space",
+            "c": "It confirmed that atoms are indivisible",
+            "d": "It showed that electrons orbit the nucleus in fixed paths"
+        },
+        "correctAnswer": "b",
+        "explanation": "Rutherford’s gold foil experiment provided evidence that atoms have a dense nucleus surrounded by empty space.",
+        "module": "8.2"
+    },
+    {
+        "question": "What did Chadwick’s discovery of the neutron help explain?",
+        "options": {
+            "a": "The missing mass of the atom",
+            "b": "The existence of cathode rays",
+            "c": "The charge of the electron",
+            "d": "The stability of electron orbits"
+        },
+        "correctAnswer": "a",
+        "explanation": "Chadwick’s discovery of the neutron helped explain the missing mass of the atom.",
+        "module": "8.2"
+    },
+    {
+        "question": "Which of the following was a key feature of Thomson’s atomic model?",
+        "options": {
+            "a": "The atom contains a small, dense nucleus",
+            "b": "Electrons are scattered throughout a positively charged substance",
+            "c": "Electrons orbit the nucleus in fixed paths",
+            "d": "Neutrons carry a negative charge"
+        },
+        "correctAnswer": "b",
+        "explanation": "Thomson’s atomic model suggested that electrons are scattered throughout a positively charged substance.",
+        "module": "8.2"
     }
 ]
+
 
 
 
