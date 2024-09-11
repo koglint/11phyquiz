@@ -14430,8 +14430,610 @@
         "correctAnswer": "b",
         "explanation": "Relativistic effects must be considered when calculating the momentum of objects moving near the speed of light.",
         "module": "7.4"
+    },
+
+    {
+        "question": "The process that transformed radiation into matter after the Big Bang is called:",
+        "options": {
+            "a": "Fusion",
+            "b": "Nucleosynthesis",
+            "c": "Matter-radiation decoupling",
+            "d": "Stellar evolution"
+        },
+        "correctAnswer": "b",
+        "explanation": "Nucleosynthesis refers to the formation of new atomic nuclei, transforming radiation into matter after the Big Bang.",
+        "module": "8.1"
+    },
+    {
+        "question": "What evidence supports the discovery of the expansion of the universe by Edwin Hubble?",
+        "options": {
+            "a": "The redshift of light from distant galaxies",
+            "b": "The detection of cosmic microwave background radiation",
+            "c": "The observation of black hole mergers",
+            "d": "The bending of light around massive objects"
+        },
+        "correctAnswer": "a",
+        "explanation": "Hubble's observation of redshift in distant galaxies' light provided evidence that the universe is expanding.",
+        "module": "8.1"
+    },
+    {
+        "question": "Einstein’s equation E=mc^2 describes the relationship between:",
+        "options": {
+            "a": "Force and acceleration",
+            "b": "Energy and mass",
+            "c": "Velocity and momentum",
+            "d": "Time and space"
+        },
+        "correctAnswer": "b",
+        "explanation": "Einstein’s equation E=mc^2 describes how mass can be converted into energy, showing the equivalence of energy and mass.",
+        "module": "8.1"
+    },
+    {
+        "question": "The nuclear reactions in stars primarily involve:",
+        "options": {
+            "a": "Conversion of kinetic energy into mass",
+            "b": "Fusion of light elements into heavier elements",
+            "c": "Fission of heavy elements into lighter elements",
+            "d": "The collapse of neutron stars"
+        },
+        "correctAnswer": "b",
+        "explanation": "Nuclear reactions in stars fuse lighter elements, like hydrogen, into heavier elements, such as helium.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which of the following is an example of an emission spectrum?",
+        "options": {
+            "a": "A continuous spectrum produced by a star",
+            "b": "Bright lines at specific wavelengths produced by an excited gas",
+            "c": "A spectrum with dark lines produced by a cooler gas",
+            "d": "A spectrum produced by a black body radiator"
+        },
+        "correctAnswer": "b",
+        "explanation": "Emission spectra show bright lines at specific wavelengths, characteristic of an excited gas emitting energy.",
+        "module": "8.1"
+    },
+    {
+        "question": "The absorption spectrum of a star is produced when:",
+        "options": {
+            "a": "The star’s light passes through a hot, dense gas",
+            "b": "Light from the star is absorbed by cooler gases in its atmosphere",
+            "c": "The star is moving toward the observer",
+            "d": "The star emits light across all wavelengths"
+        },
+        "correctAnswer": "b",
+        "explanation": "When a star’s light passes through cooler gases, specific wavelengths are absorbed, producing an absorption spectrum.",
+        "module": "8.1"
+    },
+    {
+        "question": "How does a black body spectrum differ from an emission or absorption spectrum?",
+        "options": {
+            "a": "It shows a continuous spectrum without any absorption lines",
+            "b": "It only shows the absorption lines of an element",
+            "c": "It displays bright emission lines against a dark background",
+            "d": "It is produced by cooler stars"
+        },
+        "correctAnswer": "a",
+        "explanation": "A black body spectrum is continuous and does not contain absorption or emission lines.",
+        "module": "8.1"
+    },
+    {
+        "question": "Stellar spectra are used to classify stars based on:",
+        "options": {
+            "a": "Their distance from Earth",
+            "b": "Their temperature and chemical composition",
+            "c": "The age of their planetary systems",
+            "d": "The number of planets they host"
+        },
+        "correctAnswer": "b",
+        "explanation": "Stellar spectra are used to classify stars based on their temperature and the elements present in their atmosphere.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which of the following is NOT a key feature of stellar spectra?",
+        "options": {
+            "a": "The wavelength of maximum emission",
+            "b": "The presence of absorption lines",
+            "c": "The intensity of spectral lines",
+            "d": "The distance to the star"
+        },
+        "correctAnswer": "d",
+        "explanation": "Stellar spectra do not directly indicate the distance to a star; they reveal properties such as temperature and chemical composition.",
+        "module": "8.1"
+    },
+    {
+        "question": "The Hertzsprung-Russell diagram classifies stars based on:",
+        "options": {
+            "a": "Colour and evolutionary stage",
+            "b": "Size and age",
+            "c": "Luminosity and surface temperature",
+            "d": "Gravitational force and chemical composition"
+        },
+        "correctAnswer": "c",
+        "explanation": "The Hertzsprung-Russell diagram plots stars based on their luminosity and surface temperature.",
+        "module": "8.1"
+    },
+    {
+        "question": "On the Hertzsprung-Russell diagram, where are Main Sequence stars located?",
+        "options": {
+            "a": "In the lower right corner",
+            "b": "Along a diagonal band from the upper left to the lower right",
+            "c": "In the upper right corner",
+            "d": "In the middle of the diagram"
+        },
+        "correctAnswer": "b",
+        "explanation": "Main Sequence stars are found along a diagonal band on the Hertzsprung-Russell diagram, with hotter stars at the upper left and cooler stars at the lower right.",
+        "module": "8.1"
+    },
+    {
+        "question": "What does the position of a star on the Hertzsprung-Russell diagram tell us?",
+        "options": {
+            "a": "The star’s exact distance from Earth",
+            "b": "The star’s evolutionary stage and surface temperature",
+            "c": "The size of the planets orbiting the star",
+            "d": "The number of moons the star has"
+        },
+        "correctAnswer": "b",
+        "explanation": "The position of a star on the Hertzsprung-Russell diagram reveals its surface temperature and evolutionary stage.",
+        "module": "8.1"
+    },
+    {
+        "question": "Stars are classified by their colour, which directly correlates with:",
+        "options": {
+            "a": "Their age",
+            "b": "Their luminosity",
+            "c": "Their surface temperature",
+            "d": "The number of planets they have"
+        },
+        "correctAnswer": "c",
+        "explanation": "A star’s colour is directly related to its surface temperature, with hotter stars appearing blue and cooler stars appearing red.",
+        "module": "8.1"
+    },
+    {
+        "question": "A star’s luminosity is primarily determined by:",
+        "options": {
+            "a": "Its age and chemical composition",
+            "b": "Its mass and temperature",
+            "c": "Its distance from Earth",
+            "d": "Its rotation speed"
+        },
+        "correctAnswer": "b",
+        "explanation": "A star’s luminosity depends on its mass and temperature, with larger, hotter stars being more luminous.",
+        "module": "8.1"
+    },
+    {
+        "question": "Nucleosynthesis in Main Sequence stars primarily occurs through:",
+        "options": {
+            "a": "The fission of heavy elements",
+            "b": "The proton-proton chain reaction",
+            "c": "The CNO cycle",
+            "d": "Supernova explosions"
+        },
+        "correctAnswer": "b",
+        "explanation": "Main Sequence stars, such as the Sun, primarily produce energy through the proton-proton chain reaction, which fuses hydrogen into helium.",
+        "module": "8.1"
+    },
+    {
+        "question": "The proton-proton chain reaction involves:",
+        "options": {
+            "a": "The fusion of helium nuclei into carbon",
+            "b": "The fusion of hydrogen nuclei to form helium",
+            "c": "The splitting of uranium atoms",
+            "d": "The fission of carbon into smaller elements"
+        },
+        "correctAnswer": "b",
+        "explanation": "In the proton-proton chain, hydrogen nuclei (protons) are fused to create helium, releasing energy.",
+        "module": "8.1"
+    },
+    {
+        "question": "The CNO cycle primarily occurs in stars that are:",
+        "options": {
+            "a": "Larger than the Sun",
+            "b": "Smaller than the Sun",
+            "c": "At the end of their lifecycle",
+            "d": "Moving toward the Main Sequence"
+        },
+        "correctAnswer": "a",
+        "explanation": "The CNO cycle occurs in stars that are larger and hotter than the Sun, contributing to the fusion of hydrogen into helium.",
+        "module": "8.1"
+    },
+    {
+        "question": "In Post-Main Sequence stars, nucleosynthesis is responsible for producing:",
+        "options": {
+            "a": "Only hydrogen",
+            "b": "Elements heavier than helium",
+            "c": "Only helium and hydrogen",
+            "d": "Elements lighter than helium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Post-Main Sequence stars can fuse heavier elements such as carbon and oxygen, producing elements beyond helium.",
+        "module": "8.1"
+    },
+    {
+        "question": "What is the significance of the Hertzsprung-Russell diagram in stellar astronomy?",
+        "options": {
+            "a": "It predicts the chemical composition of stars",
+            "b": "It shows how stars evolve over time",
+            "c": "It determines the exact age of stars",
+            "d": "It measures the gravitational force of stars"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Hertzsprung-Russell diagram is a valuable tool in understanding the life cycle and evolution of stars.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which of the following elements is most likely produced by nucleosynthesis in Main Sequence stars?",
+        "options": {
+            "a": "Oxygen",
+            "b": "Hydrogen",
+            "c": "Carbon",
+            "d": "Iron"
+        },
+        "correctAnswer": "c",
+        "explanation": "Main Sequence stars, through nucleosynthesis, can produce elements such as carbon by fusing lighter elements.",
+        "module": "8.1"
+    },
+    {
+        "question": "What feature of a star's spectrum is used to determine its surface temperature?",
+        "options": {
+            "a": "The intensity of emission lines",
+            "b": "The wavelength of peak emission",
+            "c": "The number of absorption lines",
+            "d": "The brightness of the star"
+        },
+        "correctAnswer": "b",
+        "explanation": "A star’s surface temperature can be determined by identifying the wavelength at which its emission is most intense, following Wien’s law.",
+        "module": "8.1"
+    },
+    {
+        "question": "The continuous black body spectrum is produced by:",
+        "options": {
+            "a": "A hot, dense object that radiates across all wavelengths",
+            "b": "A gas cloud absorbing light at specific wavelengths",
+            "c": "An excited gas emitting light at particular wavelengths",
+            "d": "A planet reflecting light from its star"
+        },
+        "correctAnswer": "a",
+        "explanation": "A continuous black body spectrum is produced by a hot, dense object that emits radiation at all wavelengths.",
+        "module": "8.1"
+    },
+    {
+        "question": "What process primarily fuels Main Sequence stars like the Sun?",
+        "options": {
+            "a": "The proton-proton chain reaction",
+            "b": "The fusion of carbon into heavier elements",
+            "c": "The splitting of hydrogen atoms",
+            "d": "The gravitational collapse of a nebula"
+        },
+        "correctAnswer": "a",
+        "explanation": "Main Sequence stars, including the Sun, are powered primarily by the proton-proton chain reaction.",
+        "module": "8.1"
+    },
+    {
+        "question": "In the Hertzsprung-Russell diagram, which stars are the most luminous?",
+        "options": {
+            "a": "White dwarfs",
+            "b": "Red giants",
+            "c": "Main Sequence stars",
+            "d": "Supergiants"
+        },
+        "correctAnswer": "d",
+        "explanation": "Supergiants are the most luminous stars on the Hertzsprung-Russell diagram, emitting vast amounts of energy.",
+        "module": "8.1"
+    },
+    {
+        "question": "The redshift of light from distant galaxies indicates that:",
+        "options": {
+            "a": "The universe is expanding",
+            "b": "The universe is contracting",
+            "c": "Light travels faster in space",
+            "d": "The galaxies are moving toward us"
+        },
+        "correctAnswer": "a",
+        "explanation": "The redshift of light from distant galaxies suggests that they are moving away from us, indicating that the universe is expanding.",
+        "module": "8.1"
+    },
+    {
+        "question": "How does Einstein’s equation E=mc^2 relate to nuclear fusion in stars?",
+        "options": {
+            "a": "It shows how mass is converted into energy during fusion",
+            "b": "It explains why stars collapse at the end of their life",
+            "c": "It describes how light is produced in stars",
+            "d": "It shows how energy is lost in a star’s core"
+        },
+        "correctAnswer": "a",
+        "explanation": "Einstein’s equation E=mc^2 explains how a small amount of mass can be converted into a large amount of energy in stellar fusion.",
+        "module": "8.1"
+    },
+    {
+        "question": "The presence of absorption lines in a star’s spectrum indicates:",
+        "options": {
+            "a": "The star is emitting light across all wavelengths",
+            "b": "The star’s light is passing through cooler gas in its atmosphere",
+            "c": "The star is moving away from the observer",
+            "d": "The star is at the end of its Main Sequence phase"
+        },
+        "correctAnswer": "b",
+        "explanation": "Absorption lines appear when a star’s light passes through cooler gas, which absorbs specific wavelengths of light.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which stellar classification corresponds to the hottest stars?",
+        "options": {
+            "a": "O-type",
+            "b": "B-type",
+            "c": "G-type",
+            "d": "M-type"
+        },
+        "correctAnswer": "a",
+        "explanation": "O-type stars are the hottest and bluest stars, with surface temperatures exceeding 30,000 K.",
+        "module": "8.1"
+    },
+    {
+        "question": "What causes the appearance of dark lines in an absorption spectrum?",
+        "options": {
+            "a": "Gas absorbs specific wavelengths of light",
+            "b": "Light is scattered in all directions",
+            "c": "The star emits less light at certain wavelengths",
+            "d": "The star is moving rapidly away from the observer"
+        },
+        "correctAnswer": "a",
+        "explanation": "Absorption spectra are produced when gas absorbs specific wavelengths of light, creating dark lines in the spectrum.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which process occurs in stars after they leave the Main Sequence?",
+        "options": {
+            "a": "The fusion of heavier elements",
+            "b": "The burning of hydrogen into helium",
+            "c": "The collapse of the star into a white dwarf",
+            "d": "The increase in temperature and luminosity"
+        },
+        "correctAnswer": "a",
+        "explanation": "After stars leave the Main Sequence, they begin fusing heavier elements such as carbon and oxygen, especially in more massive stars.",
+        "module": "8.1"
+    },
+    {
+        "question": "What is the primary energy source for stars on the Main Sequence?",
+        "options": {
+            "a": "Nuclear fission",
+            "b": "Proton-proton chain reaction",
+            "c": "Gravitational contraction",
+            "d": "CNO cycle"
+        },
+        "correctAnswer": "b",
+        "explanation": "The primary energy source for Main Sequence stars, like the Sun, is the proton-proton chain reaction, which fuses hydrogen into helium.",
+        "module": "8.1"
+    },
+    {
+        "question": "The Hertzsprung-Russell diagram can be used to determine a star's:",
+        "options": {
+            "a": "Distance from Earth",
+            "b": "Evolutionary stage and surface temperature",
+            "c": "Magnetic field strength",
+            "d": "Mass and velocity"
+        },
+        "correctAnswer": "b",
+        "explanation": "The Hertzsprung-Russell diagram helps determine a star's evolutionary stage and surface temperature based on its luminosity and colour.",
+        "module": "8.1"
+    },
+    {
+        "question": "What causes a star to leave the Main Sequence phase?",
+        "options": {
+            "a": "Exhaustion of hydrogen in its core",
+            "b": "Increase in rotational speed",
+            "c": "Decrease in gravitational force",
+            "d": "Formation of new planetary systems"
+        },
+        "correctAnswer": "a",
+        "explanation": "Stars leave the Main Sequence phase when they deplete the hydrogen in their cores, and fusion of heavier elements begins.",
+        "module": "8.1"
+    },
+    {
+        "question": "The most common method for stars to produce helium is through:",
+        "options": {
+            "a": "The triple-alpha process",
+            "b": "Proton-proton chain reaction",
+            "c": "Carbon fusion",
+            "d": "Fission of heavy elements"
+        },
+        "correctAnswer": "b",
+        "explanation": "Most stars, including the Sun, fuse hydrogen into helium via the proton-proton chain reaction.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which of the following processes occurs in high-mass stars but not in low-mass stars?",
+        "options": {
+            "a": "Proton-proton chain",
+            "b": "Helium fusion",
+            "c": "CNO cycle",
+            "d": "Formation of a white dwarf"
+        },
+        "correctAnswer": "c",
+        "explanation": "The CNO cycle occurs in high-mass stars and plays a significant role in their hydrogen fusion process, unlike in lower-mass stars.",
+        "module": "8.1"
+    },
+    {
+        "question": "The continuous black body spectrum shows:",
+        "options": {
+            "a": "Dark lines corresponding to absorption of light",
+            "b": "Bright lines corresponding to the emission of light",
+            "c": "A smooth curve across all wavelengths",
+            "d": "A reflection of light from a star"
+        },
+        "correctAnswer": "c",
+        "explanation": "A continuous black body spectrum shows a smooth distribution of energy across all wavelengths, typical of a hot, dense object.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which star property can be inferred from its position on the Hertzsprung-Russell diagram?",
+        "options": {
+            "a": "Its mass",
+            "b": "Its chemical composition",
+            "c": "Its luminosity",
+            "d": "Its distance from Earth"
+        },
+        "correctAnswer": "c",
+        "explanation": "A star's luminosity can be inferred from its position on the Hertzsprung-Russell diagram, as the diagram plots luminosity against surface temperature.",
+        "module": "8.1"
+    },
+    {
+        "question": "What is the primary difference between the proton-proton chain and the CNO cycle?",
+        "options": {
+            "a": "The proton-proton chain occurs in high-mass stars, while the CNO cycle occurs in low-mass stars",
+            "b": "The proton-proton chain requires heavier elements like carbon, nitrogen, and oxygen",
+            "c": "The proton-proton chain occurs in low-mass stars, while the CNO cycle occurs in high-mass stars",
+            "d": "The CNO cycle produces elements lighter than helium, while the proton-proton chain produces heavier elements"
+        },
+        "correctAnswer": "c",
+        "explanation": "The proton-proton chain is dominant in low-mass stars like the Sun, while the CNO cycle dominates in higher-mass stars.",
+        "module": "8.1"
+    },
+    {
+        "question": "The absorption lines in a stellar spectrum are caused by:",
+        "options": {
+            "a": "Light being emitted by cooler regions of the star",
+            "b": "Light being absorbed by atoms in the star’s atmosphere",
+            "c": "Electrons jumping to higher energy levels",
+            "d": "Gas clouds surrounding the star"
+        },
+        "correctAnswer": "b",
+        "explanation": "The absorption lines in a star’s spectrum are caused by cooler gases in the star’s atmosphere absorbing specific wavelengths of light.",
+        "module": "8.1"
+    },
+    {
+        "question": "The energy produced by fusion in a star is related to Einstein’s equation E=mc^2 because:",
+        "options": {
+            "a": "Energy is transferred from the core to the outer layers of the star",
+            "b": "Energy is released as mass is converted into energy during fusion",
+            "c": "Energy is lost through radiation",
+            "d": "Energy is produced by gravitational contraction"
+        },
+        "correctAnswer": "b",
+        "explanation": "Einstein’s equation E=mc^2 explains how mass is converted into energy during nuclear fusion in stars.",
+        "module": "8.1"
+    },
+    {
+        "question": "The redshift of distant galaxies provides evidence that:",
+        "options": {
+            "a": "The universe is contracting",
+            "b": "The universe is expanding",
+            "c": "Light travels at different speeds in different parts of the universe",
+            "d": "The galaxies are rotating rapidly"
+        },
+        "correctAnswer": "b",
+        "explanation": "The redshift of light from distant galaxies indicates that they are moving away from us, providing evidence that the universe is expanding.",
+        "module": "8.1"
+    },
+    {
+        "question": "What is the primary cause of hydrogen fusion in stars?",
+        "options": {
+            "a": "Gravitational collapse",
+            "b": "High temperature and pressure in the core",
+            "c": "The presence of magnetic fields",
+            "d": "The movement of planets around the star"
+        },
+        "correctAnswer": "b",
+        "explanation": "The high temperature and pressure in a star's core provide the energy required for hydrogen nuclei to overcome electrostatic repulsion and fuse.",
+        "module": "8.1"
+    },
+    {
+        "question": "The appearance of bright lines in an emission spectrum is caused by:",
+        "options": {
+            "a": "Light being absorbed by gases in the star’s atmosphere",
+            "b": "Electrons in atoms releasing energy as they drop to lower energy levels",
+            "c": "Light being reflected by the surface of a star",
+            "d": "The scattering of light in the interstellar medium"
+        },
+        "correctAnswer": "b",
+        "explanation": "Bright lines in an emission spectrum occur when electrons fall to lower energy levels, emitting light at specific wavelengths.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which of the following stars is most likely to be found in the upper left corner of the Hertzsprung-Russell diagram?",
+        "options": {
+            "a": "A cool, red dwarf star",
+            "b": "A hot, massive blue star",
+            "c": "A white dwarf",
+            "d": "A red giant"
+        },
+        "correctAnswer": "b",
+        "explanation": "Hot, massive blue stars are found in the upper left corner of the Hertzsprung-Russell diagram, indicating high luminosity and surface temperature.",
+        "module": "8.1"
+    },
+    {
+        "question": "In the context of stellar nucleosynthesis, which element is produced in large quantities in supernovae?",
+        "options": {
+            "a": "Iron",
+            "b": "Hydrogen",
+            "c": "Helium",
+            "d": "Carbon"
+        },
+        "correctAnswer": "a",
+        "explanation": "Iron is produced in the cores of massive stars and is released in large quantities during supernova explosions.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which process is primarily responsible for the production of elements heavier than iron in the universe?",
+        "options": {
+            "a": "Proton-proton chain",
+            "b": "Fission reactions",
+            "c": "Supernova explosions",
+            "d": "CNO cycle"
+        },
+        "correctAnswer": "c",
+        "explanation": "Elements heavier than iron are primarily produced in supernova explosions, where extreme conditions allow for the fusion of heavier elements.",
+        "module": "8.1"
+    },
+    {
+        "question": "What does the position of a star on the Hertzsprung-Russell diagram indicate about its future evolution?",
+        "options": {
+            "a": "The star’s evolutionary stage and the likely next phase in its lifecycle",
+            "b": "The amount of helium being produced in the star’s core",
+            "c": "How many planets are orbiting the star",
+            "d": "The exact age of the star"
+        },
+        "correctAnswer": "a",
+        "explanation": "A star’s position on the Hertzsprung-Russell diagram indicates its current evolutionary stage and provides clues about its future evolution.",
+        "module": "8.1"
+    },
+    {
+        "question": "Which type of spectrum is produced when light passes through a cooler gas?",
+        "options": {
+            "a": "Continuous spectrum",
+            "b": "Absorption spectrum",
+            "c": "Emission spectrum",
+            "d": "Black body spectrum"
+        },
+        "correctAnswer": "b",
+        "explanation": "An absorption spectrum is produced when light passes through a cooler gas, which absorbs specific wavelengths and creates dark lines in the spectrum.",
+        "module": "8.1"
+    },
+    {
+        "question": "How does the CNO cycle differ from the proton-proton chain in stellar fusion?",
+        "options": {
+            "a": "The CNO cycle involves higher temperatures and heavier elements",
+            "b": "The proton-proton chain produces elements heavier than helium",
+            "c": "The CNO cycle occurs in low-mass stars like the Sun",
+            "d": "The proton-proton chain requires the presence of carbon, nitrogen, and oxygen"
+        },
+        "correctAnswer": "a",
+        "explanation": "The CNO cycle occurs in stars with higher temperatures and involves heavier elements like carbon, nitrogen, and oxygen, while the proton-proton chain dominates in lower-mass stars.",
+        "module": "8.1"
+    },
+    {
+        "question": "What is the significance of the cosmic microwave background radiation in understanding the origins of the elements?",
+        "options": {
+            "a": "It shows the distribution of stars in the early universe",
+            "b": "It provides evidence for the Big Bang and the early stages of nucleosynthesis",
+            "c": "It explains the formation of galaxies",
+            "d": "It indicates the presence of black holes in the universe"
+        },
+        "correctAnswer": "b",
+        "explanation": "The cosmic microwave background radiation is a remnant of the Big Bang and provides important evidence for the early stages of the universe, including the formation of the first elements.",
+        "module": "8.1"
     }
 ]
+
 
 
 
