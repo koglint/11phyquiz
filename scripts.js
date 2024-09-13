@@ -164,24 +164,29 @@ function updateQuizInfo() {
     }
 }
 
-// Function to load a new question
 function loadQuestion() {
     if (currentMode === 'scored' && currentQuestionIndex >= maxQuestions) {
         showResults();
         return;
     }
 
+    // Reset answer button styles before loading the new question
+    const answerButtons = document.querySelectorAll('.answer-button');
+    answerButtons.forEach(btn => {
+        btn.style.backgroundColor = ''; // Reset background color
+        btn.disabled = false; // Re-enable buttons
+    });
+
     const randomIndex = Math.floor(Math.random() * filteredQuiz.length);
     const questionData = filteredQuiz[randomIndex];
 
     document.getElementById('question').innerText = questionData.question;
 
-    const answerButtons = document.querySelectorAll('.answer-button');
     const options = ['a', 'b', 'c', 'd'];
 
     answerButtons.forEach((btn, index) => {
         btn.innerText = questionData.options[options[index]];
-        btn.disabled = false;
+        btn.disabled = false; // Re-enable buttons
         btn.onclick = function() {
             checkAnswer(index, questionData);
         };
@@ -190,6 +195,7 @@ function loadQuestion() {
     document.getElementById('feedback').innerText = "";
     document.getElementById('next-button').style.display = 'none';
 }
+
 
 function checkAnswer(selectedIndex, questionData) {
     const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
