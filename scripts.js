@@ -14,6 +14,14 @@ const sections = [
     "8.1", "8.2", "8.3", "8.4", "8.5"
 ];
 
+// Shuffle array function using Fisher-Yates algorithm
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+}
+
 // Function to load quiz data from the JSON file
 async function loadQuizData() {
     try {
@@ -138,27 +146,20 @@ function filterQuestions() {
 // Function to start the quiz after module selection
 async function startQuiz() {
     filterQuestions(); // Filter questions based on the selected module(s)
-    
+
     if (filteredQuiz.length === 0) {
         alert('Please select at least one section.');
         return;
     }
     
+    shuffleArray(filteredQuiz); // Shuffle the questions before displaying them
+
     document.getElementById('module-selection-page').style.display = 'none';
     document.getElementById('quiz-container').style.display = 'block';
     currentQuestionIndex = 0;
     score = 0;
     updateQuizInfo(); // Update the quiz information (e.g., score, question count)
     loadQuestion(); // Load the first question
-}
-
-// Function to update quiz info (e.g., current question number in scored mode)
-function updateQuizInfo() {
-    if (currentMode === 'scored') {
-        document.getElementById('quiz-info').innerText = `Question ${currentQuestionIndex + 1} of ${maxQuestions}`;
-    } else {
-        document.getElementById('quiz-info').innerText = '';
-    }
 }
 
 function loadQuestion() {
@@ -244,14 +245,13 @@ function restartQuiz() {
     document.getElementById('title-page').style.display = 'block';
 }
 
+// Function to go back to the home page
 function goHome() {
-    // Hide all other sections
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('results-page').style.display = 'none';
-    document.getElementById('module-selection-page').style.display = 'none'; // Make sure to hide the module selection page
+    document.getElementById('module-selection-page').style.display = 'none'; // Hide the module selection page
     document.getElementById('title-page').style.display = 'block'; // Show the title page
 }
-
 
 // Load quiz data on page load
 window.onload = function() {
