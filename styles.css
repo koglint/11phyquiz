@@ -150,26 +150,22 @@ body {
     text-align: center;
 }
 
-/* Styling for the Home button */
 #home-button {
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 10px;
-    background-color: #444;
+    background-color: #100278;
     border-radius: 5px;
     font-size: 14px;
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #home-button:hover {
-    background-color: #333;
+    background-color: #372f75;
 }
+
 
 /* Adjusting the h1 styling */
 h1 {
