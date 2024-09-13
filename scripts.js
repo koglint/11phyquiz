@@ -24,6 +24,15 @@ async function loadQuizData() {
     }
 }
 
+// Shuffle function to randomize the order of questions
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 // Function to initialize the module buttons and attach event listeners
 function initializeModuleButtons() {
     const moduleButtons = document.querySelectorAll('.module-button[data-module]');
@@ -133,6 +142,7 @@ function selectAllModules() {
 // Function to filter questions based on selected modules
 function filterQuestions() {
     filteredQuiz = quizData.filter(question => selectedModules.includes(question.module));
+    shuffle(filteredQuiz);  // Randomize the question order
 }
 
 // Function to start the quiz after module selection
