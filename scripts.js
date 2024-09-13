@@ -7,13 +7,10 @@ let score = 0;
 const maxQuestions = 20;
 
 const sections = [
-    "1.1", "1.2",
-    "2.1", "2.2", "2.3",
+    "1.1", "1.2", "2.1", "2.2", "2.3",
     "3.1", "3.2", "3.3", "3.4", "3.5",
-    "4.1", "4.2", "4.3",
-    "5.1", "5.2", "5.3",
-    "6.1", "6.2", "6.3", "6.4",
-    "7.1", "7.2", "7.3", "7.4",
+    "4.1", "4.2", "4.3", "5.1", "5.2", "5.3",
+    "6.1", "6.2", "6.3", "6.4", "7.1", "7.2", "7.3", "7.4",
     "8.1", "8.2", "8.3", "8.4", "8.5"
 ];
 
@@ -165,7 +162,7 @@ function updateQuizInfo() {
 }
 
 function loadQuestion() {
-    if (currentMode === 'scored' && currentQuestionIndex >= maxQuestions) {
+    if (currentMode === 'scored' && currentQuestionIndex >= maxQuestions && filteredQuiz.length === 0) {
         showResults();
         return;
     }
@@ -177,8 +174,8 @@ function loadQuestion() {
         btn.disabled = false; // Re-enable buttons
     });
 
-    const randomIndex = Math.floor(Math.random() * filteredQuiz.length);
-    const questionData = filteredQuiz[randomIndex];
+    // Load the current question
+    const questionData = filteredQuiz[currentQuestionIndex];
 
     document.getElementById('question').innerText = questionData.question;
 
@@ -196,36 +193,40 @@ function loadQuestion() {
     document.getElementById('next-button').style.display = 'none';
 }
 
-
 function checkAnswer(selectedIndex, questionData) {
     const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
     const answerButtons = document.querySelectorAll('.answer-button');
-    
+
     if (selectedLetter === questionData.correctAnswer) {
         document.getElementById('feedback').innerText = "Correct! " + questionData.explanation;
         answerButtons[selectedIndex].style.backgroundColor = 'green'; // Set selected answer button to green for correct
         if (currentMode === 'scored') {
             score++;
         }
+        // Proceed to the next question
+        document.getElementById('next-button').style.display = 'block';
     } else {
         document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.correctAnswer + ". " + questionData.explanation;
         answerButtons[selectedIndex].style.backgroundColor = 'red'; // Set selected answer button to red for incorrect
         // Highlight the correct answer in green
         const correctIndex = questionData.correctAnswer.charCodeAt(0) - 97;
         answerButtons[correctIndex].style.backgroundColor = 'green'; // Set correct answer button to green
+
+        // Don't remove the question from the list, just stay on it
+        document.getElementById('next-button').style.display = 'block'; // Allow moving to "Next Question" which shows the same one again
     }
 
     // Disable buttons after selection
     document.querySelectorAll('.answer-button').forEach(btn => btn.disabled = true);
-
-    // Show the "Next Question" button
-    document.getElementById('next-button').style.display = 'block';
 }
 
-
-// Function to load the next question
 function nextQuestion() {
-    currentQuestionIndex++;
+    // If the answer was correct, move to the next question
+    const feedbackText = document.getElementById('feedback').innerText;
+    if (feedbackText.includes("Correct!")) {
+        currentQuestionIndex++;
+    }
+    // Reload the current question (same one if incorrect)
     updateQuizInfo();
     loadQuestion();
 }
