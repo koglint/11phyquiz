@@ -244,12 +244,14 @@ function restartQuiz() {
     document.getElementById('title-page').style.display = 'block';
 }
 
-// Function to go back to the home page
 function goHome() {
+    // Hide all other sections
     document.getElementById('quiz-container').style.display = 'none';
     document.getElementById('results-page').style.display = 'none';
-    document.getElementById('title-page').style.display = 'block';
+    document.getElementById('module-selection-page').style.display = 'none'; // Make sure to hide the module selection page
+    document.getElementById('title-page').style.display = 'block'; // Show the title page
 }
+
 
 // Load quiz data on page load
 window.onload = function() {
