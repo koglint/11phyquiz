@@ -191,16 +191,22 @@ function loadQuestion() {
     document.getElementById('next-button').style.display = 'none';
 }
 
-// Function to check the selected answer
 function checkAnswer(selectedIndex, questionData) {
     const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
+    const answerButtons = document.querySelectorAll('.answer-button');
+    
     if (selectedLetter === questionData.correctAnswer) {
         document.getElementById('feedback').innerText = "Correct! " + questionData.explanation;
+        answerButtons[selectedIndex].style.backgroundColor = 'green'; // Set selected answer button to green for correct
         if (currentMode === 'scored') {
             score++;
         }
     } else {
         document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.correctAnswer + ". " + questionData.explanation;
+        answerButtons[selectedIndex].style.backgroundColor = 'red'; // Set selected answer button to red for incorrect
+        // Highlight the correct answer in green
+        const correctIndex = questionData.correctAnswer.charCodeAt(0) - 97;
+        answerButtons[correctIndex].style.backgroundColor = 'green'; // Set correct answer button to green
     }
 
     // Disable buttons after selection
@@ -209,6 +215,7 @@ function checkAnswer(selectedIndex, questionData) {
     // Show the "Next Question" button
     document.getElementById('next-button').style.display = 'block';
 }
+
 
 // Function to load the next question
 function nextQuestion() {
