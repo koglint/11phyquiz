@@ -24,7 +24,7 @@ async function loadQuizData() {
     }
 }
 
-// Shuffle function to randomize the order of questions
+// Shuffle function to randomize the order of questions or answers
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -186,16 +186,23 @@ function loadQuestion() {
 
     // Load the current question
     const questionData = filteredQuiz[currentQuestionIndex];
-
     document.getElementById('question').innerText = questionData.question;
 
-    const options = ['a', 'b', 'c', 'd'];
+    // Create an array of options and shuffle it
+    const options = [
+        { key: 'a', text: questionData.options.a },
+        { key: 'b', text: questionData.options.b },
+        { key: 'c', text: questionData.options.c },
+        { key: 'd', text: questionData.options.d }
+    ];
+    shuffle(options); // Shuffle the order of answer options
 
+    // Map the shuffled options to the answer buttons
     answerButtons.forEach((btn, index) => {
-        btn.innerText = questionData.options[options[index]];
+        btn.innerText = options[index].text;
         btn.disabled = false; // Re-enable buttons
         btn.onclick = function() {
-            checkAnswer(index, questionData);
+            checkAnswer(options[index].key, questionData); // Pass the original key to check the answer
         };
     });
 
@@ -203,27 +210,31 @@ function loadQuestion() {
     document.getElementById('next-button').style.display = 'none';
 }
 
-function checkAnswer(selectedIndex, questionData) {
-    const selectedLetter = String.fromCharCode(97 + selectedIndex); // Get 'a', 'b', 'c', 'd'
+function checkAnswer(selectedKey, questionData) {
     const answerButtons = document.querySelectorAll('.answer-button');
 
-    if (selectedLetter === questionData.correctAnswer) {
+    if (selectedKey === questionData.correctAnswer) {
         document.getElementById('feedback').innerText = "Correct! " + questionData.explanation;
-        answerButtons[selectedIndex].style.backgroundColor = 'green'; // Set selected answer button to green for correct
+        answerButtons.forEach(btn => {
+            if (btn.innerText === questionData.options[selectedKey]) {
+                btn.style.backgroundColor = 'green'; // Highlight correct answer in green
+            }
+        });
         if (currentMode === 'scored') {
             score++;
         }
-        // Proceed to the next question
-        document.getElementById('next-button').style.display = 'block';
+        document.getElementById('next-button').style.display = 'block'; // Show next button
     } else {
         document.getElementById('feedback').innerText = "Incorrect! The correct answer is " + questionData.correctAnswer + ". " + questionData.explanation;
-        answerButtons[selectedIndex].style.backgroundColor = 'red'; // Set selected answer button to red for incorrect
-        // Highlight the correct answer in green
-        const correctIndex = questionData.correctAnswer.charCodeAt(0) - 97;
-        answerButtons[correctIndex].style.backgroundColor = 'green'; // Set correct answer button to green
-
-        // Don't remove the question from the list, just stay on it
-        document.getElementById('next-button').style.display = 'block'; // Allow moving to "Next Question" which shows the same one again
+        answerButtons.forEach(btn => {
+            if (btn.innerText === questionData.options[selectedKey]) {
+                btn.style.backgroundColor = 'red'; // Highlight selected wrong answer in red
+            }
+            if (btn.innerText === questionData.options[questionData.correctAnswer]) {
+                btn.style.backgroundColor = 'green'; // Highlight correct answer in green
+            }
+        });
+        document.getElementById('next-button').style.display = 'block'; // Allow moving to next question
     }
 
     // Disable buttons after selection
@@ -261,7 +272,6 @@ function goHome() {
     document.getElementById('module-selection-page').style.display = 'none'; // Make sure to hide the module selection page
     document.getElementById('title-page').style.display = 'block'; // Show the title page
 }
-
 
 // Load quiz data on page load
 window.onload = function() {
